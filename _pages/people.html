@@ -1,0 +1,17 @@
+---
+layout: default
+permalink: /people/
+title: People
+custom-js:
+    - list.min
+    - entity-list
+list-type: people
+sort: name
+display-fields:
+    - field: birthDate
+      label: Born
+    - field: deathDate
+      label: Died
+---
+
+{% include thing_list.html %}

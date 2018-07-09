@@ -1,0 +1,34 @@
+---
+layout: default
+filename: index.html
+---
+
+<h2 class="title is-size-2">{{ page.title }}</h2>
+
+<div class="columns reverse-row-order">
+    <div class="column is-half">
+        <div class="content">
+        {% if page.data.graph.image %}
+            <figure class="image box">
+                <img src="/images/{{ page.data.graph.image | image_link }}">
+                    {% if page.data.graph.image.name %}
+                    <caption>
+                        <a href="/resources/{{ page.data.graph.image.name | slugify }}">{{ page.data.graph.image.name }}</a>
+                    </caption>
+                    {% endif %}
+            </figure>
+        {% endif %}
+        </div>
+    </div>
+    <div class="column is-half">
+        <div class="content">
+            <p>{{ page.data.graph.description }}</p>
+
+            {% for prop in page.data.graph %}
+                {{ prop[1] | lod_list: prop[0] }}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{{ page | jsonldify }}

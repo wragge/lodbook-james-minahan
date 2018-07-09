@@ -1,0 +1,22 @@
+-
+    name: James Minahan
+    type: Person
+    birthDate: '1876-10-04'
+    familyName: Minahan
+    givenName:
+        - James
+        - Francis
+        - Kitchen
+    knows:
+        - name: Chin Shing
+        - name: Chan Num
+-
+    name: Chin Shing
+    type: Person
+    knows:
+        - name: James Minahan
+-
+    name: Chan Num
+    type: Person
+    knows:
+        - name: James Minahan

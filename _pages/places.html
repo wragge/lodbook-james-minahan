@@ -1,0 +1,19 @@
+---
+layout: default
+permalink: /places/
+title: Places
+custom-js:
+    - list.min
+    - entity-list
+list-type: places
+sort: name
+display-fields:
+    - field: foundingDate
+      label: Founded
+      type: date
+    - field: dissolutionDate
+      label: Dissolved
+      type: date
+---
+
+{% include thing_list.html %}

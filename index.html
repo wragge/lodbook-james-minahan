@@ -1,0 +1,35 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-size-1">
+        James Minahan&rsquo;s Homecoming
+      </h1>
+      <h2 class="subtitle">
+        By Kate Bagnall
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="content columns">
+            <div class="column is-offset-1-desktop">
+                <h2 class="title is-size-3 has-text-weight-normal">Contents</h2>
+                <ul class="is-size-4">
+                    {% for chapter in site.chapters %}
+                        <li>
+                            <a href="{{ chapter.url }}">Chapter {{ chapter.chapter }}: {{ chapter.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

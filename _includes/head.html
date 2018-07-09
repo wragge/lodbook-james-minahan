@@ -1,0 +1,29 @@
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LODBook</title>
+      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      {% for css in page.custom-css %}
+      <link href="{{ site.baseurl }}/css/{{ css }}.css" rel="stylesheet">
+      {% endfor %}
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+      {% if site.data_collections %}
+      <style type="text/css">
+      {% for coll in site.data_collections %}
+            .{{ coll.name }} { background-color: {{ coll.color }}; border-color: {{ coll.color }};}
+            .{{ coll.name }}.inverse { background-color: #ffffff; color: {{ coll.color }};}
+      {% endfor %}
+      </style>
+      {% endif %}
+      <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+      {% for javascript in page.custom-js %}
+      <script src="{{ site.baseurl }}/js/{{ javascript }}.js"></script>
+      {% endfor %}
+      <script src="{{ site.baseurl }}/js/scripts.js"></script>
+      <script>
+        var collections = {{ site.data_collections | jsonify }};
+      </script>
+    </head>

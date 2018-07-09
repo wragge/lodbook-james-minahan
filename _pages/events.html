@@ -1,0 +1,18 @@
+---
+layout: default
+permalink: /events/
+title: Events
+custom-js:
+    - list.min
+    - entity-list
+list-type: events
+sort: startDate
+display-fields:
+    - field: startDate
+      label: Start
+      type: date
+    - field: endDate
+      label: End
+---
+
+{% include thing_list.html %}

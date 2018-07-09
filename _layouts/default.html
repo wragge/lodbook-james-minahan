@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="container">
+
+
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-6" href="/">James Minahan&rsquo;s Homecoming</a>
+                <a role="button" class="navbar-item navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Chapters
+                        </a>
+                        {% assign chapters = site.chapters | sort: 'chapter' %}
+                        {% for chapter in chapters %}
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="{{ chapter.url }}">
+                                    Chapter {{ chapter.chapter }}
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Collections
+                        </a>
+                        <div class="navbar-dropdown">
+                        {% assign collections = site.data_collections | sort: 'name' %}
+                        {% for collection in collections %}
+                                <a class="navbar-item is-capitalized" href="/{{ collection.name }}/">
+                                    {{ collection.name }}
+                                </a>
+                        {% endfor %}
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Views
+                        </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="{{ chapter.url }}">
+                                    Wall
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <section class="section">
+            <div class="container">
+                {{ content }}
+            </div>
+        </section>
+        {% include footer.html %}
+    </body>
+</html>

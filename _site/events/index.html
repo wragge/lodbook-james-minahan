@@ -1,0 +1,2139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LODBook</title>
+      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      
+      <link rel="stylesheet" href="/css/main.css">
+      
+      <style type="text/css">
+      
+            .people { background-color: #563331; border-color: #563331;}
+            .people.inverse { background-color: #ffffff; color: #563331;}
+      
+            .organisations { background-color: #711d1f; border-color: #711d1f;}
+            .organisations.inverse { background-color: #ffffff; color: #711d1f;}
+      
+            .places { background-color: #4f7671; border-color: #4f7671;}
+            .places.inverse { background-color: #ffffff; color: #4f7671;}
+      
+            .events { background-color: #657957; border-color: #657957;}
+            .events.inverse { background-color: #ffffff; color: #657957;}
+      
+            .resources { background-color: #942628; border-color: #942628;}
+            .resources.inverse { background-color: #ffffff; color: #942628;}
+      
+      </style>
+      
+      <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+      
+      <script src="/js/list.min.js"></script>
+      
+      <script src="/js/entity-list.js"></script>
+      
+      <script src="/js/scripts.js"></script>
+      <script>
+        var collections = [{"name":"people","color":"#563331","icon":"fas fa-user-circle","template":"people","types":["Person"]},{"name":"organisations","color":"#711d1f","icon":"fas fa-building","template":"organisations","types":["Organization"]},{"name":"places","color":"#4f7671","icon":"fas fa-globe","template":"places","types":["Place","CivicStructure","City","State"]},{"name":"events","color":"#657957","icon":"fas fa-calendar-alt","template":"events","types":["Event"]},{"name":"resources","color":"#942628","icon":"fas fa-file-alt","template":"resources","types":["CreativeWork","ImageObject","Book","ArchivalSeries","Letter","Photograph","ArchivalUnit"]}];
+      </script>
+    </head>
+
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="container">
+
+
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-6" href="/">James Minahan&rsquo;s Homecoming</a>
+                <a role="button" class="navbar-item navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Chapters
+                        </a>
+                        
+                        
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/chapters/chapter-1/">
+                                    Chapter 1
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Collections
+                        </a>
+                        <div class="navbar-dropdown">
+                        
+                        
+                                <a class="navbar-item is-capitalized" href="/events/">
+                                    events
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/organisations/">
+                                    organisations
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/people/">
+                                    people
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/places/">
+                                    places
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/resources/">
+                                    resources
+                                </a>
+                        
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Views
+                        </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="">
+                                    Wall
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <section class="section">
+            <div class="container">
+                <h1 class="title is-size-2">Events</h1>
+
+
+
+
+
+
+<div id="entity-list">
+    <div class="columns">
+        <div class="column is-one-quarter-desktop">
+            <div class="field">
+                <label class="label is-small">Filter</label>
+                <div class="control">
+                    <input class="search input is-small" type="text" placeholder="Search" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="list">
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/richard-minahan-and-mary-manning-marry/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Richard Minahan and Mary Manning marry</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 30 October 1856<br />
+                            
+                        
+                            
+                            
+                                End: 30 October 1856<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/richard-minahan-and-mary-manning-marry/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/chan-num-arrives-in-australia/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Chan Num arrives in Australia</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 1857<br />
+                            
+                        
+                            
+                            
+                                End: 1857<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/chan-num-arrives-in-australia/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/cheong-ming-arrives-in-australia/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Cheong Ming arrives in Australia</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 1857<br />
+                            
+                        
+                            
+                            
+                                End: 1857<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/cheong-ming-arrives-in-australia/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/winifred-minahan-born/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Winifred Minahan born</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  1 February 1858<br />
+                            
+                        
+                            
+                            
+                                End:  1 February 1858<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/winifred-minahan-born/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/catherine-minahan-is-born/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Catherine Minahan is born</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  4 February 1865<br />
+                            
+                        
+                            
+                            
+                                End:  4 February 1865<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/catherine-minahan-is-born/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-is-born/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan is born</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  4 October 1876<br />
+                            
+                        
+                            
+                            
+                                End:  4 October 1876<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-is-born/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/winifred-cheong-ming-is-born/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Winifred Cheong Ming is born</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 13 June 1881<br />
+                            
+                        
+                            
+                            
+                                End: 13 June 1881<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/winifred-cheong-ming-is-born/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/winifred-cheong-ming-dies/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Winifred Cheong Ming dies</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 25 September 1881<br />
+                            
+                        
+                            
+                            
+                                End: 25 September 1881<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/winifred-cheong-ming-dies/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-and-cheong-ming-leave-melbourne-for-china/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan and Cheong Ming leave Melbourne for China</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 1882<br />
+                            
+                        
+                            
+                            
+                                End: 1882<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-and-cheong-ming-leave-melbourne-for-china/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-attends-the-shek-quey-lee-village-school/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan attends the Shek Quey Lee village school</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 1883<br />
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-attends-the-shek-quey-lee-village-school/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/winifred-minahan-and-arai-arai-marry/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Winifred Minahan and Arai Arai marry</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 20 October 1886<br />
+                            
+                        
+                            
+                            
+                                End: 20 October 1886<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/winifred-minahan-and-arai-arai-marry/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/chin-shing-and-jessie-ah-coon-marry/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Chin Shing and Jessie Ah Coon marry</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 24 May 1893<br />
+                            
+                        
+                            
+                            
+                                End: 24 May 1893<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/chin-shing-and-jessie-ah-coon-marry/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/cheong-ming-dies/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Cheong Ming dies</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 1896<br />
+                            
+                        
+                            
+                            
+                                End: 1896<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/cheong-ming-dies/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/high-court-rules-in-chia-gee-v-martin/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">High Court rules in Chia Gee v. Martin</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 1905<br />
+                            
+                        
+                            
+                            
+                                End: 1905<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/high-court-rules-in-chia-gee-v-martin/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/high-court-rules-in-attorney-general-for-the-commonwealth-v-ah-sheung/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">High Court rules in Attorney-General for the Commonwealth v. Ah Sheung</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 1907<br />
+                            
+                        
+                            
+                            
+                                End: 1907<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/high-court-rules-in-attorney-general-for-the-commonwealth-v-ah-sheung/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-lives-at-sun-nam-hie-co-in-little-bourke-street-melbourne/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan lives at Sun Nam Hie & Co. in Little Bourke Street, Melbourne</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 14 January 1908<br />
+                            
+                        
+                            
+                            
+                                End: 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-lives-at-sun-nam-hie-co-in-little-bourke-street-melbourne/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-arrives-in-sydney-on-board-the-ss-taiyuan/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan arrives in Sydney on board the SS Taiyuan</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 23 January 1908<br />
+                            
+                        
+                            
+                            
+                                End: 23 January 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-arrives-in-sydney-on-board-the-ss-taiyuan/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-leaves-sydney-on-board-the-ss-wollowra/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan leaves Sydney on board the SS Wollowra</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 24 January 1908<br />
+                            
+                        
+                            
+                            
+                                End: 24 January 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-leaves-sydney-on-board-the-ss-wollowra/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-arrives-in-melbourne-on-board-the-ss-wollowra/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan arrives in Melbourne on board the SS Wollowra</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 26 January 1908<br />
+                            
+                        
+                            
+                            
+                                End: 26 January 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-arrives-in-melbourne-on-board-the-ss-wollowra/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-is-interviewed-by-customs-officer-mercer-on-board-the-ss-wollowra/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan is interviewed by Customs Officer Mercer on board the SS Wollowra</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 27 January 1908<br />
+                            
+                        
+                            
+                            
+                                End: 27 January 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-is-interviewed-by-customs-officer-mercer-on-board-the-ss-wollowra/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-is-given-the-dictation-test-by-customs-officer-mercer-on-boards-the-ss-wollowra/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan is given the Dictation Test by Customs Officer Mercer on boards the SS Wollowra</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 27 January 1908<br />
+                            
+                        
+                            
+                            
+                                End: 27 January 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-is-given-the-dictation-test-by-customs-officer-mercer-on-boards-the-ss-wollowra/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-leaves-melbourne-on-board-the-ss-wollowra/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan leaves Melbourne on board the SS Wollowra</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 28 January 1908<br />
+                            
+                        
+                            
+                            
+                                End: 28 January 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-leaves-melbourne-on-board-the-ss-wollowra/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-arrives-in-sydney-on-board-the-ss-wollowra/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan arrives in Sydney on board the SS Wollowra</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 30 January 1908<br />
+                            
+                        
+                            
+                            
+                                End: 30 January 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-arrives-in-sydney-on-board-the-ss-wollowra/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/captain-dawson-is-asked-to-show-cause-why-a-writ-of-habeas-corpus-should-not-be-issued-to-him-for-holding-james-minahan/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Captain Dawson is asked to show cause why a writ of habeas corpus should not be issued to him for holding James Minahan</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  6 February 1908<br />
+                            
+                        
+                            
+                            
+                                End:  6 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/captain-dawson-is-asked-to-show-cause-why-a-writ-of-habeas-corpus-should-not-be-issued-to-him-for-holding-james-minahan/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/sydney-collector-of-customs-sends-a-telegram-to-the-department-of-external-affairs-for-advice/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Sydney Collector of Customs sends a telegram to the Department of External Affairs for advice</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  6 February 1908<br />
+                            
+                        
+                            
+                            
+                                End:  6 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/sydney-collector-of-customs-sends-a-telegram-to-the-department-of-external-affairs-for-advice/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/solicitor-croft-writes-privately-to-atlee-hunt-about-james-minahan-s-case/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Solicitor Croft writes privately to Atlee Hunt about James Minahan's case</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  6 February 1908<br />
+                            
+                        
+                            
+                            
+                                End:  6 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/solicitor-croft-writes-privately-to-atlee-hunt-about-james-minahan-s-case/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/atlee-hunt-replies-by-telegram-to-the-sydney-collector-of-customs-advising-that-james-minahan-should-be-arrested-as-a-prohibited-immigrant/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Atlee Hunt replies by telegram to the Sydney Collector of Customs advising that James Minahan should be arrested as a prohibited immigrant</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  6 February 1908<br />
+                            
+                        
+                            
+                            
+                                End:  6 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/atlee-hunt-replies-by-telegram-to-the-sydney-collector-of-customs-advising-that-james-minahan-should-be-arrested-as-a-prohibited-immigrant/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/justice-street-hears-writ-of-habeas-corpus-against-captain-dawson/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Justice Street hears writ of habeas corpus against Captain Dawson</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  7 February 1908<br />
+                            
+                        
+                            
+                            
+                                End:  7 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/justice-street-hears-writ-of-habeas-corpus-against-captain-dawson/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-is-remanded-in-custody-in-darlinghurst-gaol/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan is remanded in custody in Darlinghurst Gaol</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  7 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 11 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-is-remanded-in-custody-in-darlinghurst-gaol/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-appears-before-the-sydney-water-police-court/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan appears before the Sydney Water Police Court</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  7 February 1908<br />
+                            
+                        
+                            
+                            
+                                End:  7 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-appears-before-the-sydney-water-police-court/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-is-charged-with-being-a-prohibited-immigrant/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan is charged with being a prohibited immigrant</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  7 February 1908<br />
+                            
+                        
+                            
+                            
+                                End:  7 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-is-charged-with-being-a-prohibited-immigrant/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-is-arrested-by-customs-inspector-donohoe-in-sydney/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan is arrested by Customs Inspector Donohoe in Sydney</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  7 February 1908<br />
+                            
+                        
+                            
+                            
+                                End:  7 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-is-arrested-by-customs-inspector-donohoe-in-sydney/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-and-solicitor-croft-leave-sydney-by-train-for-melbourne/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan and Solicitor Croft leave Sydney by train for Melbourne</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 11 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 11 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-and-solicitor-croft-leave-sydney-by-train-for-melbourne/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-and-solicitor-croft-arrive-in-melbourne-by-train/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan and Solicitor Croft arrive in Melbourne by train</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 13 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 13 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-and-solicitor-croft-arrive-in-melbourne-by-train/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-is-arrested-by-constable-potter-in-melbourne/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan is arrested by Constable Potter in Melbourne</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 13 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 13 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-is-arrested-by-constable-potter-in-melbourne/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-is-held-in-the-melbourne-watch-house/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan is held in the Melbourne watch house</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 13 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 13 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-is-held-in-the-melbourne-watch-house/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-is-released-on-bail-of-100/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan is released on bail of £100</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 14 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 14 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-is-released-on-bail-of-100/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-appears-before-the-melbourne-city-court/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan appears before the Melbourne City Court</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 14 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 14 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-appears-before-the-melbourne-city-court/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/solicitor-croft-requests-and-is-granted-a-two-week-adjournment-from-the-melbourne-city-court/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Solicitor Croft requests and is granted a two-week adjournment from the Melbourne City Court</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 14 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 14 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/solicitor-croft-requests-and-is-granted-a-two-week-adjournment-from-the-melbourne-city-court/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-appears-before-the-melbourne-city-court/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan appears before the Melbourne City Court</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 28 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 28 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-appears-before-the-melbourne-city-court/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-appears-before-police-magistrate-cresswell-in-the-melbourne-city-court/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan appears before Police Magistrate Cresswell in the Melbourne City Court</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 28 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 28 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-appears-before-police-magistrate-cresswell-in-the-melbourne-city-court/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-s-case-in-the-melbourne-city-court-is-part-heard-and-adjourned-for-three-weeks-until-20-march-1908/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan's case in the Melbourne City Court is part heard and adjourned for three weeks until 20 March 1908</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 28 February 1908<br />
+                            
+                        
+                            
+                            
+                                End: 28 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-s-case-in-the-melbourne-city-court-is-part-heard-and-adjourned-for-three-weeks-until-20-march-1908/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-s-case-in-the-melbourne-city-court-is-adjourned-for-one-week-until-27-march-1908/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan's case in the Melbourne City Court is adjourned for one week until 27 March 1908</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 20 March 1908<br />
+                            
+                        
+                            
+                            
+                                End: 20 March 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-s-case-in-the-melbourne-city-court-is-adjourned-for-one-week-until-27-march-1908/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-s-case-in-the-melbourne-city-court-is-adjourned-for-several-days-until-31-march-1908/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan's case in the Melbourne City Court is adjourned for several days until 31 March 1908</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 27 March 1908<br />
+                            
+                        
+                            
+                            
+                                End: 27 March 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-s-case-in-the-melbourne-city-court-is-adjourned-for-several-days-until-31-march-1908/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-s-case-in-the-melbourne-city-court-continues/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan's case in the Melbourne City Court continues</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 31 March 1908<br />
+                            
+                        
+                            
+                            
+                                End: 31 March 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-s-case-in-the-melbourne-city-court-continues/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-gives-evidence-before-police-magistrate-cresswell-in-the-melbourne-city-court/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan gives evidence before Police Magistrate Cresswell in the Melbourne City Court</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 31 March 1908<br />
+                            
+                        
+                            
+                            
+                                End: 31 March 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-gives-evidence-before-police-magistrate-cresswell-in-the-melbourne-city-court/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/police-magistrate-cresswell-reserves-his-decision-for-several-days-until-2-april-1908/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Police Magistrate Cresswell reserves his decision for several days until 2 April 1908</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 31 March 1908<br />
+                            
+                        
+                            
+                            
+                                End: 31 March 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/police-magistrate-cresswell-reserves-his-decision-for-several-days-until-2-april-1908/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/police-magistrate-creswell-finds-in-james-minahan-s-favour-dismisses-the-case-and-awards-costs-to-the-defendant/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Police Magistrate Creswell finds in James Minahan's favour, dismisses the case and awards costs to the defendant</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  2 April 1908<br />
+                            
+                        
+                            
+                            
+                                End:  2 April 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/police-magistrate-creswell-finds-in-james-minahan-s-favour-dismisses-the-case-and-awards-costs-to-the-defendant/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/crown-solicitor-sends-copies-of-the-city-court-judgement-to-robert-garran-and-atlee-hunt/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Crown Solicitor sends copies of the City Court judgement to Robert Garran and Atlee Hunt</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  3 April 1908<br />
+                            
+                        
+                            
+                            
+                                End:  3 April 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/crown-solicitor-sends-copies-of-the-city-court-judgement-to-robert-garran-and-atlee-hunt/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/crown-solicitor-files-affidavits-regarding-james-minahan-s-case-with-the-high-court-registry/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Crown Solicitor files affidavits regarding James Minahan's case with the High Court registry</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 28 April 1908<br />
+                            
+                        
+                            
+                            
+                                End: 28 March 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/crown-solicitor-files-affidavits-regarding-james-minahan-s-case-with-the-high-court-registry/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/justice-isaacs-of-the-high-court-hears-an-application-for-review-presented-by-the-commonwealth/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Justice Isaacs of the High Court hears an application for review presented by the Commonwealth</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 29 April 1908<br />
+                            
+                        
+                            
+                            
+                                End: 29 April 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/justice-isaacs-of-the-high-court-hears-an-application-for-review-presented-by-the-commonwealth/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-meets-with-solicitor-croft-to-give-his-instructions-on-the-case/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan meets with Solicitor Croft to give his instructions on the case</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 1908-05<br />
+                            
+                        
+                            
+                            
+                                End: 1908-05<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-meets-with-solicitor-croft-to-give-his-instructions-on-the-case/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-meets-with-solicitor-croft-to-review-the-evidence-presented-in-the-lower-courts/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan meets with Solicitor Croft to review the evidence presented in the lower courts</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 1908-05<br />
+                            
+                        
+                            
+                            
+                                End: 1908-05<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-meets-with-solicitor-croft-to-review-the-evidence-presented-in-the-lower-courts/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/crown-solicitor-files-an-order-nisi-to-review-with-the-high-court-registry/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Crown Solicitor files an Order Nisi to Review with the High Court registry</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  2 May 1908<br />
+                            
+                        
+                            
+                            
+                                End:  2 May 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/crown-solicitor-files-an-order-nisi-to-review-with-the-high-court-registry/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/james-minahan-s-case-potter-v-minahan-is-before-the-high-court-of-australia/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan's case, Potter v. Minahan, is before the High Court of Australia</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 16 September 1908<br />
+                            
+                        
+                            
+                            
+                                End:  8 October 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/james-minahan-s-case-potter-v-minahan-is-before-the-high-court-of-australia/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/potter-v-minahan-heard-in-the-high-court-of-australia/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Potter v. Minahan heard in the High Court of Australia</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 16 September 1908<br />
+                            
+                        
+                            
+                            
+                                End: 21 September 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/potter-v-minahan-heard-in-the-high-court-of-australia/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/high-court-hands-down-decision-in-potter-v-minahan/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">High Court hands down decision in Potter v. Minahan</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  8 October 1908<br />
+                            
+                        
+                            
+                            
+                                End:  8 October 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/high-court-hands-down-decision-in-potter-v-minahan/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/tung-wah-times-publishes-article-about-potter-v-minahan/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Tung Wah Times publishes article about Potter v. Minahan</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 10 October 1908<br />
+                            
+                        
+                            
+                            
+                                End: 10 October 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/tung-wah-times-publishes-article-about-potter-v-minahan/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/tung-wah-times-publishes-second-article-about-potter-v-minahan/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Tung Wah Times publishes second article about Potter v. Minahan</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 17 October 1908<br />
+                            
+                        
+                            
+                            
+                                End: 17 October 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/tung-wah-times-publishes-second-article-about-potter-v-minahan/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/customs-department-issues-a-circular-advising-officers-note-the-high-court-s-findings-in-potter-v-minahan-regarding-the-dictation-test/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Customs Department issues a circular advising officers note the High Court's findings in Potter v. Minahan regarding the Dictation Test</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  8 April 1909<br />
+                            
+                        
+                            
+                            
+                                End:  8 April 1909<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/customs-department-issues-a-circular-advising-officers-note-the-high-court-s-findings-in-potter-v-minahan-regarding-the-dictation-test/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/chin-shing-dies/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Chin Shing dies</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start:  4 May 1925<br />
+                            
+                        
+                            
+                            
+                                End:  4 May 1925<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/chin-shing-dies/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="events inverse" href="/events/jessie-ah-coon-dies/"><i class="fas fa-calendar-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Jessie Ah Coon dies</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Start: 1949<br />
+                            
+                        
+                            
+                            
+                                End: 1949<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="events inverse" href="/events/jessie-ah-coon-dies/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            </div>
+        </section>
+        <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      Another awesome LOD Book...
+    </p>
+  </div>
+</footer>
+
+    </body>
+</html>

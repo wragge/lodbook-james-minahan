@@ -1,0 +1,60 @@
+<h1 class="title is-size-2">{{ page.title }}</h1>
+
+{% assign things = '' | split: '' %}
+{% assign collection = site.data_collections | where: "name", page.list-type | first %}
+{% for type in collection.types %}
+    {% assign more_things = site.data[site.lod_source.data] | where:"type", type %}
+    {% assign things = things | concat: more_things %}
+{% endfor %}
+
+{% assign things = things | sort: page.sort %}
+<div id="entity-list">
+    <div class="columns">
+        <div class="column is-one-quarter-desktop">
+            <div class="field">
+                <label class="label is-small">Filter</label>
+                <div class="control">
+                    <input class="search input is-small" type="text" placeholder="Search" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="list">
+                {% for thing in things %}
+                <article class="media">
+                    {% if thing.image %}
+                    <figure class="media-left image is-64x64 is-rounded">
+                        <img class="cover" src="/images/{{ thing.image | image_link }}">
+                    </figure>
+                    {% else %}
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list {{ list-type }} inverse">
+                            <a class="{{ page.list-type }} inverse" href="/{{ page.list-type }}/{{ thing.name | slugify }}/"><i class="{{ collection.icon }} fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    {% endif %}
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">{{ thing.name }}</h4>
+                        <p class="subtitle is-size-6">
+                        {% for field in page.display-fields %}
+                            {% assign current_field = thing[field.field] %}
+                            {% if current_field %}
+                                {{ field.label }}: {{ current_field | format_date }}<br />
+                            {% endif %}
+                        {% endfor %}
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="{{ page.list-type }} inverse" href="/{{ page.list-type }}/{{ thing.name | slugify }}/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

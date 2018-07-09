@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LODBook</title>
+      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      
+      <link href="/css/animate.min.css" rel="stylesheet">
+      
+      <link rel="stylesheet" href="/css/main.css">
+      
+      <style type="text/css">
+      
+            .people { background-color: #563331; border-color: #563331;}
+            .people.inverse { background-color: #ffffff; color: #563331;}
+      
+            .organisations { background-color: #711d1f; border-color: #711d1f;}
+            .organisations.inverse { background-color: #ffffff; color: #711d1f;}
+      
+            .places { background-color: #4f7671; border-color: #4f7671;}
+            .places.inverse { background-color: #ffffff; color: #4f7671;}
+      
+            .events { background-color: #657957; border-color: #657957;}
+            .events.inverse { background-color: #ffffff; color: #657957;}
+      
+            .resources { background-color: #942628; border-color: #942628;}
+            .resources.inverse { background-color: #ffffff; color: #942628;}
+      
+      </style>
+      
+      <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+      
+      <script src="/js/text.js"></script>
+      
+      <script src="/js/isInViewport.min.js"></script>
+      
+      <script src="/js/lodash.min.js"></script>
+      
+      <script src="/js/handlebars.min-latest.js"></script>
+      
+      <script src="/js/moment.min.js"></script>
+      
+      <script src="/js/scripts.js"></script>
+      <script>
+        var collections = [{"name":"people","color":"#563331","icon":"fas fa-user-circle","template":"people","types":["Person"]},{"name":"organisations","color":"#711d1f","icon":"fas fa-building","template":"organisations","types":["Organization"]},{"name":"places","color":"#4f7671","icon":"fas fa-globe","template":"places","types":["Place","CivicStructure","City","State"]},{"name":"events","color":"#657957","icon":"fas fa-calendar-alt","template":"events","types":["Event"]},{"name":"resources","color":"#942628","icon":"fas fa-file-alt","template":"resources","types":["CreativeWork","ImageObject","Book","ArchivalSeries","Letter","Photograph","ArchivalUnit"]}];
+      </script>
+    </head>
+
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="container">
+
+
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-6" href="/">James Minahan&rsquo;s Homecoming</a>
+                <a role="button" class="navbar-item navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Chapters
+                        </a>
+                        
+                        
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/chapters/chapter-1/">
+                                    Chapter 1
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Collections
+                        </a>
+                        <div class="navbar-dropdown">
+                        
+                        
+                                <a class="navbar-item is-capitalized" href="/events/">
+                                    events
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/organisations/">
+                                    organisations
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/people/">
+                                    people
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/places/">
+                                    places
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/resources/">
+                                    resources
+                                </a>
+                        
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Views
+                        </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="">
+                                    Wall
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+    <div class="column is-three-quarters">
+        <h2 class="subtitle is-4">Chapter 1</h2>
+        <h1 class="title is-1">An unexpected welcome</h1>
+    </div>
+</div>
+<div class="columns is-6 is-variable">
+    <div class="column is-half-widescreen is-three-fifths-desktop is-two-thirds-tablet">
+        <div id="text" class="content">
+            <p>The letter <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/people/james-minahan/">James Minahan</a> was waiting for had arrived at last. Sent from the firm of Quong Hing Yeong in Hong Kong, the letter contained the news that having received a remittance of HK$200 from Australia they could now book him a passage to Melbourne, the city of his birth. At 31 years old, James had decided to return to Australia after twenty-six years in China. He had spent the last decade studying for the imperial examinations (kējǔ) but after three unsuccessful attempts to gain a degree he had decided to try his luck in business in Australia instead.</p>
+
+<p>In late 1907, <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/people/james-minahan/"><i>James</i></a> had written to his father’s former business partner, Chin Shing, asking him to send money for the passage. Over the many years since James and his now dead father had returned to China, Chin Shing had regularly sent them money from the business they jointly owned – a small store at Indigo in northeastern Victoria. Chin Shing would typically give the money to friends going down to Melbourne, who would then send it to Hong Kong though one of the Little Bourke Street stores, such as Hang Yick or, in this case, Sun Nam Hie &amp; Co. The receiving firm in Hong Kong would then send the money on to China, initially to James’s father Cheong Ming, or after Cheong Ming’s death in 1896, to James himself.</p>
+
+<p>On hearing from <a class="lod-link" data-name="Quong Hing Yeong" data-collection="organisations" property="name" href="/organisations/quong-hing-yeong/">Quong Hing Yeong</a> that this latest remittance had arrived, James wrote back asking details of the next ship bound for Australia. The SS Taiyuan was due to sail from Hong Kong for Sydney on Wednesday, 1 January 1908, and James began to make preparations to leave the only home he really knew – the small village of Shek Quey Lee near Kongmoon, where he had lived since the age of five.</p>
+
+<p><span class="lod-ignore">James</span>’s journey from Kongmoon to Hong Kong was on a small steamer, and on his arrival he went to Quong Hing Yeong to book a passage on the Taiyuan. He presented his Victorian birth certificate as proof of his entitlement to land in Australia and paid HK$210 for the fare. Then he wrote to Chin Shing to expect his arrival.</p>
+
+<p><a class="lod-link" data-name="Chin Shing" data-collection="people" property="name" href="/people/chin-shing/">Chin Shing</a> was not surprised by James’s imminent return to Australia. He had received other letters over the past couple of years telling him of James’s failure at the imperial examinations and of his intention to come back to Victoria. As requested, he had sent James £21 for his passage (the HK$200 received by Quong Hing Yeong) via Melbourne merchants Chin Kay and Ah Doe of Sun Nam Hie &amp; Co. in Little Bourke Street. And now, on hearing that James was soon to arrive, he again contacted Chin Kay.</p>
+
+<p>Chin Shing was busy in Indigo, with his business and family, and had not been to Melbourne in more than two decades, but Chin Kay was already in Melbourne and could more easily meet James on his arrival. Chin Kay knew James and his father, both in China and Australia. His home in Shek Quey Lee was just opposite from where James lived, and he had seen both father and son there on his various trips home over the previous 25 years. Receiving Chin Shing’s letter about a week before James’s arrival, Chin Kay made preparations to meet his boat when it got to Melbourne.</p>
+
+<p>After leaving a wintery Hong Kong, the Taiyuan made its way south. First… Then crossing the equator…</p>
+
+<p>When the Taiyuan sailed into Sydney Harbour on Thursday, 23 January 1908, there were 47 passengers on board. Thirty-nine of these were Chinese men – four bound for Sydney and six for Melbourne, with the remainder travelling on to New Zealand and Fiji. James Minahan was one of those bound for Melbourne, but his name, as such, does not appear on the passenger manifest. Instead, he is listed as James Kitchen, aged 31, storekeeper. His race is given as Chinese and, under the column for nationality, it is noted that he had a birth certificate, no. 23008.</p>
+
+<p>Sydney Customs inspector <a class="lod-link" data-name="J.T.T. Donohoe" data-collection="people" property="name" href="/people/j-t-t-donohoe/">JTT Donohoe</a> was on the wharf to meet the Taiyuan and, after inspecting the passengers’ papers, he decided to give James the Dictation Test. James was unable to complete it, but as his ultimate destination was Melbourne not Sydney, he was allowed to continue on with his fellow passengers. James and the other five men were handprinted then transhipped to the SS Wollowra. They sailed again at 5.30pm on Friday, 24 January, for the final stage of their journey to Melbourne.</p>
+
+<p>As they made their way south, Donohoe advised the Melbourne Collector of Customs and the Secretary of the Department of External Affairs of their coming, forwarding their handprints and documents, including birth certificate no. 23008, to assist Melbourne Customs with the men’s identification. After the Wollowra arrived at the Australian Wharf in Melbourne on Sunday, 26 January 1908, the six men were briefly seen by Customs officer <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/people/hugh-mercer/">Hugh Mercer</a>. But, since it was a Sunday and Mercer had no Chinese interpreter with him, he decided to return the following day to formally examine them. Mercer returned on Monday and, with the help of government translator <a class="lod-link" data-name="Harry Hoyling" data-collection="people" property="name" href="/people/harry-hoyling/">Harry Hoyling</a>, interviewed James Minahan in the saloon of the Wollowra. Mercer also spoke to ‘a reputable Chinaman’, tobacco dealer Chan Num, who had known James as a boy and had come to meet him at the wharf. As planned, Chin Kay had also come to meet the boat.</p>
+
+<p>To execute his duties, Mercer needed to establish whether the birth certificate James presented was really his own. He later noted that there was no indication on the certificate that it belonged to someone who was ‘Chinese’. The certificate was in the name ‘James Francis Kitchen’, no father’s name was given and the mother was one Winifred Minahan. How could it belong to a man who seemed so Chinese in appearance and manner, who understood not a word of the English being spoken to him? After interviewing James, Mercer was not convinced that he was who he claimed to be and applied the Dictation Test. Through the interpreter Harry Hoyling, Mercer told James that he was going to read a passage of not less than fifty words in English and that he was required to write them in English. He gave James a pencil and paper and read the passage once slowly. This was the passage he read:</p>
+
+<blockquote>
+  <p>A large part of the cheapening of steel has been brought about by this one device for using cheap inferior fuels. In the iron trade it was discovered many years ago that it paid to produce more of this particular gas than could be used in the purely metallurgical operations.</p>
+</blockquote>
+
+<p>When asked, James said that he couldn’t write out the passage. Mercer informed him that he was a prohibited immigrant and that he could not land in Australia. James was to be transferred back to the Taiyuan and returned to Hong Kong.</p>
+
+<p>The next day, Tuesday, James left Melbourne for Sydney on the Wollowra, and Melbourne Customs informed their Sydney colleagues of his rejection under the Immigration Restriction Act. When he arrived in Sydney two days later, James was escorted by Customs inspector Donohoe back to the Taiyuan, which was due to sail for Hong Kong at the end of the following week. On Thursday, 6 February, however, two days before the scheduled departure, the Taiyuan’s Captain Dawson was asked to show cause why a writ of habeas corpus should not be issued against him for holding James Minahan on board.</p>
+
+<p>The matter was heard before Mr Justice Street in chambers on Friday, 7 February. Captain Dawson argued that he was acting on the orders of the Commonwealth Customs department, who had declared James Minahan was a prohibited immigrant. Under section 9 of the Immigration Restriction Act, as master of the vessel he would be liable for a penalty of £100 if a prohibited immigrant land from his vessel. Justice Street, however, concluded that there had been no clear demonstration that James Minahan was in fact a prohibited immigrant under the Act, and his release was ordered.</p>
+
+<p>James Minahan left the Taiyuan at around one o’clock that afternoon, but he was not free for long. Acting on instructions from the Department of External Affairs, Customs inspector Donohoe had waited at Circular Quay for James Minahan and arrested him as he left the wharf. Donohoe took him to the <a class="lod-link" data-name="No. 4 Police Station" data-collection="places" property="name" href="/places/no-4-police-station/">No. 4 Police Station</a> at George Street North, where he was charged with being a ‘prohibited immigrant found within the Commonwealth in contravention of the Immigration Restriction Act, 1901–1905’. James Minahan was brought before the Water Police Court at two o’clock, and remanded in custody until the following Friday. He was held in Darlinghurst Gaol.</p>
+
+<p>On 6 February, when Captain Dawson had been summonsed to appear before Justice Street, the Collector of Customs in Sydney had sent an urgent telegram to the Department of External Affairs in Melbourne for advice on what action to take. The Secretary, Atlee Hunt responded, also by telegram:</p>
+
+<blockquote>
+  <p>Take no action in Kitchens case … so far as habeas proceedings are concerned presume he will be brought before Court and his discharge ordered … if that happens he should be arrested on leaving Court and charged with being prohibited immigrant &amp; on appearance before police court remand should be applied for to allow Crown solicitor to be instructed</p>
+</blockquote>
+
+<p>Atlee Hunt also received a personal letter from James Minahan’s Melbourne solicitor, EA Fortescue Croft, sent from Sydney on 6 February. When James Minahan had been rejected at Melbourne and returned to Sydney, Croft had rushed north to start proceedings on his behalf. Croft told Hunt that he ‘would only be playing the game fair with you after all your past consideration to me’ if he let Hunt know the true state of things, and he asked Hunt to ‘take this private letter in the spirit in which it is sent’. He told Hunt that he had ‘taken your middle course here by issuing an order nisi calling on the captain to shew cause why a writ of habeas corpus should not issue’. Croft had been advised by the Commonwealth’s counsel in the case that this was ‘the Sydney practice’.</p>
+
+<p>These private discussions between James Minahan’s solicitors and those representing the Commonwealth were the beginnings of a course of action, engineered behind the scenes, which saw James Minahan’s case transferred from Sydney to Melbourne. The Department of External Affairs passed the matter to the Crown Solicitor and, on request, Customs inspector Donohoe sent his file to the Crown Solicitor’s Sydney office – they had advised that ‘good Counsel’ should be nominated to prosecute the case. Moves were also taken for Melbourne Customs officer Hugh Mercer and Chinese translator Harry Hoyling to journey to Sydney for the hearing against James Minahan on Friday, 14 February. Realising the difficulty and expense of defending his client in Sydney, a city where he had no friends or contacts, on the day of James Minahan’s arrest Croft wrote to Atlee Hunt suggesting that the case be transferred to Melbourne. Atlee Hunt advised the Crown Solicitor that ‘the Department has no particular wish to act either for or against Mr Croft’s desires and will accept your decision which will doubtless be in accord with the general balance of convenience’. Croft and the Crown Solicitor soon came to an agreement which suited all parties.</p>
+
+<p>James Minahan was released from Darlinghurst Gaol on bail on Tuesday, 11 February, with recognizance to appear at court that Friday to answer the charges against him. Instead, however, he left Sydney that night with his solicitor on the express train for Melbourne. He was arrested on arrival and, after being bailed, went to stay at Sun Nam Hie &amp; Co., the Little Bourke Street firm run by his uncles, Ah Doe and Ah Yuey. The Sydney charges were dropped, as had been agreed, and the case against James Minahan proceeded in the Court of Petty Sessions in Melbourne on Friday, 28 February 1908, one month after James Minahan’s initial arrest. It was another seven months after that until an appeal to the High Court resulted in a ruling, laid down on Thursday, 8 October 1908, that gave James Minahan the right to be in Australia and to remain in the country of his birth.</p>
+
+        </div>
+    </div>
+    <div class="column is-one-quarter-fullhd is-one-quarter-widescreen is-one-third-desktop is-one-third-tablet is-hidden-mobile">
+        <div id="sidebar">
+            <div id="references">
+            </div>
+            <div id="thing-details">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var displayFields = {"people":[{"field":"birthDate","label":"Born","type":"date"}]};
+</script>
+<script id="details-template" type="text/x-handlebars-template">
+    
+    <div class="card" data-id="{{ id }}">
+      {{#if image}}
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img class="cover" src="/images/{{ image }}" alt="Placeholder image">
+            </figure>
+          </div>
+      {{/if}}
+      <div class="card-content">
+        <h4 class="title is-size-4">
+            {{name}}
+        </h4>
+        <p class="subtitle is-size-5">
+            {{#each fields}}
+                {{this.label}}: {{this.content}}<br />
+            {{/each}}
+        </p>
+        <div class="content">
+            {{#if connections}}
+            <p class="list-head">
+                Related to:
+            </p>
+            <ul class="related">
+                {{#each connections}}
+                    {{# if this.count }}
+                    <li>{{this.count}} {{this.collection}}</li>
+                    {{/if}}
+                {{/each}}
+            </ul>
+            {{/if}}
+        </div>
+      </div>
+      <footer class="card-footer">
+          <p class="card-footer-item">
+              <a class="button {{this.collection}} has-text-white more-details is-uppercase" href="{{ url }}">More details</a>
+          </p>
+      </footer>
+    </div>
+    
+</script>
+
+            </div>
+        </section>
+        <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      Another awesome LOD Book...
+    </p>
+  </div>
+</footer>
+
+    </body>
+</html>

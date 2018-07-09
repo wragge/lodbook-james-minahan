@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LODBook</title>
+      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      
+      <link rel="stylesheet" href="/css/main.css">
+      
+      <style type="text/css">
+      
+            .people { background-color: #563331; border-color: #563331;}
+            .people.inverse { background-color: #ffffff; color: #563331;}
+      
+            .organisations { background-color: #711d1f; border-color: #711d1f;}
+            .organisations.inverse { background-color: #ffffff; color: #711d1f;}
+      
+            .places { background-color: #4f7671; border-color: #4f7671;}
+            .places.inverse { background-color: #ffffff; color: #4f7671;}
+      
+            .events { background-color: #657957; border-color: #657957;}
+            .events.inverse { background-color: #ffffff; color: #657957;}
+      
+            .resources { background-color: #942628; border-color: #942628;}
+            .resources.inverse { background-color: #ffffff; color: #942628;}
+      
+      </style>
+      
+      <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+      
+      <script src="/js/list.min.js"></script>
+      
+      <script src="/js/entity-list.js"></script>
+      
+      <script src="/js/scripts.js"></script>
+      <script>
+        var collections = [{"name":"people","color":"#563331","icon":"fas fa-user-circle","template":"people","types":["Person"]},{"name":"organisations","color":"#711d1f","icon":"fas fa-building","template":"organisations","types":["Organization"]},{"name":"places","color":"#4f7671","icon":"fas fa-globe","template":"places","types":["Place","CivicStructure","City","State"]},{"name":"events","color":"#657957","icon":"fas fa-calendar-alt","template":"events","types":["Event"]},{"name":"resources","color":"#942628","icon":"fas fa-file-alt","template":"resources","types":["CreativeWork","ImageObject","Book","ArchivalSeries","Letter","Photograph","ArchivalUnit"]}];
+      </script>
+    </head>
+
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="container">
+
+
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-6" href="/">James Minahan&rsquo;s Homecoming</a>
+                <a role="button" class="navbar-item navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Chapters
+                        </a>
+                        
+                        
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/chapters/chapter-1/">
+                                    Chapter 1
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Collections
+                        </a>
+                        <div class="navbar-dropdown">
+                        
+                        
+                                <a class="navbar-item is-capitalized" href="/events/">
+                                    events
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/organisations/">
+                                    organisations
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/people/">
+                                    people
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/places/">
+                                    places
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/resources/">
+                                    resources
+                                </a>
+                        
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Views
+                        </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="">
+                                    Wall
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <section class="section">
+            <div class="container">
+                <h1 class="title is-size-2">Resources</h1>
+
+
+
+
+
+
+<div id="entity-list">
+    <div class="columns">
+        <div class="column is-one-quarter-desktop">
+            <div class="field">
+                <label class="label is-small">Filter</label>
+                <div class="control">
+                    <input class="search input is-small" type="text" placeholder="Search" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="list">
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/a1-correspondence-files-annual-single-number-series/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">A1, Correspondence files, annual single number series</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/a1-correspondence-files-annual-single-number-series/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/a10074-full-court-case-records-victoria-and-from-1973-court-and-cause-case-records-annual-single-number-series/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">A10074, Full Court case records (Victoria) and from 1973, Court and Cause case records, annual single number series</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/a10074-full-court-case-records-victoria-and-from-1973-court-and-cause-case-records-annual-single-number-series/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/chiltern-gold-mine/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Chiltern Gold Mine</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Published: 1900<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/chiltern-gold-mine/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/dictation-test-passage/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Dictation Test passage</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Published: 1908-01<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/dictation-test-passage/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/empty-thoroughfare-at-darlinghurst-gaol/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Empty thoroughfare at Darlinghurst Gaol</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Published: 1918<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/empty-thoroughfare-at-darlinghurst-gaol/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/history-of-the-shire-of-chiltern-by-robert-ashley/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">History of the Shire of Chiltern by Robert Ashley</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/history-of-the-shire-of-chiltern-by-robert-ashley/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left image is-64x64 is-rounded">
+                        <img class="cover" src="/images/naa-10131-p78.jpg">
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Imprint of the left hand of James Frances Kitchen</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/imprint-of-the-left-hand-of-james-frances-kitchen/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/judges-of-the-federal-high-count-1903/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Judges of the Federal High Count, 1903</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Published: 1903<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/judges-of-the-federal-high-count-1903/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/prohibited-immigrant-james-francis-kitchen/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">PROHIBITED IMMIGRANT -- James Francis Kitchen</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Published: 10 February 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/prohibited-immigrant-james-francis-kitchen/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/police-station-george-st-north-sydney/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Police station, George St North, Sydney</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/police-station-george-st-north-sydney/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/portrait-of-sir-littleton-groom/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Portrait of Sir Littleton Groom</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/portrait-of-sir-littleton-groom/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/potter-v-minahan-1908-7-clr-277/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Potter v. Minahan (1908) 7 CLR 277</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Published:  8 October 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/potter-v-minahan-1908-7-clr-277/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    <figure class="media-left has-text-centered image is-64x64">
+                        <span class="icon icon-list  inverse">
+                            <a class="resources inverse" href="/resources/sir-phillip-street-chief-justice-of-new-south-wales/"><i class="fas fa-file-alt fa-3x is-large"></i></a>
+                        </span>
+                    </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Sir Phillip Street, Chief Justice of New South Wales</h4>
+                        <p class="subtitle is-size-6">
+                        
+                            
+                            
+                                Published: 1925<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="resources inverse" href="/resources/sir-phillip-street-chief-justice-of-new-south-wales/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            </div>
+        </section>
+        <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      Another awesome LOD Book...
+    </p>
+  </div>
+</footer>
+
+    </body>
+</html>

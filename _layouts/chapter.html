@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<div class="columns">
+    <div class="column is-three-quarters">
+        <h2 class="subtitle is-4">Chapter {{ page.chapter }}</h2>
+        <h1 class="title is-1">{{ page.title }}</h1>
+    </div>
+</div>
+<div class="columns is-6 is-variable">
+    <div class="column is-half-widescreen is-three-fifths-desktop is-two-thirds-tablet">
+        <div id="text" class="content">
+            {{ content }}
+        </div>
+    </div>
+    <div class="column is-one-quarter-fullhd is-one-quarter-widescreen is-one-third-desktop is-one-third-tablet is-hidden-mobile">
+        <div id="sidebar">
+            <div id="references">
+            </div>
+            <div id="thing-details">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var displayFields = {{ page.details | jsonify }};
+</script>
+<script id="details-template" type="text/x-handlebars-template">
+    {% raw %}
+    <div class="card" data-id="{{ id }}">
+      {{#if image}}
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img class="cover" src="/images/{{ image }}" alt="Placeholder image">
+            </figure>
+          </div>
+      {{/if}}
+      <div class="card-content">
+        <h4 class="title is-size-4">
+            {{name}}
+        </h4>
+        <p class="subtitle is-size-5">
+            {{#each fields}}
+                {{this.label}}: {{this.content}}<br />
+            {{/each}}
+        </p>
+        <div class="content">
+            {{#if connections}}
+            <p class="list-head">
+                Related to:
+            </p>
+            <ul class="related">
+                {{#each connections}}
+                    {{# if this.count }}
+                    <li>{{this.count}} {{this.collection}}</li>
+                    {{/if}}
+                {{/each}}
+            </ul>
+            {{/if}}
+        </div>
+      </div>
+      <footer class="card-footer">
+          <p class="card-footer-item">
+              <a class="button {{this.collection}} has-text-white more-details is-uppercase" href="{{ url }}">More details</a>
+          </p>
+      </footer>
+    </div>
+    {% endraw %}
+</script>

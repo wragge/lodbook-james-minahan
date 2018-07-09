@@ -1,0 +1,19 @@
+---
+layout: default
+permalink: /organisations/
+title: Organisations
+custom-js:
+    - list.min
+    - entity-list
+list-type: organisations
+sort: name
+display-fields:
+    - field: foundingDate
+      label: Founded
+      type: date
+    - field: dissolutionDate
+      label: Dissolved
+      type: date
+---
+
+{% include thing_list.html %}

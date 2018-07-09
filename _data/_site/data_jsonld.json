@@ -1,0 +1,43 @@
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "birthDate": "1876-10-04",
+      "familyName": "Minahan",
+      "givenName": [
+        "James",
+        "Francis",
+        "Kitchen"
+      ],
+      "id": "http://localhost:4000/people/james-minahan/",
+      "knows": [
+          {
+              "id": "http://localhost:4000/people/ah-chew/",
+              "name": "Ah Chew"
+          },
+          {
+              "id": "http://localhost:4000/people/chan-nam/",
+              "name": "Chan Nam"
+          }
+      ],
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+        "knows": [{
+            "id": "http://localhost:4000/people/james-minahan/",
+            "name": "James Minahan"
+        }],
+        "name": "Ah Chew",
+        "type": "Person"
+    },
+    {
+        "knows": [{
+            "id": "http://localhost:4000/people/james-minahan/",
+            "name": "James Minahan"
+        }],
+        "name": "Chan Nam",
+        "type": "Person"
+    }
+  ]
+}

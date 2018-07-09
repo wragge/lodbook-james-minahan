@@ -1,0 +1,181 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title:               "James Minahan's Homecoming"
+tagline:             'A story of race and belonging in White Australia'
+description:         'An attempt to use Jekyll to publish narratives enriched with Linked Open Data'
+url:                 ''
+baseurl:             ''
+status:              'Draft only, March 2017'
+author: GitHub User
+email: your-email@domain.com
+
+# About/contact
+# author:
+#  name:              Kate Bagnall
+#  url:               https://twitter.com/baibi
+
+# Permalinks
+
+permalink: pretty
+permalink: /:title/
+
+header_pages:
+  - about.md
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+include: ['_pages']
+
+# Collections for texts
+collections:
+  chapters:
+    output: true
+
+lod_source:
+    data: 'new_data'
+    context: 'http://schema.org/'
+
+data_types:
+  Person:
+    template: 'person'
+    collection: 'people'
+    type: 'http://schema.org/Person'
+  Organization:
+    template: 'organisation'
+    collection: 'organisations'
+    type: 'http://schema.org/Organization'
+  Place:
+    template: 'place'
+    collection: 'places'
+    type: 'http://schema.org/Place'
+  Event:
+    template: 'event'
+    collection: 'events'
+    type: 'http://schema.org/Event'
+  CreativeWork:
+    template: 'resource'
+    collection: 'resources'
+    type: 'http://schema.org/CreativeWork'
+  ImageObject:
+    template: 'resource'
+    collection: 'resources'
+    type: 'http://schema.org/ImageObject'
+  CivicStructure:
+    template: 'place'
+    collection: 'places'
+    type: 'http://schema.org/CivicStructure'
+  City:
+    template: 'place'
+    collection: 'places'
+    type: 'http://schema.org/City'
+  State:
+    template: 'place'
+    collection: 'places'
+    type: 'http://schema.org/State'
+  ArchivalUnit:
+    template: 'resource'
+    collection: 'resources'
+    type: 'http://schema.org/CreativeWork'
+  Book:
+    template: 'resource'
+    collection: 'resources'
+    type: 'http://schema.org/Book'
+  Photograph:
+    template: 'resource'
+    collection: 'resources'
+    type: 'http://schema.org/Photograph'
+  ArchivalSeries:
+    template: 'resource'
+    collection: 'resources'
+    type: 'http://schema.org/CreativeWork'
+  Letter:
+    template: 'resource'
+    collection: 'resources'
+    type: 'http://schema.org/Letter'
+
+data_collections:
+    -   name: people
+        color: "#563331"
+        icon: "fas fa-user-circle"
+        template: people
+        types:
+            - Person
+    -   name: organisations
+        color: "#711d1f"
+        icon: "fas fa-building"
+        template: organisations
+        types:
+            - Organization
+    -   name: places
+        color: "#4f7671"
+        icon: "fas fa-globe"
+        template: places
+        types:
+            - Place
+            - CivicStructure
+            - City
+            - State
+    -   name: events
+        color: "#657957"
+        icon: "fas fa-calendar-alt"
+        template: events
+        types:
+            - Event
+    -   name: resources
+        color: "#942628"
+        icon: "fas fa-file-alt"
+        template: resources
+        types:
+            - CreativeWork
+            - ImageObject
+            - Book
+            - ArchivalSeries
+            - Letter
+            - Photograph
+            - ArchivalUnit
+
+
+twitter_username: wragge
+github_username:  wragge
+
+# Build settings
+markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
