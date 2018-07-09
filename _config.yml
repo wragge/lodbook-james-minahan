@@ -18,7 +18,7 @@ title:               "James Minahan's Homecoming"
 tagline:             'A story of race and belonging in White Australia'
 description:         'An attempt to use Jekyll to publish narratives enriched with Linked Open Data'
 url:                 ''
-baseurl:             ''
+baseurl:             '/lodbook3'
 status:              'Draft only, March 2017'
 author: GitHub User
 email: your-email@domain.com

@@ -25,7 +25,7 @@ layout: default
                 <ul class="is-size-4">
                     {% for chapter in site.chapters %}
                         <li>
-                            <a href="{{ chapter.url }}">Chapter {{ chapter.chapter }}: {{ chapter.title }}</a>
+                            <a href="{{ site.baseurl}}{{ chapter.url }}">Chapter {{ chapter.chapter }}: {{ chapter.title }}</a>
                         </li>
                     {% endfor %}
                 </ul>

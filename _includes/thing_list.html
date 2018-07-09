@@ -26,12 +26,12 @@
                 <article class="media">
                     {% if thing.image %}
                     <figure class="media-left image is-64x64 is-rounded">
-                        <img class="cover" src="/images/{{ thing.image | image_link }}">
+                        <img class="cover" src="{{ site.baseurl }}/images/{{ thing.image | image_link }}">
                     </figure>
                     {% else %}
                     <figure class="media-left has-text-centered image is-64x64">
                         <span class="icon icon-list {{ list-type }} inverse">
-                            <a class="{{ page.list-type }} inverse" href="/{{ page.list-type }}/{{ thing.name | slugify }}/"><i class="{{ collection.icon }} fa-3x is-large"></i></a>
+                            <a class="{{ page.list-type }} inverse" href="{{ site.baseurl }}/{{ page.list-type }}/{{ thing.name | slugify }}/"><i class="{{ collection.icon }} fa-3x is-large"></i></a>
                         </span>
                     </figure>
                     {% endif %}
@@ -47,7 +47,7 @@
                         </p>
                         <div class="content">
                             <p>
-                                <a class="{{ page.list-type }} inverse" href="/{{ page.list-type }}/{{ thing.name | slugify }}/">More details&hellip;</a>
+                                <a class="{{ page.list-type }} inverse" href="{{ site.baseurl }}/{{ page.list-type }}/{{ thing.name | slugify }}/">More details&hellip;</a>
                             </p>
                         </div>
 

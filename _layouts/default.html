@@ -7,7 +7,7 @@
 
 
             <div class="navbar-brand">
-                <a class="navbar-item is-size-6" href="/">James Minahan&rsquo;s Homecoming</a>
+                <a class="navbar-item is-size-6" href="{{ site.baseurl }}/">James Minahan&rsquo;s Homecoming</a>
                 <a role="button" class="navbar-item navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
                   <span aria-hidden="true"></span>
                   <span aria-hidden="true"></span>
@@ -23,7 +23,7 @@
                         {% assign chapters = site.chapters | sort: 'chapter' %}
                         {% for chapter in chapters %}
                             <div class="navbar-dropdown">
-                                <a class="navbar-item" href="{{ chapter.url }}">
+                                <a class="navbar-item" href="{{ site.baseurl }}{{ chapter.url }}">
                                     Chapter {{ chapter.chapter }}
                                 </a>
                             </div>
@@ -36,7 +36,7 @@
                         <div class="navbar-dropdown">
                         {% assign collections = site.data_collections | sort: 'name' %}
                         {% for collection in collections %}
-                                <a class="navbar-item is-capitalized" href="/{{ collection.name }}/">
+                                <a class="navbar-item is-capitalized" href="{{ site.baseurl }}/{{ collection.name }}/">
                                     {{ collection.name }}
                                 </a>
                         {% endfor %}
@@ -47,7 +47,7 @@
                             Views
                         </a>
                             <div class="navbar-dropdown">
-                                <a class="navbar-item" href="{{ chapter.url }}">
+                                <a class="navbar-item" href="{{ site.baseurl }}{{ chapter.url }}">
                                     Wall
                                 </a>
                             </div>

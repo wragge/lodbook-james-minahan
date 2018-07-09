@@ -78,7 +78,7 @@ module Jekyll
 
             def initialize(site)
                 @site_url = site.config['url']
-                @base_url = site.config["base_url"]
+                @base_url = site.config["baseurl"]
                 lod_source = site.config["lod_source"]
                 data_source = site.data[lod_source["data"]]
                 @types = site.config['data_types']

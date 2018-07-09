@@ -32,7 +32,7 @@ layout: default
       {{#if image}}
           <div class="card-image">
             <figure class="image is-4by3">
-              <img class="cover" src="/images/{{ image }}" alt="Placeholder image">
+              <img class="cover" src="{% endraw %}{{ site.baseurl }}{% raw %}/images/{{ image }}" alt="Placeholder image">
             </figure>
           </div>
       {{/if}}

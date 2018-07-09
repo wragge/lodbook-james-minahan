@@ -129,7 +129,7 @@ $(document).ready(function() {
         } else {
             var record = _.find(data, {"name": name});
             var urlSplit = record.id.split('/');
-            var collection = urlSplit[3];
+            var collection = urlSplit[4];
             connections = countConnections(record);
             $(".reference").removeClass("inverse");
             var fields = prepareDisplayFields(record, collection);

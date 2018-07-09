@@ -10,10 +10,10 @@ filename: index.html
         <div class="content">
         {% if page.data.graph.image %}
             <figure class="image box">
-                <img src="/images/{{ page.data.graph.image | image_link }}">
+                <img src="{{ site.baseurl }}/images/{{ page.data.graph.image | image_link }}">
                     {% if page.data.graph.image.name %}
                     <caption>
-                        <a href="/resources/{{ page.data.graph.image.name | slugify }}">{{ page.data.graph.image.name }}</a> <a title="Enlarge" class="is-pulled-right" href="/images/{{ page.data.graph.image | image_link }}"><span class="icon"><i class="fas fa-search-plus"></span></i></a>
+                        <a href="{{ site.baseurl }}/resources/{{ page.data.graph.image.name | slugify }}">{{ page.data.graph.image.name }}</a> <a title="Enlarge" class="is-pulled-right" href="/images/{{ page.data.graph.image | image_link }}"><span class="icon"><i class="fas fa-search-plus"></span></i></a>
                     </caption>
                     {% endif %}
             </figure>
