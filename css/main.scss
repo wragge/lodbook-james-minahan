@@ -200,6 +200,11 @@ $text: $grey-darker;
     border-bottom: 1px dotted $grey-darker;
 }
 
+#text a.footnote {
+    text-decoration: underline;
+    border-bottom: none;
+}
+
 #sidebar {
     margin-top: 0px;
 }
