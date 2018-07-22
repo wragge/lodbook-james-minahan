@@ -1,7 +1,57 @@
 <footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      Another awesome LOD Book...
-    </p>
-  </div>
+    <div class="container">
+      <p class="title is-size-3">
+          John Minahan&rsquo;s Homecoming
+      </p>
+      <p class="subtitle is-size-4">
+          By Kate Bagnall
+      </p>
+      <div class="columns">
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Contents</p>
+              <ul>
+                  <li>
+                      <a href="{{ site.baseurl }}/">Home</a>
+                  </li>
+                  <li>
+                      <a href="{{ site.baseurl }}/chapters/chapter-1/">Chapter 1: An unexpected welcome</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Collections</p>
+              <ul>
+                  <li>
+                      <a href="{{ site.baseurl }}/people/">People</a>
+                  </li>
+                  <li>
+                      <a href="{{ site.baseurl }}/organisations/">Organisations</a>
+                  </li>
+                  <li>
+                      <a href="{{ site.baseurl }}/places/">Places</a>
+                  </li>
+                  <li>
+                      <a href="{{ site.baseurl }}/events/">Events</a>
+                  </li>
+                  <li>
+                      <a href="{{ site.baseurl }}/resources/">Resources</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Views</p>
+              <ul>
+                  <li>
+                      <a href="{{ site.baseurl }}/wall/">Wall</a>
+                  </li>
+                  <li>
+                      <a href="{{ site.baseurl }}/map/">Map</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </div>
 </footer>
+{% if page.data %}
+<script type="application/ld+json">{{ page.data | jsonify }}</script>
+{% endif %}

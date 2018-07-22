@@ -8,7 +8,7 @@
 
             <div class="navbar-brand">
                 <a class="navbar-item is-size-6" href="{{ site.baseurl }}/">James Minahan&rsquo;s Homecoming</a>
-                <a role="button" class="navbar-item navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+                <a role="button" class="navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
                   <span aria-hidden="true"></span>
                   <span aria-hidden="true"></span>
                   <span aria-hidden="true"></span>
@@ -56,11 +56,12 @@
             </div>
             </div>
         </nav>
-        <section class="section">
+        <section class="section main">
             <div class="container">
                 {{ content }}
             </div>
         </section>
+        {% include representations.html %}
         {% include footer.html %}
     </body>
 </html>

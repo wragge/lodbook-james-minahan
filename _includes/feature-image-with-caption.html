@@ -1,0 +1,18 @@
+<div class="content">
+{% if data.image %}
+    {% assign image_filename = data.image | image_link %}
+    {% if image_filename != "" and image_filename != nil %}
+        <figure class="image box">
+            {% responsive_image_block %}
+                path: images/{{ image_filename }}
+            {% endresponsive_image_block %}
+            {% if data.image.name %}
+                <figcaption>
+                    <a href="{{ site.baseurl }}/resources/{{ data.image.name | slugify }}">{{ data.image.name }}</a> <a title="Enlarge" class="is-pulled-right" href="/images/{{ image_filename }}"><span class="icon"><i class="fas fa-search-plus"></span></i></a>
+                </figcaption>
+            {% endif %}
+
+        </figure>
+    {% endif %}
+{% endif %}
+</div>

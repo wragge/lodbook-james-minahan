@@ -17,7 +17,7 @@
 title:               "James Minahan's Homecoming"
 tagline:             'A story of race and belonging in White Australia'
 description:         'An attempt to use Jekyll to publish narratives enriched with Linked Open Data'
-url:                 ''
+url:                 'https://wragge.github.io'
 baseurl:             '/lodbook3'
 status:              'Draft only, March 2017'
 author: GitHub User
@@ -47,7 +47,7 @@ collections:
     output: true
 
 lod_source:
-    data: 'new_data'
+    data: 'data-csv'
     context: 'http://schema.org/'
 
 data_types:
@@ -83,6 +83,14 @@ data_types:
     template: 'place'
     collection: 'places'
     type: 'http://schema.org/City'
+  Country:
+    template: 'place'
+    collection: 'places'
+    type: 'http://schema.org/Country'
+  AdministrativeArea:
+    template: 'place'
+    collection: 'places'
+    type: 'http://schema.org/Country'
   State:
     template: 'place'
     collection: 'places'
@@ -102,11 +110,27 @@ data_types:
   ArchivalSeries:
     template: 'resource'
     collection: 'resources'
-    type: 'http://schema.org/CreativeWork'
-  Letter:
+    type: 'https://bib.schema.org/Collection'
+  Document:
     template: 'resource'
     collection: 'resources'
-    type: 'http://schema.org/Letter'
+    type: 'http://schema.org/CreativeWork'
+  Article:
+    template: 'resource'
+    collection: 'resources'
+    type: 'http://schema.org/Article'
+  NewsArticle:
+    template: 'resource'
+    collection: 'resources'
+    type: 'http://schema.org/NewsArticle'
+  Chapter:
+    template: 'resource'
+    collection: 'resources'
+    type: 'https://bib.schema.org/Chapter'
+  Thesis:
+    template: 'resource'
+    collection: 'resources'
+    type: 'https://bib.schema.org/Thesis'
 
 data_collections:
     -   name: people
@@ -130,6 +154,8 @@ data_collections:
             - CivicStructure
             - City
             - State
+            - Country
+            - AdministrativeArea
     -   name: events
         color: "#657957"
         icon: "fas fa-calendar-alt"
@@ -145,9 +171,13 @@ data_collections:
             - ImageObject
             - Book
             - ArchivalSeries
-            - Letter
+            - Document
             - Photograph
             - ArchivalUnit
+            - Article
+            - NewsArticle
+            - Chapter
+            - Thesis
 
 
 twitter_username: wragge
@@ -158,6 +188,7 @@ markdown: kramdown
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-responsive-image
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -179,3 +210,39 @@ kramdown:
   toc_levels:     1..6
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+responsive_image:
+  # [Required]
+  # Path to the image template.
+  template: _includes/feature-image.html
+
+  # [Optional, Default: 85]
+  # Quality to use when resizing images.
+  default_quality: 90
+
+  # [Optional, Default: []]
+  # An array of resize configuration objects. Each object must contain at least
+  # a `width` value.
+  sizes:
+    - width: 100
+    - width: 400
+    - width: 800
+
+  # [Optional, Default: assets]
+  # The base directory where assets are stored. This is used to determine the
+  # `dirname` value in `output_path_format` below.
+  base_path: images
+
+  # [Optional, Default: assets/resized/%{filename}-%{width}x%{height}.%{extension}]
+  # The template used when generating filenames for resized images. Must be a
+  # relative path.
+  #
+  # Parameters available are:
+  #   %{dirname}     Directory of the file relative to `base_path` (assets/sub/dir/some-file.jpg => sub/dir)
+  #   %{basename}    Basename of the file (assets/some-file.jpg => some-file.jpg)
+  #   %{filename}    Basename without the extension (assets/some-file.jpg => some-file)
+  #   %{extension}   Extension of the file (assets/some-file.jpg => jpg)
+  #   %{width}       Width of the resized image
+  #   %{height}      Height of the resized image
+  #
+  output_path_format: images/resized/%{width}/%{basename}

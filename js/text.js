@@ -4,7 +4,6 @@ $(document).ready(function() {
     var linksActivated = false;
     var footnotesActivated = false;
     var animationEnd = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
-
     function checkSize() {
         if (window.matchMedia("(min-width: 769px)").matches) {
             if (linksActivated == false) {
@@ -25,7 +24,7 @@ $(document).ready(function() {
         var referenceIds = [];
         var nameIds = []
         var newReferences = [];
-        hideDetails();
+        // hideDetails();
         // Extract names/ids from lod links currently in view
         var visible = $(".lod-link:in-viewport");
         visible.each(function(index, elem) {
@@ -71,7 +70,8 @@ $(document).ready(function() {
         // Loop through these and remove them. Once they've finished, add the new references.
         var difference = _.difference(referenceIds, nameIds);
         if (difference.length > 0) {
-            var remove = "#" + _.difference(referenceIds, nameIds).join(", #")
+            checkRemoved(difference);
+            var remove = "#" + difference.join(", #")
             $(remove).addClass("animated bounceOutDown")
                      .one(animationEnd, function() {
                          $(this).animate({width: "toggle", opacity: "toggle"}, 100, function() {
@@ -81,6 +81,15 @@ $(document).ready(function() {
                      });
         } else {
             $("#references").append(newReferences);
+        }
+    }
+
+    function checkRemoved(removed) {
+        if ($("#thing-details").is(":visible")) {
+            var cardId = $("#thing-details .card").data("id");
+            if ($.inArray(cardId, removed) > -1) {
+                hideDetails();
+            }
         }
     }
 
@@ -129,11 +138,13 @@ $(document).ready(function() {
         } else {
             var record = _.find(data, {"name": name});
             var urlSplit = record.id.split('/');
+            console.log(urlSplit);
             var collection = urlSplit[4];
             connections = countConnections(record);
             $(".reference").removeClass("inverse");
+            var description = record["description"];
             var fields = prepareDisplayFields(record, collection);
-            var details = {"name": name, "url": record["id"], "collection": collection, "id": id, "fields": fields, "connections": connections};
+            var details = {"name": name, "url": record["id"], "collection": collection, "id": id, "description": description, "fields": fields, "connections": connections};
             if (typeof record["image"] !== "undefined") {
                 if (typeof record["image"]["image"] !== "undefined") {
                     details["image"] = record["image"]["image"];
@@ -220,7 +231,8 @@ $(document).ready(function() {
         activateFootnotes(mobile=false);
         setSidebarWidth();
         $(window).on('scroll', _.debounce(showReferences, 200));
-        showReferences();
+        //showReferences();
+        $(window).scroll();
     }
 
     function activateMobile() {

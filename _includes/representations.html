@@ -1,0 +1,14 @@
+{% if page.data %}
+        <nav class="navbar is-hidden-touch" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item is-expanded" href="{{ site.baseurl}}{{ page.url }}index.html">HTML</a>
+                        <a class="navbar-item is-expanded" href="{{ site.baseurl}}{{ page.url }}index.json">JSON-LD</a>
+                        <a class="navbar-item is-expanded" href="{{ site.baseurl}}{{ page.url }}index.ttl">Turtle</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+{% endif %}

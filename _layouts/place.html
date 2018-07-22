@@ -3,32 +3,28 @@ layout: default
 filename: index.html
 ---
 
-<h2 class="title is-size-2">{{ page.title }}</h2>
+{% assign data = page.data %}
+<h2 class="title is-size-2">{{ page.title | smartify }}</h2>
 
 <div class="columns reverse-row-order">
     <div class="column is-half">
-        <div class="content">
-        {% if page.data.graph.image %}
-            <figure class="image box">
-                <img src="{{ site.baseurl }}/images/{{ page.data.graph.image | image_link }}">
-                    {% if page.data.graph.image.name %}
-                    <caption>
-                        <a href="{{ site.baseurl }}/resources/{{ page.data.graph.image.name | slugify }}">{{ page.data.graph.image.name }}</a>
-                    </caption>
-                    {% endif %}
-            </figure>
-        {% endif %}
-        </div>
+        {% include feature-image-with-caption.html %}
     </div>
     <div class="column is-half">
-        <div class="content">
-            <p>{{ page.data.graph.description }}</p>
-
-            {% for prop in page.data.graph %}
-                {{ prop[1] | lod_list: prop[0] }}
-            {% endfor %}
-        </div>
+        <p class="is-size-4">{{ data.description }}</p>
+        {% if data.geo.latitude %}
+            <h4 class="title lod-list-title">Coordinates</h4>
+                <ul class="lod-list">
+                    <li>Latitude: {{ data.geo.latitude }}</li>
+                    <li>Longitude: {{ data.geo.longitude }}</li>
+                </ul>
+        {% endif %}
+        {{ data.address | lod_list: "Address" }}
+        {{ data.containedInPlace | lod_list: "Located in" }}
+        {{ data["containsPlace"] | lod_list: "Contains" }}
+        {{ data.subjectOf | lod_list: "Subject of" }}
+        {{ data.mentionedBy | lod_list: "Mentioned by" }}
+        {{ data.sameAs | lod_list: "Same as" }}
+        {% include list-contexts.html %}
     </div>
 </div>
-
-{{ page | jsonldify }}

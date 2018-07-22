@@ -1,0 +1,39 @@
+---
+layout: default
+filename: index.html
+---
+
+{% assign data = page.data %}
+<h2 class="title is-size-2">{{ page.title | smartify }}</h2>
+
+<div class="columns reverse-row-order">
+    <div class="column is-half">
+        {% include feature-image-with-caption.html %}
+    </div>
+    <div class="column is-half">
+        <div class="content">
+            <p>{{ data.description }}</p>
+            {% for prop in data %}
+                {% if prop[0] != "@context" %}
+                    {{ prop[1] | lod_list: prop[0] }}
+                {% endif %}
+            {% endfor %}
+            <h3 class="title is-size-3">References</h3>
+            {% assign docs = page.contexts | group_by:"document_title" %}
+            {% for doc in docs %}
+                <h4 class="title is-size-4">{{ doc.name }}</h4>
+                {% assign paras = doc.items | group_by:"para" %}
+                {% for para in paras %}
+                    <p><a href="{{ site.url }}{{ site.baseurl }}{{ doc.items[0].document_url }}#{{ para.name }}">{{ para.name }}</a></p>
+                    <ul>
+                        {% for context in para.items %}
+                            <li>
+                                &hellip;{{ context.context}}&hellip;
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

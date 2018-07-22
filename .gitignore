@@ -3,3 +3,5 @@
 .DS_Store
 Gemfile.lock
 _site
+data_processing
+original_texts

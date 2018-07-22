@@ -30,4 +30,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "nokogiri"
 gem "json-ld"
+gem "rdf-turtle"
 gem "liquid_pluralize"
+gem "jekyll-responsive-image"

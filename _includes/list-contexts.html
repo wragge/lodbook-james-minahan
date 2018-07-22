@@ -1,0 +1,18 @@
+{% if page.contexts != empty %}
+    <h4 class="title lod-list-title">Mentioned in</h3>
+    {% assign docs = page.contexts | group_by:"document_title" %}
+    {% for doc in docs %}
+        <h4 class="title mentions-chapter">Chapter {{ doc.items[0].document_chapter}}: {{ doc.name }}</h4>
+        {% assign paras = doc.items | group_by:"para" %}
+        {% for para in paras %}
+            <p class="mentions-para"><a href="{{ site.url }}{{ site.baseurl }}{{ doc.items[0].document_url }}#para-{{ para.name }}">Paragraph {{ para.name }}</a></p>
+            <ul class="mentions-list">
+                {% for context in para.items %}
+                    <li>
+                        &hellip;{{ context.context}}&hellip;
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    {% endfor %}
+{% endif %}

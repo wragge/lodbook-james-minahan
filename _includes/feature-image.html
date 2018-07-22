@@ -1,0 +1,6 @@
+{% assign largest = resized | sort: 'width' | last %}
+{% if largest.width == 800 %}
+    <img src="{{ site.baseurl }}/{{ largest.path }}">
+{% else %}
+    <img src="{{ site.baseurl }}/{{ path }}">
+{% endif %}

@@ -24,20 +24,29 @@
             <div class="list">
                 {% for thing in things %}
                 <article class="media">
-                    {% if thing.image %}
-                    <figure class="media-left image is-64x64 is-rounded">
-                        <img class="cover" src="{{ site.baseurl }}/images/{{ thing.image | image_link }}">
-                    </figure>
+                    {% if thing.image and thing.image != nil and thing.image != "" %}
+                        {% assign image_filename = thing.image | image_link %}
                     {% else %}
-                    <figure class="media-left has-text-centered image is-64x64">
-                        <span class="icon icon-list {{ list-type }} inverse">
-                            <a class="{{ page.list-type }} inverse" href="{{ site.baseurl }}/{{ page.list-type }}/{{ thing.name | slugify }}/"><i class="{{ collection.icon }} fa-3x is-large"></i></a>
-                        </span>
-                    </figure>
+                        {% assign image_filename = nil %}
+                    {% endif %}
+                    {% if image_filename == "" or image_filename == nil %}
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list {{ list-type }} inverse">
+                                <a class="{{ page.list-type }} inverse" href="{{ site.baseurl }}/{{ page.list-type }}/{{ thing.name | slugify }}/"><i class="{{ collection.icon }} fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    {% else %}
+                        <figure class="media-left image is-64x64 is-rounded">
+                            {% responsive_image_block %}
+                                path: images/{{ image_filename }}
+                                template: _includes/thumbnail-image.html
+                            {% endresponsive_image_block %}
+                        </figure>
                     {% endif %}
                     <div class="media-content">
                         <h4 class="title is-size-4 name">{{ thing.name }}</h4>
                         <p class="subtitle is-size-6">
+                            {% if thing.description %}{{ thing.description }}<br />{% endif %}
                         {% for field in page.display-fields %}
                             {% assign current_field = thing[field.field] %}
                             {% if current_field %}

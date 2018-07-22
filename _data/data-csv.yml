@@ -1,0 +1,2743 @@
+- name: James Minahan
+  type: Person
+  familyName:
+  - Minahan
+  givenName:
+  - James
+  - Francis
+  - Kitchen
+  image:
+    name: Imprint of the left hand of James Frances Kitchen, 28 January 1908
+  birthDate: '1876-10-04'
+  parent:
+  - name: Cheong Ming
+  - name: Winifred Minahan
+  sibling:
+  - name: Winifred Cheong Ming
+  relatedTo:
+  - name: Ah Doe
+  - name: Ah Yuey
+  - name: Catherine Minahan
+  - name: Mary Manning
+  - name: Richard Minahan
+  knows:
+  - name: Ah Chew
+  - name: Chan Num
+  - name: Chin Kay
+  - name: Chin Shing
+  - name: Deung Garng
+  - name: E.A. Fortescue Croft
+  - name: Ernest Tipp
+  - name: W.T. Coldham
+  - name: William Ah Ket
+  subjectOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  - name: PROHIBITED IMMIGRANT -- James Francis Kitchen
+  - name: A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen
+- name: Ah Chew
+  type: Person
+  knows:
+  - name: James Minahan
+  description: Cabinetmaker of Lygon Street, Melbourne. Went to same school as James
+    Minahan in China. Gave evidence at Court of Petty Sessions hearing in Melbourne.
+- name: Ah Doe
+  type: Person
+  relatedTo:
+  - name: James Minahan
+  description: Uncle of James Minahan. Owner of Sun Nam Hie & Co., Little Bourke Street,
+    Melbourne. Gave evidence at Court of Petty Sessions hearing in Melbourne.
+- name: Ah Yuey
+  type: Person
+  relatedTo:
+  - name: James Minahan
+  description: Uncle of James Minahan. Owner Sun Nam Hie & Co., Little Bourke Street,
+    Melbourne.
+- name: William Ah Ket
+  type: Person
+  familyName:
+  - Ah Ket
+  givenName:
+  - William
+  image:
+    name: Portrait of William Ah Ket
+  url: http://adb.anu.edu.au/biography/ah-ket-william-4979
+  birthDate: '1876'
+  deathDate: '1936'
+  knows:
+  - name: James Minahan
+  - name: W.T. Coldham
+  sameAs:
+  - http://adb.anu.edu.au/biography/ah-ket-william-4979
+  description: First Chinese barrister in Australia. Counsel for James Minahan during
+    High Court appeal.
+- name: Arai Arai
+  type: Person
+  birthDate: '1856'
+  spouse:
+  - name: Winifred Minahan
+  description: Japanese husband of Winifred Minahan.
+- name: Edmund Barton
+  type: Person
+  familyName:
+  - Barton
+  givenName:
+  - Edmund
+  image:
+    name: Portrait of Edmund Barton
+  url: http://adb.anu.edu.au/biography/barton-sir-edmund-toby-71
+  birthDate: '1849'
+  deathDate: '1920'
+  subjectOf:
+  - name: Judges of the Federal High Count, 1903
+  memberOf:
+  - name: High Court of Australia
+  sameAs:
+  - http://adb.anu.edu.au/biography/barton-sir-edmund-toby-71
+  description: Justice of the High Court. Ruled in Potter v. Minahan that James Minahan
+    was not an immigrant under the Immigration Restriction Act.
+- name: Cheong Ming
+  type: Person
+  children:
+  - name: Winifred Cheong Ming
+  - name: James Minahan
+  spouse:
+  - name: Winifred Minahan
+  description: Father of James Minahan. Ran a store at Indigo, Victoria. Returned
+    to China and worked as schoolmaster.
+- name: Winifred Minahan
+  type: Person
+  familyName:
+  - Minahan
+  givenName:
+  - Winifred
+  birthDate: '1858-02-01'
+  parent:
+  - name: Mary Manning
+  - name: Richard Minahan
+  children:
+  - name: Winifred Cheong Ming
+  - name: James Minahan
+  sibling:
+  - name: Catherine Minahan
+  spouse:
+  - name: Arai Arai
+  - name: Cheong Ming
+  attended:
+  - name: James Minahan is born
+  performedIn:
+  - name: James Minahan is born
+  description: Mother of James Minahan.
+- name: Winifred Cheong Ming
+  type: Person
+  familyName:
+  - Cheong Ming
+  givenName:
+  - Winifred
+  - Leina
+  parent:
+  - name: Winifred Minahan
+  - name: Cheong Ming
+  sibling:
+  - name: James Minahan
+  relatedTo:
+  - name: Catherine Minahan
+  - name: Mary Manning
+  - name: Richard Minahan
+  description: Younger sister of James Minahan. Died as an infant.
+- name: Catherine Minahan
+  type: Person
+  familyName:
+  - Minahan
+  givenName:
+  - Catherine
+  parent:
+  - name: Mary Manning
+  - name: Richard Minahan
+  sibling:
+  - name: Winifred Minahan
+  relatedTo:
+  - name: James Minahan
+  - name: Winifred Cheong Ming
+  description: Younger sister of Winifred Minahan and aunt of James Minahan. Worked
+    for Chan Num at Beechworth.
+- name: Richard Minahan
+  type: Person
+  familyName:
+  - Minahan
+  givenName:
+  - Richard
+  children:
+  - name: Catherine Minahan
+  - name: Winifred Minahan
+  relatedTo:
+  - name: James Minahan
+  - name: Mary Manning
+  - name: Winifred Cheong Ming
+  description: Maternal grandfather of James Minahan.
+- name: Chan Num
+  type: Person
+  knows:
+  - name: James Minahan
+  description: Tobacco dealer of Lygon Street, Melbourne. James Minahan stayed at
+    his house in Beechworth as a small boy. Gave evidence at Court of Petty Sessions
+    hearing in Melbourne.
+- name: Chin Kay
+  type: Person
+  knows:
+  - name: James Minahan
+  description: Owner of Hang Yick, Little Bourke Street; later worked at Sun Nam Hie
+    & Co., Melbourne. Gave evidence at Court of Petty Sessions hearing in Melbourne.
+- name: Chin Shing
+  type: Person
+  familyName:
+  - Chin
+  spouse:
+  - name: Jessie Shing
+  knows:
+  - name: James Minahan
+  description: Business partner of Cheong Ming. Ran Shing Kee store at Indigo, Victoria.
+    Gave evidence at Court of Petty Sessions hearing in Melbourne.
+- name: W.T. Coldham
+  type: Person
+  familyName:
+  - Coldham
+  givenName:
+  - Walter
+  - Timon
+  image:
+    name: Portrait of W.T. Coldham
+  url: http://adb.anu.edu.au/biography/coldham-walter-timon-5720
+  birthDate: '1860'
+  deathDate: '1908'
+  knows:
+  - name: James Minahan
+  - name: William Ah Ket
+  sameAs:
+  - http://adb.anu.edu.au/biography/coldham-walter-timon-5720
+  description: Counsel for James Minahan during Court of Petty Sessions hearing in
+    Melbourne.
+- name: H.W. Bryant
+  type: Person
+  familyName:
+  - Bryant
+  givenName:
+  - Herbert
+  - William
+  image:
+    name: Portrait of H.W. Bryant
+  description: Counsel for the Commonwealth in Potter v. Minahan.
+- name: Charles Cresswell
+  type: Person
+  givenName:
+  - Charles
+  - Arthur
+  - Costley
+  description: Police magistrate. Heard James Minahan’s case and gave decision in
+    his favour in Court of Petty Sessions in Melbourne.
+- name: E.A. Fortescue Croft
+  type: Person
+  familyName:
+  - Croft
+  givenName:
+  - Edgar
+  - Ashton
+  - Fortescue
+  knows:
+  - name: James Minahan
+  description: James Minahan’s solicitor. From Croft and Rhoden Solicitors, Melbourne.
+- name: Lancelot Dawson
+  type: Person
+  familyName:
+  - Dawson
+  givenName:
+  - Lancelot
+  image:
+    name: Portrait of Lancelot Dawson
+  description: Captain of the SS Taiyuan.
+- name: J.G. Davies
+  type: Person
+  familyName:
+  - Davies
+  givenName:
+  - John
+  - Gardner
+  description: Clerk with Commonwealth Crown Solicitor’s Office. Took notes of evidence
+    at Court of Petty Sessions hearing in Melbourne.
+- name: Dern Hoy
+  type: Person
+  description: French polisher of Little Collins Street, Melbourne. Gave evidence
+    at Court of Petty Sessions hearing in Melbourne.
+- name: Deung Garng
+  type: Person
+  knows:
+  - name: James Minahan
+  description: French polisher in Melbourne. James Minahan and Cheong Ming stayed
+    with him in Kongmoon. Gave evidence at Court of Petty Sessions hearing in Melbourne.
+- name: J.T.T. Donohoe
+  type: Person
+  familyName:
+  - Donohoe
+  givenName:
+  - John
+  - Thomas
+  - Tamplin
+  image:
+    name: Caricature portrait of J.T.T. Donohoe
+  created:
+  - name: PROHIBITED IMMIGRANT -- James Francis Kitchen
+  description: Detective inspector with the Department of Trade and Customs in Sydney.
+    Inspected James Minahan on his arrival in Sydney and applied the Dictation Test.
+- name: Frank Gavan Duffy
+  type: Person
+  familyName:
+  - Duffy
+  givenName:
+  - Frank
+  - Gavan
+  image:
+    name: Portrait of Sir Frank Gavan Duffy
+  url: http://adb.anu.edu.au/biography/duffy-sir-frank-gavan-6029
+  birthDate: '1852'
+  deathDate: '1936'
+  sameAs:
+  - http://adb.anu.edu.au/biography/duffy-sir-frank-gavan-6029
+  description: One of the best trial lawyers of the time. Later Chief Justice of the
+    High Court. Counsel for James Minahan during High Court appeal.
+- name: P.J. Dwyer
+  type: Person
+  familyName:
+  - Dwyer
+  givenName:
+  - Patrick
+  - Joseph
+  image:
+    name: Portrait of P.J. Dwyer
+  deathDate: '1917'
+  description: Police magistrate. James Minahan’s case initially came before him in
+    Court of Petty Sessions in Melbourne.
+- name: Robert Garran
+  type: Person
+  familyName:
+  - Garran
+  givenName:
+  - Robert
+  - Randolph
+  image:
+    name: Portrait of Robert Garran
+  url: http://adb.anu.edu.au/biography/garran-sir-robert-randolph-410
+  birthDate: '1867'
+  deathDate: '1957'
+  sameAs:
+  - http://adb.anu.edu.au/biography/garran-sir-robert-randolph-410
+  description: Lawyer and Secretary of the Attorney-General’s Department.
+- name: Samuel Griffith
+  type: Person
+  familyName:
+  - Griffith
+  givenName:
+  - Samuel
+  - Walker
+  image:
+    name: Portrait of Sir Samuel Griffith
+  url: http://adb.anu.edu.au/biography/griffith-sir-samuel-walker-445
+  birthDate: '1845'
+  deathDate: '1920'
+  subjectOf:
+  - name: Judges of the Federal High Count, 1903
+  sameAs:
+  - http://adb.anu.edu.au/biography/griffith-sir-samuel-walker-445
+  description: Chief Justice of the High Court. Ruled in Potter v. Minahan that James
+    Minahan was not an immigrant under the Immigration Restriction Act.
+- name: Littleton Groom
+  type: Person
+  familyName:
+  - Groom
+  givenName:
+  - Littleton
+  - Ernest
+  image:
+    name: Portrait of Sir Littleton Groom
+  url: http://adb.anu.edu.au/biography/groom-sir-littleton-ernest-6499
+  birthDate: '1867'
+  deathDate: '1936'
+  subjectOf:
+  - name: Portrait of Sir Littleton Groom
+  memberOf:
+  - name: Attorney-General's Department
+  worksFor:
+  - name: Attorney-General's Department
+  sameAs:
+  - http://adb.anu.edu.au/biography/groom-sir-littleton-ernest-6499
+  description: Attorney-General.
+- name: Henry Higgins
+  type: Person
+  familyName:
+  - Higgins
+  givenName:
+  - Henry
+  - Bournes
+  image:
+    name: Portrait of Henry Bournes Higgins
+  url: http://adb.anu.edu.au/biography/higgins-henry-bournes-6662
+  birthDate: '1851'
+  deathDate: '1929'
+  sameAs:
+  - http://adb.anu.edu.au/biography/higgins-henry-bournes-6662
+  description: Justice of the High Court. Allowed High Court appeal to proceed. Ruled
+    in Potter v. Minahan that James Minahan was an immigrant under the Immigration
+    Restriction Act.
+- name: Harry Hoyling
+  type: Person
+  familyName:
+  - Hoying
+  givenName:
+  - Harry
+  - Edward
+  image:
+    name: Portrait of Harry Hoyling
+  description: Chinese interpreter in Melbourne. Worked for the Commonwealth.
+- name: Atlee Hunt
+  type: Person
+  familyName:
+  - Hunt
+  givenName:
+  - Atlee
+  - Arthur
+  image:
+    name: Portrait of Atlee Hunt
+  url: http://adb.anu.edu.au/biography/hunt-atlee-arthur-6766
+  birthDate: '1864'
+  deathDate: '1935'
+  sameAs:
+  - http://adb.anu.edu.au/biography/hunt-atlee-arthur-6766
+  description: Secretary of the Department of External Affairs.
+- name: Isaac Isaacs
+  type: Person
+  familyName:
+  - Isaacs
+  givenName:
+  - Isaac
+  - Alfred
+  image:
+    name: Portrait of Isaac Isaacs
+  url: http://adb.anu.edu.au/biography/isaacs-sir-isaac-alfred-6805
+  birthDate: '1855'
+  deathDate: '1948'
+  sameAs:
+  - http://adb.anu.edu.au/biography/isaacs-sir-isaac-alfred-6805
+  description: Justice of the High Court. Allowed High Court appeal to proceed. Ruled
+    in Potter v. Minahan that James Minahan was an immigrant under the Immigration
+    Restriction Act.
+- name: Mary Manning
+  type: Person
+  familyName:
+  - Manning
+  givenName:
+  - Mary
+  children:
+  - name: Catherine Minahan
+  - name: Winifred Minahan
+  relatedTo:
+  - name: James Minahan
+  - name: Richard Minahan
+  - name: Winifred Cheong Ming
+  description: Maternal grandmother of James Minahan.
+- name: Hugh Mercer
+  type: Person
+  familyName:
+  - Mercer
+  givenName:
+  - Hugh
+  - James
+  description: Officer with Department of Trade and Customs in Melbourne. Inspected
+    James Minahan on his arrival in Melbourne and applied the Dictation Test.
+- name: Richard O'Connor
+  type: Person
+  familyName:
+  - O'Connor
+  givenName:
+  - Richard (Dick)
+  - Edward
+  image:
+    name: Portrait of Richard O'Connor
+  url: http://adb.anu.edu.au/biography/oconnor-richard-edward-dick-1102
+  birthDate: '1851'
+  deathDate: '1912'
+  subjectOf:
+  - name: Judges of the Federal High Count, 1903
+  sameAs:
+  - http://adb.anu.edu.au/biography/oconnor-richard-edward-dick-1102
+  description: Justice of the High Court. Allowed High Court appeal to proceed. Ruled
+    in Potter v. Minahan that James Minahan was not an immigrant under the Immigration
+    Restriction Act.
+- name: Lionel Potter
+  type: Person
+  familyName:
+  - Potter
+  givenName:
+  - Lionel
+  - Frank
+  image:
+    name: Portrait of Lionel Potter
+  description: Detective constable with the Victoria Police. Arrested James Minahan
+    at Melbourne after he returned from Sydney with his solicitor.
+- name: Jessie Shing
+  type: Person
+  familyName:
+  - Shing
+  givenName:
+  - Jessie
+  spouse:
+  - name: Chin Shing
+  description: Anglo-Chinese wife of Chin Shing. Ran Shing Kee store at Indigo, Victoria.
+- name: John Starling
+  type: Person
+  familyName:
+  - Starling
+  givenName:
+  - John
+  - Henry
+  image:
+    name: Portrait of John Starling
+  url: http://adb.anu.edu.au/biography/starling-john-henry-8630
+  birthDate: '1883'
+  deathDate: '1966'
+  sameAs:
+  - http://adb.anu.edu.au/biography/starling-john-henry-8630
+  description: Public servant with the Department of External Affairs. Took shorthand
+    notes of magistrate’s decision at Court of Petty Sessions hearing in Melbourne.
+- name: Ernest Tipp
+  type: Person
+  familyName:
+  - Tipp
+  givenName:
+  - Ernest
+  knows:
+  - name: James Minahan
+  description: Chinese interpreter in Melbourne. Translated for James Minahan during
+    High Court appeal.
+- name: Philip Whistler Street
+  type: Person
+  familyName:
+  - Street
+  givenName:
+  - Philip
+  - Whistler
+  image:
+    name: Sir Phillip Street, Chief Justice of New South Wales
+  url: http://adb.anu.edu.au/biography/street-sir-philip-whistler-8696
+  birthDate: '1863'
+  deathDate: '1938'
+  subjectOf:
+  - name: Sir Phillip Street, Chief Justice of New South Wales
+  sameAs:
+  - http://adb.anu.edu.au/biography/street-sir-philip-whistler-8696
+  description: Justice of the New South Wales Supreme Court. Ordered James Minahan's
+    release from the SS Taiyuan in Sydney under Habeas Corpus.
+- name: Albert Dryer
+  type: Person
+  familyName:
+  - Dryer
+  givenName:
+  - Albert
+  created:
+  - name: Empty thoroughfare at Darlinghurst Gaol
+- name: Harold Cazneaux
+  type: Person
+  familyName:
+  - Cazneaux
+  givenName:
+  - Harold
+  created:
+  - name: Sir Phillip Street, Chief Justice of New South Wales
+- name: Willie Lee Hook
+  type: Person
+  familyName:
+  - Lee Hook
+  givenName:
+  - Willie
+- name: F.S. Boyce
+  type: Person
+  familyName:
+  - Boyce
+  givenName:
+  - Francis
+  - Stewart
+  image:
+    name: Portrait of F.S. Boyce
+  url: http://adb.anu.edu.au/biography/boyce-francis-stewart-5320
+  birthDate: '1872'
+  deathDate: '1940'
+  sameAs:
+  - http://adb.anu.edu.au/biography/boyce-francis-stewart-5320
+- name: Charles Powers
+  type: Person
+  familyName:
+  - Power
+  givenName:
+  - Charles
+  url: http://adb.anu.edu.au/biography/powers-sir-charles-8092
+  birthDate: '1853'
+  deathDate: '1939'
+  sameAs:
+  - http://adb.anu.edu.au/biography/powers-sir-charles-8092
+  description: Crown Solicitor. Managed the Commonwealth's legal case against James
+    Minahan.
+- name: High Court of Australia
+  type: Organization
+  publishes:
+  - name: Potter v. Minahan (1908) 7 CLR 277
+  subjectOf:
+  - name: Judges of the Federal High Count, 1903
+  foundingDate: '1903-10-06'
+  image:
+    name: Judges of the Federal High Count, 1903
+  member:
+  - name: Edmund Barton
+  - name: Samuel Griffith
+  - name: Richard O'Connor
+  - name: Isaac Isaacs
+  - name: Henry Higgins
+  location:
+  - name: Melbourne
+- name: Department of External Affairs
+  type: Organization
+  foundingDate: '1901-01-01'
+  image:
+    name: Department of External Affairs, 1904
+  dissolutionDate: '1916-11-14'
+  location:
+  - name: Melbourne
+- name: Attorney-General's Department
+  type: Organization
+  foundingDate: '1901-01-01'
+  employee:
+  - name: Littleton Groom
+  location:
+  - name: Melbourne
+- name: Department of Trade and Customs
+  type: Organization
+  foundingDate: '1901-01-01'
+  dissolutionDate: '1956-01-11'
+  location:
+  - name: Melbourne
+- name: Crown Solicitor's Office
+  type: Organization
+  foundingDate: '1903-07-01'
+  dissolutionDate: '1984-06-30'
+  employee:
+  - name: Charles Powers
+  location:
+  - name: Melbourne
+- name: Collector of Customs, Sydney
+  type: Organization
+  foundingDate: '1827-04-09'
+  dissolutionDate: '2009'
+  location:
+  - name: Sydney
+- name: Collector of Customs, Melbourne
+  type: Organization
+  foundingDate: '1845-01-01'
+  dissolutionDate: '1985-07-01'
+  location:
+  - name: Melbourne
+- name: Sun Nam Hie & Co.
+  type: Organization
+  image:
+    name: Sun Nam Hie & Co. advertisement
+  location:
+  - name: Little Bourke Street
+- name: Quong Hing Yeong
+  type: Organization
+  location:
+  - name: Hong Kong
+- name: Shing Kee
+  type: Organization
+  location:
+  - name: Mount Pleasant
+- name: Lying-in Hospital, Melbourne
+  type: Organization
+  image:
+    name: Lying-in Hospital, corner Cardigan and Grattan Streets, Carlton, c1868
+  location:
+  - name: Carlton
+- name: Hang Yick
+  type: Organization
+  location:
+  - name: Little Bourke Street
+- name: Court of Petty Sessions, Melbourne
+  type: Organization
+  image:
+    name: Old Supreme Court
+  location:
+  - name: Melbourne
+- name: Water Police Court, Sydney
+  type: Organization
+  image:
+    name: View of Water Police Court, Sydney
+  location:
+  - name: Sydney
+- name: National Library of Australia
+  type: Organization
+  provides:
+  - name: Empty thoroughfare at Darlinghurst Gaol
+  - name: Sir Phillip Street, Chief Justice of New South Wales
+  url: http://www.nla.gov.au
+- name: National Archives of Australia
+  type: Organization
+  provides:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  - name: A1, Correspondence files, annual single number series
+  - name: A10074, Full Court case records (Victoria) and from 1973, Court and Cause
+      case records, annual single number series
+  url: http://www.naa.gov.au
+- name: State Library of Victoria
+  type: Organization
+  provides:
+  - name: Chiltern Gold Mine
+  url: http://www.slv.vic.gov.au/
+- name: State Library of NSW
+  type: Organization
+  provides:
+  - name: Police station, George St North, Sydney
+  url: http://www.sl.nsw.gov.au/
+- name: SS Taiyuan
+  type: Organization
+  image:
+    name: Photograph of SS Taiyuan
+- name: SS Wollowra
+  type: Organization
+  image:
+    name: Photograph of SS Wollowra
+- name: Supreme Court of Victoria
+  type: Organization
+  employee:
+  - name: Philip Whistler Street
+  location:
+  - name: Melbourne
+- name: Deane and Deane Solicitors
+  type: Organization
+  location:
+  - name: Sydney
+- name: Croft and Rhoden Solicitors
+  type: Organization
+  employee:
+  - name: E.A. Fortescue Croft
+  location:
+  - name: Melbourne
+- name: Kong Chew Society
+  type: Organization
+  location:
+  - name: Little Bourke Street
+- name: See Yup Society
+  type: Organization
+  location:
+  - name: Little Bourke Street
+- name: Victoria Police
+  type: Organization
+  employee:
+  - name: Lionel Potter
+  location:
+  - name: Melbourne
+- name: Darlinghurst Gaol
+  type: CivicStructure
+  image:
+    name: Empty thoroughfare at Darlinghurst Gaol
+  geo:
+    latitude: "-33.879722"
+    longitude: '151.218611'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Sydney
+  mentionedBy:
+  - name: Empty thoroughfare at Darlinghurst Gaol
+  subjectOf:
+  - name: Empty thoroughfare at Darlinghurst Gaol
+  sameAs:
+  - https://en.wikipedia.org/wiki/Darlinghurst_Gaol
+  - http://dictionaryofsydney.org/place/darlinghurst_gaol
+- name: Chiltern
+  type: City
+  image:
+    name: Chiltern Gold Mine
+  geo:
+    latitude: "-36.15044"
+    longitude: '146.60843'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Victoria
+  mentionedBy:
+  - name: Chiltern Gold Mine
+  sameAs:
+  - http://www.geonames.org/2171619/chiltern.html
+  - https://en.wikipedia.org/wiki/Chiltern,_Victoria
+- name: Victoria
+  type: State
+  geo:
+    latitude: "-37"
+    longitude: '145'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Australia
+  containsPlace:
+  - name: Chiltern
+  - name: Indigo
+  - name: Beechworth
+  - name: Melbourne
+  - name: Mount Pleasant
+  - name: Cornishtown
+- name: Indigo
+  type: City
+  geo:
+    latitude: "-36.088194"
+    longitude: '146.567917'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Victoria
+  sameAs:
+  - http://www.geonames.org/2162747/indigo.html
+- name: Beechworth
+  type: City
+  geo:
+    latitude: "-36.359444"
+    longitude: '146.686944'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Victoria
+  sameAs:
+  - http://www.geonames.org/2176429/beechworth.html
+  - https://en.wikipedia.org/wiki/Beechworth
+- name: New South Wales
+  type: State
+  geo:
+    latitude: "-33"
+    longitude: '146'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Australia
+  containsPlace:
+  - name: Sydney Harbour
+  - name: Sydney
+  - name: No. 4 Police Station
+- name: No. 4 Police Station
+  type: CivicStructure
+  image:
+    name: Police station, George St North, Sydney
+  geo:
+    latitude: "-33.8601878"
+    longitude: '151.2062024'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Sydney
+  address:
+  - name: 127-129 George Street, The Rocks
+  subjectOf:
+  - name: Police station, George St North, Sydney
+  sameAs:
+  - http://www.shfa.nsw.gov.au/sydney-About_us-Heritage_role-Heritage_and_Conservation_Register.htm&objectid=100
+- name: Sydney Harbour
+  type: Place
+  image:
+    name: View of Sydney Harbour from Dawes Point
+  geo:
+    latitude: "-33.86666667"
+    longitude: '151.25000000'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Sydney
+  subjectOf:
+  - name: View of Sydney Harbour from Dawes Point
+- name: Sydney
+  type: City
+  geo:
+    latitude: "-33.86785"
+    longitude: '151.20732'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: New South Wales
+  containsPlace:
+  - name: Sydney Harbour
+  - name: No. 4 Police Station
+  - name: Darlinghurst Gaol
+  - name: Circular Quay
+- name: Melbourne
+  type: City
+  geo:
+    latitude: "-37.814"
+    longitude: '144.96332'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Victoria
+  containsPlace:
+  - name: South Melbourne
+  - name: Emerald Hill
+  - name: Little Bourke Street
+  - name: Carlton
+  - name: Australian Wharf
+- name: Australia
+  type: Country
+  geo:
+    latitude: "-25"
+    longitude: '135'
+    type: GeoCoordinates
+  containsPlace:
+  - name: Victoria
+  - name: New South Wales
+- name: New Zealand
+  type: Country
+  geo:
+    latitude: "-42"
+    longitude: '174'
+    type: GeoCoordinates
+- name: Tahiti
+  type: Country
+  geo:
+    latitude: "-17.6486"
+    longitude: "-149.42951"
+    type: GeoCoordinates
+- name: Fiji
+  type: Country
+  geo:
+    latitude: "-18"
+    longitude: '178'
+    type: GeoCoordinates
+- name: Australian Wharf
+  type: CivicStructure
+  containedInPlace:
+  - name: Melbourne
+- name: Little Bourke Street
+  type: Place
+  image:
+    name: Eastern end of Little Bourke Street, 1908
+  geo:
+    latitude: "-37.81184"
+    longitude: '144.96770'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Melbourne
+  subjectOf:
+  - name: Eastern end of Little Bourke Street, 1908
+- name: China
+  type: Country
+  geo:
+    latitude: '35'
+    longitude: '105'
+    type: GeoCoordinates
+  containsPlace:
+  - name: Kwungtung
+- name: Shek Quey Lee
+  type: City
+  geo:
+    latitude: '22.44887'
+    longitude: '112.93606'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Sunwui
+- name: Kwungtung
+  type: State
+  geo:
+    latitude: '23.5'
+    longitude: '113.25'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: China
+  containsPlace:
+  - name: Sunwui
+  - name: See Yup
+- name: Sunwui
+  type: AdministrativeArea
+  geo:
+    latitude: '22.456'
+    longitude: '113.0482'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Kwungtung
+  containsPlace:
+  - name: Shek Quey Lee
+  - name: Kongmoon
+- name: Hong Kong
+  type: Country
+  geo:
+    latitude: '22.25'
+    longitude: '114.16667'
+    type: GeoCoordinates
+- name: Circular Quay
+  type: CivicStructure
+  image:
+    name: View of Circular Quay
+  geo:
+    latitude: "-33.86117"
+    longitude: '151.21091'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Sydney
+  subjectOf:
+  - name: View of Circular Quay
+- name: See Yup
+  type: Place
+  containedInPlace:
+  - name: Kwungtung
+  containsPlace:
+  - name: Sunwui
+- name: Mount Pleasant
+  type: City
+  geo:
+    latitude: "-36.091293"
+    longitude: '146.571417'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Victoria
+- name: Kongmoon
+  type: City
+  geo:
+    latitude: '22.58333'
+    longitude: '113.08333'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Sunwui
+- name: South Melbourne
+  type: Place
+  geo:
+    latitude: "-37.83333"
+    longitude: '144.96667'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Melbourne
+- name: Emerald Hill
+  type: Place
+  geo:
+    latitude: "-32.64756"
+    longitude: '134.94701'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Melbourne
+- name: Carlton
+  type: Place
+  geo:
+    latitude: "-37.8"
+    longitude: '144.96667'
+    type: GeoCoordinates
+  containedInPlace:
+  - name: Melbourne
+- name: Richard Minahan and Mary Manning marry
+  type: Event
+  startDate: '1856-10-30'
+  endDate: '1856-10-30'
+  performer:
+  - name: Richard Minahan
+  - name: Mary Manning
+- name: Winifred Minahan born
+  type: Event
+  startDate: '1858-02-01'
+  endDate: '1858-02-01'
+  performer:
+  - name: Winifred Minahan
+- name: Catherine Minahan is born
+  type: Event
+  startDate: '1865-02-04'
+  endDate: '1865-02-04'
+  performer:
+  - name: Catherine Minahan
+- name: James Minahan is born
+  type: Event
+  startDate: '1876-10-04'
+  endDate: '1876-10-04'
+  performer:
+  - name: Winifred Minahan
+  attendee:
+  - name: Winifred Minahan
+- name: Winifred Cheong Ming is born
+  type: Event
+  startDate: '1881-06-13'
+  endDate: '1881-06-13'
+  performer:
+  - name: Winifred Cheong Ming
+- name: Winifred Cheong Ming dies
+  type: Event
+  startDate: '1881-09-25'
+  endDate: '1881-09-25'
+  performer:
+  - name: Winifred Cheong Ming
+- name: Winifred Minahan and Arai Arai marry
+  type: Event
+  startDate: '1886-10-20'
+  endDate: '1886-10-20'
+  performer:
+  - name: Winifred Minahan
+  - name: Arai Arai
+- name: Chin Shing and Jessie Ah Coon marry
+  type: Event
+  startDate: '1893-05-24'
+  endDate: '1893-05-24'
+  performer:
+  - name: Chin Shing
+  - name: Jessie Shing
+- name: Chan Num arrives in Australia
+  type: Event
+  startDate: '1857'
+  endDate: '1857'
+  performer:
+  - name: Chan Num
+- name: Cheong Ming arrives in Australia
+  type: Event
+  startDate: '1857'
+  endDate: '1857'
+  performer:
+  - name: Cheong Ming
+- name: James Minahan and Cheong Ming leave Melbourne for China
+  type: Event
+  startDate: '1882'
+  endDate: '1882'
+  performer:
+  - name: James Minahan
+  - name: Cheong Ming
+- name: James Minahan attends the Shek Quey Lee village school
+  type: Event
+  startDate: '1883'
+  endDate: '1883'
+  performer:
+  - name: James Minahan
+- name: Cheong Ming dies
+  type: Event
+  startDate: '1896'
+  endDate: '1896'
+  performer:
+  - name: Cheong Ming
+- name: High Court rules in Chia Gee v. Martin
+  type: Event
+  startDate: '1905'
+  endDate: '1905'
+  performer:
+  - name: High Court of Australia
+- name: High Court rules in Attorney-General for the Commonwealth v. Ah Sheung
+  type: Event
+  startDate: '1907'
+  endDate: '1907'
+  performer:
+  - name: High Court of Australia
+- name: Jessie Shing dies
+  type: Event
+  startDate: '1949'
+  endDate: '1949'
+  performer:
+  - name: Jessie Shing
+- name: James Minahan lives at Sun Nam Hie & Co. in Little Bourke Street, Melbourne
+  type: Event
+  startDate: '1908-01-14'
+  endDate: '1908-01-14'
+  performer:
+  - name: James Minaham
+- name: James Minahan arrives in Sydney on board the SS Taiyuan
+  type: Event
+  startDate: '1908-01-23'
+  endDate: '1908-01-23'
+  performer:
+  - name: James Minaham
+  mentionedBy:
+  - name: PROHIBITED IMMIGRANT -- James Francis Kitchen
+- name: James Minahan leaves Sydney on board the SS Wollowra
+  type: Event
+  startDate: '1908-01-24'
+  endDate: '1908-01-24'
+  performer:
+  - name: James Minaham
+- name: James Minahan arrives in Melbourne on board the SS Wollowra
+  type: Event
+  startDate: '1908-01-26'
+  endDate: '1908-01-26'
+  performer:
+  - name: James Minaham
+- name: James Minahan is interviewed by Customs Officer Mercer on board the SS Wollowra
+  type: Event
+  startDate: '1908-01-27'
+  endDate: '1908-01-27'
+  performer:
+  - name: James Minaham
+  - name: Hugh Mercer
+- name: James Minahan is given the Dictation Test by Customs Officer Mercer on boards
+    the SS Wollowra
+  type: Event
+  startDate: '1908-01-27'
+  endDate: '1908-01-27'
+  performer:
+  - name: James Minaham
+- name: James Minahan leaves Melbourne on board the SS Wollowra
+  type: Event
+  startDate: '1908-01-28'
+  endDate: '1908-01-28'
+  performer:
+  - name: James Minaham
+  - name: SS Wollowra
+- name: James Minahan arrives in Sydney on board the SS Wollowra
+  type: Event
+  startDate: '1908-01-30'
+  endDate: '1908-01-30'
+  performer:
+  - name: James Minaham
+  - name: SS Wollowra
+  mentionedBy:
+  - name: PROHIBITED IMMIGRANT -- James Francis Kitchen
+- name: Captain Dawson is asked to show cause why a writ of habeas corpus should not
+    be issued to him for holding James Minahan
+  type: Event
+  startDate: '1908-02-06'
+  endDate: '1908-02-06'
+  performer:
+  - name: Lancelot Dawson
+- name: Sydney Collector of Customs sends a telegram to the Department of External
+    Affairs for advice
+  type: Event
+  startDate: '1908-02-06'
+  endDate: '1908-02-06'
+  performer:
+  - name: J.T.T. Donohoe
+  - name: Collector Customs, Sydney
+- name: Atlee Hunt replies by telegram to the Sydney Collector of Customs advising
+    that James Minahan should be arrested as a prohibited immigrant
+  type: Event
+  startDate: '1908-02-06'
+  endDate: '1908-02-06'
+  performer:
+  - name: Atlee Hunt
+  - name: Collector Customs, Sydney
+  - name: J.T.T. Donohoe
+- name: Solicitor Croft writes privately to Atlee Hunt about James Minahan's case
+  type: Event
+  startDate: '1908-02-06'
+  endDate: '1908-02-06'
+  performer:
+  - name: A.E. Fortescue Croft
+- name: Justice Street hears writ of habeas corpus against Captain Dawson
+  type: Event
+  startDate: '1908-02-07'
+  endDate: '1908-02-07'
+  performer:
+  - name: Philip Whistler Street
+- name: James Minahan is arrested by Customs Inspector Donohoe in Sydney
+  type: Event
+  startDate: '1908-02-07'
+  endDate: '1908-02-07'
+  performer:
+  - name: James Minaham
+  mentionedBy:
+  - name: PROHIBITED IMMIGRANT -- James Francis Kitchen
+- name: James Minahan is charged with being a prohibited immigrant
+  type: Event
+  startDate: '1908-02-07'
+  endDate: '1908-02-07'
+  performer:
+  - name: James Minaham
+  mentionedBy:
+  - name: PROHIBITED IMMIGRANT -- James Francis Kitchen
+- name: James Minahan appears before the Sydney Water Police Court
+  type: Event
+  startDate: '1908-02-07'
+  endDate: '1908-02-07'
+  performer:
+  - name: James Minaham
+- name: James Minahan is remanded in custody in Darlinghurst Gaol
+  type: Event
+  startDate: '1908-02-07'
+  endDate: '1908-02-07'
+  performer:
+  - name: James Minaham
+- name: James Minahan and Solicitor Croft leave Sydney by train for Melbourne
+  type: Event
+  startDate: '1908-02-11'
+  endDate: '1908-02-11'
+  performer:
+  - name: James Minaham
+- name: James Minahan and Solicitor Croft arrive in Melbourne by train
+  type: Event
+  startDate: '1908-02-13'
+  endDate: '1908-02-13'
+  performer:
+  - name: James Minaham
+- name: James Minahan is arrested by Constable Potter in Melbourne
+  type: Event
+  startDate: '1908-02-13'
+  endDate: '1908-02-13'
+  performer:
+  - name: James Minaham
+- name: James Minahan is held in the Melbourne watch house
+  type: Event
+  startDate: '1908-02-13'
+  endDate: '1908-02-13'
+  performer:
+  - name: James Minaham
+- name: James Minahan appears before the Melbourne City Court
+  type: Event
+  startDate: '1908-02-14'
+  endDate: '1908-02-14'
+  performer:
+  - name: James Minaham
+- name: Solicitor Croft requests and is granted a two-week adjournment from the Melbourne
+    City Court
+  type: Event
+  startDate: '1908-02-14'
+  endDate: '1908-02-14'
+  performer:
+  - name: A.E. Fortescue Croft
+- name: James Minahan is released on bail of £100
+  type: Event
+  startDate: '1908-02-14'
+  endDate: '1908-02-14'
+  performer:
+  - name: James Minaham
+- name: James Minahan appears before the Melbourne City Court
+  type: Event
+  startDate: '1908-02-28'
+  endDate: '1908-02-28'
+  performer:
+  - name: James Minaham
+- name: James Minahan appears before Police Magistrate Cresswell in the Melbourne
+    City Court
+  type: Event
+  startDate: '1908-02-28'
+  endDate: '1908-02-28'
+  performer:
+  - name: James Minaham
+- name: James Minahan's case in the Melbourne City Court is part heard and adjourned
+    for three weeks until 20 March 1908
+  type: Event
+  startDate: '1908-02-28'
+  endDate: '1908-02-28'
+  performer:
+  - name: James Minaham
+- name: James Minahan's case in the Melbourne City Court is adjourned for one week
+    until 27 March 1908
+  type: Event
+  startDate: '1908-03-20'
+  endDate: '1908-03-20'
+  performer:
+  - name: James Minaham
+- name: James Minahan's case in the Melbourne City Court is adjourned for several
+    days until 31 March 1908
+  type: Event
+  startDate: '1908-03-27'
+  endDate: '1908-03-27'
+  performer:
+  - name: James Minaham
+- name: James Minahan's case in the Melbourne City Court continues
+  type: Event
+  startDate: '1908-03-31'
+  endDate: '1908-03-31'
+  performer:
+  - name: James Minaham
+- name: James Minahan gives evidence before Police Magistrate Cresswell in the Melbourne
+    City Court
+  type: Event
+  startDate: '1908-03-31'
+  endDate: '1908-03-31'
+  performer:
+  - name: James Minaham
+- name: Police Magistrate Cresswell reserves his decision for several days until 2
+    April 1908
+  type: Event
+  startDate: '1908-03-31'
+  endDate: '1908-03-31'
+  performer:
+  - name: Charles Cresswell
+- name: Police Magistrate Creswell finds in James Minahan's favour, dismisses the
+    case and awards costs to the defendant
+  type: Event
+  startDate: '1908-04-02'
+  endDate: '1908-04-02'
+  performer:
+  - name: Charles Cresswell
+- name: Crown Solicitor sends copies of the City Court judgement to Robert Garran
+    and Atlee Hunt
+  type: Event
+  startDate: '1908-04-03'
+  endDate: '1908-04-03'
+  performer:
+  - name: Crown Solicitor's Office
+  mentionedBy:
+  - name: Robert Garran
+- name: Crown Solicitor files affidavits regarding James Minahan's case with the High
+    Court registry
+  type: Event
+  startDate: '1908-04-28'
+  endDate: '1908-04-28'
+  performer:
+  - name: Crown Solicitor's Office
+- name: Justice Isaacs of the High Court hears an application for review presented
+    by the Commonwealth
+  type: Event
+  startDate: '1908-04-29'
+  endDate: '1908-04-29'
+  performer:
+  - name: Isaac Isaacs
+- name: James Minahan meets with Solicitor Croft to give his instructions on the case
+  type: Event
+  startDate: 1908-05
+  endDate: 1908-05
+  performer:
+  - name: James Minaham
+- name: James Minahan meets with Solicitor Croft to review the evidence presented
+    in the lower courts
+  type: Event
+  startDate: 1908-05
+  endDate: 1908-05
+  performer:
+  - name: James Minaham
+- name: Crown Solicitor files an Order Nisi to Review with the High Court registry
+  type: Event
+  startDate: '1908-05-02'
+  endDate: '1908-05-02'
+- name: Potter v. Minahan heard in the High Court of Australia
+  type: Event
+  startDate: '1908-09-16'
+  endDate: '1908-09-16'
+- name: James Minahan's case, Potter v. Minahan, is before the High Court of Australia
+  type: Event
+  startDate: '1908-09-16'
+  endDate: '1908-09-16'
+  performer:
+  - name: James Minaham
+- name: High Court hands down decision in Potter v. Minahan
+  type: Event
+  startDate: '1908-10-08'
+  endDate: '1908-10-08'
+- name: Tung Wah Times publishes article about Potter v. Minahan
+  type: Event
+  startDate: '1908-10-10'
+  endDate: '1908-10-10'
+  performer:
+  - name: Tung Wah Times
+  mentionedBy:
+  - name: James Minahan
+- name: Tung Wah Times publishes second article about Potter v. Minahan
+  type: Event
+  startDate: '1908-10-17'
+  endDate: '1908-10-17'
+  performer:
+  - name: Tung Wah Times
+  mentionedBy:
+  - name: James Minahan
+- name: Customs Department issues a circular advising officers note the High Court's
+    findings in Potter v. Minahan regarding the Dictation Test
+  type: Event
+  startDate: '1909-04-08'
+  endDate: '1909-04-08'
+- name: Imprint of the left hand of James Frances Kitchen, 28 January 1908
+  type: ImageObject
+  image: naa-10131-p78.jpg
+  url: https://recordsearch.naa.gov.au/SearchNRetrieve/Gallery151/dist/JGalleryViewer.aspx?B=10131&S=78&N=95&R=0
+  creationDate: '1908-01-28'
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  about:
+  - name: James Minahan
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Collector of Customs, Sydney
+  mentions:
+  - name: James Minahan
+  - name: Hugh Mercer
+- name: Potter v. Minahan (1908) 7 CLR 277
+  type: CreativeWork
+  image: austlii-HCA63-Potter-Minahan.JPG
+  url: http://www.austlii.edu.au/au/cases/cth/HCA/1908/63.html
+  creationDate: '1908-10-08'
+  startDate: '1908-10-08'
+  endDate: '1908-10-08'
+  publisher:
+  - name: High Court of Australia
+  about:
+  - name: James Minahan
+  - name: Lionel Potter
+  provider:
+  - name: Australasian Legal Information Institute
+  creator:
+  - name: High Court of Australia
+  mentions:
+  - name: James Minahan
+  - name: Lionel Potter
+- name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  type: ArchivalUnit
+  image: naa-10131-p01.jpg
+  url: http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131
+  startDate: '1908'
+  endDate: '1908'
+  isPartOf:
+  - name: A1, Correspondence files, annual single number series
+  hasPart:
+  - name: Imprint of the left hand of James Frances Kitchen, 28 January 1908
+  - name: Report of Passengers for the Taiyuan from Hong Kong, Sydney, 23 January
+      1908
+  - name: Copy of Dictation Test from 16 to 31 January 1908
+  - name: Statement by J.T.T. Donohoe, 10 February 1908
+  - name: Telegram from Atlee Hunt, Secretary, Department of External Affairs to the
+      Collector of Customs, Sydney, 6 February 1908
+  - name: Handwritten Letter from E.A. Fortescue Croft, Solicitor, to Atlee Hunt,
+      Secretary, Department of External Affairs, 6 February 1908
+  - name: Memorandum from Atlee Hunt, Secretary, Department of External Affairs, to
+      Crown Solicitor, 11 February 1908
+  - name: Crown Solicitor to Atlee Hunt, Secretary, Department of External Affairs,
+      8 February 1908
+  - name: Letter from Charles Power, Crown Solicitor, to Robert Garran, Secretary
+      of the Attorney-General's Department, 8 April 1908
+  - name: Annotated Minute Paper from the Attorney-General's Department, 8 April 1908
+  - name: Charles Powers, Crown Solictor, to Atlee Hunt, Secretary of the Department
+      of External Affairs, 30 April 1908
+  position:
+  - 1908/12396
+  about:
+  - name: James Minahan
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Department of External Affairs
+  mentions:
+  - name: James Minahan
+  - name: J.T.T. Donohoe
+- name: History of the Shire of Chiltern by Robert Ashley
+  type: Book
+- name: Portrait of Sir Littleton Groom
+  type: Photograph
+  image: nla.obj-136704491-1.jpg
+  url: http://nla.gov.au/nla.obj-136704491
+  about:
+  - name: Littleton Groom
+  provider:
+  - name: National Library of Australia
+- name: Empty thoroughfare at Darlinghurst Gaol
+  type: Photograph
+  image: nla.obj-141808770-1.jpg
+  url: http://nla.gov.au/nla.obj-141808770
+  creationDate: '1918'
+  about:
+  - name: Darlinghurst Gaol
+  provider:
+  - name: National Library of Australia
+  creator:
+  - name: Albert Dryer
+- name: Judges of the Federal High Count, 1903
+  type: Photograph
+  image: nla.obj-136594976-1.jpg
+  url: http://nla.gov.au/nla.obj-136594976
+  creationDate: '1903'
+  about:
+  - name: High Court of Australia
+  provider:
+  - name: National Library of Australia
+- name: A1, Correspondence files, annual single number series
+  type: ArchivalSeries
+  url: http://www.naa.gov.au/cgi-bin/Search?Number=A1
+  hasPart:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  - name: A1, 1908/1498, Ah Sheung
+  - name: A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia
+  provider:
+  - name: National Archives of Australia
+- name: Chiltern Gold Mine
+  type: Photograph
+  image: slv-H84.458-119.jpeg
+  url: http://handle.slv.vic.gov.au/10381/68536
+  creationDate: '1900'
+  about:
+  - name: Chiltern
+  provider:
+  - name: State Library of Victoria
+  creator:
+  - name: James Stirling
+  mentions:
+  - name: Chilton
+- name: A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen
+  type: ArchivalUnit
+  image: naa-3148842-p02.jpg
+  url: http://www.naa.gov.au/cgi-bin/Search?O=I&Number=3148842
+  startDate: '1908'
+  endDate: '1909'
+  isPartOf:
+  - name: A10074, Full Court case records (Victoria) and from 1973, Court and Cause
+      case records, annual single number series
+  hasPart:
+  - name: Information for an Offence in the Court of Petty Sessions, Melbourne, 14
+      February 1908
+  - name: Affadavit of John Gardner Davies, 22 April 1908, Copy Documents (prepared
+      by Charles Powers)
+  - name: Evidence of Ching Kay, 28 February 1908, Copy Documents (prepared by Charles
+      Powers)
+  position:
+  - 1908/31
+  about:
+  - name: James Minahan
+  - name: Lionel Potter
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: High Court of Australia
+  mentions:
+  - name: James Minahan
+  - name: Lionel Potter
+- name: A10074, Full Court case records (Victoria) and from 1973, Court and Cause
+    case records, annual single number series
+  type: ArchivalSeries
+  url: http://www.naa.gov.au/cgi-bin/Search?Number=A10074
+  startDate: '1903-10-02'
+  endDate: '1980-12-31'
+  hasPart:
+  - name: A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen
+  position:
+  - A10074
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: High Court of Australia
+- name: Copy of Dictation Test from 16 to 31 January 1908
+  type: Document
+  image: naa-10131-p89.jpg
+  creationDate: 1908-01
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  provider:
+  - name: National Archives of Australia
+- name: Sir Phillip Street, Chief Justice of New South Wales
+  type: Photograph
+  image: nla.obj-140228034-1.jpg
+  url: http://nla.gov.au/nla.obj-140228034
+  creationDate: '1925'
+  about:
+  - name: Philip Whistler Street
+  provider:
+  - name: National Library of Australia
+  creator:
+  - name: Harold Cazneaux
+- name: Police station, George St North, Sydney
+  type: Photograph
+  image: slnsw-d1_05327h.jpg
+  url: http://archival.sl.nsw.gov.au/Details/archive/110100330
+  about:
+  - name: No. 4 Police Station
+  provider:
+  - name: State Library of New South Wales
+- name: Photograph of SS Taiyuan
+  type: Photograph
+  image: slnsw-a639782h.jpg
+  url: http://archival.sl.nsw.gov.au/Details/archive/110329896
+  about:
+  - name: SS Taiyuan
+  provider:
+  - name: State Library of New South Wales
+- name: Report of Passengers for the Taiyuan from Hong Kong, Sydney, 23 January 1908
+  type: Document
+  image: naa-10131-p86.jpg
+  url: http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131
+  creationDate: '1908-01-23'
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  about:
+  - name: SS Taiyuan
+  provider:
+  - name: National Archives of Australia
+  mentions:
+  - name: Hong Kong
+  - name: Sydney
+  - name: James Minahan
+- name: Prohibited Immigrant
+  type: CreativeWork
+  image: nla.news-article10142694.4.pdf
+  url: http://nla.gov.au/nla.news-article10142694
+  publicationDate: 1907-12-17
+  isPartOf:
+  - name: Argus
+  position:
+  - p. 4
+  provider:
+  - name: National Library of Australia
+  mentions:
+  - name: Willie Lee Hook
+  - name: Department of External Affairs
+  - name: Wiliam Ah Ket
+  - name: E.A. Fortescue Croft
+  - name: Croft and Rhoden Solicitors
+- name: "“Habeas Corpus Mongols” – Chinese Litigants and the Politics of Immigration
+    in 1888 by Mark Finnane"
+  type: Article
+  publicationDate: '2014'
+  isPartOf:
+  - name: Australian Historical Studies
+  position:
+  - vol. 45, no. 2, pp. 165-83
+  creator:
+  - name: Mark Finnane
+- name: One Month's Grace
+  type: CreativeWork
+  image: nla.news-article10155422.5.pdf
+  url: http://nla.gov.au/nla.news-article10155422
+  publicationDate: '1907-07-13'
+  isPartOf:
+  - name: Argus
+  position:
+  - p. 19
+  about:
+  - name: Willie Lee Hook
+  provider:
+  - name: National Library of Australia
+  mentions:
+  - name: Willie Lee Hook
+  - name: Department of External Affairs
+- name: A5522, Correspondence files, single number series with 'M' (matters) prefix
+  type: ArchivalSeries
+  url: http://www.naa.gov.au/cgi-bin/Search?Number=A5522
+  startDate: '1903-01-01'
+  endDate: '1918-12-31'
+  hasPart:
+  - name: A5522, M47, Habeas Proceedings re WILLIE LEE HOOK
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Crown Solicitor's Office
+- name: A5522, M47, Habeas Proceedings re WILLIE LEE HOOK
+  type: ArchivalUnit
+  image: naa-A5522-M47.pdf
+  startDate: '1907'
+  endDate: '1907'
+  isPartOf:
+  - name: A5522, Correspondence files, single number series with 'M' (matters) prefix
+  provider:
+  - name: National Archives of Australia
+  mentions:
+  - name: Willie Lee Hook
+- name: Is He an Australian?
+  type: CreativeWork
+  image: nla.news-article114098110.4.pdf
+  url: http://nla.gov.au/nla.news-article114098110
+  publicationDate: '1908-02-07'
+  isPartOf:
+  - name: Evening News (Sydney)
+  position:
+  - p. 6 and 7
+  about:
+  - name: James Minahan
+  provider:
+  - name: National Library of Australia
+  mentions:
+  - name: James Minahan
+  - name: F.S. Boyce
+  - name: Lancelot Dawson
+  - name: SS Taiyuan
+  - name: Water Police Court, Sydney
+- name: Statement by J.T.T. Donohoe, 10 February 1908
+  type: Document
+  image: naa-10131-p85.jpg
+  creationDate: '1908-02-10'
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  about:
+  - name: James Minahan
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: J.T.T. Donohoe
+- name: Telegram from Atlee Hunt, Secretary, Department of External Affairs to the
+    Collector of Customs, Sydney, 6 February 1908
+  type: Document
+  image: naa-10131-p95.jpg
+  url: http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131
+  creationDate: '1908-02-06'
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Atlee Hunt
+  mentions:
+  - name: Colector of Customs, Sydney
+- name: 'The New Gold Mountain: The Chinese in Australia 1901-1921 by C.F. Yong'
+  type: Book
+  image: Yong1977.jpg
+  publicationDate: '1977'
+  publisher:
+  - name: Raphael Arts, Richmond, SA
+- name: The Chinese Exclusion Law
+  type: CreativeWork
+  image: nla.news-article196210126.5.pdf
+  url: http://nla.gov.au/nla.news-article196210126
+  creationDate: '1911-09-29'
+  isPartOf:
+  - name: Age (Melbourne)
+  position:
+  - p. 9
+  provider:
+  - name: National Library of Australia
+  mentions:
+  - name: China
+  - name: Croft and Rhoden Solicitors
+- name: Chinese or Australian?
+  type: CreativeWork
+  image: nla.news-article222611116.2.pdf
+  url: http://nla.gov.au/nla.news-article222611116
+  creationDate: '1913-10-25'
+  isPartOf:
+  - name: Weekly Times (Melbourne)
+  position:
+  - p. 33
+  provider:
+  - name: National Library of Australia
+  mentions:
+  - name: E.A. Fortescue Croft
+  - name: Melbourne
+  - name: Croft and Rhoden Solicitors
+- name: Handwritten Letter from E.A. Fortescue Croft, Solicitor, to Atlee Hunt, Secretary,
+    Department of External Affairs, 6 February 1908
+  type: Document
+  image: naa-10131-p53.jpg
+  url: http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131
+  creationDate: '1908-02-06'
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: E.A. Fortescue Croft
+  mentions:
+  - name: Atlee Hunt
+- name: Memorandum from Atlee Hunt, Secretary, Department of External Affairs, to
+    Crown Solicitor, 11 February 1908
+  type: Document
+  image: naa-10131-p65.jpg
+  url: http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131
+  creationDate: '1908-02-11'
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Atlee Hunt
+  mentions:
+  - name: Crown Solicitor
+- name: Eastern end of Little Bourke Street, 1908
+  type: Photograph
+  image: nla.news-article139201161.5.jpg
+  url: http://nla.gov.au/nla.news-article139201161
+  publicationDate: '1908-06-13'
+  publisher:
+  - name: Australasian
+  position:
+  - p. 31
+  about:
+  - name: Little Bourke Street
+  provider:
+  - name: National Library of Australia
+- name: Portrait of Sir Frank Gavan Duffy
+  type: Photograph
+  image: nla.obj-136742428-1.jpg
+  url: https://catalogue.nla.gov.au/Record/160085
+  startDate: '1900'
+  endDate: '1910'
+  about:
+  - name: Frank Gavan Duffy
+  provider:
+  - name: National Library of Australia
+- name: Portrait of Edmund Barton
+  type: Photograph
+  image: nla.obj-136595510-1.jpg
+  url: https://catalogue.nla.gov.au/Record/1097475
+  creationDate: '1902'
+  about:
+  - name: Edmund Barton
+  provider:
+  - name: National Library of Australia
+- name: Portrait of Sir Samuel Griffith
+  type: Photograph
+  image: slq-108944.jpg
+  url: https://hdl.handle.net/10462/deriv/129889
+  creationDate: '1903'
+  about:
+  - name: Samuel Griffth
+  provider:
+  - name: State Library of Queensland
+  creator:
+  - name: Wiley, Brisbane
+- name: Portrait of Henry Bournes Higgins
+  type: Photograph
+  image: nla.obj-136708449-1.jpg
+  url: https://catalogue.nla.gov.au/Record/75915
+  startDate: '1900'
+  endDate: '1910'
+  about:
+  - name: Henry Higgins
+  provider:
+  - name: National Library of Australia
+- name: Portrait of Robert Garran
+  type: Photograph
+  image: nla.obj-122783806.jpg
+  url: https://trove.nla.gov.au/newspaper/article/122783806
+  publicationDate: '1917-11-18'
+  publisher:
+  - name: Sunday Times (Sydney)
+  position:
+  - p. 9
+  about:
+  - name: Robert Garran
+  provider:
+  - name: National Library of Australia
+- name: View of Sydney Harbour from Dawes Point
+  type: Photograph
+  image: slv-a14678.jpg
+  url: http://www.slv.vic.gov.au/pictoria/gid/slv-pic-aab70395
+  startDate: '1900'
+  endDate: '1900'
+  about:
+  - name: Sydney Harbour
+  provider:
+  - name: State Library of Victoria
+- name: Portrait of Richard O'Connor
+  type: Photograph
+  image: nla.obj-136690969-1.jpg
+  url: https://catalogue.nla.gov.au/Record/1561139
+  startDate: '1900'
+  endDate: '1910'
+  about:
+  - name: Richard O'Connor
+  provider:
+  - name: National Library of Australia
+  creator:
+  - name: The Swiss Studios
+- name: View of Circular Quay
+  type: Photograph
+  image: slv-H82.43-69.jpeg
+  url: http://search.slv.vic.gov.au/MAIN:Everything:SLV_VOYAGER1759625
+  startDate: '1900'
+  endDate: '1925'
+  about:
+  - name: Circular Quay
+  provider:
+  - name: State Library of Victoria
+  creator:
+  - name: S.J. Jones
+- name: View of Chiltern, looking east
+  type: Photograph
+  image: slv-H90.161-89.jpeg
+  url: http://search.slv.vic.gov.au/MAIN:Everything:SLV_VOYAGER1755651
+  startDate: '1875'
+  endDate: '1930'
+  about:
+  - name: Chiltern
+  provider:
+  - name: State Library of Victoria
+  creator:
+  - name: John Henry Harvey
+- name: Portrait of William Ah Ket
+  type: Photograph
+  image: nla.obj-196580331.jpg
+  url: https://trove.nla.gov.au/newspaper/article/196580331
+  publicationDate: '1902-11-29'
+  about:
+  - name: William Ah Ket
+  provider:
+  - name: National Library of Australia
+  creator:
+  - name: Talma & Co
+- name: Portrait of W.T. Coldham
+  type: Photograph
+  image: nla.obj-242029116.jpg
+  url: http://nla.gov.au/nla.news-article242029116
+  publicationDate: '1908-05-29'
+  about:
+  - name: W.T. Coldham
+  provider:
+  - name: National Library of Australia
+- name: Portrait of H.W. Bryant
+  type: Photograph
+  image: nla.obj-244846635.JPG
+  url: http://nla.gov.au/nla.news-article244846635
+  publicationDate: '1924-10-24'
+  publisher:
+  - name: The Herald (Melbourne)
+  position:
+  - p. 1
+  about:
+  - name: H.W. Bryant
+  provider:
+  - name: National Library of Australia
+  creator:
+  - name: Lafayette
+- name: Portrait of Lancelot Dawson
+  type: Photograph
+  image: nla.obj-126751846.JPG
+  url: https://trove.nla.gov.au/newspaper/article/126751846
+  publicationDate: '1908-04-12'
+  publisher:
+  - name: Sunday Times (Sydney)
+  position:
+  - p.16
+  about:
+  - name: Lancelot Dawson
+  provider:
+  - name: National Library of Australia
+- name: Caricature portrait of J.T.T. Donohoe
+  type: CreativeWork
+  image: nla.obj-168742060.jpg
+  url: https://trove.nla.gov.au/newspaper/article/168742060
+  publicationDate: '1912-08-11'
+  publisher:
+  - name: Truth (Sydney)
+  position:
+  - p. 4
+  about:
+  - name: J.T.T. Donohoe
+  provider:
+  - name: National Library of Australia
+  creator:
+  - name: Donald MacDonald (aka Pas)
+- name: Portrait of P.J. Dwyer
+  type: Photograph
+  image: nla.obj-145851479.jpg
+  url: https://trove.nla.gov.au/newspaper/article/145851479
+  publicationDate: '1907-07-11'
+  publisher:
+  - name: Table Talk (Melbourne)
+  position:
+  - p. 7
+  about:
+  - name: P.J. Dwyer
+  provider:
+  - name: National Library of Australia
+- name: Portrait of Harry Hoyling
+  type: Photograph
+  image: awm-4121013.JPG
+  url: https://www.awm.gov.au/collection/C207028
+  creationDate: 1916-09
+  about:
+  - name: Harry Hoylilng
+  provider:
+  - name: Australian War Memorial
+- name: Department of External Affairs, 1904
+  type: Photograph
+  image: nla.obj-174649152.JPG
+  url: https://trove.nla.gov.au/newspaper/article/174649152
+  publicationDate: '1904-05-12'
+  publisher:
+  - name: Punch (Melbourne)
+  position:
+  - p. 16
+  about:
+  - name: Department of External Affairs
+  provider:
+  - name: National Library of Australia
+- name: Portrait of Atlee Hunt
+  type: Photograph
+  image: nla.obj-174649152-Hunt.JPG
+  url: https://trove.nla.gov.au/newspaper/article/174649152
+  publicationDate: '1904-11-12'
+  publisher:
+  - name: Weekly Times (Melbourne)
+  position:
+  - p. 25
+  about:
+  - name: Atlee Hunt
+  provider:
+  - name: National Library of Australia
+- name: Portrait of Isaac Isaacs
+  type: Photograph
+  image: nla.obj-136668907-1.jpg
+  url: https://catalogue.nla.gov.au/Record/12520
+  startDate: '1900'
+  endDate: '1910'
+  about:
+  - name: Isaac Isaacs
+  provider:
+  - name: National Library of Australia
+  creator:
+  - name: The Swiss Studios, Melbourne
+- name: Portrait of Lionel Potter
+  type: Photograph
+  image: nla.obj-246761997.jpg
+  url: https://trove.nla.gov.au/newspaper/article/246761997
+  publicationDate: '1922-06-14'
+  publisher:
+  - name: Herald (Melbourne)
+  position:
+  - p. 1
+  about:
+  - name: Lionel Potter
+  provider:
+  - name: National Library of Australia
+- name: Portrait of John Starling
+  type: Photograph
+  image: nla.obj-38521029.jpg
+  url: https://trove.nla.gov.au/newspaper/article/38521029
+  publicationDate: '1930-10-23'
+  publisher:
+  - name: The Western Mail (Perth)
+  position:
+  - p. 7
+  about:
+  - name: John Starling
+  provider:
+  - name: National Library of Australia
+- name: Portrait of F.S. Boyce
+  type: Photograph
+  image: nla.obj-239637027.jpg
+  url: https://trove.nla.gov.au/newspaper/article/239637027
+  publicationDate: '1919-07-23'
+  publisher:
+  - name: The Daily Telegraph (Sydney)
+  position:
+  - p. 9
+  about:
+  - name: F.S. Boyce
+  provider:
+  - name: National Library of Australia
+- name: Sun Nam Hie & Co. advertisement
+  type: CreativeWork
+  image: nla-obj-168664884.JPG
+  url: https://trove.nla.gov.au/newspaper/article/168664884
+  publicationDate: '1919-12-27'
+  publisher:
+  - name: Chinese Times
+  position:
+  - p. 4
+  about:
+  - name: Sun Nam Hie & Co.
+  provider:
+  - name: National Library of Australia
+- name: Lying-in Hospital, corner Cardigan and Grattan Streets, Carlton, c1868
+  type: Photograph
+  image: slv-H869.jpeg
+  url: http://search.slv.vic.gov.au/MAIN:Everything:SLV_VOYAGER1683885
+  startDate: '1868'
+  endDate: '1868'
+  position:
+  - H869
+  about:
+  - name: Lying-in Hospital, Melbourne
+  provider:
+  - name: State Library of Victoria
+  creator:
+  - name: Charles Nettleton
+- name: Old Supreme Court
+  type: Photograph
+  image: slv-H8305.jpg
+  url: http://search.slv.vic.gov.au/MAIN:Everything:SLV_VOYAGER1801839
+  startDate: '1884'
+  endDate: '1911'
+  position:
+  - H8305
+  about:
+  - name: Court of Petty Sessions, Melbourne
+  provider:
+  - name: State Library of Victoria
+  creator:
+  - name: F. True
+- name: View of Water Police Court, Sydney
+  type: Photograph
+  image: slnsw-a116235h.jpg
+  url: http://archival.sl.nsw.gov.au/Details/archive/110317005
+  startDate: '1900'
+  endDate: '1910'
+  position:
+  - a116235h
+  about:
+  - name: Water Police Court, Sydney
+  provider:
+  - name: State Library of New South Wales
+- name: Photograph of SS Wollowra
+  type: Photograph
+  image: anms0047-056.JPG
+  url: http://collections.anmm.gov.au/en/objects/details/91859/photographic-postcard-of-the-ss-wollowra-underway-in-a-harbo;jsessionid=2A250668A5B4FC8CD8936E11B467DEBD
+  startDate: '1891'
+  endDate: '1915'
+  position:
+  - ANMS0047[056]
+  about:
+  - name: SS Wollowra
+  provider:
+  - name: Australian National Maritime Museum
+- name: 'Aliens in Their Own Land: ''Alien'' and the Rule of Law in Colonial and Post-Federation
+    Australia by Peter Prince'
+  type: Thesis
+  image: ANU-Prince-Peter-2015.JPG
+  url: https://openresearch-repository.anu.edu.au/handle/1885/101778
+  publicationDate: '2015'
+  provider:
+  - name: Australian National University
+  creator:
+  - name: Peter Prince
+- name: Citizen or Alien?
+  type: NewsArticle
+  image: nla.news-article238098724.3.pdf
+  url: http://nla.gov.au/nla.news-article238098724
+  publicationDate: '1908-02-08'
+  publisher:
+  - name: Daily Telegraph
+  position:
+  - p. 22
+  provider:
+  - name: National Library of Australia
+- name: Alien or Native?
+  type: NewsArticle
+  image: nla.news-article5124640.3.pdf
+  url: http://nla.gov.au/nla.news-article5124640
+  publicationDate: '1908-02-08'
+  publisher:
+  - name: Advertiser (Adelaide)
+  position:
+  - p. 11
+  provider:
+  - name: National Library of Australia
+- name: English or Chinese?
+  type: NewsArticle
+  image: nla.news-article10666666.5.pdf
+  url: http://nla.gov.au/nla.news-article10666666
+  publicationDate: '1908-02-29'
+  publisher:
+  - name: Argus (Melbourne)
+  position:
+  - p. 21
+  provider:
+  - name: National Library of Australia
+- name: Australian or Asiatic?
+  type: NewsArticle
+  image: nla.news-article5131017.5.pdf
+  url: http://nla.gov.au/nla.news-article5131017
+  publicationDate: '1908-04-01'
+  publisher:
+  - name: Advertiser (Adelaide)
+  position:
+  - p. 6
+  provider:
+  - name: National Library of Australia
+- name: Donohoe v. Wong Sau (1925) 36 CLR 404
+  type: CreativeWork
+  image: austlii-HCA36-Donohoe-WongSau.JPG
+  url: http://www7.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1925/6.html?context=1;query=donohoe;mask_path=au/cases/cth/HCA
+  creationDate: '1925-04-17'
+  publisher:
+  - name: High Court of Australia
+  provider:
+  - name: Australasian Legal Information Institute
+  creator:
+  - name: High Court of Australia
+- name: Robert Garran, Opinion No. 1279
+  type: CreativeWork
+  url: http://legalopinions.ags.gov.au/legalopinion/opinion-1279
+  creationDate: '1922-11-29'
+  publisher:
+  - name: Attorney-General's Department
+  provider:
+  - name: Australian Government Solicitor
+- name: Singh v. Commonwealth of Australia (2004) 222 CLR 322
+  type: CreativeWork
+  url: http://www.austlii.edu.au/au/cases/cth/HCA/2004/43.html
+  creationDate: '2004-09-09'
+  publisher:
+  - name: High Court of Australia
+  provider:
+  - name: Australasian Legal Information Institute
+  creator:
+  - name: High Court of Australia
+- name: The Legal Interpretation of the Constitution of the Commonwealth by a. Berriedale
+    Keith
+  type: Article
+  publicationDate: '1911'
+  isPartOf:
+  - name: Journal of the Society of Comparative Legislation
+  position:
+  - vol. 11, no. 2, pp. 220-42
+  creator:
+  - name: A. Berriedale Keith
+- name: Immigration Restriction in Australia by Everard Digby
+  type: Article
+  publicationDate: '1911'
+  isPartOf:
+  - name: Journal of the Society of Comparative Legislation
+  position:
+  - vol. 12, no. 1, pp. 81-4
+  creator:
+  - name: Everard Digby
+- name: Asian Migration to Australia by A.T. Yarwood
+  type: Book
+  publicationDate: '1964'
+  publisher:
+  - name: Melbourne University Press
+  creator:
+  - name: A.T. Yarwood
+- name: The Administration of the White Australia Policy by A.C. Palfreeman
+  type: Book
+  publicationDate: '1967'
+  publisher:
+  - name: Melbourne University Press
+  creator:
+  - name: A.C. Palfreeman
+- name: 'Alien Acts: The White Australia Policy, 1901 to 1939'
+  type: Thesis
+  publicationDate: '1998'
+  provider:
+  - name: University of Melbourne
+  creator:
+  - name: Paul Anthony Jones
+- name: Citzenship and the Centenary by Kim Rubenstein
+  type: Article
+  publicationDate: 2000-12
+  isPartOf:
+  - name: Melbourne University Law Review
+  position:
+  - vol. 24
+  creator:
+  - name: Kim Rubenstein
+- name: 'Defining Strangers: Human Rights, Immigration and the Foundations of a Just
+    Society by Mary Crock'
+  type: Article
+  publicationDate: '2007'
+  isPartOf:
+  - name: Melbourne University Law Review
+  position:
+  - vol. 31, no. 3, pp. 1-19
+  creator:
+  - name: Mary Crock
+- name: 'Still Call Australia Home: The Constitution and the Citizen’s Right of Abode
+    by Helen Irving'
+  type: Article
+  publicationDate: 2008-03
+  isPartOf:
+  - name: Sydney Law Review
+  position:
+  - vol. 30, no. 1, pp. 133-53
+  creator:
+  - name: Helen Irving
+- name: 'Non-Immigrants, Non-Aliens and People of the Commonwealth: Australian Constitutional
+    Citizenship Revisited by Sangeetha Pillai'
+  type: Article
+  publicationDate: '2013'
+  isPartOf:
+  - name: Monash Law Review
+  position:
+  - vol. 39, no. 2, pp. 568-609
+  creator:
+  - name: Sangeetha Pillai
+- name: 'Law as Politics: Chinese Litigants in Australian Colonial Courts by Mark
+    Finnane'
+  type: Chapter
+  publicationDate: '2015'
+  publisher:
+  - name: Brill
+  isPartOf:
+  - name: 'Chinese Australians: Politics, Engagement and Resistance edited by Sophie
+      Couchman and Kate Bagnall'
+  position:
+  - p. 118
+  creator:
+  - name: Mark Finnane
+- name: Winefred Managyan (birth)
+  type: ArchivalUnit
+  image: 783874174_WinifredMinahan_birth.pdf
+  creationDate: '1858'
+  isPartOf:
+  - name: Victorian Registry of Births, Deaths and Marriages
+  position:
+  - 1858/609
+  mentions:
+  - name: Winifred Minahan
+  - name: Mary Manning
+- name: Victorian Registry of Births, Deaths and Marriages
+  type: ArchivalSeries
+  hasPart:
+  - name: Winefred Managyan (birth)
+  - name: Richard Monaghan and Mary Mangan (marriage)
+  - name: James Francis Kitchen Minahan (bIrth)
+  - name: Winifred Cheong Meng (birth)
+  - name: Winifred Cheong Meng (death)
+- name: Richard Monaghan and Mary Mangan (marriage)
+  type: ArchivalUnit
+  image: 1153474456_RichardMinahan_marriage.pdf
+  creationDate: '1865'
+  isPartOf:
+  - name: Victorian Registry of Births, Deaths and Marriages
+  position:
+  - 1965/9864
+  mentions:
+  - name: Mary Manning
+  - name: Richard Minahan
+- name: James Francis Kitchen Minahan (bIrth)
+  type: ArchivalUnit
+  image: 1019717390_JamesMinahan_birth.pdf
+  creationDate: '1876'
+  isPartOf:
+  - name: Victorian Registry of Births, Deaths and Marriages
+  position:
+  - 1876/21528
+  mentions:
+  - name: James Minahan
+  - name: Winifred Minahan
+  - name: Cheong Ming
+- name: Cornishtown and Prentice Freehold Reunion 1873–1998  edited by Nell Begley
+    and Rex Fuge
+  type: Book
+  creationDate: '1998'
+  publisher:
+  - name: R. Fuge
+  creator:
+  - name: Nell Begley and Rex Fuge
+  mentions:
+  - name: Chiltern
+- name: Winifred Cheong Meng (birth)
+  type: ArchivalUnit
+  image: 1626276695_WinifredCheongMeng_birth.pdf
+  creationDate: '1881'
+  isPartOf:
+  - name: Victorian Registry of Births, Deaths and Marriages
+  position:
+  - 1881/15146
+  mentions:
+  - name: Winifred Cheong Meng
+  - name: Winifred Minahan
+- name: Winifred Cheong Meng (death)
+  type: ArchivalUnit
+  image: 309166803_WinifredChongMeng_death.pdf
+  creationDate: '1881'
+  isPartOf:
+  - name: Victorian Registry of Births, Deaths and Marriages
+  position:
+  - 1881/6963
+  mentions:
+  - name: Winifred Cheong Meng
+  - name: Winifred Minahan
+- name: 'Landscapes of Memory and Forgetting: Indigo and Shek Quey Lee by Kate Bagnall'
+  type: Article
+  url: http://chl-old.anu.edu.au/publications/csds/csds2013/csds2013_04.pdf
+  publicationDate: 2013-07
+  isPartOf:
+  - name: Chinese Southern Diaspora Studies
+  position:
+  - vol. 6, pp.7-24
+  creator:
+  - name: Kate Bagnall
+  mentions:
+  - name: Shek Quey Lee
+  - name: Indigo
+- name: Vessels Advertised as Landing
+  type: NewsArticle
+  image: ChinaMail-31Dec1907p8Taiyuan.tiff
+  publicationDate: '1907-12-31'
+  isPartOf:
+  - name: China Mail (Hong Kong)
+  position:
+  - p. 8
+  provider:
+  - name: Hong Kong Public Libraries
+  mentions:
+  - name: James Minahan
+  - name: SS Taiyuan
+- name: Immigration Restriction Acts 1901-1905
+  type: CreativeWork
+  image:
+    name: screenshot
+  url: http://www.austlii.edu.au/au/legis/cth/num_act/ira1901171901304/ira1901171901304.html
+  startDate: '1901'
+  endDate: '1905'
+  publisher:
+  - name: Australian Government Printer
+  creator:
+  - name: Commonwealth of Australia
+- name: |-
+    Anglo-Chinese and the Politics of Overseas Travel from New South Wales,
+    1898 to 1925 by Kate Bagnall
+  type: Chapter
+  publicationDate: '2015'
+  publisher:
+  - name: Brill
+  isPartOf:
+  - name: 'Chinese Australians: Politics, Engagement and Restistance edited by Sophie
+      Couchman and Kate Bagnall'
+  position:
+  - pp. 212-18
+  creator:
+  - name: Kate Bagnall
+- name: Passenger List for the Taiyuan, Sydney, 23 January 1908
+  type: ArchivalUnit
+  creationDate: '1908-01-23'
+  isPartOf:
+  - name: New South Wales, Australia, Unassisted Immigrant Passenger Lists, 1826-1922
+      [online database]
+  provider:
+  - name: 'Ancestry.com (Provo, UT: Ancestry.com Operations, Inc., 2007'
+  mentions:
+  - name: SS Taiyuan
+- name: New South Wales, Australia, Unassisted Immigrant Passenger Lists, 1826-1922
+    [online database]
+  type: ArchivalSeries
+  hasPart:
+  - name: Passenger List for the Taiyuan, Sydney, 23 January 1908
+  provider:
+  - name: 'Ancestry.com (Provo, UT: Ancestry.com Operations, Inc., 2007'
+- name: Information for an Offence in the Court of Petty Sessions, Melbourne, 14 February
+    1908
+  type: CreativeWork
+  creationDate: '1908-02-14'
+  isPartOf:
+  - name: A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen
+  provider:
+  - name: National Archives of Australia
+  mentions:
+  - name: James Minahan
+  - name: Court of Petty Sessions, Melbourne
+- name: Crown Solicitor to Atlee Hunt, Secretary, Department of External Affairs,
+    8 February 1908
+  type: Document
+  creationDate: '1908-02-08'
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Crown Solicitor's Office
+  mentions:
+  - name: Atlee Hunt
+- name: Died at His Post
+  type: NewsArticle
+  url: http://nla.gov.au/nla.news-article2115594931924
+  publicationDate: '1924-10-08'
+  isPartOf:
+  - name: Geelong Advertiser
+  position:
+  - p. 1
+  provider:
+  - name: National Library of Australia
+  mentions:
+  - name: H.W. Bryant
+- name: Death of Mr. Bryant, K.C.
+  type: NewsArticle
+  url: http://nla.gov.au/nla.news-article2056772
+  publicationDate: '1924-10-25'
+  isPartOf:
+  - name: Argus (Melbourne)
+  position:
+  - p. 32
+  provider:
+  - name: National Library of Australia
+  mentions:
+  - name: H.W. Bryant
+- name: Death of Mr. W.T. Coldham
+  type: NewsArticle
+  url: http://nla.gov.au/nla.news-article198110745
+  publicationDate: '1908-06-06'
+  isPartOf:
+  - name: Leader (Melbourne)
+  position:
+  - p. 34
+  provider:
+  - name: National Library of Australia
+  mentions:
+  - name: W.T. Coldham
+- name: Affadavit of John Gardner Davies, 22 April 1908, Copy Documents (prepared
+    by Charles Powers)
+  type: Document
+  creationDate: '1908-04-22'
+  isPartOf:
+  - name: A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: J.G. Davies
+  mentions:
+  - name: Charles Powers
+- name: Evidence of Ching Kay, 28 February 1908, Copy Documents (prepared by Charles
+    Powers)
+  type: Document
+  creationDate: '1908-02-28'
+  isPartOf:
+  - name: A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Ching Kay
+  mentions:
+  - name: Ching Kay
+  - name: Charles Powers
+- name: Starling, John Henry (1883-1966) by David I. Smith
+  type: CreativeWork
+  url: http://adb.anu.edu.au/biography/starling-john-henry-8630/text15079
+  publicationDate: '1990'
+  publisher:
+  - name: Australian National University
+  isPartOf:
+  - name: Australian Dictionary of Biography
+  creator:
+  - name: David I. Smith
+  mentions:
+  - name: John Starling
+- name: Letter from Charles Power, Crown Solicitor, to Robert Garran, Secretary of
+    the Attorney-General's Department, 8 April 1908
+  type: Document
+  creationDate: '1908-04-08'
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  creator:
+  - name: Charles Powers
+  mentions:
+  - name: Robert Garran
+  - name: Crown Solicitor's Office
+  - name: Attorney-General's Department
+- name: Annotated Minute Paper from the Attorney-General's Department, 8 April 1908
+  type: Document
+  creationDate: '1908-04-08'
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  creator:
+  - name: Attorney-General's Department
+- name: Australian Citizenship Law in Context by Kim Rubenstein
+  type: Book
+  publicationDate: '2002'
+  publisher:
+  - name: Lawbook Co.
+  creator:
+  - name: Kim Rubenstein
+- name: Chia Gee v. Martin (1905) 3 CLR 649
+  type: CreativeWork
+  url: http://www.austlii.edu.au/au/cases/cth/HCA/1905/70.html
+  creationDate: '1905-10-20'
+  publisher:
+  - name: High Court of Australia
+  provider:
+  - name: Australasian Legal Information Institute
+  creator:
+  - name: High Court of Australia
+- name: Attorney-General for the Commonwealth v. Ah Sheung (1906) 4 CLR 949
+  type: CreativeWork
+  url: http://www.austlii.edu.au/au/cases/cth/HCA/1906/44.html
+  creationDate: '1906-06-29'
+  publisher:
+  - name: High Court of Australia
+  provider:
+  - name: Australasian Legal Information Institute
+  creator:
+  - name: High Court of Australia
+- name: Ah Sheung - Immigration Restriction Act', Minute Paper by Robert Garran, Secretary,
+    Attorney-General's Department, 28 November 1906
+  type: Document
+  creationDate: '1906-11-28'
+  isPartOf:
+  - name: A1, 1908/1498, Ah Sheung
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Robert Garran
+  mentions:
+  - name: Ah Sheung
+- name: A1, 1908/1498, Ah Sheung
+  type: ArchivalUnit
+  url: http://recordsearch.naa.gov.au/scripts/AutoSearch.asp?O=I&Number=9003
+  startDate: '1906'
+  endDate: '1908'
+  isPartOf:
+  - name: A1, Correspondence files, annual single number series
+  hasPart:
+  - name: Ah Sheung - Immigration Restriction Act', Minute Paper by Robert Garran,
+      Secretary, Attorney-General's Department, 28 November 1906
+  provider:
+  - name: National Archives of Australia
+  mentions:
+  - name: Ah Sheung
+- name: Application of Immigration Restriction Act 1901-1905 to Australian-born Chinese',
+    Minute Paper by Atlee Hunt, Secretary, Department of External Affairs, 6 October
+    1906
+  type: Document
+  creationDate: '1906-10-06'
+  isPartOf:
+  - name: A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Atlee Hunt
+  mentions:
+  - name: Department of External Affairs
+- name: A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia
+  type: ArchivalUnit
+  url: http://recordsearch.naa.gov.au/scripts/AutoSearch.asp?O=I&Number=7636
+  startDate: '1906'
+  endDate: '1906'
+  isPartOf:
+  - name: A1, Correspondence files, annual single number series
+  hasPart:
+  - name: Application of Immigration Restriction Act 1901-1905 to Australian-born
+      Chinese', Minute Paper by Atlee Hunt, Secretary, Department of External Affairs,
+      6 October 1906
+  - name: Immigration Restriction Acts 1901-5 - Persons born in Australia', Minute
+      Paper by Littleton Groom, Attorney-General, 27 November 1906
+  provider:
+  - name: National Archives of Australia
+- name: Immigration Restriction Acts 1901-5 - Persons born in Australia', Minute Paper
+    by Littleton Groom, Attorney-General, 27 November 1906
+  type: Document
+  creationDate: '1906-11-27'
+  isPartOf:
+  - name: A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Littleton Groom
+  mentions:
+  - name: Attorney-General's Office
+- name: Charles Powers, Crown Solictor, to Atlee Hunt, Secretary of the Department
+    of External Affairs, 30 April 1908
+  type: Document
+  creationDate: '1908-04-30'
+  isPartOf:
+  - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
+  provider:
+  - name: National Archives of Australia
+  creator:
+  - name: Charles Powers
+  mentions:
+  - name: Crown Solicitor's Office
+  - name: Department of External Affairs
+  - name: Atlee Hunt
+- name: 'The Constitution of a Federal Commonwealth: The Making and Meaning of the
+    Australian Constitution by Nicholas Aroney'
+  type: Book
+  publicationDate: '2008'
+  publisher:
+  - name: Cambridge University Press
+  creator:
+  - name: Nicholas Aroney
+- name: A Chinese Barrister
+  type: NewsArticle
+  publicationDate: '1902-11-29'
+  isPartOf:
+  - name: Leader (Melbourne)
+  position:
+  - p. 36
+  provider:
+  - name: National Library of Australia
+  mentions:
+  - name: William Ah Ket
+- name: Ah Ket, William (1876–1936)
+  type: CreativeWork
+  url: http://adb.anu.edu.au/biography/ah-ket-william-4979/text8267
+  publicationDate: '1979'
+  publisher:
+  - name: Australian National University
+  isPartOf:
+  - name: Australian Dictionary of Biography
+  creator:
+  - name: John Lack
+  mentions:
+  - name: William Ah Ket
+- name: Circular by the Collector of Customs, Customs and Excise Office, Port Adelaide,
+    8 April 1909
+  type: Document
+  creationDate: '1909-04-08'
+  isPartOf:
+  - name: D596, 1909/2128, Immigration Restriction - POTTER versus MINAHAN - judgement
+      handed down by High Court re application of the dictation test
+  provider:
+  - name: National Archives of Australia
+- name: D596, 1909/2128, Immigration Restriction - POTTER versus MINAHAN - judgement
+    handed down by High Court re application of the dictation test
+  type: ArchivalUnit
+  url: http://recordsearch.naa.gov.au/scripts/AutoSearch.asp?O=I&Number=983241
+  startDate: '1909'
+  endDate: '1909'
+  isPartOf:
+  - name: D596, Correspondence files, annual single number series
+  hasPart:
+  - name: Circular by the Collector of Customs, Customs and Excise Office, Port Adelaide,
+      8 April 1909
+  provider:
+  - name: National Archives of Australia

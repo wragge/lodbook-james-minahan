@@ -32,7 +32,7 @@ layout: default
       {{#if image}}
           <div class="card-image">
             <figure class="image is-4by3">
-              <img class="cover" src="{% endraw %}{{ site.baseurl }}{% raw %}/images/{{ image }}" alt="Placeholder image">
+              <img class="cover" src="{% endraw %}{{ site.baseurl }}{% raw %}/images/resized/400/{{ image }}" alt="Placeholder image">
             </figure>
           </div>
       {{/if}}
@@ -40,7 +40,8 @@ layout: default
         <h4 class="title is-size-4">
             {{name}}
         </h4>
-        <p class="subtitle is-size-5">
+        <p class="subtitle is-size-6">
+            {{#if description }}{{ description }}<br />{{/if}}
             {{#each fields}}
                 {{this.label}}: {{this.content}}<br />
             {{/each}}

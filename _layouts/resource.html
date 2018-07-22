@@ -3,32 +3,57 @@ layout: default
 filename: index.html
 ---
 
-<h2 class="title is-size-2">{{ page.title }}</h2>
+{% assign data = page.data %}
+<h2 class="title is-size-2">{{ page.title | smartify }}</h2>
 
 <div class="columns reverse-row-order">
     <div class="column is-half">
-        <div class="content">
-        {% if page.data.graph.image %}
-            <figure class="image box">
-                <img src="{{ site.baseurl }}/images/{{ page.data.graph.image | image_link }}">
-                    {% if page.data.graph.image.name %}
-                    <caption>
-                        <a href="{{ site.baseurl }}/resources/{{ page.data.graph.image.name | slugify }}">{{ page.data.graph.image.name }}</a>
-                    </caption>
-                    {% endif %}
-            </figure>
-        {% endif %}
-        </div>
+        {% include feature-image-resource.html %}
     </div>
     <div class="column is-half">
-        <div class="content">
-            <p>{{ page.data.graph.description }}</p>
-
-            {% for prop in page.data.graph %}
-                {{ prop[1] | lod_list: prop[0] }}
-            {% endfor %}
-        </div>
+        <p class="is-size-4">{{ data.description }}</p>
+        {% if data.startDate %}
+            <h4 class="title lod-list-title">Start date</h4>
+                <ul class="lod-list">
+                    <li>
+                        {{ data.startDate | format_date }}
+                    </li>
+                </ul>
+        {% endif %}
+        {% if data.endDate %}
+            <h4 class="title lod-list-title">End date</h4>
+                <ul class="lod-list">
+                    <li>
+                        {{ data.endDate | format_date }}
+                    </li>
+                </ul>
+        {% endif %}
+        {% if data.creationDate %}
+            <h4 class="title lod-list-title">Created</h4>
+                <ul class="lod-list">
+                    <li>
+                        {{ data.creationDate | format_date }}
+                    </li>
+                </ul>
+        {% endif %}
+        {% if data.publicationDate %}
+            <h4 class="title lod-list-title">Published</h4>
+                <ul class="lod-list">
+                    <li>
+                        {{ data.publicationDate | format_date }}
+                    </li>
+                </ul>
+        {% endif %}
+        {{ data.creator | lod_list: "Created by" }}
+        {{ data.publisher | lod_list: "Published by" }}
+        {{ data.isPartOf | lod_list: "Part of" }}
+        {{ data.position | lod_list: "Position" }}
+        {{ data.hasPart | lod_list: "Includes" }}
+        {{ data.provider | lod_list: "Provided by" }}
+        {{ data.url | lod_list: "Link" }}
+        {{ data.about | lod_list: "Subject" }}
+        {{ data.mentions | lod_list: "Mentions" }}
+        {{ data.sameAs | lod_list: "Same as" }}
+        {% include list-contexts.html %}
     </div>
 </div>
-
-{{ page | jsonldify }}
