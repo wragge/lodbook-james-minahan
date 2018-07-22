@@ -18,7 +18,7 @@ title:               "James Minahan's Homecoming"
 tagline:             'A story of race and belonging in White Australia'
 description:         'An attempt to use Jekyll to publish narratives enriched with Linked Open Data'
 url:                 'https://wragge.github.io'
-baseurl:             '/lodbook3'
+baseurl:             '/lodbook-james-minahan'
 status:              'Draft only, March 2017'
 author: GitHub User
 email: your-email@domain.com
@@ -32,9 +32,6 @@ email: your-email@domain.com
 
 permalink: pretty
 permalink: /:title/
-
-header_pages:
-  - about.md
 
 # Set encoding to UTF-8
 encoding: utf-8
@@ -193,7 +190,11 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+    - original_texts
+    - data_processing
+    - tools
+    - docs
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules

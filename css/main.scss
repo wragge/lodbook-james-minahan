@@ -194,7 +194,10 @@ $text: $grey-darker;
 
 #text a {
     color: $grey-darker;
-    text-decoration: underline dotted;
+    /* text-decoration: underline;
+    text-decoration-skip-ink: auto;
+    -webkit-text-decoration-skip-ink: auto; */
+    border-bottom: 1px dotted $grey-darker;
 }
 
 #sidebar {
