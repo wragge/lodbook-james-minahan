@@ -555,6 +555,12 @@ module Jekyll
 
         end
 
+        module ShuffleFilter
+            def shuffle(array)
+                array.shuffle
+            end
+        end
+
         module JSONLDGenerator
 
             # Creates JSON-LD about an entity for embedding in a page.
@@ -596,6 +602,15 @@ module Jekyll
                 compacted = JSON::LD::API.compact(expanded, page_context)
                 return "<script type=\"application/ld+json\">#{JSON.pretty_generate(compacted)}</script>"
             end
+        end
+
+        module CollectionFilter
+
+            def collection(record)
+                types = @context.registers[:site].config['data_types']
+                types[record["type"]]["collection"]
+            end
+
         end
 
         module LODItem
@@ -789,3 +804,5 @@ Liquid::Template.register_filter(Jekyll::LODBook::LODList)
 Liquid::Template.register_filter(Jekyll::LODBook::LODItem)
 Liquid::Template.register_filter(Jekyll::LODBook::ImageLink)
 Liquid::Template.register_filter(Jekyll::LODBook::FormatDate)
+Liquid::Template.register_filter(Jekyll::LODBook::ShuffleFilter)
+Liquid::Template.register_filter(Jekyll::LODBook::CollectionFilter)

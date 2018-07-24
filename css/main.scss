@@ -286,7 +286,10 @@ $text: $grey-darker;
     border: 1px solid;
 }
 
-.cover {object-fit: cover;}
+.cover {
+    object-fit: cover;
+    object-position: 50% 25%;
+}
 
 .image.is-rounded img {
       object-fit: cover;
@@ -355,4 +358,20 @@ body {
 }
 footer {
   flex-shrink: 0;
+}
+
+.wall-image {
+    margin-bottom: 0.5rem;
+}
+
+.wall-link {
+    padding-left: 0.5rem;
+    margin-right: -0.5rem;
+    margin-top: -0.5rem;
+    opacity: 0.75;
+    transition: opacity 0.5s;
+}
+
+.wall-link:hover {
+    opacity: 1;
 }

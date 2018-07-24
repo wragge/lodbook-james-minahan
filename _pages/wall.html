@@ -1,0 +1,54 @@
+---
+layout: default
+custom-js:
+    - wall
+    - isotope.pkgd.min
+    - packery-mode.pkgd.min
+    - fit-columns
+    - imagesloaded.pkgd.min
+permalink: /views/wall/
+---
+
+{% assign lod_source = site.lod_source.data %}
+{% assign things = site.data[lod_source] | shuffle %}
+{% assign total = things | size %}
+{% assign row = 4 %}
+{% assign rows = total | divided_by: 4 %}
+<div id="wall" class="columns is-multiline">
+{% for i in (0..rows) %}
+    {% assign offset = i | times: 4 %}
+    {% for thing in things limit: 4 offset: offset %}
+        {% assign collection = thing | collection %}
+        <div class="column is-one-quarter">
+            <article class="box {{ collection }}">
+                {% if thing.image %}
+                    {% assign image_filename = thing.image | image_link %}
+                    {% if image_filename != "" and image_filename != nil %}
+                      <figure class="image wall-image {% if collection == 'resources' %}is-4by5{% else %}is-4by3{% endif %}">
+                        <img class="cover" src="{{ site.baseurl }}/images/resized/400/{{ image_filename }}" alt="Placeholder image">
+                      </figure>
+                    {% endif %}
+                {% endif %}
+                <h4 class="title is-size-4 has-text-light">{{ thing.name | smartify }}</h4>
+                {% if thing.description%}
+                <p class="subtitle has-text-light is-size-6">{{ thing.description | smartify }}</p>
+                {% endif %}
+                {% if thing.provider %}
+                <p class="subtitle has-text-light is-size-6">{{ thing.provider[0]["name"] }}</p>
+                {% endif %}
+                {% if collection == 'events' and thing.startDate %}
+                <p class="subtitle has-text-light is-size-6">{{ thing.startDate | format_date }}</p>
+                {% endif %}
+                {% if collection == 'places' and thing.containedInPlace%}
+                <p class="subtitle has-text-light is-size-6">{{ thing.containedInPlace[0]["name"] }}</p>
+                {% endif %}
+                <p><a class="is-pulled-right wall-link has-text-light" href="{{ site.baseurl }}/{{ collection }}/{{ thing.name | slugify }}/">
+                        <span class="icon is-small"><i class="far fa-arrow-alt-circle-right"></i></span>
+                    </a>
+                </p>
+
+            </article>
+        </div>
+    {% endfor %}
+{% endfor %}
+</div>
