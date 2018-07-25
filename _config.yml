@@ -48,13 +48,13 @@ lod_source:
     context:
         - 'http://schema.org/'
         - mentionedBy:
-            "@reverse": mentions
+            "@reverse": http://schema.org/mentions
           performedIn:
-            "@reverse": performer
+            "@reverse": http://schema.org/performer
           attended:
-            "@reverse": attendee
+            "@reverse": http://schema.org/attendee
           created:
-            "@reverse": creator
+            "@reverse": http://schema.org/creator
 data_types:
   Person:
     template: 'person'
