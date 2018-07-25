@@ -1424,7 +1424,7 @@
   type: ImageObject
   image: naa-10131-p78.jpg
   url: https://recordsearch.naa.gov.au/SearchNRetrieve/Gallery151/dist/JGalleryViewer.aspx?B=10131&S=78&N=95&R=0
-  creationDate: '1908-01-28'
+  dateCreated: '1908-01-28'
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   about:
@@ -1440,7 +1440,7 @@
   type: CreativeWork
   image: austlii-HCA63-Potter-Minahan.JPG
   url: http://www.austlii.edu.au/au/cases/cth/HCA/1908/63.html
-  creationDate: '1908-10-08'
+  dateCreated: '1908-10-08'
   startDate: '1908-10-08'
   endDate: '1908-10-08'
   publisher:
@@ -1507,7 +1507,7 @@
   type: Photograph
   image: nla.obj-141808770-1.jpg
   url: http://nla.gov.au/nla.obj-141808770
-  creationDate: '1918'
+  dateCreated: '1918'
   about:
   - name: Darlinghurst Gaol
   provider:
@@ -1518,7 +1518,7 @@
   type: Photograph
   image: nla.obj-136594976-1.jpg
   url: http://nla.gov.au/nla.obj-136594976
-  creationDate: '1903'
+  dateCreated: '1903'
   about:
   - name: High Court of Australia
   provider:
@@ -1536,7 +1536,7 @@
   type: Photograph
   image: slv-H84.458-119.jpeg
   url: http://handle.slv.vic.gov.au/10381/68536
-  creationDate: '1900'
+  dateCreated: '1900'
   about:
   - name: Chiltern
   provider:
@@ -1590,7 +1590,7 @@
 - name: Copy of Dictation Test from 16 to 31 January 1908
   type: Document
   image: naa-10131-p89.jpg
-  creationDate: 1908-01
+  dateCreated: 1908-01
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   provider:
@@ -1599,7 +1599,7 @@
   type: Photograph
   image: nla.obj-140228034-1.jpg
   url: http://nla.gov.au/nla.obj-140228034
-  creationDate: '1925'
+  dateCreated: '1925'
   about:
   - name: Philip Whistler Street
   provider:
@@ -1626,7 +1626,7 @@
   type: Document
   image: naa-10131-p86.jpg
   url: http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131
-  creationDate: '1908-01-23'
+  dateCreated: '1908-01-23'
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   about:
@@ -1641,7 +1641,7 @@
   type: CreativeWork
   image: nla.news-article10142694.4.pdf
   url: http://nla.gov.au/nla.news-article10142694
-  publicationDate: 1907-12-17
+  datePublished: '1907-12-17'
   isPartOf:
   - name: Argus
   position:
@@ -1657,7 +1657,7 @@
 - name: "“Habeas Corpus Mongols” – Chinese Litigants and the Politics of Immigration
     in 1888 by Mark Finnane"
   type: Article
-  publicationDate: '2014'
+  datePublished: '2014'
   isPartOf:
   - name: Australian Historical Studies
   position:
@@ -1668,7 +1668,7 @@
   type: CreativeWork
   image: nla.news-article10155422.5.pdf
   url: http://nla.gov.au/nla.news-article10155422
-  publicationDate: '1907-07-13'
+  datePublished: '1907-07-13'
   isPartOf:
   - name: Argus
   position:
@@ -1706,7 +1706,7 @@
   type: CreativeWork
   image: nla.news-article114098110.4.pdf
   url: http://nla.gov.au/nla.news-article114098110
-  publicationDate: '1908-02-07'
+  datePublished: '1908-02-07'
   isPartOf:
   - name: Evening News (Sydney)
   position:
@@ -1724,7 +1724,7 @@
 - name: Statement by J.T.T. Donohoe, 10 February 1908
   type: Document
   image: naa-10131-p85.jpg
-  creationDate: '1908-02-10'
+  dateCreated: '1908-02-10'
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   about:
@@ -1738,7 +1738,7 @@
   type: Document
   image: naa-10131-p95.jpg
   url: http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131
-  creationDate: '1908-02-06'
+  dateCreated: '1908-02-06'
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   provider:
@@ -1750,14 +1750,14 @@
 - name: 'The New Gold Mountain: The Chinese in Australia 1901-1921 by C.F. Yong'
   type: Book
   image: Yong1977.jpg
-  publicationDate: '1977'
+  datePublished: '1977'
   publisher:
   - name: Raphael Arts, Richmond, SA
 - name: The Chinese Exclusion Law
   type: CreativeWork
   image: nla.news-article196210126.5.pdf
   url: http://nla.gov.au/nla.news-article196210126
-  creationDate: '1911-09-29'
+  dateCreated: '1911-09-29'
   isPartOf:
   - name: Age (Melbourne)
   position:
@@ -1771,7 +1771,7 @@
   type: CreativeWork
   image: nla.news-article222611116.2.pdf
   url: http://nla.gov.au/nla.news-article222611116
-  creationDate: '1913-10-25'
+  dateCreated: '1913-10-25'
   isPartOf:
   - name: Weekly Times (Melbourne)
   position:
@@ -1787,7 +1787,7 @@
   type: Document
   image: naa-10131-p53.jpg
   url: http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131
-  creationDate: '1908-02-06'
+  dateCreated: '1908-02-06'
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   provider:
@@ -1801,7 +1801,7 @@
   type: Document
   image: naa-10131-p65.jpg
   url: http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131
-  creationDate: '1908-02-11'
+  dateCreated: '1908-02-11'
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   provider:
@@ -1814,7 +1814,7 @@
   type: Photograph
   image: nla.news-article139201161.5.jpg
   url: http://nla.gov.au/nla.news-article139201161
-  publicationDate: '1908-06-13'
+  datePublished: '1908-06-13'
   publisher:
   - name: Australasian
   position:
@@ -1837,7 +1837,7 @@
   type: Photograph
   image: nla.obj-136595510-1.jpg
   url: https://catalogue.nla.gov.au/Record/1097475
-  creationDate: '1902'
+  dateCreated: '1902'
   about:
   - name: Edmund Barton
   provider:
@@ -1846,7 +1846,7 @@
   type: Photograph
   image: slq-108944.jpg
   url: https://hdl.handle.net/10462/deriv/129889
-  creationDate: '1903'
+  dateCreated: '1903'
   about:
   - name: Samuel Griffth
   provider:
@@ -1867,7 +1867,7 @@
   type: Photograph
   image: nla.obj-122783806.jpg
   url: https://trove.nla.gov.au/newspaper/article/122783806
-  publicationDate: '1917-11-18'
+  datePublished: '1917-11-18'
   publisher:
   - name: Sunday Times (Sydney)
   position:
@@ -1926,7 +1926,7 @@
   type: Photograph
   image: nla.obj-196580331.jpg
   url: https://trove.nla.gov.au/newspaper/article/196580331
-  publicationDate: '1902-11-29'
+  datePublished: '1902-11-29'
   about:
   - name: William Ah Ket
   provider:
@@ -1937,7 +1937,7 @@
   type: Photograph
   image: nla.obj-242029116.jpg
   url: http://nla.gov.au/nla.news-article242029116
-  publicationDate: '1908-05-29'
+  datePublished: '1908-05-29'
   about:
   - name: W.T. Coldham
   provider:
@@ -1946,7 +1946,7 @@
   type: Photograph
   image: nla.obj-244846635.JPG
   url: http://nla.gov.au/nla.news-article244846635
-  publicationDate: '1924-10-24'
+  datePublished: '1924-10-24'
   publisher:
   - name: The Herald (Melbourne)
   position:
@@ -1961,7 +1961,7 @@
   type: Photograph
   image: nla.obj-126751846.JPG
   url: https://trove.nla.gov.au/newspaper/article/126751846
-  publicationDate: '1908-04-12'
+  datePublished: '1908-04-12'
   publisher:
   - name: Sunday Times (Sydney)
   position:
@@ -1974,7 +1974,7 @@
   type: CreativeWork
   image: nla.obj-168742060.jpg
   url: https://trove.nla.gov.au/newspaper/article/168742060
-  publicationDate: '1912-08-11'
+  datePublished: '1912-08-11'
   publisher:
   - name: Truth (Sydney)
   position:
@@ -1989,7 +1989,7 @@
   type: Photograph
   image: nla.obj-145851479.jpg
   url: https://trove.nla.gov.au/newspaper/article/145851479
-  publicationDate: '1907-07-11'
+  datePublished: '1907-07-11'
   publisher:
   - name: Table Talk (Melbourne)
   position:
@@ -2002,7 +2002,7 @@
   type: Photograph
   image: awm-4121013.JPG
   url: https://www.awm.gov.au/collection/C207028
-  creationDate: 1916-09
+  dateCreated: 1916-09
   about:
   - name: Harry Hoylilng
   provider:
@@ -2011,7 +2011,7 @@
   type: Photograph
   image: nla.obj-174649152.JPG
   url: https://trove.nla.gov.au/newspaper/article/174649152
-  publicationDate: '1904-05-12'
+  datePublished: '1904-05-12'
   publisher:
   - name: Punch (Melbourne)
   position:
@@ -2024,7 +2024,7 @@
   type: Photograph
   image: nla.obj-174649152-Hunt.JPG
   url: https://trove.nla.gov.au/newspaper/article/174649152
-  publicationDate: '1904-11-12'
+  datePublished: '1904-11-12'
   publisher:
   - name: Weekly Times (Melbourne)
   position:
@@ -2049,7 +2049,7 @@
   type: Photograph
   image: nla.obj-246761997.jpg
   url: https://trove.nla.gov.au/newspaper/article/246761997
-  publicationDate: '1922-06-14'
+  datePublished: '1922-06-14'
   publisher:
   - name: Herald (Melbourne)
   position:
@@ -2062,7 +2062,7 @@
   type: Photograph
   image: nla.obj-38521029.jpg
   url: https://trove.nla.gov.au/newspaper/article/38521029
-  publicationDate: '1930-10-23'
+  datePublished: '1930-10-23'
   publisher:
   - name: The Western Mail (Perth)
   position:
@@ -2075,7 +2075,7 @@
   type: Photograph
   image: nla.obj-239637027.jpg
   url: https://trove.nla.gov.au/newspaper/article/239637027
-  publicationDate: '1919-07-23'
+  datePublished: '1919-07-23'
   publisher:
   - name: The Daily Telegraph (Sydney)
   position:
@@ -2088,7 +2088,7 @@
   type: CreativeWork
   image: nla-obj-168664884.JPG
   url: https://trove.nla.gov.au/newspaper/article/168664884
-  publicationDate: '1919-12-27'
+  datePublished: '1919-12-27'
   publisher:
   - name: Chinese Times
   position:
@@ -2154,7 +2154,7 @@
   type: Thesis
   image: ANU-Prince-Peter-2015.JPG
   url: https://openresearch-repository.anu.edu.au/handle/1885/101778
-  publicationDate: '2015'
+  datePublished: '2015'
   provider:
   - name: Australian National University
   creator:
@@ -2163,7 +2163,7 @@
   type: NewsArticle
   image: nla.news-article238098724.3.pdf
   url: http://nla.gov.au/nla.news-article238098724
-  publicationDate: '1908-02-08'
+  datePublished: '1908-02-08'
   publisher:
   - name: Daily Telegraph
   position:
@@ -2174,7 +2174,7 @@
   type: NewsArticle
   image: nla.news-article5124640.3.pdf
   url: http://nla.gov.au/nla.news-article5124640
-  publicationDate: '1908-02-08'
+  datePublished: '1908-02-08'
   publisher:
   - name: Advertiser (Adelaide)
   position:
@@ -2185,7 +2185,7 @@
   type: NewsArticle
   image: nla.news-article10666666.5.pdf
   url: http://nla.gov.au/nla.news-article10666666
-  publicationDate: '1908-02-29'
+  datePublished: '1908-02-29'
   publisher:
   - name: Argus (Melbourne)
   position:
@@ -2196,7 +2196,7 @@
   type: NewsArticle
   image: nla.news-article5131017.5.pdf
   url: http://nla.gov.au/nla.news-article5131017
-  publicationDate: '1908-04-01'
+  datePublished: '1908-04-01'
   publisher:
   - name: Advertiser (Adelaide)
   position:
@@ -2207,7 +2207,7 @@
   type: CreativeWork
   image: austlii-HCA36-Donohoe-WongSau.JPG
   url: http://www7.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1925/6.html?context=1;query=donohoe;mask_path=au/cases/cth/HCA
-  creationDate: '1925-04-17'
+  dateCreated: '1925-04-17'
   publisher:
   - name: High Court of Australia
   provider:
@@ -2217,7 +2217,7 @@
 - name: Robert Garran, Opinion No. 1279
   type: CreativeWork
   url: http://legalopinions.ags.gov.au/legalopinion/opinion-1279
-  creationDate: '1922-11-29'
+  dateCreated: '1922-11-29'
   publisher:
   - name: Attorney-General's Department
   provider:
@@ -2225,7 +2225,7 @@
 - name: Singh v. Commonwealth of Australia (2004) 222 CLR 322
   type: CreativeWork
   url: http://www.austlii.edu.au/au/cases/cth/HCA/2004/43.html
-  creationDate: '2004-09-09'
+  dateCreated: '2004-09-09'
   publisher:
   - name: High Court of Australia
   provider:
@@ -2235,7 +2235,7 @@
 - name: The Legal Interpretation of the Constitution of the Commonwealth by a. Berriedale
     Keith
   type: Article
-  publicationDate: '1911'
+  datePublished: '1911'
   isPartOf:
   - name: Journal of the Society of Comparative Legislation
   position:
@@ -2244,7 +2244,7 @@
   - name: A. Berriedale Keith
 - name: Immigration Restriction in Australia by Everard Digby
   type: Article
-  publicationDate: '1911'
+  datePublished: '1911'
   isPartOf:
   - name: Journal of the Society of Comparative Legislation
   position:
@@ -2253,28 +2253,28 @@
   - name: Everard Digby
 - name: Asian Migration to Australia by A.T. Yarwood
   type: Book
-  publicationDate: '1964'
+  datePublished: '1964'
   publisher:
   - name: Melbourne University Press
   creator:
   - name: A.T. Yarwood
 - name: The Administration of the White Australia Policy by A.C. Palfreeman
   type: Book
-  publicationDate: '1967'
+  datePublished: '1967'
   publisher:
   - name: Melbourne University Press
   creator:
   - name: A.C. Palfreeman
 - name: 'Alien Acts: The White Australia Policy, 1901 to 1939'
   type: Thesis
-  publicationDate: '1998'
+  datePublished: '1998'
   provider:
   - name: University of Melbourne
   creator:
   - name: Paul Anthony Jones
 - name: Citzenship and the Centenary by Kim Rubenstein
   type: Article
-  publicationDate: 2000-12
+  datePublished: 2000-12
   isPartOf:
   - name: Melbourne University Law Review
   position:
@@ -2284,7 +2284,7 @@
 - name: 'Defining Strangers: Human Rights, Immigration and the Foundations of a Just
     Society by Mary Crock'
   type: Article
-  publicationDate: '2007'
+  datePublished: '2007'
   isPartOf:
   - name: Melbourne University Law Review
   position:
@@ -2294,7 +2294,7 @@
 - name: 'Still Call Australia Home: The Constitution and the Citizen’s Right of Abode
     by Helen Irving'
   type: Article
-  publicationDate: 2008-03
+  datePublished: 2008-03
   isPartOf:
   - name: Sydney Law Review
   position:
@@ -2304,7 +2304,7 @@
 - name: 'Non-Immigrants, Non-Aliens and People of the Commonwealth: Australian Constitutional
     Citizenship Revisited by Sangeetha Pillai'
   type: Article
-  publicationDate: '2013'
+  datePublished: '2013'
   isPartOf:
   - name: Monash Law Review
   position:
@@ -2314,7 +2314,7 @@
 - name: 'Law as Politics: Chinese Litigants in Australian Colonial Courts by Mark
     Finnane'
   type: Chapter
-  publicationDate: '2015'
+  datePublished: '2015'
   publisher:
   - name: Brill
   isPartOf:
@@ -2327,7 +2327,7 @@
 - name: Winefred Managyan (birth)
   type: ArchivalUnit
   image: 783874174_WinifredMinahan_birth.pdf
-  creationDate: '1858'
+  dateCreated: '1858'
   isPartOf:
   - name: Victorian Registry of Births, Deaths and Marriages
   position:
@@ -2346,7 +2346,7 @@
 - name: Richard Monaghan and Mary Mangan (marriage)
   type: ArchivalUnit
   image: 1153474456_RichardMinahan_marriage.pdf
-  creationDate: '1865'
+  dateCreated: '1865'
   isPartOf:
   - name: Victorian Registry of Births, Deaths and Marriages
   position:
@@ -2357,7 +2357,7 @@
 - name: James Francis Kitchen Minahan (bIrth)
   type: ArchivalUnit
   image: 1019717390_JamesMinahan_birth.pdf
-  creationDate: '1876'
+  dateCreated: '1876'
   isPartOf:
   - name: Victorian Registry of Births, Deaths and Marriages
   position:
@@ -2369,7 +2369,7 @@
 - name: Cornishtown and Prentice Freehold Reunion 1873–1998  edited by Nell Begley
     and Rex Fuge
   type: Book
-  creationDate: '1998'
+  dateCreated: '1998'
   publisher:
   - name: R. Fuge
   creator:
@@ -2379,7 +2379,7 @@
 - name: Winifred Cheong Meng (birth)
   type: ArchivalUnit
   image: 1626276695_WinifredCheongMeng_birth.pdf
-  creationDate: '1881'
+  dateCreated: '1881'
   isPartOf:
   - name: Victorian Registry of Births, Deaths and Marriages
   position:
@@ -2390,7 +2390,7 @@
 - name: Winifred Cheong Meng (death)
   type: ArchivalUnit
   image: 309166803_WinifredChongMeng_death.pdf
-  creationDate: '1881'
+  dateCreated: '1881'
   isPartOf:
   - name: Victorian Registry of Births, Deaths and Marriages
   position:
@@ -2401,7 +2401,7 @@
 - name: 'Landscapes of Memory and Forgetting: Indigo and Shek Quey Lee by Kate Bagnall'
   type: Article
   url: http://chl-old.anu.edu.au/publications/csds/csds2013/csds2013_04.pdf
-  publicationDate: 2013-07
+  datePublished: 2013-07
   isPartOf:
   - name: Chinese Southern Diaspora Studies
   position:
@@ -2414,7 +2414,7 @@
 - name: Vessels Advertised as Landing
   type: NewsArticle
   image: ChinaMail-31Dec1907p8Taiyuan.tiff
-  publicationDate: '1907-12-31'
+  datePublished: '1907-12-31'
   isPartOf:
   - name: China Mail (Hong Kong)
   position:
@@ -2439,7 +2439,7 @@
     Anglo-Chinese and the Politics of Overseas Travel from New South Wales,
     1898 to 1925 by Kate Bagnall
   type: Chapter
-  publicationDate: '2015'
+  datePublished: '2015'
   publisher:
   - name: Brill
   isPartOf:
@@ -2451,7 +2451,7 @@
   - name: Kate Bagnall
 - name: Passenger List for the Taiyuan, Sydney, 23 January 1908
   type: ArchivalUnit
-  creationDate: '1908-01-23'
+  dateCreated: '1908-01-23'
   isPartOf:
   - name: New South Wales, Australia, Unassisted Immigrant Passenger Lists, 1826-1922
       [online database]
@@ -2469,7 +2469,7 @@
 - name: Information for an Offence in the Court of Petty Sessions, Melbourne, 14 February
     1908
   type: CreativeWork
-  creationDate: '1908-02-14'
+  dateCreated: '1908-02-14'
   isPartOf:
   - name: A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen
   provider:
@@ -2480,7 +2480,7 @@
 - name: Crown Solicitor to Atlee Hunt, Secretary, Department of External Affairs,
     8 February 1908
   type: Document
-  creationDate: '1908-02-08'
+  dateCreated: '1908-02-08'
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   provider:
@@ -2492,7 +2492,7 @@
 - name: Died at His Post
   type: NewsArticle
   url: http://nla.gov.au/nla.news-article2115594931924
-  publicationDate: '1924-10-08'
+  datePublished: '1924-10-08'
   isPartOf:
   - name: Geelong Advertiser
   position:
@@ -2504,7 +2504,7 @@
 - name: Death of Mr. Bryant, K.C.
   type: NewsArticle
   url: http://nla.gov.au/nla.news-article2056772
-  publicationDate: '1924-10-25'
+  datePublished: '1924-10-25'
   isPartOf:
   - name: Argus (Melbourne)
   position:
@@ -2516,7 +2516,7 @@
 - name: Death of Mr. W.T. Coldham
   type: NewsArticle
   url: http://nla.gov.au/nla.news-article198110745
-  publicationDate: '1908-06-06'
+  datePublished: '1908-06-06'
   isPartOf:
   - name: Leader (Melbourne)
   position:
@@ -2528,7 +2528,7 @@
 - name: Affadavit of John Gardner Davies, 22 April 1908, Copy Documents (prepared
     by Charles Powers)
   type: Document
-  creationDate: '1908-04-22'
+  dateCreated: '1908-04-22'
   isPartOf:
   - name: A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen
   provider:
@@ -2540,7 +2540,7 @@
 - name: Evidence of Ching Kay, 28 February 1908, Copy Documents (prepared by Charles
     Powers)
   type: Document
-  creationDate: '1908-02-28'
+  dateCreated: '1908-02-28'
   isPartOf:
   - name: A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen
   provider:
@@ -2553,7 +2553,7 @@
 - name: Starling, John Henry (1883-1966) by David I. Smith
   type: CreativeWork
   url: http://adb.anu.edu.au/biography/starling-john-henry-8630/text15079
-  publicationDate: '1990'
+  datePublished: '1990'
   publisher:
   - name: Australian National University
   isPartOf:
@@ -2565,7 +2565,7 @@
 - name: Letter from Charles Power, Crown Solicitor, to Robert Garran, Secretary of
     the Attorney-General's Department, 8 April 1908
   type: Document
-  creationDate: '1908-04-08'
+  dateCreated: '1908-04-08'
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   creator:
@@ -2576,14 +2576,14 @@
   - name: Attorney-General's Department
 - name: Annotated Minute Paper from the Attorney-General's Department, 8 April 1908
   type: Document
-  creationDate: '1908-04-08'
+  dateCreated: '1908-04-08'
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   creator:
   - name: Attorney-General's Department
 - name: Australian Citizenship Law in Context by Kim Rubenstein
   type: Book
-  publicationDate: '2002'
+  datePublished: '2002'
   publisher:
   - name: Lawbook Co.
   creator:
@@ -2591,7 +2591,7 @@
 - name: Chia Gee v. Martin (1905) 3 CLR 649
   type: CreativeWork
   url: http://www.austlii.edu.au/au/cases/cth/HCA/1905/70.html
-  creationDate: '1905-10-20'
+  dateCreated: '1905-10-20'
   publisher:
   - name: High Court of Australia
   provider:
@@ -2601,7 +2601,7 @@
 - name: Attorney-General for the Commonwealth v. Ah Sheung (1906) 4 CLR 949
   type: CreativeWork
   url: http://www.austlii.edu.au/au/cases/cth/HCA/1906/44.html
-  creationDate: '1906-06-29'
+  dateCreated: '1906-06-29'
   publisher:
   - name: High Court of Australia
   provider:
@@ -2611,7 +2611,7 @@
 - name: Ah Sheung - Immigration Restriction Act', Minute Paper by Robert Garran, Secretary,
     Attorney-General's Department, 28 November 1906
   type: Document
-  creationDate: '1906-11-28'
+  dateCreated: '1906-11-28'
   isPartOf:
   - name: A1, 1908/1498, Ah Sheung
   provider:
@@ -2638,7 +2638,7 @@
     Minute Paper by Atlee Hunt, Secretary, Department of External Affairs, 6 October
     1906
   type: Document
-  creationDate: '1906-10-06'
+  dateCreated: '1906-10-06'
   isPartOf:
   - name: A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia
   provider:
@@ -2665,7 +2665,7 @@
 - name: Immigration Restriction Acts 1901-5 - Persons born in Australia', Minute Paper
     by Littleton Groom, Attorney-General, 27 November 1906
   type: Document
-  creationDate: '1906-11-27'
+  dateCreated: '1906-11-27'
   isPartOf:
   - name: A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia
   provider:
@@ -2677,7 +2677,7 @@
 - name: Charles Powers, Crown Solictor, to Atlee Hunt, Secretary of the Department
     of External Affairs, 30 April 1908
   type: Document
-  creationDate: '1908-04-30'
+  dateCreated: '1908-04-30'
   isPartOf:
   - name: A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908
   provider:
@@ -2691,14 +2691,14 @@
 - name: 'The Constitution of a Federal Commonwealth: The Making and Meaning of the
     Australian Constitution by Nicholas Aroney'
   type: Book
-  publicationDate: '2008'
+  datePublished: '2008'
   publisher:
   - name: Cambridge University Press
   creator:
   - name: Nicholas Aroney
 - name: A Chinese Barrister
   type: NewsArticle
-  publicationDate: '1902-11-29'
+  datePublished: '1902-11-29'
   isPartOf:
   - name: Leader (Melbourne)
   position:
@@ -2710,7 +2710,7 @@
 - name: Ah Ket, William (1876–1936)
   type: CreativeWork
   url: http://adb.anu.edu.au/biography/ah-ket-william-4979/text8267
-  publicationDate: '1979'
+  datePublished: '1979'
   publisher:
   - name: Australian National University
   isPartOf:
@@ -2722,7 +2722,7 @@
 - name: Circular by the Collector of Customs, Customs and Excise Office, Port Adelaide,
     8 April 1909
   type: Document
-  creationDate: '1909-04-08'
+  dateCreated: '1909-04-08'
   isPartOf:
   - name: D596, 1909/2128, Immigration Restriction - POTTER versus MINAHAN - judgement
       handed down by High Court re application of the dictation test

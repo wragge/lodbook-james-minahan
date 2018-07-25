@@ -375,3 +375,19 @@ footer {
 .wall-link:hover {
     opacity: 1;
 }
+
+.small-map {
+    height: 300px;
+}
+
+.large-map {
+    height: 500px;
+}
+
+.navbar-dropdown {
+    z-index: 2000;
+}
+
+.leaflet-container {
+    font-family: $family-serif;
+}

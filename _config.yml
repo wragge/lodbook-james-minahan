@@ -45,8 +45,16 @@ collections:
 
 lod_source:
     data: 'data-csv'
-    context: 'http://schema.org/'
-
+    context:
+        - 'http://schema.org/'
+        - mentionedBy:
+            "@reverse": mentions
+          performedIn:
+            "@reverse": performer
+          attended:
+            "@reverse": attendee
+          created:
+            "@reverse": creator
 data_types:
   Person:
     template: 'person'

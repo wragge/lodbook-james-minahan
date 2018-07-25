@@ -109,7 +109,7 @@ module Jekyll
             def process_hash(value)
                 properties = {}
                 value.each do |key, prop|
-                    puts key
+                    # puts key
                     if key == "image"
                         if prop.kind_of?(Hash)
                             if prop.has_key?("name")
@@ -522,6 +522,21 @@ module Jekyll
             end
         end
 
+        module ImageLinks
+
+            def add_image_links(things)
+                things.each do |thing|
+                    if thing["image"]
+                        image_file = image_link(thing["image"])
+                        if image_file
+                            thing["image_file"] = image_file
+                        end
+                    end
+                end
+                return things
+            end
+        end
+
         module FormatDate
 
             # Formats an ISO date as a nice human-readable string
@@ -803,6 +818,7 @@ Liquid::Template.register_filter(Jekyll::LODBook::LODUrlFilter)
 Liquid::Template.register_filter(Jekyll::LODBook::LODList)
 Liquid::Template.register_filter(Jekyll::LODBook::LODItem)
 Liquid::Template.register_filter(Jekyll::LODBook::ImageLink)
+Liquid::Template.register_filter(Jekyll::LODBook::ImageLinks)
 Liquid::Template.register_filter(Jekyll::LODBook::FormatDate)
 Liquid::Template.register_filter(Jekyll::LODBook::ShuffleFilter)
 Liquid::Template.register_filter(Jekyll::LODBook::CollectionFilter)

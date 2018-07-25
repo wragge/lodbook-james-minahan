@@ -1,0 +1,21 @@
+---
+layout: default
+custom-js:
+    - map
+    - leaflet
+    - lodash.min
+custom-css:
+    - leaflet
+permalink: /views/map/
+---
+
+<div id="map" class="large-map"></div>
+<script>
+{% assign places = '' | split: '' %}
+{% assign collection = site.data_collections | where: "name", "places" | first %}
+{% for type in collection.types %}
+    {% assign more_places = site.data[site.lod_source.data] | where:"type", type %}
+    {% assign places = places | concat: more_places %}
+{% endfor %}
+var places = {{ places | add_image_links | jsonify }};
+</script>

@@ -1,6 +1,11 @@
 ---
 layout: default
 filename: index.html
+custom-css:
+    - leaflet
+custom-js:
+    - leaflet
+    - place
 ---
 
 {% assign data = page.data %}
@@ -8,17 +13,20 @@ filename: index.html
 
 <div class="columns reverse-row-order">
     <div class="column is-half">
+        {% if data.geo.latitude %}
+        <figure class="image box">
+            <div id="map" class="{% if data.image %}small{% else %}large{% endif %}-map"></div>
+            <figcaption>
+                <p>
+                    Coordinates: {{ data.geo.latitude }}, {{ data.geo.longitude }}
+                </p>
+            </figcaption>
+        </figure>
+        {% endif %}
         {% include feature-image-with-caption.html %}
     </div>
     <div class="column is-half">
         <p class="is-size-4">{{ data.description }}</p>
-        {% if data.geo.latitude %}
-            <h4 class="title lod-list-title">Coordinates</h4>
-                <ul class="lod-list">
-                    <li>Latitude: {{ data.geo.latitude }}</li>
-                    <li>Longitude: {{ data.geo.longitude }}</li>
-                </ul>
-        {% endif %}
         {{ data.address | lod_list: "Address" }}
         {{ data.containedInPlace | lod_list: "Located in" }}
         {{ data["containsPlace"] | lod_list: "Contains" }}
@@ -28,3 +36,12 @@ filename: index.html
         {% include list-contexts.html %}
     </div>
 </div>
+<script>
+    {% if data.geo.latitude %}
+        var latitude = {{ data.geo.latitude }};
+        var longitude = {{ data.geo.longitude }};
+    {% else %}
+        var latitude = "";
+        var longitude = "";
+    {% endif %}
+</script>
