@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1949",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/jessie-shing-dies/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/jessie-shing-dies/index.html",
+  "name": "Jessie Shing dies",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/jessie-shing/",
+    "name": "Jessie Shing",
+    "type": "Person"
+  },
+  "startDate": "1949",
+  "type": "Event"
+}

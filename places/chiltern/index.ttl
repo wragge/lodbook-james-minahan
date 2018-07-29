@@ -1,0 +1,20 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/chiltern/> a <http://schema.org/City>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/victoria/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-36.15044";
+     <http://schema.org/longitude> "146.60843"
+   ];
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/chiltern-gold-mine/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/chiltern/index.html";
+   <http://schema.org/name> "Chiltern";
+   <http://schema.org/sameAs> <https://en.wikipedia.org/wiki/Chiltern,_Victoria>,
+     <http://www.geonames.org/2171619/chiltern.html> .
+
+<https://wragge.github.io/lodbook-james-minahan/places/victoria/> a <http://schema.org/State>;
+   <http://schema.org/name> "Victoria" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/chiltern-gold-mine/> a <http://schema.org/Photograph>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/places/chiltern/>;
+   <http://schema.org/name> "Chiltern Gold Mine" .

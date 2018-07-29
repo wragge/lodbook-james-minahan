@@ -1,0 +1,27 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/> a <http://schema.org/ImageObject>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/creationDate> "1908-01-28";
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-sydney/>;
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/hugh-mercer/>;
+   <http://schema.org/name> "Imprint of the left hand of James Frances Kitchen, 28 January 1908";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/>;
+   <http://schema.org/url> <https://recordsearch.naa.gov.au/SearchNRetrieve/Gallery151/dist/JGalleryViewer.aspx?B=10131&S=78&N=95&R=0> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-sydney/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Collector of Customs, Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/hugh-mercer/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Hugh Mercer" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

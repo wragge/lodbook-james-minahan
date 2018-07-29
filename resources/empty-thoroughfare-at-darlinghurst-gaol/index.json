@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/darlinghurst-gaol/",
+    "name": "Darlinghurst Gaol",
+    "type": "CivicStructure"
+  },
+  "creationDate": "1918",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/albert-dryer/",
+    "name": "Albert Dryer",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/",
+  "image": "nla.obj-141808770-1.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/index.html",
+  "name": "Empty thoroughfare at Darlinghurst Gaol",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "type": "Photograph",
+  "url": "http://nla.gov.au/nla.obj-141808770"
+}

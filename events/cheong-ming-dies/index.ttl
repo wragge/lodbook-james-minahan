@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/cheong-ming-dies/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1896"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/cheong-ming-dies/index.html";
+   <http://schema.org/name> "Cheong Ming dies";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/>;
+   <http://schema.org/startDate> "1896"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Cheong Ming" .

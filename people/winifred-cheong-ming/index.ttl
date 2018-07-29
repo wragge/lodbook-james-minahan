@@ -1,0 +1,32 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Younger sister of James Minahan. Died as an infant.";
+   <http://schema.org/familyName> "Cheong Ming";
+   <http://schema.org/givenName> "Leina",
+     "Winifred";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/index.html";
+   <http://schema.org/name> "Winifred Cheong Ming";
+   <http://schema.org/parent> <https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/>;
+   <http://schema.org/relatedTo> <https://wragge.github.io/lodbook-james-minahan/people/mary-manning/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/>;
+   <http://schema.org/sibling> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Catherine Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Cheong Ming" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/mary-manning/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Mary Manning" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Richard Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Minahan" .

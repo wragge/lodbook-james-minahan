@@ -1,0 +1,14 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/indigo/> a <http://schema.org/City>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/victoria/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-36.088194";
+     <http://schema.org/longitude> "146.567917"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/indigo/index.html";
+   <http://schema.org/name> "Indigo";
+   <http://schema.org/sameAs> <http://www.geonames.org/2162747/indigo.html> .
+
+<https://wragge.github.io/lodbook-james-minahan/places/victoria/> a <http://schema.org/State>;
+   <http://schema.org/name> "Victoria" .

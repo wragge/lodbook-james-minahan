@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/vessels-advertised-as-landing/> a <http://schema.org/NewsArticle>;
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "China Mail (Hong Kong)"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/vessels-advertised-as-landing/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/name> "Vessels Advertised as Landing";
+   <http://schema.org/position> "p. 8";
+   <http://schema.org/provider> [ <http://schema.org/name> "Hong Kong Public Libraries"];
+   <http://schema.org/publicationDate> "1907-12-31" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "SS Taiyuan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

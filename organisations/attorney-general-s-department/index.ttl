@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/> a <http://schema.org/Organization>;
+   <http://schema.org/employee> <https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/>;
+   <http://schema.org/foundingDate> "1901-01-01"^^<http://schema.org/Date>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/index.html";
+   <http://schema.org/name> "Attorney-General's Department" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Littleton Groom" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .

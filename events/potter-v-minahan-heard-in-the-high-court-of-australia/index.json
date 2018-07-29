@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-09-16",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/potter-v-minahan-heard-in-the-high-court-of-australia/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/potter-v-minahan-heard-in-the-high-court-of-australia/index.html",
+  "name": "Potter v. Minahan heard in the High Court of Australia",
+  "startDate": "1908-09-16",
+  "type": "Event"
+}

@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creator": {
+    "name": "A.C. Palfreeman"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/the-administration-of-the-white-australia-policy-by-a-c-palfreeman/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/the-administration-of-the-white-australia-policy-by-a-c-palfreeman/index.html",
+  "name": "The Administration of the White Australia Policy by A.C. Palfreeman",
+  "publicationDate": "1967",
+  "publisher": {
+    "name": "Melbourne University Press"
+  },
+  "type": "Book"
+}

@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/",
+    "name": "Lancelot Dawson",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lancelot-dawson/",
+  "image": "nla.news-article126751846.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lancelot-dawson/index.html",
+  "name": "Portrait of Lancelot Dawson",
+  "position": "p.16",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1908-04-12",
+  "publisher": {
+    "name": "Sunday Times (Sydney)"
+  },
+  "type": "Photograph",
+  "url": "https://trove.nla.gov.au/newspaper/article/126751846"
+}

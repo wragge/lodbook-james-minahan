@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "description": "Business partner of Cheong Ming. Ran Shing Kee store at Indigo, Victoria. Gave evidence at Court of Petty Sessions hearing in Melbourne.",
+  "familyName": "Chin",
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/chin-shing/",
+  "knows": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+    "name": "James Minahan",
+    "type": "Person"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/chin-shing/index.html",
+  "name": "Chin Shing",
+  "spouse": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/jessie-shing/",
+    "name": "Jessie Shing",
+    "type": "Person"
+  },
+  "type": "Person"
+}

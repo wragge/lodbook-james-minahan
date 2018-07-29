@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-01-23",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-arrives-in-sydney-on-board-the-ss-taiyuan/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-arrives-in-sydney-on-board-the-ss-taiyuan/index.html",
+  "mentionedBy": {
+    "name": "PROHIBITED IMMIGRANT -- James Francis Kitchen"
+  },
+  "name": "James Minahan arrives in Sydney on board the SS Taiyuan",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-01-23",
+  "type": "Event"
+}

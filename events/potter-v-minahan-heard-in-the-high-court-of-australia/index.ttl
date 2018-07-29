@@ -1,0 +1,6 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/potter-v-minahan-heard-in-the-high-court-of-australia/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-09-16"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/potter-v-minahan-heard-in-the-high-court-of-australia/index.html";
+   <http://schema.org/name> "Potter v. Minahan heard in the High Court of Australia";
+   <http://schema.org/startDate> "1908-09-16"^^<http://schema.org/Date> .

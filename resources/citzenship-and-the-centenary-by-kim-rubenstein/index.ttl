@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/citzenship-and-the-centenary-by-kim-rubenstein/> a <http://schema.org/Article>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Kim Rubenstein"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Melbourne University Law Review"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/citzenship-and-the-centenary-by-kim-rubenstein/index.html";
+   <http://schema.org/name> "Citzenship and the Centenary by Kim Rubenstein";
+   <http://schema.org/position> "vol. 24";
+   <http://schema.org/publicationDate> "2000-12" .

@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-01-27",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-given-the-dictation-test-by-customs-officer-mercer-on-boards-the-ss-wollowra/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-given-the-dictation-test-by-customs-officer-mercer-on-boards-the-ss-wollowra/index.html",
+  "name": "James Minahan is given the Dictation Test by Customs Officer Mercer on boards the SS Wollowra",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-01-27",
+  "type": "Event"
+}

@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LODBook</title>
+      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      
+      <link rel="stylesheet" href="/lodbook-james-minahan/css/main.css">
+      
+      <style type="text/css">
+      
+            .people { background-color: #563331; border-color: #563331;}
+            .people.inverse { background-color: #ffffff; color: #563331;}
+      
+            .organisations { background-color: #711d1f; border-color: #711d1f;}
+            .organisations.inverse { background-color: #ffffff; color: #711d1f;}
+      
+            .places { background-color: #4f7671; border-color: #4f7671;}
+            .places.inverse { background-color: #ffffff; color: #4f7671;}
+      
+            .events { background-color: #657957; border-color: #657957;}
+            .events.inverse { background-color: #ffffff; color: #657957;}
+      
+            .resources { background-color: #942628; border-color: #942628;}
+            .resources.inverse { background-color: #ffffff; color: #942628;}
+      
+      </style>
+      
+      <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+      
+      <script src="/lodbook-james-minahan/js/list.min.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/entity-list.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/scripts.js"></script>
+      <script>
+        var collections = [{"name":"people","color":"#563331","icon":"fas fa-user-circle","template":"people","types":["Person"]},{"name":"organisations","color":"#711d1f","icon":"fas fa-building","template":"organisations","types":["Organization"]},{"name":"places","color":"#4f7671","icon":"fas fa-globe","template":"places","types":["Place","CivicStructure","City","State","Country","AdministrativeArea"]},{"name":"events","color":"#657957","icon":"fas fa-calendar-alt","template":"events","types":["Event"]},{"name":"resources","color":"#942628","icon":"fas fa-file-alt","template":"resources","types":["CreativeWork","ImageObject","Book","ArchivalSeries","Document","Photograph","ArchivalUnit","Article","NewsArticle","Chapter","Thesis"]}];
+      </script>
+    </head>
+
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="container">
+
+
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-6" href="/lodbook-james-minahan/">James Minahan&rsquo;s Homecoming</a>
+                <a role="button" class="navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Chapters
+                        </a>
+                        
+                        
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/lodbook-james-minahan/chapters/chapter-1/">
+                                    Chapter 1
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Collections
+                        </a>
+                        <div class="navbar-dropdown">
+                        
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/events/">
+                                    events
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/organisations/">
+                                    organisations
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/people/">
+                                    people
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/places/">
+                                    places
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/resources/">
+                                    resources
+                                </a>
+                        
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Views
+                        </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/lodbook-james-minahan/views/wall/">
+                                    Wall
+                                </a>
+                                <a class="navbar-item" href="/lodbook-james-minahan/views/map/">
+                                    Map
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <section class="section main">
+            <div class="container">
+                <h1 class="title is-size-2">Places</h1>
+
+
+
+
+
+
+<div id="entity-list">
+    <div class="columns">
+        <div class="column is-one-quarter-desktop">
+            <div class="field">
+                <label class="label is-small">Filter</label>
+                <div class="control">
+                    <input class="search input is-small" type="text" placeholder="Search" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="list">
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/australia/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Australia</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/australia/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/australian-wharf/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Australian Wharf</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/australian-wharf/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/beechworth/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Beechworth</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/beechworth/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/carlton/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Carlton</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/carlton/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/slv-H84.458-119.jpeg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Chiltern</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/chiltern/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/china/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">China</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/china/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/slv-H82.43-69.jpeg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Circular Quay</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/circular-quay/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-141808770-1.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Darlinghurst Gaol</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/darlinghurst-gaol/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/emerald-hill/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Emerald Hill</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/emerald-hill/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/fiji/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Fiji</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/fiji/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/hong-kong/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Hong Kong</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/hong-kong/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/indigo/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Indigo</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/indigo/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/kongmoon/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Kongmoon</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/kongmoon/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/kwungtung/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Kwungtung</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/kwungtung/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.news-article139201161.5.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Little Bourke Street</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/little-bourke-street/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/melbourne/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Melbourne</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/melbourne/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/mount-pleasant/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Mount Pleasant</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/mount-pleasant/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/new-south-wales/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">New South Wales</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/new-south-wales/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/new-zealand/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">New Zealand</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/new-zealand/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/slnsw-d1_05327h.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">No. 4 Police Station</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/no-4-police-station/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/see-yup/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">See Yup</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/see-yup/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/shek-quey-lee/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Shek Quey Lee</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/shek-quey-lee/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/south-melbourne/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">South Melbourne</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/south-melbourne/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/sunwui/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Sunwui</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/sunwui/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/sydney/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Sydney</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/sydney/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/slv-a14678.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Sydney Harbour</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/sydney-harbour/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/tahiti/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Tahiti</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/tahiti/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="places inverse" href="/lodbook-james-minahan/places/victoria/"><i class="fas fa-globe fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Victoria</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="places inverse" href="/lodbook-james-minahan/places/victoria/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            </div>
+        </section>
+        
+
+        <footer class="footer">
+    <div class="container">
+      <p class="title is-size-3">
+          John Minahan&rsquo;s Homecoming
+      </p>
+      <p class="subtitle is-size-4">
+          By Kate Bagnall
+      </p>
+      <div class="columns">
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Contents</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/">Home</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/chapters/chapter-1/">Chapter 1: An unexpected welcome</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Collections</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/people/">People</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/organisations/">Organisations</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/places/">Places</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/events/">Events</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/resources/">Resources</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Views</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/views/wall/">Wall</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/views/map/">Map</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <p class="is-size-5">
+          This is a demonstration only, please do not cite. The LODBook system is currently under development, and the content included here is not complete.
+      </p>
+      <p class="is-size-5">
+          The full version of <i>James Minahan's Homecoming</i> will be published in September 2018.
+      </p>
+    </div>
+</footer>
+
+
+    </body>
+</html>

@@ -1,0 +1,20 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1864"^^<http://schema.org/Date>;
+   <http://schema.org/deathDate> "1935"^^<http://schema.org/Date>;
+   <http://schema.org/description> "Secretary of the Department of External Affairs.";
+   <http://schema.org/familyName> "Hunt";
+   <http://schema.org/givenName> "Atlee",
+     "Arthur";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-atlee-hunt/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/index.html";
+   <http://schema.org/name> "Atlee Hunt";
+   <http://schema.org/sameAs> <http://adb.anu.edu.au/biography/hunt-atlee-arthur-6766>;
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/hunt-atlee-arthur-6766> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-atlee-hunt/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of Atlee Hunt" .

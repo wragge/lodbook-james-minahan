@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-richard-o-connor/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/richard-o-connor/>;
+   <http://schema.org/creator> [ <http://schema.org/name> "The Swiss Studios"];
+   <http://schema.org/endDate> "1910"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-richard-o-connor/index.html";
+   <http://schema.org/name> "Portrait of Richard O'Connor";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/startDate> "1900"^^<http://schema.org/Date>;
+   <http://schema.org/url> <https://catalogue.nla.gov.au/Record/1561139> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/richard-o-connor/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Richard O'Connor" .

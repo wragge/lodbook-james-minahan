@@ -1,0 +1,18 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/circular-quay/> a <http://schema.org/CivicStructure>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/sydney/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-33.86117";
+     <http://schema.org/longitude> "151.21091"
+   ];
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/view-of-circular-quay/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/circular-quay/index.html";
+   <http://schema.org/name> "Circular Quay";
+   <http://schema.org/subjectOf> <https://wragge.github.io/lodbook-james-minahan/resources/view-of-circular-quay/> .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney/> a <http://schema.org/City>;
+   <http://schema.org/name> "Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/view-of-circular-quay/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "View of Circular Quay" .

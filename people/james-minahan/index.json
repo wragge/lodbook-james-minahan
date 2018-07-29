@@ -1,0 +1,147 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1876-10-04",
+  "familyName": "Minahan",
+  "givenName": [
+    "James",
+    "Francis",
+    "Kitchen"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/",
+    "image": "naa-10131-p78.jpg",
+    "name": "Imprint of the left hand of James Frances Kitchen, 28 January 1908",
+    "type": "ImageObject"
+  },
+  "knows": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/ah-chew/",
+      "name": "Ah Chew",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/chan-num/",
+      "name": "Chan Num",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/chin-kay/",
+      "name": "Chin Kay",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/chin-shing/",
+      "name": "Chin Shing",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/deung-garng/",
+      "name": "Deung Garng",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/",
+      "name": "E.A. Fortescue Croft",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/ernest-tipp/",
+      "name": "Ernest Tipp",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/",
+      "name": "W.T. Coldham",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/",
+      "name": "William Ah Ket",
+      "type": "Person"
+    }
+  ],
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "name": "James Minahan",
+  "parent": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/",
+      "name": "Cheong Ming",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+      "name": "Winifred Minahan",
+      "type": "Person"
+    }
+  ],
+  "relatedTo": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/ah-doe/",
+      "name": "Ah Doe",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/ah-yuey/",
+      "name": "Ah Yuey",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/",
+      "name": "Catherine Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/mary-manning/",
+      "name": "Mary Manning",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/",
+      "name": "Richard Minahan",
+      "type": "Person"
+    }
+  ],
+  "sibling": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/",
+    "name": "Winifred Cheong Ming",
+    "type": "Person"
+  },
+  "subjectOf": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/",
+      "name": "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "name": "PROHIBITED IMMIGRANT -- James Francis Kitchen"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/",
+      "name": "A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen",
+      "type": "CreativeWork"
+    }
+  ],
+  "type": "Person"
+}

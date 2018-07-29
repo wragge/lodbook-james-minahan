@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1886-10-20",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/winifred-minahan-and-arai-arai-marry/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/winifred-minahan-and-arai-arai-marry/index.html",
+  "name": "Winifred Minahan and Arai Arai marry",
+  "performer": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+      "name": "Winifred Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/arai-arai/",
+      "name": "Arai Arai",
+      "type": "Person"
+    }
+  ],
+  "startDate": "1886-10-20",
+  "type": "Event"
+}

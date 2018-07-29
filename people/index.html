@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LODBook</title>
+      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      
+      <link rel="stylesheet" href="/lodbook-james-minahan/css/main.css">
+      
+      <style type="text/css">
+      
+            .people { background-color: #563331; border-color: #563331;}
+            .people.inverse { background-color: #ffffff; color: #563331;}
+      
+            .organisations { background-color: #711d1f; border-color: #711d1f;}
+            .organisations.inverse { background-color: #ffffff; color: #711d1f;}
+      
+            .places { background-color: #4f7671; border-color: #4f7671;}
+            .places.inverse { background-color: #ffffff; color: #4f7671;}
+      
+            .events { background-color: #657957; border-color: #657957;}
+            .events.inverse { background-color: #ffffff; color: #657957;}
+      
+            .resources { background-color: #942628; border-color: #942628;}
+            .resources.inverse { background-color: #ffffff; color: #942628;}
+      
+      </style>
+      
+      <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+      
+      <script src="/lodbook-james-minahan/js/list.min.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/entity-list.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/scripts.js"></script>
+      <script>
+        var collections = [{"name":"people","color":"#563331","icon":"fas fa-user-circle","template":"people","types":["Person"]},{"name":"organisations","color":"#711d1f","icon":"fas fa-building","template":"organisations","types":["Organization"]},{"name":"places","color":"#4f7671","icon":"fas fa-globe","template":"places","types":["Place","CivicStructure","City","State","Country","AdministrativeArea"]},{"name":"events","color":"#657957","icon":"fas fa-calendar-alt","template":"events","types":["Event"]},{"name":"resources","color":"#942628","icon":"fas fa-file-alt","template":"resources","types":["CreativeWork","ImageObject","Book","ArchivalSeries","Document","Photograph","ArchivalUnit","Article","NewsArticle","Chapter","Thesis"]}];
+      </script>
+    </head>
+
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="container">
+
+
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-6" href="/lodbook-james-minahan/">James Minahan&rsquo;s Homecoming</a>
+                <a role="button" class="navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Chapters
+                        </a>
+                        
+                        
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/lodbook-james-minahan/chapters/chapter-1/">
+                                    Chapter 1
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Collections
+                        </a>
+                        <div class="navbar-dropdown">
+                        
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/events/">
+                                    events
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/organisations/">
+                                    organisations
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/people/">
+                                    people
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/places/">
+                                    places
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/resources/">
+                                    resources
+                                </a>
+                        
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Views
+                        </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/lodbook-james-minahan/views/wall/">
+                                    Wall
+                                </a>
+                                <a class="navbar-item" href="/lodbook-james-minahan/views/map/">
+                                    Map
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <section class="section main">
+            <div class="container">
+                <h1 class="title is-size-2">People</h1>
+
+
+
+
+
+
+<div id="entity-list">
+    <div class="columns">
+        <div class="column is-one-quarter-desktop">
+            <div class="field">
+                <label class="label is-small">Filter</label>
+                <div class="control">
+                    <input class="search input is-small" type="text" placeholder="Search" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="list">
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/ah-chew/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Ah Chew</h4>
+                        <p class="subtitle is-size-6">
+                            Cabinetmaker of Lygon Street, Melbourne. Went to same school as James Minahan in China. Gave evidence at Court of Petty Sessions hearing in Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/ah-chew/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/ah-doe/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Ah Doe</h4>
+                        <p class="subtitle is-size-6">
+                            Uncle of James Minahan. Owner of Sun Nam Hie & Co., Little Bourke Street, Melbourne. Gave evidence at Court of Petty Sessions hearing in Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/ah-doe/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/ah-yuey/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Ah Yuey</h4>
+                        <p class="subtitle is-size-6">
+                            Uncle of James Minahan. Owner Sun Nam Hie & Co., Little Bourke Street, Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/ah-yuey/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/albert-dryer/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Albert Dryer</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/albert-dryer/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/arai-arai/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Arai Arai</h4>
+                        <p class="subtitle is-size-6">
+                            Japanese husband of Winifred Minahan.<br />
+                        
+                            
+                            
+                                Born: 1856<br />
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/arai-arai/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-174649152-Hunt.JPG">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Atlee Hunt</h4>
+                        <p class="subtitle is-size-6">
+                            Secretary of the Department of External Affairs.<br />
+                        
+                            
+                            
+                                Born: 1864<br />
+                            
+                        
+                            
+                            
+                                Died: 1935<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/atlee-hunt/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/catherine-minahan/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Catherine Minahan</h4>
+                        <p class="subtitle is-size-6">
+                            Younger sister of Winifred Minahan and aunt of James Minahan. Worked for Chan Num at Beechworth.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/catherine-minahan/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/chan-num/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Chan Num</h4>
+                        <p class="subtitle is-size-6">
+                            Tobacco dealer of Lygon Street, Melbourne. James Minahan stayed at his house in Beechworth as a small boy. Gave evidence at Court of Petty Sessions hearing in Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/chan-num/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/charles-cresswell/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Charles Cresswell</h4>
+                        <p class="subtitle is-size-6">
+                            Police magistrate. Heard James Minahan’s case and gave decision in his favour in Court of Petty Sessions in Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/charles-cresswell/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/charles-powers/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Charles Powers</h4>
+                        <p class="subtitle is-size-6">
+                            Crown Solicitor. Managed the Commonwealth's legal case against James Minahan.<br />
+                        
+                            
+                            
+                                Born: 1853<br />
+                            
+                        
+                            
+                            
+                                Died: 1939<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/charles-powers/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/cheong-ming/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Cheong Ming</h4>
+                        <p class="subtitle is-size-6">
+                            Father of James Minahan. Ran a store at Indigo, Victoria. Returned to China and worked as schoolmaster.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/cheong-ming/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/chin-kay/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Chin Kay</h4>
+                        <p class="subtitle is-size-6">
+                            Owner of Hang Yick, Little Bourke Street; later worked at Sun Nam Hie & Co., Melbourne. Gave evidence at Court of Petty Sessions hearing in Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/chin-kay/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/chin-shing/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Chin Shing</h4>
+                        <p class="subtitle is-size-6">
+                            Business partner of Cheong Ming. Ran Shing Kee store at Indigo, Victoria. Gave evidence at Court of Petty Sessions hearing in Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/chin-shing/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/dern-hoy/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Dern Hoy</h4>
+                        <p class="subtitle is-size-6">
+                            French polisher of Little Collins Street, Melbourne. Gave evidence at Court of Petty Sessions hearing in Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/dern-hoy/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/deung-garng/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Deung Garng</h4>
+                        <p class="subtitle is-size-6">
+                            French polisher in Melbourne. James Minahan and Cheong Ming stayed with him in Kongmoon. Gave evidence at Court of Petty Sessions hearing in Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/deung-garng/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/e-a-fortescue-croft/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">E.A. Fortescue Croft</h4>
+                        <p class="subtitle is-size-6">
+                            James Minahan’s solicitor. From Croft and Rhoden Solicitors, Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/e-a-fortescue-croft/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-136595510-1.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Edmund Barton</h4>
+                        <p class="subtitle is-size-6">
+                            Justice of the High Court. Ruled in Potter v. Minahan that James Minahan was not an immigrant under the Immigration Restriction Act.<br />
+                        
+                            
+                            
+                                Born: 1849<br />
+                            
+                        
+                            
+                            
+                                Died: 1920<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/edmund-barton/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/ernest-tipp/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Ernest Tipp</h4>
+                        <p class="subtitle is-size-6">
+                            Chinese interpreter in Melbourne. Translated for James Minahan during High Court appeal.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/ernest-tipp/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-239637027.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">F.S. Boyce</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                                Born: 1872<br />
+                            
+                        
+                            
+                            
+                                Died: 1940<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/f-s-boyce/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-136742428-1.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Frank Gavan Duffy</h4>
+                        <p class="subtitle is-size-6">
+                            One of the best trial lawyers of the time. Later Chief Justice of the High Court. Counsel for James Minahan during High Court appeal.<br />
+                        
+                            
+                            
+                                Born: 1852<br />
+                            
+                        
+                            
+                            
+                                Died: 1936<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/frank-gavan-duffy/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-244846635.JPG">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">H.W. Bryant</h4>
+                        <p class="subtitle is-size-6">
+                            Counsel for the Commonwealth in Potter v. Minahan.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/h-w-bryant/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/harold-cazneaux/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Harold Cazneaux</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/harold-cazneaux/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/awm-4121013.JPG">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Harry Hoyling</h4>
+                        <p class="subtitle is-size-6">
+                            Chinese interpreter in Melbourne. Worked for the Commonwealth.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/harry-hoyling/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-136708449-1.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Henry Higgins</h4>
+                        <p class="subtitle is-size-6">
+                            Justice of the High Court. Allowed High Court appeal to proceed. Ruled in Potter v. Minahan that James Minahan was an immigrant under the Immigration Restriction Act.<br />
+                        
+                            
+                            
+                                Born: 1851<br />
+                            
+                        
+                            
+                            
+                                Died: 1929<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/henry-higgins/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/hugh-mercer/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Hugh Mercer</h4>
+                        <p class="subtitle is-size-6">
+                            Officer with Department of Trade and Customs in Melbourne. Inspected James Minahan on his arrival in Melbourne and applied the Dictation Test.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/hugh-mercer/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-136668907-1.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Isaac Isaacs</h4>
+                        <p class="subtitle is-size-6">
+                            Justice of the High Court. Allowed High Court appeal to proceed. Ruled in Potter v. Minahan that James Minahan was an immigrant under the Immigration Restriction Act.<br />
+                        
+                            
+                            
+                                Born: 1855<br />
+                            
+                        
+                            
+                            
+                                Died: 1948<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/isaac-isaacs/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/j-g-davies/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">J.G. Davies</h4>
+                        <p class="subtitle is-size-6">
+                            Clerk with Commonwealth Crown Solicitor’s Office. Took notes of evidence at Court of Petty Sessions hearing in Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/j-g-davies/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-168742060.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">J.T.T. Donohoe</h4>
+                        <p class="subtitle is-size-6">
+                            Detective inspector with the Department of Trade and Customs in Sydney. Inspected James Minahan on his arrival in Sydney and applied the Dictation Test.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/j-t-t-donohoe/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/naa-10131-p78.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">James Minahan</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                                Born:  4 October 1876<br />
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/james-minahan/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/jessie-shing/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Jessie Shing</h4>
+                        <p class="subtitle is-size-6">
+                            Anglo-Chinese wife of Chin Shing. Ran Shing Kee store at Indigo, Victoria.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/jessie-shing/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-38521029.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">John Starling</h4>
+                        <p class="subtitle is-size-6">
+                            Public servant with the Department of External Affairs. Took shorthand notes of magistrate’s decision at Court of Petty Sessions hearing in Melbourne.<br />
+                        
+                            
+                            
+                                Born: 1883<br />
+                            
+                        
+                            
+                            
+                                Died: 1966<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/john-starling/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.news-article126751846.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Lancelot Dawson</h4>
+                        <p class="subtitle is-size-6">
+                            Captain of the SS Taiyuan.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/lancelot-dawson/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-246761997.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Lionel Potter</h4>
+                        <p class="subtitle is-size-6">
+                            Detective constable with the Victoria Police. Arrested James Minahan at Melbourne after he returned from Sydney with his solicitor.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/lionel-potter/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-136704491-1.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Littleton Groom</h4>
+                        <p class="subtitle is-size-6">
+                            Attorney-General.<br />
+                        
+                            
+                            
+                                Born: 1867<br />
+                            
+                        
+                            
+                            
+                                Died: 1936<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/littleton-groom/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/mary-manning/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Mary Manning</h4>
+                        <p class="subtitle is-size-6">
+                            Maternal grandmother of James Minahan.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/mary-manning/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-145851479.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">P.J. Dwyer</h4>
+                        <p class="subtitle is-size-6">
+                            Police magistrate. James Minahan’s case initially came before him in Court of Petty Sessions in Melbourne.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                                Died: 1917<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/p-j-dwyer/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-140228034-1.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Philip Whistler Street</h4>
+                        <p class="subtitle is-size-6">
+                            Justice of the New South Wales Supreme Court. Ordered James Minahan's release from the SS Taiyuan in Sydney under Habeas Corpus.<br />
+                        
+                            
+                            
+                                Born: 1863<br />
+                            
+                        
+                            
+                            
+                                Died: 1938<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/philip-whistler-street/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/richard-minahan/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Richard Minahan</h4>
+                        <p class="subtitle is-size-6">
+                            Maternal grandfather of James Minahan.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/richard-minahan/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-136690969-1.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Richard O'Connor</h4>
+                        <p class="subtitle is-size-6">
+                            Justice of the High Court. Allowed High Court appeal to proceed. Ruled in Potter v. Minahan that James Minahan was not an immigrant under the Immigration Restriction Act.<br />
+                        
+                            
+                            
+                                Born: 1851<br />
+                            
+                        
+                            
+                            
+                                Died: 1912<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/richard-o-connor/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-122783806.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Robert Garran</h4>
+                        <p class="subtitle is-size-6">
+                            Lawyer and Secretary of the Attorney-General’s Department.<br />
+                        
+                            
+                            
+                                Born: 1867<br />
+                            
+                        
+                            
+                            
+                                Died: 1957<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/robert-garran/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/slq-108944.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Samuel Griffith</h4>
+                        <p class="subtitle is-size-6">
+                            Chief Justice of the High Court. Ruled in Potter v. Minahan that James Minahan was not an immigrant under the Immigration Restriction Act.<br />
+                        
+                            
+                            
+                                Born: 1845<br />
+                            
+                        
+                            
+                            
+                                Died: 1920<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/samuel-griffith/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.obj-242029116.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">W.T. Coldham</h4>
+                        <p class="subtitle is-size-6">
+                            Counsel for James Minahan during Court of Petty Sessions hearing in Melbourne.<br />
+                        
+                            
+                            
+                                Born: 1860<br />
+                            
+                        
+                            
+                            
+                                Died: 1908<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/w-t-coldham/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left image is-64x64 is-rounded">
+                            
+<img class="cover" src="/lodbook-james-minahan/images/resized/100/nla.news-article196580331.jpg">
+
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">William Ah Ket</h4>
+                        <p class="subtitle is-size-6">
+                            First Chinese barrister in Australia. Counsel for James Minahan during High Court appeal.<br />
+                        
+                            
+                            
+                                Born: 1876<br />
+                            
+                        
+                            
+                            
+                                Died: 1936<br />
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/william-ah-ket/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/willie-lee-hook/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Willie Lee Hook</h4>
+                        <p class="subtitle is-size-6">
+                            
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/willie-lee-hook/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/winifred-cheong-ming/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Winifred Cheong Ming</h4>
+                        <p class="subtitle is-size-6">
+                            Younger sister of James Minahan. Died as an infant.<br />
+                        
+                            
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/winifred-cheong-ming/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+                <article class="media">
+                    
+                    
+                        <figure class="media-left has-text-centered image is-64x64">
+                            <span class="icon icon-list  inverse">
+                                <a class="people inverse" href="/lodbook-james-minahan/people/winifred-minahan/"><i class="fas fa-user-circle fa-3x is-large"></i></a>
+                            </span>
+                        </figure>
+                    
+                    <div class="media-content">
+                        <h4 class="title is-size-4 name">Winifred Minahan</h4>
+                        <p class="subtitle is-size-6">
+                            Mother of James Minahan.<br />
+                        
+                            
+                            
+                                Born:  1 February 1858<br />
+                            
+                        
+                            
+                            
+                        
+                        </p>
+                        <div class="content">
+                            <p>
+                                <a class="people inverse" href="/lodbook-james-minahan/people/winifred-minahan/">More details&hellip;</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            </div>
+        </section>
+        
+
+        <footer class="footer">
+    <div class="container">
+      <p class="title is-size-3">
+          John Minahan&rsquo;s Homecoming
+      </p>
+      <p class="subtitle is-size-4">
+          By Kate Bagnall
+      </p>
+      <div class="columns">
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Contents</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/">Home</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/chapters/chapter-1/">Chapter 1: An unexpected welcome</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Collections</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/people/">People</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/organisations/">Organisations</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/places/">Places</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/events/">Events</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/resources/">Resources</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Views</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/views/wall/">Wall</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/views/map/">Map</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <p class="is-size-5">
+          This is a demonstration only, please do not cite. The LODBook system is currently under development, and the content included here is not complete.
+      </p>
+      <p class="is-size-5">
+          The full version of <i>James Minahan's Homecoming</i> will be published in September 2018.
+      </p>
+    </div>
+</footer>
+
+
+    </body>
+</html>

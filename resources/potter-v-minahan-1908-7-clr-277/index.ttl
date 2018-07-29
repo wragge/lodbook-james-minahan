@@ -1,0 +1,24 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/potter-v-minahan-1908-7-clr-277/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/creationDate> "1908-10-08";
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/>;
+   <http://schema.org/endDate> "1908-10-08"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/potter-v-minahan-1908-7-clr-277/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/name> "Potter v. Minahan (1908) 7 CLR 277";
+   <http://schema.org/provider> [ <http://schema.org/name> "Australasian Legal Information Institute"];
+   <http://schema.org/publisher> <https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/>;
+   <http://schema.org/startDate> "1908-10-08"^^<http://schema.org/Date>;
+   <http://schema.org/url> <http://www.austlii.edu.au/au/cases/cth/HCA/1908/63.html> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "High Court of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Lionel Potter" .

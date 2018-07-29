@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1855",
+  "deathDate": "1948",
+  "description": "Justice of the High Court. Allowed High Court appeal to proceed. Ruled in Potter v. Minahan that James Minahan was an immigrant under the Immigration Restriction Act.",
+  "familyName": "Isaacs",
+  "givenName": [
+    "Isaac",
+    "Alfred"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/isaac-isaacs/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-isaac-isaacs/",
+    "image": "nla.obj-136668907-1.jpg",
+    "name": "Portrait of Isaac Isaacs",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/isaac-isaacs/index.html",
+  "name": "Isaac Isaacs",
+  "sameAs": "http://adb.anu.edu.au/biography/isaacs-sir-isaac-alfred-6805",
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/isaacs-sir-isaac-alfred-6805"
+}

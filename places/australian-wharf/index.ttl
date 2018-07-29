@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/australian-wharf/> a <http://schema.org/CivicStructure>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/australian-wharf/index.html";
+   <http://schema.org/name> "Australian Wharf" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .

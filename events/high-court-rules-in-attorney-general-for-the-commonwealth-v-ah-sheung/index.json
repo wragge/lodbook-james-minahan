@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1907",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/high-court-rules-in-attorney-general-for-the-commonwealth-v-ah-sheung/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/high-court-rules-in-attorney-general-for-the-commonwealth-v-ah-sheung/index.html",
+  "name": "High Court rules in Attorney-General for the Commonwealth v. Ah Sheung",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1907",
+  "type": "Event"
+}

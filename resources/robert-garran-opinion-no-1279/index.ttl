@@ -1,0 +1,11 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/robert-garran-opinion-no-1279/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1922-11-29";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/robert-garran-opinion-no-1279/index.html";
+   <http://schema.org/name> "Robert Garran, Opinion No. 1279";
+   <http://schema.org/provider> [ <http://schema.org/name> "Australian Government Solicitor"];
+   <http://schema.org/publisher> <https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/>;
+   <http://schema.org/url> <http://legalopinions.ags.gov.au/legalopinion/opinion-1279> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Attorney-General's Department" .

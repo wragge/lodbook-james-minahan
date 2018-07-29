@@ -1,0 +1,14 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/richard-minahan-and-mary-manning-marry/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1856-10-30"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/richard-minahan-and-mary-manning-marry/index.html";
+   <http://schema.org/name> "Richard Minahan and Mary Manning marry";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/mary-manning/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/>;
+   <http://schema.org/startDate> "1856-10-30"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/mary-manning/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Mary Manning" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Richard Minahan" .

@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1907",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/a5522-m47-habeas-proceedings-re-willie-lee-hook/",
+  "image": "naa-A5522-M47.pdf",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/a5522-correspondence-files-single-number-series-with-m-matters-prefix/",
+    "name": "A5522, Correspondence files, single number series with 'M' (matters) prefix",
+    "type": "https://bib.schema.org/Collection"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/a5522-m47-habeas-proceedings-re-willie-lee-hook/index.html",
+  "mentions": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/willie-lee-hook/",
+    "name": "Willie Lee Hook",
+    "type": "Person"
+  },
+  "name": "A5522, M47, Habeas Proceedings re WILLIE LEE HOOK",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1907",
+  "type": "CreativeWork"
+}

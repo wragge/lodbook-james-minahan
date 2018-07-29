@@ -1,0 +1,4 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/history-of-the-shire-of-chiltern-by-robert-ashley/> a <http://schema.org/Book>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/history-of-the-shire-of-chiltern-by-robert-ashley/index.html";
+   <http://schema.org/name> "History of the Shire of Chiltern by Robert Ashley" .

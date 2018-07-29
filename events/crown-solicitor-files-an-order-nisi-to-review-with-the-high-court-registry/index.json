@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-05-02",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/crown-solicitor-files-an-order-nisi-to-review-with-the-high-court-registry/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/crown-solicitor-files-an-order-nisi-to-review-with-the-high-court-registry/index.html",
+  "name": "Crown Solicitor files an Order Nisi to Review with the High Court registry",
+  "startDate": "1908-05-02",
+  "type": "Event"
+}

@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-held-in-the-melbourne-watch-house/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-02-13"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-held-in-the-melbourne-watch-house/index.html";
+   <http://schema.org/name> "James Minahan is held in the Melbourne watch house";
+   <http://schema.org/performer> [ <http://schema.org/name> "James Minaham"];
+   <http://schema.org/startDate> "1908-02-13"^^<http://schema.org/Date> .

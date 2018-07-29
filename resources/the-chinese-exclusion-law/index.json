@@ -1,0 +1,47 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1911-09-29",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/the-chinese-exclusion-law/",
+  "image": "nla.news-article196210126.5.pdf",
+  "isPartOf": {
+    "name": "Age (Melbourne)"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/the-chinese-exclusion-law/index.html",
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/china/",
+      "name": "China",
+      "type": "Country"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/",
+      "name": "Croft and Rhoden Solicitors",
+      "type": "Organization"
+    }
+  ],
+  "name": "The Chinese Exclusion Law",
+  "position": "p. 9",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "type": "CreativeWork",
+  "url": "http://nla.gov.au/nla.news-article196210126"
+}

@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-01-26",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-arrives-in-melbourne-on-board-the-ss-wollowra/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-arrives-in-melbourne-on-board-the-ss-wollowra/index.html",
+  "name": "James Minahan arrives in Melbourne on board the SS Wollowra",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-01-26",
+  "type": "Event"
+}

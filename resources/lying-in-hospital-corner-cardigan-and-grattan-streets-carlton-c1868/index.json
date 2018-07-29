@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/lying-in-hospital-melbourne/",
+    "name": "Lying-in Hospital, Melbourne",
+    "type": "Organization"
+  },
+  "creator": {
+    "name": "Charles Nettleton"
+  },
+  "endDate": "1868",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/lying-in-hospital-corner-cardigan-and-grattan-streets-carlton-c1868/",
+  "image": "slv-H869.jpeg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/lying-in-hospital-corner-cardigan-and-grattan-streets-carlton-c1868/index.html",
+  "name": "Lying-in Hospital, corner Cardigan and Grattan Streets, Carlton, c1868",
+  "position": "H869",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/",
+    "name": "State Library of Victoria",
+    "type": "Organization"
+  },
+  "startDate": "1868",
+  "type": "Photograph",
+  "url": "http://search.slv.vic.gov.au/MAIN:Everything:SLV_VOYAGER1683885"
+}

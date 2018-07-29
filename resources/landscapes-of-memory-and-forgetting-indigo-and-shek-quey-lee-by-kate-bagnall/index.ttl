@@ -1,0 +1,17 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/landscapes-of-memory-and-forgetting-indigo-and-shek-quey-lee-by-kate-bagnall/> a <http://schema.org/Article>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Kate Bagnall"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Chinese Southern Diaspora Studies"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/landscapes-of-memory-and-forgetting-indigo-and-shek-quey-lee-by-kate-bagnall/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/places/indigo/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/>;
+   <http://schema.org/name> "Landscapes of Memory and Forgetting: Indigo and Shek Quey Lee by Kate Bagnall";
+   <http://schema.org/position> "vol. 6, pp.7-24";
+   <http://schema.org/publicationDate> "2013-07";
+   <http://schema.org/url> <http://chl-old.anu.edu.au/publications/csds/csds2013/csds2013_04.pdf> .
+
+<https://wragge.github.io/lodbook-james-minahan/places/indigo/> a <http://schema.org/City>;
+   <http://schema.org/name> "Indigo" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/> a <http://schema.org/City>;
+   <http://schema.org/name> "Shek Quey Lee" .

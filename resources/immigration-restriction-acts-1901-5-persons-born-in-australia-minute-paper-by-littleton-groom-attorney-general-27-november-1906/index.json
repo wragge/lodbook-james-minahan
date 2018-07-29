@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1906-11-27",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/",
+    "name": "Littleton Groom",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/immigration-restriction-acts-1901-5-persons-born-in-australia-minute-paper-by-littleton-groom-attorney-general-27-november-1906/",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1906-8578-immigration-restriction-acts-1901-1905-persons-born-in-australia/",
+    "name": "A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia",
+    "type": "CreativeWork"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/immigration-restriction-acts-1901-5-persons-born-in-australia-minute-paper-by-littleton-groom-attorney-general-27-november-1906/index.html",
+  "mentions": {
+    "name": "Attorney-General's Office"
+  },
+  "name": "Immigration Restriction Acts 1901-5 - Persons born in Australia', Minute Paper by Littleton Groom, Attorney-General, 27 November 1906",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "type": "CreativeWork"
+}

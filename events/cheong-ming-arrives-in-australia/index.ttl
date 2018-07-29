@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/cheong-ming-arrives-in-australia/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1857"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/cheong-ming-arrives-in-australia/index.html";
+   <http://schema.org/name> "Cheong Ming arrives in Australia";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/>;
+   <http://schema.org/startDate> "1857"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Cheong Ming" .

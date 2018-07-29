@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/asian-migration-to-australia-by-a-t-yarwood/> a <http://schema.org/Book>;
+   <http://schema.org/creator> [ <http://schema.org/name> "A.T. Yarwood"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/asian-migration-to-australia-by-a-t-yarwood/index.html";
+   <http://schema.org/name> "Asian Migration to Australia by A.T. Yarwood";
+   <http://schema.org/publicationDate> "1964";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Melbourne University Press"] .

@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/> a <http://schema.org/Photograph>;
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/people/albert-dryer/>;
+   <http://schema.org/name> "Empty thoroughfare at Darlinghurst Gaol" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/albert-dryer/> a <http://schema.org/Person>;
+   <http://schema.org/familyName> "Dryer";
+   <http://schema.org/givenName> "Albert";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/albert-dryer/index.html";
+   <http://schema.org/name> "Albert Dryer" .

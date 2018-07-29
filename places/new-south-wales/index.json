@@ -1,0 +1,50 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/australia/",
+    "name": "Australia",
+    "type": "Country"
+  },
+  "containsPlace": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney-harbour/",
+      "name": "Sydney Harbour",
+      "type": "Place"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney/",
+      "name": "Sydney",
+      "type": "City"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/no-4-police-station/",
+      "name": "No. 4 Police Station",
+      "type": "CivicStructure"
+    }
+  ],
+  "geo": {
+    "latitude": "-33",
+    "longitude": "146",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/new-south-wales/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/new-south-wales/index.html",
+  "name": "New South Wales",
+  "type": "State"
+}

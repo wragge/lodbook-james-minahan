@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-melbourne/> a <http://schema.org/Organization>;
+   <http://schema.org/dissolutionDate> "1985-07-01"^^<http://schema.org/Date>;
+   <http://schema.org/foundingDate> "1845-01-01"^^<http://schema.org/Date>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-melbourne/index.html";
+   <http://schema.org/name> "Collector of Customs, Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .

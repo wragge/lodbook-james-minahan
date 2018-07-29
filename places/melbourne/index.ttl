@@ -1,0 +1,33 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/victoria/>;
+   <http://schema.org/containsPlace> <https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/australian-wharf/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/south-melbourne/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/emerald-hill/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/carlton/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-37.814";
+     <http://schema.org/longitude> "144.96332"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/melbourne/index.html";
+   <http://schema.org/name> "Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/australian-wharf/> a <http://schema.org/CivicStructure>;
+   <http://schema.org/name> "Australian Wharf" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/carlton/> a <http://schema.org/Place>;
+   <http://schema.org/name> "Carlton" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/emerald-hill/> a <http://schema.org/Place>;
+   <http://schema.org/name> "Emerald Hill" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/> a <http://schema.org/Place>;
+   <http://schema.org/name> "Little Bourke Street" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/south-melbourne/> a <http://schema.org/Place>;
+   <http://schema.org/name> "South Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/victoria/> a <http://schema.org/State>;
+   <http://schema.org/name> "Victoria" .

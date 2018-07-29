@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/h-w-bryant/",
+    "name": "H.W. Bryant",
+    "type": "Person"
+  },
+  "creator": {
+    "name": "Lafayette"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-h-w-bryant/",
+  "image": "nla.obj-244846635.JPG",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-h-w-bryant/index.html",
+  "name": "Portrait of H.W. Bryant",
+  "position": "p. 1",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1924-10-24",
+  "publisher": {
+    "name": "The Herald (Melbourne)"
+  },
+  "type": "Photograph",
+  "url": "http://nla.gov.au/nla.news-article244846635"
+}

@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1872",
+  "deathDate": "1940",
+  "familyName": "Boyce",
+  "givenName": [
+    "Francis",
+    "Stewart"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-f-s-boyce/",
+    "image": "nla.obj-239637027.jpg",
+    "name": "Portrait of F.S. Boyce",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "name": "F.S. Boyce",
+  "sameAs": "http://adb.anu.edu.au/biography/boyce-francis-stewart-5320",
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/boyce-francis-stewart-5320"
+}

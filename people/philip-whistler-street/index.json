@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1863",
+  "deathDate": "1938",
+  "description": "Justice of the New South Wales Supreme Court. Ordered James Minahan's release from the SS Taiyuan in Sydney under Habeas Corpus.",
+  "familyName": "Street",
+  "givenName": [
+    "Philip",
+    "Whistler"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/philip-whistler-street/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/",
+    "image": "nla.obj-140228034-1.jpg",
+    "name": "Sir Phillip Street, Chief Justice of New South Wales",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/philip-whistler-street/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "name": "Philip Whistler Street",
+  "sameAs": "http://adb.anu.edu.au/biography/street-sir-philip-whistler-8696",
+  "subjectOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/",
+    "name": "Sir Phillip Street, Chief Justice of New South Wales",
+    "type": "Photograph"
+  },
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/street-sir-philip-whistler-8696"
+}

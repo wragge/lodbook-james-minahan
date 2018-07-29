@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/winifred-cheong-ming-is-born/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1881-06-13"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/winifred-cheong-ming-is-born/index.html";
+   <http://schema.org/name> "Winifred Cheong Ming is born";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/>;
+   <http://schema.org/startDate> "1881-06-13"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Cheong Ming" .

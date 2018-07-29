@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "employee": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/",
+    "name": "E.A. Fortescue Croft",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/",
+  "location": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+    "name": "Melbourne",
+    "type": "City"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "name": "Croft and Rhoden Solicitors",
+  "type": "Organization"
+}

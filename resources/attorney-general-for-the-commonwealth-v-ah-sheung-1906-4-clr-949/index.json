@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1906-06-29",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/attorney-general-for-the-commonwealth-v-ah-sheung-1906-4-clr-949/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/attorney-general-for-the-commonwealth-v-ah-sheung-1906-4-clr-949/index.html",
+  "name": "Attorney-General for the Commonwealth v. Ah Sheung (1906) 4 CLR 949",
+  "provider": {
+    "name": "Australasian Legal Information Institute"
+  },
+  "publisher": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "type": "CreativeWork",
+  "url": "http://www.austlii.edu.au/au/cases/cth/HCA/1906/44.html"
+}

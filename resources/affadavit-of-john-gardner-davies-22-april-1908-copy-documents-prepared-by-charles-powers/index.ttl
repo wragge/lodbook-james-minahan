@@ -1,0 +1,21 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/affadavit-of-john-gardner-davies-22-april-1908-copy-documents-prepared-by-charles-powers/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1908-04-22";
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/people/j-g-davies/>;
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/affadavit-of-john-gardner-davies-22-april-1908-copy-documents-prepared-by-charles-powers/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/charles-powers/>;
+   <http://schema.org/name> "Affadavit of John Gardner Davies, 22 April 1908, Copy Documents (prepared by Charles Powers)";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/charles-powers/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Charles Powers" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/j-g-davies/> a <http://schema.org/Person>;
+   <http://schema.org/name> "J.G. Davies" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen" .

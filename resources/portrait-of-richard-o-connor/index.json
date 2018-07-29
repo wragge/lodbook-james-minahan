@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/richard-o-connor/",
+    "name": "Richard O'Connor",
+    "type": "Person"
+  },
+  "creator": {
+    "name": "The Swiss Studios"
+  },
+  "endDate": "1910",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-richard-o-connor/",
+  "image": "nla.obj-136690969-1.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-richard-o-connor/index.html",
+  "name": "Portrait of Richard O'Connor",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1900",
+  "type": "Photograph",
+  "url": "https://catalogue.nla.gov.au/Record/1561139"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/died-at-his-post/",
+  "isPartOf": {
+    "name": "Geelong Advertiser"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/died-at-his-post/index.html",
+  "mentions": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/h-w-bryant/",
+    "name": "H.W. Bryant",
+    "type": "Person"
+  },
+  "name": "Died at His Post",
+  "position": "p. 1",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1924-10-08",
+  "type": "NewsArticle",
+  "url": "http://nla.gov.au/nla.news-article2115594931924"
+}

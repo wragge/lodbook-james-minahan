@@ -1,0 +1,54 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1867",
+  "deathDate": "1936",
+  "description": "Attorney-General.",
+  "familyName": "Groom",
+  "givenName": [
+    "Littleton",
+    "Ernest"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-littleton-groom/",
+    "image": "nla.obj-136704491-1.jpg",
+    "name": "Portrait of Sir Littleton Groom",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/index.html",
+  "memberOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/",
+    "name": "Attorney-General's Department",
+    "type": "Organization"
+  },
+  "name": "Littleton Groom",
+  "sameAs": "http://adb.anu.edu.au/biography/groom-sir-littleton-ernest-6499",
+  "subjectOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-littleton-groom/",
+    "name": "Portrait of Sir Littleton Groom",
+    "type": "Photograph"
+  },
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/groom-sir-littleton-ernest-6499",
+  "worksFor": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/",
+    "name": "Attorney-General's Department",
+    "type": "Organization"
+  }
+}

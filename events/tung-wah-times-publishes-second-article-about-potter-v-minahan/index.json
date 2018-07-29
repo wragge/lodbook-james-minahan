@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-10-17",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/tung-wah-times-publishes-second-article-about-potter-v-minahan/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/tung-wah-times-publishes-second-article-about-potter-v-minahan/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+    "name": "James Minahan",
+    "type": "Person"
+  },
+  "name": "Tung Wah Times publishes second article about Potter v. Minahan",
+  "performer": {
+    "name": "Tung Wah Times"
+  },
+  "startDate": "1908-10-17",
+  "type": "Event"
+}

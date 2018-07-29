@@ -1,0 +1,9 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-nsw/> a <http://schema.org/Organization>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-nsw/index.html";
+   <http://schema.org/name> "State Library of NSW";
+   <http://schema.org/provides> <https://wragge.github.io/lodbook-james-minahan/resources/police-station-george-st-north-sydney/>;
+   <http://schema.org/url> <http://www.sl.nsw.gov.au/> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/police-station-george-st-north-sydney/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Police station, George St North, Sydney" .

@@ -1,0 +1,6 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/willie-lee-hook/> a <http://schema.org/Person>;
+   <http://schema.org/familyName> "Lee Hook";
+   <http://schema.org/givenName> "Willie";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/willie-lee-hook/index.html";
+   <http://schema.org/name> "Willie Lee Hook" .

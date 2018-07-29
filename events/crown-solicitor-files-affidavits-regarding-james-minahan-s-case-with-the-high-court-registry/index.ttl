@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/crown-solicitor-files-affidavits-regarding-james-minahan-s-case-with-the-high-court-registry/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-04-28"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/crown-solicitor-files-affidavits-regarding-james-minahan-s-case-with-the-high-court-registry/index.html";
+   <http://schema.org/name> "Crown Solicitor files affidavits regarding James Minahan's case with the High Court registry";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/>;
+   <http://schema.org/startDate> "1908-04-28"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Crown Solicitor's Office" .

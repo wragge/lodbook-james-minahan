@@ -1,0 +1,14 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-and-cheong-ming-leave-melbourne-for-china/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1882"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-and-cheong-ming-leave-melbourne-for-china/index.html";
+   <http://schema.org/name> "James Minahan and Cheong Ming leave Melbourne for China";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/startDate> "1882"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Cheong Ming" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/the-legal-interpretation-of-the-constitution-of-the-commonwealth-by-a-berriedale-keith/> a <http://schema.org/Article>;
+   <http://schema.org/creator> [ <http://schema.org/name> "A. Berriedale Keith"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Journal of the Society of Comparative Legislation"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/the-legal-interpretation-of-the-constitution-of-the-commonwealth-by-a-berriedale-keith/index.html";
+   <http://schema.org/name> "The Legal Interpretation of the Constitution of the Commonwealth by a. Berriedale Keith";
+   <http://schema.org/position> "vol. 11, no. 2, pp. 220-42";
+   <http://schema.org/publicationDate> "1911" .

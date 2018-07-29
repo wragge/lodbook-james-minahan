@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/high-court-rules-in-chia-gee-v-martin/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1905"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/high-court-rules-in-chia-gee-v-martin/index.html";
+   <http://schema.org/name> "High Court rules in Chia Gee v. Martin";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/>;
+   <http://schema.org/startDate> "1905"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "High Court of Australia" .

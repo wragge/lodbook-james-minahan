@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "attendee": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+    "name": "Winifred Minahan",
+    "type": "Person"
+  },
+  "endDate": "1876-10-04",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-born/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-born/index.html",
+  "name": "James Minahan is born",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+    "name": "Winifred Minahan",
+    "type": "Person"
+  },
+  "startDate": "1876-10-04",
+  "type": "Event"
+}

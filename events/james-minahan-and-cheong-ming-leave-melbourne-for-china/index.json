@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1882",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-and-cheong-ming-leave-melbourne-for-china/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-and-cheong-ming-leave-melbourne-for-china/index.html",
+  "name": "James Minahan and Cheong Ming leave Melbourne for China",
+  "performer": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/",
+      "name": "Cheong Ming",
+      "type": "Person"
+    }
+  ],
+  "startDate": "1882",
+  "type": "Event"
+}

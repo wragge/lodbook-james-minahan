@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "created": {
+    "name": "PROHIBITED IMMIGRANT -- James Francis Kitchen"
+  },
+  "description": "Detective inspector with the Department of Trade and Customs in Sydney. Inspected James Minahan on his arrival in Sydney and applied the Dictation Test.",
+  "familyName": "Donohoe",
+  "givenName": [
+    "John",
+    "Thomas",
+    "Tamplin"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/caricature-portrait-of-j-t-t-donohoe/",
+    "image": "nla.obj-168742060.jpg",
+    "name": "Caricature portrait of J.T.T. Donohoe",
+    "type": "CreativeWork"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "name": "J.T.T. Donohoe",
+  "type": "Person"
+}

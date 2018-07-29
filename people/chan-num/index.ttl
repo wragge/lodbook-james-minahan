@@ -1,0 +1,9 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/chan-num/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Tobacco dealer of Lygon Street, Melbourne. James Minahan stayed at his house in Beechworth as a small boy. Gave evidence at Court of Petty Sessions hearing in Melbourne.";
+   <http://schema.org/knows> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/chan-num/index.html";
+   <http://schema.org/name> "Chan Num" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

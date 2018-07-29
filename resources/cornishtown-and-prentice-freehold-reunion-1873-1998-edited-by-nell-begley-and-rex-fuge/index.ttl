@@ -1,0 +1,11 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/cornishtown-and-prentice-freehold-reunion-1873-1998-edited-by-nell-begley-and-rex-fuge/> a <http://schema.org/Book>;
+   <http://schema.org/creationDate> "1998";
+   <http://schema.org/creator> [ <http://schema.org/name> "Nell Begley and Rex Fuge"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/cornishtown-and-prentice-freehold-reunion-1873-1998-edited-by-nell-begley-and-rex-fuge/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/places/chiltern/>;
+   <http://schema.org/name> "Cornishtown and Prentice Freehold Reunion 1873–1998  edited by Nell Begley and Rex Fuge";
+   <http://schema.org/publisher> [ <http://schema.org/name> "R. Fuge"] .
+
+<https://wragge.github.io/lodbook-james-minahan/places/chiltern/> a <http://schema.org/City>;
+   <http://schema.org/name> "Chiltern" .

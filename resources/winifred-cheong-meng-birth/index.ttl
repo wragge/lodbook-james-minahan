@@ -1,0 +1,14 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/winifred-cheong-meng-birth/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1881";
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/winifred-cheong-meng-birth/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/>,  [ <http://schema.org/name> "Winifred Cheong Meng"];
+   <http://schema.org/name> "Winifred Cheong Meng (birth)";
+   <http://schema.org/position> "1881/15146" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/> a <https://bib.schema.org/Collection>;
+   <http://schema.org/name> "Victorian Registry of Births, Deaths and Marriages" .

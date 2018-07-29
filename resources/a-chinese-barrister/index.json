@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/a-chinese-barrister/",
+  "isPartOf": {
+    "name": "Leader (Melbourne)"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/a-chinese-barrister/index.html",
+  "mentions": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/",
+    "name": "William Ah Ket",
+    "type": "Person"
+  },
+  "name": "A Chinese Barrister",
+  "position": "p. 36",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1902-11-29",
+  "type": "NewsArticle"
+}

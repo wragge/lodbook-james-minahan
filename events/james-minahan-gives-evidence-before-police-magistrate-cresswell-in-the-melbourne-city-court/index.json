@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-03-31",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-gives-evidence-before-police-magistrate-cresswell-in-the-melbourne-city-court/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-gives-evidence-before-police-magistrate-cresswell-in-the-melbourne-city-court/index.html",
+  "name": "James Minahan gives evidence before Police Magistrate Cresswell in the Melbourne City Court",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-03-31",
+  "type": "Event"
+}

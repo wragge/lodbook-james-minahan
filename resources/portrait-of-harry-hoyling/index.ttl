@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-harry-hoyling/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> [ <http://schema.org/name> "Harry Hoylilng"];
+   <http://schema.org/creationDate> "1916-09";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-harry-hoyling/index.html";
+   <http://schema.org/name> "Portrait of Harry Hoyling";
+   <http://schema.org/provider> [ <http://schema.org/name> "Australian War Memorial"];
+   <http://schema.org/url> <https://www.awm.gov.au/collection/C207028> .

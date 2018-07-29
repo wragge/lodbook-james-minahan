@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/alien-acts-the-white-australia-policy-1901-to-1939/> a <https://bib.schema.org/Thesis>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Paul Anthony Jones"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/alien-acts-the-white-australia-policy-1901-to-1939/index.html";
+   <http://schema.org/name> "Alien Acts: The White Australia Policy, 1901 to 1939";
+   <http://schema.org/provider> [ <http://schema.org/name> "University of Melbourne"];
+   <http://schema.org/publicationDate> "1998" .

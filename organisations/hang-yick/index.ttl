@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/hang-yick/> a <http://schema.org/Organization>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/hang-yick/index.html";
+   <http://schema.org/name> "Hang Yick" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/> a <http://schema.org/Place>;
+   <http://schema.org/name> "Little Bourke Street" .

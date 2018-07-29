@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/lying-in-hospital-melbourne/> a <http://schema.org/Organization>;
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/lying-in-hospital-corner-cardigan-and-grattan-streets-carlton-c1868/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/carlton/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/lying-in-hospital-melbourne/index.html";
+   <http://schema.org/name> "Lying-in Hospital, Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/carlton/> a <http://schema.org/Place>;
+   <http://schema.org/name> "Carlton" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/lying-in-hospital-corner-cardigan-and-grattan-streets-carlton-c1868/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Lying-in Hospital, corner Cardigan and Grattan Streets, Carlton, c1868" .

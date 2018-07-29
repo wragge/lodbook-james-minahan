@@ -1,0 +1,17 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/caricature-portrait-of-j-t-t-donohoe/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Donald MacDonald (aka Pas)"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/caricature-portrait-of-j-t-t-donohoe/index.html";
+   <http://schema.org/name> "Caricature portrait of J.T.T. Donohoe";
+   <http://schema.org/position> "p. 4";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1912-08-11";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Truth (Sydney)"];
+   <http://schema.org/url> <https://trove.nla.gov.au/newspaper/article/168742060> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/> a <http://schema.org/Person>;
+   <http://schema.org/name> "J.T.T. Donohoe" .

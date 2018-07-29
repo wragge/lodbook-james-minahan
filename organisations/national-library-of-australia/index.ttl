@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/index.html";
+   <http://schema.org/name> "National Library of Australia";
+   <http://schema.org/provides> <https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/>;
+   <http://schema.org/url> <http://www.nla.gov.au> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Empty thoroughfare at Darlinghurst Gaol" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Sir Phillip Street, Chief Justice of New South Wales" .

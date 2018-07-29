@@ -1,0 +1,33 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/victoria/> a <http://schema.org/State>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/australia/>;
+   <http://schema.org/containsPlace> <https://wragge.github.io/lodbook-james-minahan/places/mount-pleasant/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/beechworth/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/indigo/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/chiltern/>,  [ <http://schema.org/name> "Cornishtown"];
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-37";
+     <http://schema.org/longitude> "145"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/victoria/index.html";
+   <http://schema.org/name> "Victoria" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/australia/> a <http://schema.org/Country>;
+   <http://schema.org/name> "Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/beechworth/> a <http://schema.org/City>;
+   <http://schema.org/name> "Beechworth" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/chiltern/> a <http://schema.org/City>;
+   <http://schema.org/name> "Chiltern" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/indigo/> a <http://schema.org/City>;
+   <http://schema.org/name> "Indigo" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/mount-pleasant/> a <http://schema.org/City>;
+   <http://schema.org/name> "Mount Pleasant" .

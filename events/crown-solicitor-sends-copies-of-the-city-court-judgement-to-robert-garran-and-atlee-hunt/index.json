@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-04-03",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/crown-solicitor-sends-copies-of-the-city-court-judgement-to-robert-garran-and-atlee-hunt/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/crown-solicitor-sends-copies-of-the-city-court-judgement-to-robert-garran-and-atlee-hunt/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/robert-garran/",
+    "name": "Robert Garran",
+    "type": "Person"
+  },
+  "name": "Crown Solicitor sends copies of the City Court judgement to Robert Garran and Atlee Hunt",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/",
+    "name": "Crown Solicitor's Office",
+    "type": "Organization"
+  },
+  "startDate": "1908-04-03",
+  "type": "Event"
+}

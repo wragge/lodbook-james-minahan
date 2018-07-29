@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/police-magistrate-creswell-finds-in-james-minahan-s-favour-dismisses-the-case-and-awards-costs-to-the-defendant/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-04-02"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/police-magistrate-creswell-finds-in-james-minahan-s-favour-dismisses-the-case-and-awards-costs-to-the-defendant/index.html";
+   <http://schema.org/name> "Police Magistrate Creswell finds in James Minahan's favour, dismisses the case and awards costs to the defendant";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/charles-cresswell/>;
+   <http://schema.org/startDate> "1908-04-02"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/charles-cresswell/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Charles Cresswell" .

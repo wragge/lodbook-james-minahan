@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creator": {
+    "name": "Sangeetha Pillai"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/non-immigrants-non-aliens-and-people-of-the-commonwealth-australian-constitutional-citizenship-revisited-by-sangeetha-pillai/",
+  "isPartOf": {
+    "name": "Monash Law Review"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/non-immigrants-non-aliens-and-people-of-the-commonwealth-australian-constitutional-citizenship-revisited-by-sangeetha-pillai/index.html",
+  "name": "Non-Immigrants, Non-Aliens and People of the Commonwealth: Australian Constitutional Citizenship Revisited by Sangeetha Pillai",
+  "position": "vol. 39, no. 2, pp. 568-609",
+  "publicationDate": "2013",
+  "type": "Article"
+}

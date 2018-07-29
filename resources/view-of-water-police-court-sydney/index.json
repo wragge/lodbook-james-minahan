@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/",
+    "name": "Water Police Court, Sydney",
+    "type": "Organization"
+  },
+  "endDate": "1910",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/view-of-water-police-court-sydney/",
+  "image": "slnsw-a116235h.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/view-of-water-police-court-sydney/index.html",
+  "name": "View of Water Police Court, Sydney",
+  "position": "a116235h",
+  "provider": {
+    "name": "State Library of New South Wales"
+  },
+  "startDate": "1900",
+  "type": "Photograph",
+  "url": "http://archival.sl.nsw.gov.au/Details/archive/110317005"
+}

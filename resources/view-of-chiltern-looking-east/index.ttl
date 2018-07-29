@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/view-of-chiltern-looking-east/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/places/chiltern/>;
+   <http://schema.org/creator> [ <http://schema.org/name> "John Henry Harvey"];
+   <http://schema.org/endDate> "1930"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/view-of-chiltern-looking-east/index.html";
+   <http://schema.org/name> "View of Chiltern, looking east";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/>;
+   <http://schema.org/startDate> "1875"^^<http://schema.org/Date>;
+   <http://schema.org/url> <http://search.slv.vic.gov.au/MAIN:Everything:SLV_VOYAGER1755651> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "State Library of Victoria" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/chiltern/> a <http://schema.org/City>;
+   <http://schema.org/name> "Chiltern" .

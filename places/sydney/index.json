@@ -1,0 +1,55 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/new-south-wales/",
+    "name": "New South Wales",
+    "type": "State"
+  },
+  "containsPlace": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney-harbour/",
+      "name": "Sydney Harbour",
+      "type": "Place"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/no-4-police-station/",
+      "name": "No. 4 Police Station",
+      "type": "CivicStructure"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/darlinghurst-gaol/",
+      "name": "Darlinghurst Gaol",
+      "type": "CivicStructure"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/circular-quay/",
+      "name": "Circular Quay",
+      "type": "CivicStructure"
+    }
+  ],
+  "geo": {
+    "latitude": "-33.86785",
+    "longitude": "151.20732",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/sydney/index.html",
+  "name": "Sydney",
+  "type": "City"
+}

@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/kongmoon/> a <http://schema.org/City>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/sunwui/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "22.58333";
+     <http://schema.org/longitude> "113.08333"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/kongmoon/index.html";
+   <http://schema.org/name> "Kongmoon" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sunwui/> a <http://schema.org/Country>;
+   <http://schema.org/name> "Sunwui" .

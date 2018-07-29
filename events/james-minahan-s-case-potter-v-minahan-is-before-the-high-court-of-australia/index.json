@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-09-16",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-s-case-potter-v-minahan-is-before-the-high-court-of-australia/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-s-case-potter-v-minahan-is-before-the-high-court-of-australia/index.html",
+  "name": "James Minahan's case, Potter v. Minahan, is before the High Court of Australia",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-09-16",
+  "type": "Event"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1998",
+  "creator": {
+    "name": "Nell Begley and Rex Fuge"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/cornishtown-and-prentice-freehold-reunion-1873-1998-edited-by-nell-begley-and-rex-fuge/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/cornishtown-and-prentice-freehold-reunion-1873-1998-edited-by-nell-begley-and-rex-fuge/index.html",
+  "mentions": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/chiltern/",
+    "name": "Chiltern",
+    "type": "City"
+  },
+  "name": "Cornishtown and Prentice Freehold Reunion 1873–1998  edited by Nell Begley and Rex Fuge",
+  "publisher": {
+    "name": "R. Fuge"
+  },
+  "type": "Book"
+}

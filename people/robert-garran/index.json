@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1867",
+  "deathDate": "1957",
+  "description": "Lawyer and Secretary of the Attorney-General’s Department.",
+  "familyName": "Garran",
+  "givenName": [
+    "Robert",
+    "Randolph"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/robert-garran/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-robert-garran/",
+    "image": "nla.obj-122783806.jpg",
+    "name": "Portrait of Robert Garran",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/robert-garran/index.html",
+  "name": "Robert Garran",
+  "sameAs": "http://adb.anu.edu.au/biography/garran-sir-robert-randolph-410",
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/garran-sir-robert-randolph-410"
+}

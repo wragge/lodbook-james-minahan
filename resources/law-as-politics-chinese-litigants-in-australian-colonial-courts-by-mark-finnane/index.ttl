@@ -1,0 +1,9 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/law-as-politics-chinese-litigants-in-australian-colonial-courts-by-mark-finnane/> a <https://bib.schema.org/Chapter>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Mark Finnane"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Chinese Australians: Politics, Engagement and Resistance edited by Sophie Couchman and Kate Bagnall"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/law-as-politics-chinese-litigants-in-australian-colonial-courts-by-mark-finnane/index.html";
+   <http://schema.org/name> "Law as Politics: Chinese Litigants in Australian Colonial Courts by Mark Finnane";
+   <http://schema.org/position> "p. 118";
+   <http://schema.org/publicationDate> "2015";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Brill"] .

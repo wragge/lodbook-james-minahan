@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/",
+    "name": "Little Bourke Street",
+    "type": "Place"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/eastern-end-of-little-bourke-street-1908/",
+  "image": "nla.news-article139201161.5.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/eastern-end-of-little-bourke-street-1908/index.html",
+  "name": "Eastern end of Little Bourke Street, 1908",
+  "position": "p. 31",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1908-06-13",
+  "publisher": {
+    "name": "Australasian"
+  },
+  "type": "Photograph",
+  "url": "http://nla.gov.au/nla.news-article139201161"
+}

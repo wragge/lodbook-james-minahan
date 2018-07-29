@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-s-case-in-the-melbourne-city-court-is-part-heard-and-adjourned-for-three-weeks-until-20-march-1908/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-02-28"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-s-case-in-the-melbourne-city-court-is-part-heard-and-adjourned-for-three-weeks-until-20-march-1908/index.html";
+   <http://schema.org/name> "James Minahan's case in the Melbourne City Court is part heard and adjourned for three weeks until 20 March 1908";
+   <http://schema.org/performer> [ <http://schema.org/name> "James Minaham"];
+   <http://schema.org/startDate> "1908-02-28"^^<http://schema.org/Date> .

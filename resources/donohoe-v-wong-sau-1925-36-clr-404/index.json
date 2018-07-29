@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1925-04-17",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/donohoe-v-wong-sau-1925-36-clr-404/",
+  "image": "austlii-HCA36-Donohoe-WongSau.JPG",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/donohoe-v-wong-sau-1925-36-clr-404/index.html",
+  "name": "Donohoe v. Wong Sau (1925) 36 CLR 404",
+  "provider": {
+    "name": "Australasian Legal Information Institute"
+  },
+  "publisher": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "type": "CreativeWork",
+  "url": "http://www7.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1925/6.html?context=1;query=donohoe;mask_path=au/cases/cth/HCA"
+}

@@ -1,0 +1,117 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+    "name": "James Minahan",
+    "type": "Person"
+  },
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/",
+    "name": "Department of External Affairs",
+    "type": "Organization"
+  },
+  "endDate": "1908",
+  "hasPart": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/",
+      "name": "Imprint of the left hand of James Frances Kitchen, 28 January 1908",
+      "type": "ImageObject"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/report-of-passengers-for-the-taiyuan-from-hong-kong-sydney-23-january-1908/",
+      "name": "Report of Passengers for the Taiyuan from Hong Kong, Sydney, 23 January 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/copy-of-dictation-test-from-16-to-31-january-1908/",
+      "name": "Copy of Dictation Test from 16 to 31 January 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/statement-by-j-t-t-donohoe-10-february-1908/",
+      "name": "Statement by J.T.T. Donohoe, 10 February 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/telegram-from-atlee-hunt-secretary-department-of-external-affairs-to-the-collector-of-customs-sydney-6-february-1908/",
+      "name": "Telegram from Atlee Hunt, Secretary, Department of External Affairs to the Collector of Customs, Sydney, 6 February 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/handwritten-letter-from-e-a-fortescue-croft-solicitor-to-atlee-hunt-secretary-department-of-external-affairs-6-february-1908/",
+      "name": "Handwritten Letter from E.A. Fortescue Croft, Solicitor, to Atlee Hunt, Secretary, Department of External Affairs, 6 February 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/memorandum-from-atlee-hunt-secretary-department-of-external-affairs-to-crown-solicitor-11-february-1908/",
+      "name": "Memorandum from Atlee Hunt, Secretary, Department of External Affairs, to Crown Solicitor, 11 February 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/crown-solicitor-to-atlee-hunt-secretary-department-of-external-affairs-8-february-1908/",
+      "name": "Crown Solicitor to Atlee Hunt, Secretary, Department of External Affairs, 8 February 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/letter-from-charles-power-crown-solicitor-to-robert-garran-secretary-of-the-attorney-general-s-department-8-april-1908/",
+      "name": "Letter from Charles Power, Crown Solicitor, to Robert Garran, Secretary of the Attorney-General's Department, 8 April 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/annotated-minute-paper-from-the-attorney-general-s-department-8-april-1908/",
+      "name": "Annotated Minute Paper from the Attorney-General's Department, 8 April 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/charles-powers-crown-solictor-to-atlee-hunt-secretary-of-the-department-of-external-affairs-30-april-1908/",
+      "name": "Charles Powers, Crown Solictor, to Atlee Hunt, Secretary of the Department of External Affairs, 30 April 1908",
+      "type": "CreativeWork"
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/",
+  "image": "naa-10131-p01.jpg",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-correspondence-files-annual-single-number-series/",
+    "name": "A1, Correspondence files, annual single number series",
+    "type": "https://bib.schema.org/Collection"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/index.html",
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/",
+      "name": "J.T.T. Donohoe",
+      "type": "Person"
+    }
+  ],
+  "name": "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908",
+  "position": "1908/12396",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1908",
+  "type": "CreativeWork",
+  "url": "http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131"
+}

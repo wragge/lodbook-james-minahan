@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1865",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/richard-monaghan-and-mary-mangan-marriage/",
+  "image": "1153474456_RichardMinahan_marriage.pdf",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/",
+    "name": "Victorian Registry of Births, Deaths and Marriages",
+    "type": "https://bib.schema.org/Collection"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/richard-monaghan-and-mary-mangan-marriage/index.html",
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/mary-manning/",
+      "name": "Mary Manning",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/",
+      "name": "Richard Minahan",
+      "type": "Person"
+    }
+  ],
+  "name": "Richard Monaghan and Mary Mangan (marriage)",
+  "position": "1965/9864",
+  "type": "CreativeWork"
+}

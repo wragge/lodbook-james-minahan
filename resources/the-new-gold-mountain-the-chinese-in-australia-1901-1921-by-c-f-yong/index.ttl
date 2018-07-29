@@ -1,0 +1,6 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/the-new-gold-mountain-the-chinese-in-australia-1901-1921-by-c-f-yong/> a <http://schema.org/Book>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/the-new-gold-mountain-the-chinese-in-australia-1901-1921-by-c-f-yong/index.html";
+   <http://schema.org/name> "The New Gold Mountain: The Chinese in Australia 1901-1921 by C.F. Yong";
+   <http://schema.org/publicationDate> "1977";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Raphael Arts, Richmond, SA"] .

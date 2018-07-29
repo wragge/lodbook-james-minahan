@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/willie-lee-hook/",
+    "name": "Willie Lee Hook",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/one-month-s-grace/",
+  "image": "nla.news-article10155422.5.pdf",
+  "isPartOf": {
+    "name": "Argus"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/one-month-s-grace/index.html",
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/willie-lee-hook/",
+      "name": "Willie Lee Hook",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/",
+      "name": "Department of External Affairs",
+      "type": "Organization"
+    }
+  ],
+  "name": "One Month's Grace",
+  "position": "p. 19",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1907-07-13",
+  "type": "CreativeWork",
+  "url": "http://nla.gov.au/nla.news-article10155422"
+}

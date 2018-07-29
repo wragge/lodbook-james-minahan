@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/shing-kee/> a <http://schema.org/Organization>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/mount-pleasant/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/shing-kee/index.html";
+   <http://schema.org/name> "Shing Kee" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/mount-pleasant/> a <http://schema.org/City>;
+   <http://schema.org/name> "Mount Pleasant" .

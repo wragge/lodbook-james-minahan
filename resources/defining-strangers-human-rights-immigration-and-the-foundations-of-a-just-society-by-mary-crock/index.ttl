@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/defining-strangers-human-rights-immigration-and-the-foundations-of-a-just-society-by-mary-crock/> a <http://schema.org/Article>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Mary Crock"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Melbourne University Law Review"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/defining-strangers-human-rights-immigration-and-the-foundations-of-a-just-society-by-mary-crock/index.html";
+   <http://schema.org/name> "Defining Strangers: Human Rights, Immigration and the Foundations of a Just Society by Mary Crock";
+   <http://schema.org/position> "vol. 31, no. 3, pp. 1-19";
+   <http://schema.org/publicationDate> "2007" .

@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1906-10-06",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/",
+    "name": "Atlee Hunt",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/application-of-immigration-restriction-act-1901-1905-to-australian-born-chinese-minute-paper-by-atlee-hunt-secretary-department-of-external-affairs-6-october-1906/",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1906-8578-immigration-restriction-acts-1901-1905-persons-born-in-australia/",
+    "name": "A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia",
+    "type": "CreativeWork"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/application-of-immigration-restriction-act-1901-1905-to-australian-born-chinese-minute-paper-by-atlee-hunt-secretary-department-of-external-affairs-6-october-1906/index.html",
+  "mentions": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/",
+    "name": "Department of External Affairs",
+    "type": "Organization"
+  },
+  "name": "Application of Immigration Restriction Act 1901-1905 to Australian-born Chinese', Minute Paper by Atlee Hunt, Secretary, Department of External Affairs, 6 October 1906",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "type": "CreativeWork"
+}

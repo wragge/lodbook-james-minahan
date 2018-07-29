@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+    "name": "James Minahan",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/is-he-an-australian/",
+  "image": "nla.news-article114098110.4.pdf",
+  "isPartOf": {
+    "name": "Evening News (Sydney)"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/is-he-an-australian/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/",
+      "name": "F.S. Boyce",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/",
+      "name": "Lancelot Dawson",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/",
+      "name": "SS Taiyuan",
+      "type": "Organization"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/",
+      "name": "Water Police Court, Sydney",
+      "type": "Organization"
+    }
+  ],
+  "name": "Is He an Australian?",
+  "position": "p. 6 and 7",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1908-02-07",
+  "type": "CreativeWork",
+  "url": "http://nla.gov.au/nla.news-article114098110"
+}

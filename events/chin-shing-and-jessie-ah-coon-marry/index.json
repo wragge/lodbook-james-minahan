@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1893-05-24",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/chin-shing-and-jessie-ah-coon-marry/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/chin-shing-and-jessie-ah-coon-marry/index.html",
+  "name": "Chin Shing and Jessie Ah Coon marry",
+  "performer": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/chin-shing/",
+      "name": "Chin Shing",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/jessie-shing/",
+      "name": "Jessie Shing",
+      "type": "Person"
+    }
+  ],
+  "startDate": "1893-05-24",
+  "type": "Event"
+}

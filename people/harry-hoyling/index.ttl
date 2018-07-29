@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/harry-hoyling/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/harry-hoyling/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Chinese interpreter in Melbourne. Worked for the Commonwealth.";
+   <http://schema.org/familyName> "Hoying";
+   <http://schema.org/givenName> "Harry",
+     "Edward";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-harry-hoyling/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/harry-hoyling/index.html";
+   <http://schema.org/name> "Harry Hoyling" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-harry-hoyling/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of Harry Hoyling" .

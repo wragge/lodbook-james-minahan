@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/d596-1909-2128-immigration-restriction-potter-versus-minahan-judgement-handed-down-by-high-court-re-application-of-the-dictation-test/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/endDate> "1909"^^<http://schema.org/Date>;
+   <http://schema.org/hasPart> <https://wragge.github.io/lodbook-james-minahan/resources/circular-by-the-collector-of-customs-customs-and-excise-office-port-adelaide-8-april-1909/>;
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "D596, Correspondence files, annual single number series"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/d596-1909-2128-immigration-restriction-potter-versus-minahan-judgement-handed-down-by-high-court-re-application-of-the-dictation-test/index.html";
+   <http://schema.org/name> "D596, 1909/2128, Immigration Restriction - POTTER versus MINAHAN - judgement handed down by High Court re application of the dictation test";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/>;
+   <http://schema.org/startDate> "1909"^^<http://schema.org/Date>;
+   <http://schema.org/url> <http://recordsearch.naa.gov.au/scripts/AutoSearch.asp?O=I&Number=983241> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/circular-by-the-collector-of-customs-customs-and-excise-office-port-adelaide-8-april-1909/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Circular by the Collector of Customs, Customs and Excise Office, Port Adelaide, 8 April 1909" .

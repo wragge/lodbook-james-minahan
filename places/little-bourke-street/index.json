@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+    "name": "Melbourne",
+    "type": "City"
+  },
+  "geo": {
+    "latitude": "-37.81184",
+    "longitude": "144.96770",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/eastern-end-of-little-bourke-street-1908/",
+    "image": "nla.news-article139201161.5.jpg",
+    "name": "Eastern end of Little Bourke Street, 1908",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/index.html",
+  "name": "Little Bourke Street",
+  "subjectOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/eastern-end-of-little-bourke-street-1908/",
+    "name": "Eastern end of Little Bourke Street, 1908",
+    "type": "Photograph"
+  },
+  "type": "Place"
+}

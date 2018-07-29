@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1851",
+  "deathDate": "1929",
+  "description": "Justice of the High Court. Allowed High Court appeal to proceed. Ruled in Potter v. Minahan that James Minahan was an immigrant under the Immigration Restriction Act.",
+  "familyName": "Higgins",
+  "givenName": [
+    "Henry",
+    "Bournes"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/henry-higgins/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-henry-bournes-higgins/",
+    "image": "nla.obj-136708449-1.jpg",
+    "name": "Portrait of Henry Bournes Higgins",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/henry-higgins/index.html",
+  "name": "Henry Higgins",
+  "sameAs": "http://adb.anu.edu.au/biography/higgins-henry-bournes-6662",
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/higgins-henry-bournes-6662"
+}

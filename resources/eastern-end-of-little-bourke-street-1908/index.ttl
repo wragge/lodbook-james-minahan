@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/eastern-end-of-little-bourke-street-1908/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/eastern-end-of-little-bourke-street-1908/index.html";
+   <http://schema.org/name> "Eastern end of Little Bourke Street, 1908";
+   <http://schema.org/position> "p. 31";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1908-06-13";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Australasian"];
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article139201161> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/> a <http://schema.org/Place>;
+   <http://schema.org/name> "Little Bourke Street" .

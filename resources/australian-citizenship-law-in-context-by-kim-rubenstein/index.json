@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creator": {
+    "name": "Kim Rubenstein"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/australian-citizenship-law-in-context-by-kim-rubenstein/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/australian-citizenship-law-in-context-by-kim-rubenstein/index.html",
+  "name": "Australian Citizenship Law in Context by Kim Rubenstein",
+  "publicationDate": "2002",
+  "publisher": {
+    "name": "Lawbook Co."
+  },
+  "type": "Book"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-01-28",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-leaves-melbourne-on-board-the-ss-wollowra/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-leaves-melbourne-on-board-the-ss-wollowra/index.html",
+  "name": "James Minahan leaves Melbourne on board the SS Wollowra",
+  "performer": [
+    {
+      "name": "James Minaham"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/ss-wollowra/",
+      "name": "SS Wollowra",
+      "type": "Organization"
+    }
+  ],
+  "startDate": "1908-01-28",
+  "type": "Event"
+}

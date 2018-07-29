@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-arrested-by-customs-inspector-donohoe-in-sydney/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-02-07"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-arrested-by-customs-inspector-donohoe-in-sydney/index.html";
+   <http://schema.org/name> "James Minahan is arrested by Customs Inspector Donohoe in Sydney";
+   <http://schema.org/performer> [ <http://schema.org/name> "James Minaham"];
+   <http://schema.org/startDate> "1908-02-07"^^<http://schema.org/Date> .
+
+ [
+     <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-arrested-by-customs-inspector-donohoe-in-sydney/>;
+     <http://schema.org/name> "PROHIBITED IMMIGRANT -- James Francis Kitchen"
+ ] .

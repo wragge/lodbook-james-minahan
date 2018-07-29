@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/",
+    "name": "SS Taiyuan",
+    "type": "Organization"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-taiyuan/",
+  "image": "slnsw-a639782h.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-taiyuan/index.html",
+  "name": "Photograph of SS Taiyuan",
+  "provider": {
+    "name": "State Library of New South Wales"
+  },
+  "type": "Photograph",
+  "url": "http://archival.sl.nsw.gov.au/Details/archive/110329896"
+}

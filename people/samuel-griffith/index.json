@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1845",
+  "deathDate": "1920",
+  "description": "Chief Justice of the High Court. Ruled in Potter v. Minahan that James Minahan was not an immigrant under the Immigration Restriction Act.",
+  "familyName": "Griffith",
+  "givenName": [
+    "Samuel",
+    "Walker"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/samuel-griffith/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-samuel-griffith/",
+    "image": "slq-108944.jpg",
+    "name": "Portrait of Sir Samuel Griffith",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/samuel-griffith/index.html",
+  "name": "Samuel Griffith",
+  "sameAs": "http://adb.anu.edu.au/biography/griffith-sir-samuel-walker-445",
+  "subjectOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/judges-of-the-federal-high-count-1903/",
+    "name": "Judges of the Federal High Count, 1903",
+    "type": "Photograph"
+  },
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/griffith-sir-samuel-walker-445"
+}

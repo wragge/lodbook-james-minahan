@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/ss-wollowra/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/ss-wollowra/> a <http://schema.org/Organization>;
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-wollowra/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/ss-wollowra/index.html";
+   <http://schema.org/name> "SS Wollowra" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-wollowra/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Photograph of SS Wollowra" .

@@ -1,0 +1,48 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "address": {
+    "name": "127-129 George Street, The Rocks"
+  },
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney/",
+    "name": "Sydney",
+    "type": "City"
+  },
+  "geo": {
+    "latitude": "-33.8601878",
+    "longitude": "151.2062024",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/no-4-police-station/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/police-station-george-st-north-sydney/",
+    "image": "slnsw-d1_05327h.jpg",
+    "name": "Police station, George St North, Sydney",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/no-4-police-station/index.html",
+  "name": "No. 4 Police Station",
+  "sameAs": "http://www.shfa.nsw.gov.au/sydney-About_us-Heritage_role-Heritage_and_Conservation_Register.htm&objectid=100",
+  "subjectOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/police-station-george-st-north-sydney/",
+    "name": "Police station, George St North, Sydney",
+    "type": "Photograph"
+  },
+  "type": "CivicStructure"
+}

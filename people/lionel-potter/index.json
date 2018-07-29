@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "description": "Detective constable with the Victoria Police. Arrested James Minahan at Melbourne after he returned from Sydney with his solicitor.",
+  "familyName": "Potter",
+  "givenName": [
+    "Lionel",
+    "Frank"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lionel-potter/",
+    "image": "nla.obj-246761997.jpg",
+    "name": "Portrait of Lionel Potter",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/index.html",
+  "name": "Lionel Potter",
+  "type": "Person"
+}

@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1856",
+  "description": "Japanese husband of Winifred Minahan.",
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/arai-arai/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/arai-arai/index.html",
+  "name": "Arai Arai",
+  "spouse": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+    "name": "Winifred Minahan",
+    "type": "Person"
+  },
+  "type": "Person"
+}

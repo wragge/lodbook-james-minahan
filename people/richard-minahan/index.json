@@ -1,0 +1,55 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "children": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/",
+      "name": "Catherine Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+      "name": "Winifred Minahan",
+      "type": "Person"
+    }
+  ],
+  "description": "Maternal grandfather of James Minahan.",
+  "familyName": "Minahan",
+  "givenName": "Richard",
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/index.html",
+  "name": "Richard Minahan",
+  "relatedTo": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/mary-manning/",
+      "name": "Mary Manning",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/",
+      "name": "Winifred Cheong Ming",
+      "type": "Person"
+    }
+  ],
+  "type": "Person"
+}

@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/australian-citizenship-law-in-context-by-kim-rubenstein/> a <http://schema.org/Book>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Kim Rubenstein"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/australian-citizenship-law-in-context-by-kim-rubenstein/index.html";
+   <http://schema.org/name> "Australian Citizenship Law in Context by Kim Rubenstein";
+   <http://schema.org/publicationDate> "2002";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Lawbook Co."] .

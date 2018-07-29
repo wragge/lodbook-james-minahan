@@ -1,0 +1,9 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/deung-garng/> a <http://schema.org/Person>;
+   <http://schema.org/description> "French polisher in Melbourne. James Minahan and Cheong Ming stayed with him in Kongmoon. Gave evidence at Court of Petty Sessions hearing in Melbourne.";
+   <http://schema.org/knows> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/deung-garng/index.html";
+   <http://schema.org/name> "Deung Garng" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

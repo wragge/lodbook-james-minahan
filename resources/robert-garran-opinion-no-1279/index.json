@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1922-11-29",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/robert-garran-opinion-no-1279/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/robert-garran-opinion-no-1279/index.html",
+  "name": "Robert Garran, Opinion No. 1279",
+  "provider": {
+    "name": "Australian Government Solicitor"
+  },
+  "publisher": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/",
+    "name": "Attorney-General's Department",
+    "type": "Organization"
+  },
+  "type": "CreativeWork",
+  "url": "http://legalopinions.ags.gov.au/legalopinion/opinion-1279"
+}

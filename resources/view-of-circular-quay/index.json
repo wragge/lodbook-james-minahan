@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/circular-quay/",
+    "name": "Circular Quay",
+    "type": "CivicStructure"
+  },
+  "creator": {
+    "name": "S.J. Jones"
+  },
+  "endDate": "1925",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/view-of-circular-quay/",
+  "image": "slv-H82.43-69.jpeg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/view-of-circular-quay/index.html",
+  "name": "View of Circular Quay",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/",
+    "name": "State Library of Victoria",
+    "type": "Organization"
+  },
+  "startDate": "1900",
+  "type": "Photograph",
+  "url": "http://search.slv.vic.gov.au/MAIN:Everything:SLV_VOYAGER1759625"
+}

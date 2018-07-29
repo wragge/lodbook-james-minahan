@@ -1,0 +1,21 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/information-for-an-offence-in-the-court-of-petty-sessions-melbourne-14-february-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1908-02-14";
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/information-for-an-offence-in-the-court-of-petty-sessions-melbourne-14-february-1908/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/court-of-petty-sessions-melbourne/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/name> "Information for an Offence in the Court of Petty Sessions, Melbourne, 14 February 1908";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/court-of-petty-sessions-melbourne/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Court of Petty Sessions, Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen" .

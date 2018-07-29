@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/still-call-australia-home-the-constitution-and-the-citizen-s-right-of-abode-by-helen-irving/> a <http://schema.org/Article>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Helen Irving"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Sydney Law Review"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/still-call-australia-home-the-constitution-and-the-citizen-s-right-of-abode-by-helen-irving/index.html";
+   <http://schema.org/name> "Still Call Australia Home: The Constitution and the Citizen’s Right of Abode by Helen Irving";
+   <http://schema.org/position> "vol. 30, no. 1, pp. 133-53";
+   <http://schema.org/publicationDate> "2008-03" .

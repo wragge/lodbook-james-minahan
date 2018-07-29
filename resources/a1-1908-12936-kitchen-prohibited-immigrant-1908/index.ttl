@@ -1,0 +1,73 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/>;
+   <http://schema.org/endDate> "1908"^^<http://schema.org/Date>;
+   <http://schema.org/hasPart> <https://wragge.github.io/lodbook-james-minahan/resources/telegram-from-atlee-hunt-secretary-department-of-external-affairs-to-the-collector-of-customs-sydney-6-february-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/copy-of-dictation-test-from-16-to-31-january-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/annotated-minute-paper-from-the-attorney-general-s-department-8-april-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/memorandum-from-atlee-hunt-secretary-department-of-external-affairs-to-crown-solicitor-11-february-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/crown-solicitor-to-atlee-hunt-secretary-department-of-external-affairs-8-february-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/charles-powers-crown-solictor-to-atlee-hunt-secretary-of-the-department-of-external-affairs-30-april-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/statement-by-j-t-t-donohoe-10-february-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/report-of-passengers-for-the-taiyuan-from-hong-kong-sydney-23-january-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/handwritten-letter-from-e-a-fortescue-croft-solicitor-to-atlee-hunt-secretary-department-of-external-affairs-6-february-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/letter-from-charles-power-crown-solicitor-to-robert-garran-secretary-of-the-attorney-general-s-department-8-april-1908/>;
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/a1-correspondence-files-annual-single-number-series/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/>;
+   <http://schema.org/name> "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908";
+   <http://schema.org/position> "1908/12396";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/>;
+   <http://schema.org/startDate> "1908"^^<http://schema.org/Date>;
+   <http://schema.org/url> <http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Department of External Affairs" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/> a <http://schema.org/Person>;
+   <http://schema.org/name> "J.T.T. Donohoe" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a1-correspondence-files-annual-single-number-series/> a <https://bib.schema.org/Collection>;
+   <http://schema.org/name> "A1, Correspondence files, annual single number series" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/annotated-minute-paper-from-the-attorney-general-s-department-8-april-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Annotated Minute Paper from the Attorney-General's Department, 8 April 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/charles-powers-crown-solictor-to-atlee-hunt-secretary-of-the-department-of-external-affairs-30-april-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Charles Powers, Crown Solictor, to Atlee Hunt, Secretary of the Department of External Affairs, 30 April 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/copy-of-dictation-test-from-16-to-31-january-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Copy of Dictation Test from 16 to 31 January 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/crown-solicitor-to-atlee-hunt-secretary-department-of-external-affairs-8-february-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Crown Solicitor to Atlee Hunt, Secretary, Department of External Affairs, 8 February 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/handwritten-letter-from-e-a-fortescue-croft-solicitor-to-atlee-hunt-secretary-department-of-external-affairs-6-february-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Handwritten Letter from E.A. Fortescue Croft, Solicitor, to Atlee Hunt, Secretary, Department of External Affairs, 6 February 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/> a <http://schema.org/ImageObject>;
+   <http://schema.org/name> "Imprint of the left hand of James Frances Kitchen, 28 January 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/letter-from-charles-power-crown-solicitor-to-robert-garran-secretary-of-the-attorney-general-s-department-8-april-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Letter from Charles Power, Crown Solicitor, to Robert Garran, Secretary of the Attorney-General's Department, 8 April 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/memorandum-from-atlee-hunt-secretary-department-of-external-affairs-to-crown-solicitor-11-february-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Memorandum from Atlee Hunt, Secretary, Department of External Affairs, to Crown Solicitor, 11 February 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/report-of-passengers-for-the-taiyuan-from-hong-kong-sydney-23-january-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Report of Passengers for the Taiyuan from Hong Kong, Sydney, 23 January 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/statement-by-j-t-t-donohoe-10-february-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Statement by J.T.T. Donohoe, 10 February 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/telegram-from-atlee-hunt-secretary-department-of-external-affairs-to-the-collector-of-customs-sydney-6-february-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Telegram from Atlee Hunt, Secretary, Department of External Affairs to the Collector of Customs, Sydney, 6 February 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "children": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/",
+      "name": "Winifred Cheong Ming",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    }
+  ],
+  "description": "Father of James Minahan. Ran a store at Indigo, Victoria. Returned to China and worked as schoolmaster.",
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/index.html",
+  "name": "Cheong Ming",
+  "spouse": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+    "name": "Winifred Minahan",
+    "type": "Person"
+  },
+  "type": "Person"
+}

@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/solicitor-croft-requests-and-is-granted-a-two-week-adjournment-from-the-melbourne-city-court/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-02-14"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/solicitor-croft-requests-and-is-granted-a-two-week-adjournment-from-the-melbourne-city-court/index.html";
+   <http://schema.org/name> "Solicitor Croft requests and is granted a two-week adjournment from the Melbourne City Court";
+   <http://schema.org/performer> [ <http://schema.org/name> "A.E. Fortescue Croft"];
+   <http://schema.org/startDate> "1908-02-14"^^<http://schema.org/Date> .

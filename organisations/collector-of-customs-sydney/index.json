@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "dissolutionDate": "2009",
+  "foundingDate": "1827-04-09",
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-sydney/",
+  "location": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney/",
+    "name": "Sydney",
+    "type": "City"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-sydney/index.html",
+  "name": "Collector of Customs, Sydney",
+  "type": "Organization"
+}

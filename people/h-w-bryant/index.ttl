@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/h-w-bryant/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Counsel for the Commonwealth in Potter v. Minahan.";
+   <http://schema.org/familyName> "Bryant";
+   <http://schema.org/givenName> "William",
+     "Herbert";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-h-w-bryant/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/h-w-bryant/index.html";
+   <http://schema.org/name> "H.W. Bryant" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-h-w-bryant/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of H.W. Bryant" .

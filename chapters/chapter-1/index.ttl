@@ -1,0 +1,373 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/resources/copy-of-dictation-test-from-16-to-31-january-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/ah-yuey/>,
+     <https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/>,
+     <https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/organisations/deane-and-deane-solicitors/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/darlinghurst-gaol/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/sunwui/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/report-of-passengers-for-the-taiyuan-from-hong-kong-sydney-23-january-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/hugh-mercer/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/philip-whistler-street/>,
+     <https://wragge.github.io/lodbook-james-minahan/organisations/ss-wollowra/>,
+     <https://wragge.github.io/lodbook-james-minahan/organisations/see-yup-society/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/harry-hoyling/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/see-yup/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/is-he-an-australian/>,
+     <https://wragge.github.io/lodbook-james-minahan/organisations/kong-chew-society/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/ah-doe/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/>,
+     <https://wragge.github.io/lodbook-james-minahan/organisations/sun-nam-hie-co/> .
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-born/> a <http://schema.org/Event>;
+   <http://schema.org/attendee> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/>;
+   <http://schema.org/name> "James Minahan is born";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/> a <http://schema.org/Organization>;
+   <http://schema.org/employee> <https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/name> "Croft and Rhoden Solicitors" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/deane-and-deane-solicitors/> a <http://schema.org/Organization>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/sydney/>;
+   <http://schema.org/name> "Deane and Deane Solicitors" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/> a <http://schema.org/Organization>;
+   <http://schema.org/dissolutionDate> "1916-11-14"^^<http://schema.org/Date>;
+   <http://schema.org/foundingDate> "1901-01-01"^^<http://schema.org/Date>;
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/department-of-external-affairs-1904/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/name> "Department of External Affairs" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/kong-chew-society/> a <http://schema.org/Organization>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/>;
+   <http://schema.org/name> "Kong Chew Society" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/see-yup-society/> a <http://schema.org/Organization>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/>;
+   <http://schema.org/name> "See Yup Society" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/ss-wollowra/> a <http://schema.org/Organization>;
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-wollowra/>;
+   <http://schema.org/name> "SS Wollowra" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/sun-nam-hie-co/> a <http://schema.org/Organization>;
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/sun-nam-hie-co-advertisement/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/>;
+   <http://schema.org/name> "Sun Nam Hie & Co." .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Water Police Court, Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/ah-chew/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Ah Chew" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/arai-arai/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Arai Arai" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1864"^^<http://schema.org/Date>;
+   <http://schema.org/deathDate> "1935"^^<http://schema.org/Date>;
+   <http://schema.org/description> "Secretary of the Department of External Affairs.";
+   <http://schema.org/familyName> "Hunt";
+   <http://schema.org/givenName> "Atlee",
+     "Arthur";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-atlee-hunt/>;
+   <http://schema.org/name> "Atlee Hunt";
+   <http://schema.org/sameAs> <http://adb.anu.edu.au/biography/hunt-atlee-arthur-6766>;
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/hunt-atlee-arthur-6766> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/chan-num/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Chan Num" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/chin-kay/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Chin Kay" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/chin-shing/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Chin Shing" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/deung-garng/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Deung Garng" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/ernest-tipp/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Ernest Tipp" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/harry-hoyling/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Chinese interpreter in Melbourne. Worked for the Commonwealth.";
+   <http://schema.org/familyName> "Hoying";
+   <http://schema.org/givenName> "Harry",
+     "Edward";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-harry-hoyling/>;
+   <http://schema.org/name> "Harry Hoyling" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/hugh-mercer/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Officer with Department of Trade and Customs in Melbourne. Inspected James Minahan on his arrival in Melbourne and applied the Dictation Test.";
+   <http://schema.org/familyName> "Mercer";
+   <http://schema.org/givenName> "James",
+     "Hugh";
+   <http://schema.org/name> "Hugh Mercer" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/philip-whistler-street/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1863"^^<http://schema.org/Date>;
+   <http://schema.org/deathDate> "1938"^^<http://schema.org/Date>;
+   <http://schema.org/description> "Justice of the New South Wales Supreme Court. Ordered James Minahan's release from the SS Taiyuan in Sydney under Habeas Corpus.";
+   <http://schema.org/familyName> "Street";
+   <http://schema.org/givenName> "Whistler",
+     "Philip";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/>;
+   <http://schema.org/name> "Philip Whistler Street";
+   <http://schema.org/sameAs> <http://adb.anu.edu.au/biography/street-sir-philip-whistler-8696>;
+   <http://schema.org/subjectOf> <https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/>;
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/street-sir-philip-whistler-8696> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/> a <http://schema.org/Person>;
+   <http://schema.org/name> "W.T. Coldham" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/> a <http://schema.org/Person>;
+   <http://schema.org/name> "William Ah Ket" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/hong-kong/> a <http://schema.org/Country>;
+   <http://schema.org/name> "Hong Kong" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/kongmoon/> a <http://schema.org/City>;
+   <http://schema.org/name> "Kongmoon" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/see-yup/> a <http://schema.org/Place>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/kwungtung/>;
+   <http://schema.org/containsPlace> <https://wragge.github.io/lodbook-james-minahan/places/sunwui/>;
+   <http://schema.org/name> "See Yup" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/caricature-portrait-of-j-t-t-donohoe/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Caricature portrait of J.T.T. Donohoe" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/copy-of-dictation-test-from-16-to-31-january-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1908-01";
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/>;
+   <http://schema.org/name> "Copy of Dictation Test from 16 to 31 January 1908";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/department-of-external-affairs-1904/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Department of External Affairs, 1904" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/> a <http://schema.org/ImageObject>;
+   <http://schema.org/name> "Imprint of the left hand of James Frances Kitchen, 28 January 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/is-he-an-australian/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Evening News (Sydney)"];
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/>;
+   <http://schema.org/name> "Is He an Australian?";
+   <http://schema.org/position> "p. 6 and 7";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1908-02-07";
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article114098110> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-wollowra/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Photograph of SS Wollowra" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-atlee-hunt/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of Atlee Hunt" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-f-s-boyce/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of F.S. Boyce" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-harry-hoyling/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of Harry Hoyling" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lancelot-dawson/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of Lancelot Dawson" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/report-of-passengers-for-the-taiyuan-from-hong-kong-sydney-23-january-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/>;
+   <http://schema.org/creationDate> "1908-01-23";
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/places/sydney/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/hong-kong/>;
+   <http://schema.org/name> "Report of Passengers for the Taiyuan from Hong Kong, Sydney, 23 January 1908";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/>;
+   <http://schema.org/url> <http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/sun-nam-hie-co-advertisement/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Sun Nam Hie & Co. advertisement" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "SS Taiyuan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/ah-doe/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Uncle of James Minahan. Owner of Sun Nam Hie & Co., Little Bourke Street, Melbourne. Gave evidence at Court of Petty Sessions hearing in Melbourne.";
+   <http://schema.org/name> "Ah Doe";
+   <http://schema.org/relatedTo> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/ah-yuey/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Uncle of James Minahan. Owner Sun Nam Hie & Co., Little Bourke Street, Melbourne.";
+   <http://schema.org/name> "Ah Yuey";
+   <http://schema.org/relatedTo> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Catherine Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Cheong Ming" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/> a <http://schema.org/Person>;
+   <http://schema.org/name> "E.A. Fortescue Croft" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1872"^^<http://schema.org/Date>;
+   <http://schema.org/deathDate> "1940"^^<http://schema.org/Date>;
+   <http://schema.org/familyName> "Boyce";
+   <http://schema.org/givenName> "Francis",
+     "Stewart";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-f-s-boyce/>;
+   <http://schema.org/name> "F.S. Boyce";
+   <http://schema.org/sameAs> <http://adb.anu.edu.au/biography/boyce-francis-stewart-5320>;
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/boyce-francis-stewart-5320> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Detective inspector with the Department of Trade and Customs in Sydney. Inspected James Minahan on his arrival in Sydney and applied the Dictation Test.";
+   <http://schema.org/familyName> "Donohoe";
+   <http://schema.org/givenName> "Tamplin",
+     "Thomas",
+     "John";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/caricature-portrait-of-j-t-t-donohoe/>;
+   <http://schema.org/name> "J.T.T. Donohoe" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Captain of the SS Taiyuan.";
+   <http://schema.org/familyName> "Dawson";
+   <http://schema.org/givenName> "Lancelot";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lancelot-dawson/>;
+   <http://schema.org/name> "Lancelot Dawson" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/mary-manning/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Mary Manning" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Richard Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Cheong Ming" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/darlinghurst-gaol/> a <http://schema.org/CivicStructure>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/sydney/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-33.879722";
+     <http://schema.org/longitude> "151.218611"
+   ];
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/>;
+   <http://schema.org/name> "Darlinghurst Gaol";
+   <http://schema.org/sameAs> <https://en.wikipedia.org/wiki/Darlinghurst_Gaol>,
+     <http://dictionaryofsydney.org/place/darlinghurst_gaol>;
+   <http://schema.org/subjectOf> <https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/> .
+
+<https://wragge.github.io/lodbook-james-minahan/places/kwungtung/> a <http://schema.org/State>;
+   <http://schema.org/name> "Kwungtung" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/> a <http://schema.org/City>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/sunwui/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "22.44887";
+     <http://schema.org/longitude> "112.93606"
+   ];
+   <http://schema.org/name> "Shek Quey Lee" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/> a <http://schema.org/Photograph>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/places/darlinghurst-gaol/>;
+   <http://schema.org/name> "Empty thoroughfare at Darlinghurst Gaol" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Sir Phillip Street, Chief Justice of New South Wales" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/> a <http://schema.org/Place>;
+   <http://schema.org/name> "Little Bourke Street" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sunwui/> a <http://schema.org/Country>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/kwungtung/>;
+   <http://schema.org/containsPlace> <https://wragge.github.io/lodbook-james-minahan/places/kongmoon/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "22.456";
+     <http://schema.org/longitude> "113.0482"
+   ];
+   <http://schema.org/name> "Sunwui" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney/> a <http://schema.org/City>;
+   <http://schema.org/name> "Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1858-02-01"^^<http://schema.org/Date>;
+   <http://schema.org/children> <https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/description> "Mother of James Minahan.";
+   <http://schema.org/familyName> "Minahan";
+   <http://schema.org/givenName> "Winifred";
+   <http://schema.org/name> "Winifred Minahan";
+   <http://schema.org/parent> <https://wragge.github.io/lodbook-james-minahan/people/mary-manning/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/>;
+   <http://schema.org/sibling> <https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/>;
+   <http://schema.org/spouse> <https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/arai-arai/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1876-10-04"^^<http://schema.org/Date>;
+   <http://schema.org/familyName> "Minahan";
+   <http://schema.org/givenName> "James",
+     "Francis",
+     "Kitchen";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/>;
+   <http://schema.org/knows> <https://wragge.github.io/lodbook-james-minahan/people/deung-garng/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/ah-chew/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/chin-shing/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/chin-kay/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/chan-num/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/ernest-tipp/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/>;
+   <http://schema.org/name> "James Minahan";
+   <http://schema.org/parent> <https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/>;
+   <http://schema.org/relatedTo> <https://wragge.github.io/lodbook-james-minahan/people/ah-yuey/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/ah-doe/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/mary-manning/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/>;
+   <http://schema.org/sibling> <https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/>;
+   <http://schema.org/subjectOf> <https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/>,  [ <http://schema.org/name> "PROHIBITED IMMIGRANT -- James Francis Kitchen"] .
+
+ [
+     <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/>;
+     <http://schema.org/name> "PROHIBITED IMMIGRANT -- James Francis Kitchen"
+ ] .

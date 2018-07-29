@@ -1,0 +1,11 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/jessie-shing/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Anglo-Chinese wife of Chin Shing. Ran Shing Kee store at Indigo, Victoria.";
+   <http://schema.org/familyName> "Shing";
+   <http://schema.org/givenName> "Jessie";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/jessie-shing/index.html";
+   <http://schema.org/name> "Jessie Shing";
+   <http://schema.org/spouse> <https://wragge.github.io/lodbook-james-minahan/people/chin-shing/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/chin-shing/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Chin Shing" .

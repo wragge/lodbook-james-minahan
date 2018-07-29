@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+    "name": "Melbourne",
+    "type": "City"
+  },
+  "geo": {
+    "latitude": "-37.83333",
+    "longitude": "144.96667",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/south-melbourne/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/south-melbourne/index.html",
+  "name": "South Melbourne",
+  "type": "Place"
+}

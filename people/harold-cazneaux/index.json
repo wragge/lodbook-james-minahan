@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "created": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/",
+    "name": "Sir Phillip Street, Chief Justice of New South Wales",
+    "type": "Photograph"
+  },
+  "familyName": "Cazneaux",
+  "givenName": "Harold",
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/harold-cazneaux/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/harold-cazneaux/index.html",
+  "name": "Harold Cazneaux",
+  "type": "Person"
+}

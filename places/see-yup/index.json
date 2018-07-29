@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/kwungtung/",
+    "name": "Kwungtung",
+    "type": "State"
+  },
+  "containsPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/sunwui/",
+    "name": "Sunwui",
+    "type": "Country"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/see-yup/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/see-yup/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "name": "See Yup",
+  "type": "Place"
+}

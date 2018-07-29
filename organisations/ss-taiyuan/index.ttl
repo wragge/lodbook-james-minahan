@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/> a <http://schema.org/Organization>;
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-taiyuan/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/index.html";
+   <http://schema.org/name> "SS Taiyuan" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-taiyuan/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Photograph of SS Taiyuan" .

@@ -1,0 +1,24 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/chinese-or-australian/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1913-10-25";
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Weekly Times (Melbourne)"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/chinese-or-australian/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/>;
+   <http://schema.org/name> "Chinese or Australian?";
+   <http://schema.org/position> "p. 33";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article222611116> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Croft and Rhoden Solicitors" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/> a <http://schema.org/Person>;
+   <http://schema.org/name> "E.A. Fortescue Croft" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .

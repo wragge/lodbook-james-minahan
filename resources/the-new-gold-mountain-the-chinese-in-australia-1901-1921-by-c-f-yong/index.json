@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/the-new-gold-mountain-the-chinese-in-australia-1901-1921-by-c-f-yong/",
+  "image": "Yong1977.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/the-new-gold-mountain-the-chinese-in-australia-1901-1921-by-c-f-yong/index.html",
+  "name": "The New Gold Mountain: The Chinese in Australia 1901-1921 by C.F. Yong",
+  "publicationDate": "1977",
+  "publisher": {
+    "name": "Raphael Arts, Richmond, SA"
+  },
+  "type": "Book"
+}

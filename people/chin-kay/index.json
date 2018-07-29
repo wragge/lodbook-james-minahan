@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "description": "Owner of Hang Yick, Little Bourke Street; later worked at Sun Nam Hie & Co., Melbourne. Gave evidence at Court of Petty Sessions hearing in Melbourne.",
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/chin-kay/",
+  "knows": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+    "name": "James Minahan",
+    "type": "Person"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/chin-kay/index.html",
+  "name": "Chin Kay",
+  "type": "Person"
+}

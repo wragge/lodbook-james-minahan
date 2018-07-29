@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creator": {
+    "name": "Paul Anthony Jones"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/alien-acts-the-white-australia-policy-1901-to-1939/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/alien-acts-the-white-australia-policy-1901-to-1939/index.html",
+  "name": "Alien Acts: The White Australia Policy, 1901 to 1939",
+  "provider": {
+    "name": "University of Melbourne"
+  },
+  "publicationDate": "1998",
+  "type": "https://bib.schema.org/Thesis"
+}

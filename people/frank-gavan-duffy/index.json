@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1852",
+  "deathDate": "1936",
+  "description": "One of the best trial lawyers of the time. Later Chief Justice of the High Court. Counsel for James Minahan during High Court appeal.",
+  "familyName": "Duffy",
+  "givenName": [
+    "Frank",
+    "Gavan"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/frank-gavan-duffy/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-frank-gavan-duffy/",
+    "image": "nla.obj-136742428-1.jpg",
+    "name": "Portrait of Sir Frank Gavan Duffy",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/frank-gavan-duffy/index.html",
+  "name": "Frank Gavan Duffy",
+  "sameAs": "http://adb.anu.edu.au/biography/duffy-sir-frank-gavan-6029",
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/duffy-sir-frank-gavan-6029"
+}

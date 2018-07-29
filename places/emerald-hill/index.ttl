@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/emerald-hill/> a <http://schema.org/Place>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-32.64756";
+     <http://schema.org/longitude> "134.94701"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/emerald-hill/index.html";
+   <http://schema.org/name> "Emerald Hill" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .

@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1905",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/high-court-rules-in-chia-gee-v-martin/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/high-court-rules-in-chia-gee-v-martin/index.html",
+  "name": "High Court rules in Chia Gee v. Martin",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1905",
+  "type": "Event"
+}

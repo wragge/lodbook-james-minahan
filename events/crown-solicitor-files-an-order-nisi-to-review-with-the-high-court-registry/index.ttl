@@ -1,0 +1,6 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/crown-solicitor-files-an-order-nisi-to-review-with-the-high-court-registry/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-05-02"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/crown-solicitor-files-an-order-nisi-to-review-with-the-high-court-registry/index.html";
+   <http://schema.org/name> "Crown Solicitor files an Order Nisi to Review with the High Court registry";
+   <http://schema.org/startDate> "1908-05-02"^^<http://schema.org/Date> .

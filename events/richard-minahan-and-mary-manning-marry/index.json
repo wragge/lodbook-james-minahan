@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1856-10-30",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/richard-minahan-and-mary-manning-marry/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/richard-minahan-and-mary-manning-marry/index.html",
+  "name": "Richard Minahan and Mary Manning marry",
+  "performer": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/",
+      "name": "Richard Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/mary-manning/",
+      "name": "Mary Manning",
+      "type": "Person"
+    }
+  ],
+  "startDate": "1856-10-30",
+  "type": "Event"
+}

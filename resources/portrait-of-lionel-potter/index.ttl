@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lionel-potter/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lionel-potter/index.html";
+   <http://schema.org/name> "Portrait of Lionel Potter";
+   <http://schema.org/position> "p. 1";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1922-06-14";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Herald (Melbourne)"];
+   <http://schema.org/url> <https://trove.nla.gov.au/newspaper/article/246761997> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Lionel Potter" .

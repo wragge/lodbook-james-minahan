@@ -1,0 +1,9 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-samuel-griffith/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> [ <http://schema.org/name> "Samuel Griffth"];
+   <http://schema.org/creationDate> "1903";
+   <http://schema.org/creator> [ <http://schema.org/name> "Wiley, Brisbane"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-samuel-griffith/index.html";
+   <http://schema.org/name> "Portrait of Sir Samuel Griffith";
+   <http://schema.org/provider> [ <http://schema.org/name> "State Library of Queensland"];
+   <http://schema.org/url> <https://hdl.handle.net/10462/deriv/129889> .

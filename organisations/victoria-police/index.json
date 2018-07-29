@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "employee": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/",
+    "name": "Lionel Potter",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/victoria-police/",
+  "location": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+    "name": "Melbourne",
+    "type": "City"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/victoria-police/index.html",
+  "name": "Victoria Police",
+  "type": "Organization"
+}

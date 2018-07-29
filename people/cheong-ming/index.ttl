@@ -1,0 +1,17 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/children> <https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/description> "Father of James Minahan. Ran a store at Indigo, Victoria. Returned to China and worked as schoolmaster.";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/index.html";
+   <http://schema.org/name> "Cheong Ming";
+   <http://schema.org/spouse> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Cheong Ming" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Minahan" .

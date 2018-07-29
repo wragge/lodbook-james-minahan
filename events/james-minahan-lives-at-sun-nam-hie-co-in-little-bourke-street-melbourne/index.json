@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-01-14",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-lives-at-sun-nam-hie-co-in-little-bourke-street-melbourne/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-lives-at-sun-nam-hie-co-in-little-bourke-street-melbourne/index.html",
+  "name": "James Minahan lives at Sun Nam Hie & Co. in Little Bourke Street, Melbourne",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-01-14",
+  "type": "Event"
+}

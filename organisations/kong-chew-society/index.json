@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/kong-chew-society/",
+  "location": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/",
+    "name": "Little Bourke Street",
+    "type": "Place"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/kong-chew-society/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "name": "Kong Chew Society",
+  "type": "Organization"
+}

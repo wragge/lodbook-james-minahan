@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/department-of-external-affairs-1904/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/department-of-external-affairs-1904/index.html";
+   <http://schema.org/name> "Department of External Affairs, 1904";
+   <http://schema.org/position> "p. 16";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1904-05-12";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Punch (Melbourne)"];
+   <http://schema.org/url> <https://trove.nla.gov.au/newspaper/article/174649152> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Department of External Affairs" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .

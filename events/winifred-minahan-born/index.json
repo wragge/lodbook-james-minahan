@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1858-02-01",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/winifred-minahan-born/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/winifred-minahan-born/index.html",
+  "name": "Winifred Minahan born",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+    "name": "Winifred Minahan",
+    "type": "Person"
+  },
+  "startDate": "1858-02-01",
+  "type": "Event"
+}

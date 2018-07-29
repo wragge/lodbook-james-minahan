@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/mount-pleasant/> a <http://schema.org/City>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/victoria/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-36.091293";
+     <http://schema.org/longitude> "146.571417"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/mount-pleasant/index.html";
+   <http://schema.org/name> "Mount Pleasant" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/victoria/> a <http://schema.org/State>;
+   <http://schema.org/name> "Victoria" .

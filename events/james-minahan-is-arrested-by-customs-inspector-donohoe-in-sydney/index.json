@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-02-07",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-arrested-by-customs-inspector-donohoe-in-sydney/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-arrested-by-customs-inspector-donohoe-in-sydney/index.html",
+  "mentionedBy": {
+    "name": "PROHIBITED IMMIGRANT -- James Francis Kitchen"
+  },
+  "name": "James Minahan is arrested by Customs Inspector Donohoe in Sydney",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-02-07",
+  "type": "Event"
+}

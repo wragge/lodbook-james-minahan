@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-02-13",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-held-in-the-melbourne-watch-house/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-held-in-the-melbourne-watch-house/index.html",
+  "name": "James Minahan is held in the Melbourne watch house",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-02-13",
+  "type": "Event"
+}

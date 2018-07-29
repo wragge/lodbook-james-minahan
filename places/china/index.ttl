@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/china/> a <http://schema.org/Country>;
+   <http://schema.org/containsPlace> <https://wragge.github.io/lodbook-james-minahan/places/kwungtung/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "35";
+     <http://schema.org/longitude> "105"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/china/index.html";
+   <http://schema.org/name> "China" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/kwungtung/> a <http://schema.org/State>;
+   <http://schema.org/name> "Kwungtung" .

@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/frank-gavan-duffy/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1852"^^<http://schema.org/Date>;
+   <http://schema.org/deathDate> "1936"^^<http://schema.org/Date>;
+   <http://schema.org/description> "One of the best trial lawyers of the time. Later Chief Justice of the High Court. Counsel for James Minahan during High Court appeal.";
+   <http://schema.org/familyName> "Duffy";
+   <http://schema.org/givenName> "Frank",
+     "Gavan";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-frank-gavan-duffy/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/frank-gavan-duffy/index.html";
+   <http://schema.org/name> "Frank Gavan Duffy";
+   <http://schema.org/sameAs> <http://adb.anu.edu.au/biography/duffy-sir-frank-gavan-6029>;
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/duffy-sir-frank-gavan-6029> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-frank-gavan-duffy/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of Sir Frank Gavan Duffy" .

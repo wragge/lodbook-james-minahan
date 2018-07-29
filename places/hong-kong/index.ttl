@@ -1,0 +1,9 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/hong-kong/> a <http://schema.org/Country>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "22.25";
+     <http://schema.org/longitude> "114.16667"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/hong-kong/index.html";
+   <http://schema.org/name> "Hong Kong" .

@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/captain-dawson-is-asked-to-show-cause-why-a-writ-of-habeas-corpus-should-not-be-issued-to-him-for-holding-james-minahan/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-02-06"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/captain-dawson-is-asked-to-show-cause-why-a-writ-of-habeas-corpus-should-not-be-issued-to-him-for-holding-james-minahan/index.html";
+   <http://schema.org/name> "Captain Dawson is asked to show cause why a writ of habeas corpus should not be issued to him for holding James Minahan";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/>;
+   <http://schema.org/startDate> "1908-02-06"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Lancelot Dawson" .

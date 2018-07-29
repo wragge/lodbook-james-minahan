@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1909",
+  "hasPart": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/circular-by-the-collector-of-customs-customs-and-excise-office-port-adelaide-8-april-1909/",
+    "name": "Circular by the Collector of Customs, Customs and Excise Office, Port Adelaide, 8 April 1909",
+    "type": "CreativeWork"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/d596-1909-2128-immigration-restriction-potter-versus-minahan-judgement-handed-down-by-high-court-re-application-of-the-dictation-test/",
+  "isPartOf": {
+    "name": "D596, Correspondence files, annual single number series"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/d596-1909-2128-immigration-restriction-potter-versus-minahan-judgement-handed-down-by-high-court-re-application-of-the-dictation-test/index.html",
+  "name": "D596, 1909/2128, Immigration Restriction - POTTER versus MINAHAN - judgement handed down by High Court re application of the dictation test",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1909",
+  "type": "CreativeWork",
+  "url": "http://recordsearch.naa.gov.au/scripts/AutoSearch.asp?O=I&Number=983241"
+}

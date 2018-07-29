@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/j-g-davies/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Clerk with Commonwealth Crown Solicitor’s Office. Took notes of evidence at Court of Petty Sessions hearing in Melbourne.";
+   <http://schema.org/familyName> "Davies";
+   <http://schema.org/givenName> "Gardner",
+     "John";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/j-g-davies/index.html";
+   <http://schema.org/name> "J.G. Davies" .

@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creator": {
+    "name": "Commonwealth of Australia"
+  },
+  "endDate": "1905",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/immigration-restriction-acts-1901-1905/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/immigration-restriction-acts-1901-1905/index.html",
+  "name": "Immigration Restriction Acts 1901-1905",
+  "publisher": {
+    "name": "Australian Government Printer"
+  },
+  "startDate": "1901",
+  "type": "CreativeWork",
+  "url": "http://www.austlii.edu.au/au/legis/cth/num_act/ira1901171901304/ira1901171901304.html"
+}

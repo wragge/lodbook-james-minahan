@@ -1,0 +1,60 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/victoria/",
+    "name": "Victoria",
+    "type": "State"
+  },
+  "containsPlace": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/south-melbourne/",
+      "name": "South Melbourne",
+      "type": "Place"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/emerald-hill/",
+      "name": "Emerald Hill",
+      "type": "Place"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/",
+      "name": "Little Bourke Street",
+      "type": "Place"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/carlton/",
+      "name": "Carlton",
+      "type": "Place"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/australian-wharf/",
+      "name": "Australian Wharf",
+      "type": "CivicStructure"
+    }
+  ],
+  "geo": {
+    "latitude": "-37.814",
+    "longitude": "144.96332",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/index.html",
+  "name": "Melbourne",
+  "type": "City"
+}

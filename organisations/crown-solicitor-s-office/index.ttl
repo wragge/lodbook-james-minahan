@@ -1,0 +1,14 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/> a <http://schema.org/Organization>;
+   <http://schema.org/dissolutionDate> "1984-06-30"^^<http://schema.org/Date>;
+   <http://schema.org/employee> <https://wragge.github.io/lodbook-james-minahan/people/charles-powers/>;
+   <http://schema.org/foundingDate> "1903-07-01"^^<http://schema.org/Date>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/index.html";
+   <http://schema.org/name> "Crown Solicitor's Office" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/charles-powers/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Charles Powers" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .

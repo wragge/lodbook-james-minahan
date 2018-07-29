@@ -1,0 +1,25 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/places/sunwui/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/kongmoon/> a <http://schema.org/City>;
+   <http://schema.org/name> "Kongmoon" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/kwungtung/> a <http://schema.org/State>;
+   <http://schema.org/name> "Kwungtung" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/> a <http://schema.org/City>;
+   <http://schema.org/name> "Shek Quey Lee" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sunwui/> a <http://schema.org/Country>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/kwungtung/>;
+   <http://schema.org/containsPlace> <https://wragge.github.io/lodbook-james-minahan/places/kongmoon/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "22.456";
+     <http://schema.org/longitude> "113.0482"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/sunwui/index.html";
+   <http://schema.org/name> "Sunwui" .

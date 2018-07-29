@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/victoria-police/> a <http://schema.org/Organization>;
+   <http://schema.org/employee> <https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/victoria-police/index.html";
+   <http://schema.org/name> "Victoria Police" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Lionel Potter" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .

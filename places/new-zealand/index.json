@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "geo": {
+    "latitude": "-42",
+    "longitude": "174",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/new-zealand/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/new-zealand/index.html",
+  "name": "New Zealand",
+  "type": "Country"
+}

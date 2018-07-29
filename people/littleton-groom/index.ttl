@@ -1,0 +1,22 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1867"^^<http://schema.org/Date>;
+   <http://schema.org/deathDate> "1936"^^<http://schema.org/Date>;
+   <http://schema.org/description> "Attorney-General.";
+   <http://schema.org/familyName> "Groom";
+   <http://schema.org/givenName> "Ernest",
+     "Littleton";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-littleton-groom/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/index.html";
+   <http://schema.org/memberOf> <https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/>;
+   <http://schema.org/name> "Littleton Groom";
+   <http://schema.org/sameAs> <http://adb.anu.edu.au/biography/groom-sir-littleton-ernest-6499>;
+   <http://schema.org/subjectOf> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-littleton-groom/>;
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/groom-sir-littleton-ernest-6499>;
+   <http://schema.org/worksFor> <https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Attorney-General's Department" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-littleton-groom/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of Sir Littleton Groom" .

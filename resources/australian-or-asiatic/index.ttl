@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/australian-or-asiatic/> a <http://schema.org/NewsArticle>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/australian-or-asiatic/index.html";
+   <http://schema.org/name> "Australian or Asiatic?";
+   <http://schema.org/position> "p. 6";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1908-04-01";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Advertiser (Adelaide)"];
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article5131017> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .

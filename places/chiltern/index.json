@@ -1,0 +1,48 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/victoria/",
+    "name": "Victoria",
+    "type": "State"
+  },
+  "geo": {
+    "latitude": "-36.15044",
+    "longitude": "146.60843",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/chiltern/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/chiltern-gold-mine/",
+    "image": "slv-H84.458-119.jpeg",
+    "name": "Chiltern Gold Mine",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/chiltern/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/chiltern-gold-mine/",
+    "name": "Chiltern Gold Mine",
+    "type": "Photograph"
+  },
+  "name": "Chiltern",
+  "sameAs": [
+    "http://www.geonames.org/2171619/chiltern.html",
+    "https://en.wikipedia.org/wiki/Chiltern,_Victoria"
+  ],
+  "type": "City"
+}

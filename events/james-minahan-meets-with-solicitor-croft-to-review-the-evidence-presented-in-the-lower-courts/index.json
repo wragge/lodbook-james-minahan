@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-05",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-meets-with-solicitor-croft-to-review-the-evidence-presented-in-the-lower-courts/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-meets-with-solicitor-croft-to-review-the-evidence-presented-in-the-lower-courts/index.html",
+  "name": "James Minahan meets with Solicitor Croft to review the evidence presented in the lower courts",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-05",
+  "type": "Event"
+}

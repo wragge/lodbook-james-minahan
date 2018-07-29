@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-02-06",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/atlee-hunt-replies-by-telegram-to-the-sydney-collector-of-customs-advising-that-james-minahan-should-be-arrested-as-a-prohibited-immigrant/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/atlee-hunt-replies-by-telegram-to-the-sydney-collector-of-customs-advising-that-james-minahan-should-be-arrested-as-a-prohibited-immigrant/index.html",
+  "name": "Atlee Hunt replies by telegram to the Sydney Collector of Customs advising that James Minahan should be arrested as a prohibited immigrant",
+  "performer": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/",
+      "name": "Atlee Hunt",
+      "type": "Person"
+    },
+    {
+      "name": "Collector Customs, Sydney"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/",
+      "name": "J.T.T. Donohoe",
+      "type": "Person"
+    }
+  ],
+  "startDate": "1908-02-06",
+  "type": "Event"
+}

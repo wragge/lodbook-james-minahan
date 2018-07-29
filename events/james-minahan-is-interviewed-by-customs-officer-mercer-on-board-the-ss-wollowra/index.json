@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-01-27",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-interviewed-by-customs-officer-mercer-on-board-the-ss-wollowra/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-interviewed-by-customs-officer-mercer-on-board-the-ss-wollowra/index.html",
+  "name": "James Minahan is interviewed by Customs Officer Mercer on board the SS Wollowra",
+  "performer": [
+    {
+      "name": "James Minaham"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/hugh-mercer/",
+      "name": "Hugh Mercer",
+      "type": "Person"
+    }
+  ],
+  "startDate": "1908-01-27",
+  "type": "Event"
+}

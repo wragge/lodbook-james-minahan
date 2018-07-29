@@ -1,0 +1,50 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "hasPart": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/winefred-managyan-birth/",
+      "name": "Winefred Managyan (birth)",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/richard-monaghan-and-mary-mangan-marriage/",
+      "name": "Richard Monaghan and Mary Mangan (marriage)",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/james-francis-kitchen-minahan-birth/",
+      "name": "James Francis Kitchen Minahan (bIrth)",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/winifred-cheong-meng-birth/",
+      "name": "Winifred Cheong Meng (birth)",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/winifred-cheong-meng-death/",
+      "name": "Winifred Cheong Meng (death)",
+      "type": "CreativeWork"
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/index.html",
+  "name": "Victorian Registry of Births, Deaths and Marriages",
+  "type": "https://bib.schema.org/Collection"
+}

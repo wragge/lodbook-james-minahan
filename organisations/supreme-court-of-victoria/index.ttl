@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/supreme-court-of-victoria/> a <http://schema.org/Organization>;
+   <http://schema.org/employee> <https://wragge.github.io/lodbook-james-minahan/people/philip-whistler-street/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/supreme-court-of-victoria/index.html";
+   <http://schema.org/name> "Supreme Court of Victoria" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/philip-whistler-street/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Philip Whistler Street" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .

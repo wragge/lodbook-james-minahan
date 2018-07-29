@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/english-or-chinese/> a <http://schema.org/NewsArticle>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/english-or-chinese/index.html";
+   <http://schema.org/name> "English or Chinese?";
+   <http://schema.org/position> "p. 21";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1908-02-29";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Argus (Melbourne)"];
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article10666666> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .

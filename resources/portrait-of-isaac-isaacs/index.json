@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/isaac-isaacs/",
+    "name": "Isaac Isaacs",
+    "type": "Person"
+  },
+  "creator": {
+    "name": "The Swiss Studios, Melbourne"
+  },
+  "endDate": "1910",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-isaac-isaacs/",
+  "image": "nla.obj-136668907-1.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-isaac-isaacs/index.html",
+  "name": "Portrait of Isaac Isaacs",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1900",
+  "type": "Photograph",
+  "url": "https://catalogue.nla.gov.au/Record/12520"
+}

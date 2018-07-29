@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/ss-wollowra/",
+    "name": "SS Wollowra",
+    "type": "Organization"
+  },
+  "endDate": "1915",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-wollowra/",
+  "image": "anms0047-056.JPG",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-wollowra/index.html",
+  "name": "Photograph of SS Wollowra",
+  "position": "ANMS0047[056]",
+  "provider": {
+    "name": "Australian National Maritime Museum"
+  },
+  "startDate": "1891",
+  "type": "Photograph",
+  "url": "http://collections.anmm.gov.au/en/objects/details/91859/photographic-postcard-of-the-ss-wollowra-underway-in-a-harbo;jsessionid=2A250668A5B4FC8CD8936E11B467DEBD"
+}

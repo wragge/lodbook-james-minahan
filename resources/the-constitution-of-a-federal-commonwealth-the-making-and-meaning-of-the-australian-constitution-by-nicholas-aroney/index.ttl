@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/the-constitution-of-a-federal-commonwealth-the-making-and-meaning-of-the-australian-constitution-by-nicholas-aroney/> a <http://schema.org/Book>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Nicholas Aroney"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/the-constitution-of-a-federal-commonwealth-the-making-and-meaning-of-the-australian-constitution-by-nicholas-aroney/index.html";
+   <http://schema.org/name> "The Constitution of a Federal Commonwealth: The Making and Meaning of the Australian Constitution by Nicholas Aroney";
+   <http://schema.org/publicationDate> "2008";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Cambridge University Press"] .

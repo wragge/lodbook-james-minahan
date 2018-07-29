@@ -1,0 +1,15 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a-chinese-barrister/> a <http://schema.org/NewsArticle>;
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Leader (Melbourne)"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/a-chinese-barrister/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/>;
+   <http://schema.org/name> "A Chinese Barrister";
+   <http://schema.org/position> "p. 36";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1902-11-29" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/> a <http://schema.org/Person>;
+   <http://schema.org/name> "William Ah Ket" .

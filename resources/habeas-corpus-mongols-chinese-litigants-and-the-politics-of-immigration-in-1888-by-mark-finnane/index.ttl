@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/habeas-corpus-mongols-chinese-litigants-and-the-politics-of-immigration-in-1888-by-mark-finnane/> a <http://schema.org/Article>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Mark Finnane"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Australian Historical Studies"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/habeas-corpus-mongols-chinese-litigants-and-the-politics-of-immigration-in-1888-by-mark-finnane/index.html";
+   <http://schema.org/name> "“Habeas Corpus Mongols” – Chinese Litigants and the Politics of Immigration in 1888 by Mark Finnane";
+   <http://schema.org/position> "vol. 45, no. 2, pp. 165-83";
+   <http://schema.org/publicationDate> "2014" .

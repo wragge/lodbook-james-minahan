@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/jessie-shing-dies/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1949"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/jessie-shing-dies/index.html";
+   <http://schema.org/name> "Jessie Shing dies";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/jessie-shing/>;
+   <http://schema.org/startDate> "1949"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/jessie-shing/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Jessie Shing" .

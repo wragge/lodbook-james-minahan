@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "2004-09-09",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/singh-v-commonwealth-of-australia-2004-222-clr-322/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/singh-v-commonwealth-of-australia-2004-222-clr-322/index.html",
+  "name": "Singh v. Commonwealth of Australia (2004) 222 CLR 322",
+  "provider": {
+    "name": "Australasian Legal Information Institute"
+  },
+  "publisher": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "type": "CreativeWork",
+  "url": "http://www.austlii.edu.au/au/cases/cth/HCA/2004/43.html"
+}

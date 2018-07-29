@@ -1,0 +1,58 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+    "name": "James Minahan",
+    "type": "Person"
+  },
+  "creationDate": "1908-01-28",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-sydney/",
+    "name": "Collector of Customs, Sydney",
+    "type": "Organization"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/",
+  "image": "naa-10131-p78.jpg",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/",
+    "name": "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908",
+    "type": "CreativeWork"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/index.html",
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/hugh-mercer/",
+      "name": "Hugh Mercer",
+      "type": "Person"
+    }
+  ],
+  "name": "Imprint of the left hand of James Frances Kitchen, 28 January 1908",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "type": "ImageObject",
+  "url": "https://recordsearch.naa.gov.au/SearchNRetrieve/Gallery151/dist/JGalleryViewer.aspx?B=10131&S=78&N=95&R=0"
+}

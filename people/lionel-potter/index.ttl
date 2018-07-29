@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Detective constable with the Victoria Police. Arrested James Minahan at Melbourne after he returned from Sydney with his solicitor.";
+   <http://schema.org/familyName> "Potter";
+   <http://schema.org/givenName> "Frank",
+     "Lionel";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lionel-potter/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/index.html";
+   <http://schema.org/name> "Lionel Potter" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lionel-potter/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of Lionel Potter" .

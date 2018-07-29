@@ -1,0 +1,29 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney/> a <http://schema.org/City>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/new-south-wales/>;
+   <http://schema.org/containsPlace> <https://wragge.github.io/lodbook-james-minahan/places/no-4-police-station/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/circular-quay/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/darlinghurst-gaol/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/sydney-harbour/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-33.86785";
+     <http://schema.org/longitude> "151.20732"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/sydney/index.html";
+   <http://schema.org/name> "Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/circular-quay/> a <http://schema.org/CivicStructure>;
+   <http://schema.org/name> "Circular Quay" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/darlinghurst-gaol/> a <http://schema.org/CivicStructure>;
+   <http://schema.org/name> "Darlinghurst Gaol" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/new-south-wales/> a <http://schema.org/State>;
+   <http://schema.org/name> "New South Wales" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/no-4-police-station/> a <http://schema.org/CivicStructure>;
+   <http://schema.org/name> "No. 4 Police Station" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney-harbour/> a <http://schema.org/Place>;
+   <http://schema.org/name> "Sydney Harbour" .

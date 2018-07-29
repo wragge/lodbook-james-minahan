@@ -1,0 +1,9 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/> a <http://schema.org/Organization>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/index.html";
+   <http://schema.org/name> "State Library of Victoria";
+   <http://schema.org/provides> <https://wragge.github.io/lodbook-james-minahan/resources/chiltern-gold-mine/>;
+   <http://schema.org/url> <http://www.slv.vic.gov.au/> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/chiltern-gold-mine/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Chiltern Gold Mine" .

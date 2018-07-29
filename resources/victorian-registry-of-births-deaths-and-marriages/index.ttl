@@ -1,0 +1,24 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/> a <https://bib.schema.org/Collection>;
+   <http://schema.org/hasPart> <https://wragge.github.io/lodbook-james-minahan/resources/winifred-cheong-meng-birth/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/winefred-managyan-birth/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/winifred-cheong-meng-death/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/james-francis-kitchen-minahan-birth/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/richard-monaghan-and-mary-mangan-marriage/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/index.html";
+   <http://schema.org/name> "Victorian Registry of Births, Deaths and Marriages" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/james-francis-kitchen-minahan-birth/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "James Francis Kitchen Minahan (bIrth)" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/richard-monaghan-and-mary-mangan-marriage/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Richard Monaghan and Mary Mangan (marriage)" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/winefred-managyan-birth/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Winefred Managyan (birth)" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/winifred-cheong-meng-birth/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Winifred Cheong Meng (birth)" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/winifred-cheong-meng-death/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Winifred Cheong Meng (death)" .

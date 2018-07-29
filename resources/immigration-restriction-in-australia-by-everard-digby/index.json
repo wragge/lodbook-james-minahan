@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creator": {
+    "name": "Everard Digby"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/immigration-restriction-in-australia-by-everard-digby/",
+  "isPartOf": {
+    "name": "Journal of the Society of Comparative Legislation"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/immigration-restriction-in-australia-by-everard-digby/index.html",
+  "name": "Immigration Restriction in Australia by Everard Digby",
+  "position": "vol. 12, no. 1, pp. 81-4",
+  "publicationDate": "1911",
+  "type": "Article"
+}

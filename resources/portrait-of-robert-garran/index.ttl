@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-robert-garran/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/robert-garran/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-robert-garran/index.html";
+   <http://schema.org/name> "Portrait of Robert Garran";
+   <http://schema.org/position> "p. 9";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1917-11-18";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Sunday Times (Sydney)"];
+   <http://schema.org/url> <https://trove.nla.gov.au/newspaper/article/122783806> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/robert-garran/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Robert Garran" .

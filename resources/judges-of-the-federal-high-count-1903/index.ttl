@@ -1,0 +1,14 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/judges-of-the-federal-high-count-1903/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/>;
+   <http://schema.org/creationDate> "1903";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/judges-of-the-federal-high-count-1903/index.html";
+   <http://schema.org/name> "Judges of the Federal High Count, 1903";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/url> <http://nla.gov.au/nla.obj-136594976> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "High Court of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .

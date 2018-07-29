@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/john-starling/",
+    "name": "John Starling",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-john-starling/",
+  "image": "nla.obj-38521029.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-john-starling/index.html",
+  "name": "Portrait of John Starling",
+  "position": "p. 7",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1930-10-23",
+  "publisher": {
+    "name": "The Western Mail (Perth)"
+  },
+  "type": "Photograph",
+  "url": "https://trove.nla.gov.au/newspaper/article/38521029"
+}

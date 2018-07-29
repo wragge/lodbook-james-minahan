@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/history-of-the-shire-of-chiltern-by-robert-ashley/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/history-of-the-shire-of-chiltern-by-robert-ashley/index.html",
+  "name": "History of the Shire of Chiltern by Robert Ashley",
+  "type": "Book"
+}

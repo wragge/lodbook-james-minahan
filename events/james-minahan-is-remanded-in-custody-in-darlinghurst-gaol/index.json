@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-02-07",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-remanded-in-custody-in-darlinghurst-gaol/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-remanded-in-custody-in-darlinghurst-gaol/index.html",
+  "name": "James Minahan is remanded in custody in Darlinghurst Gaol",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-02-07",
+  "type": "Event"
+}

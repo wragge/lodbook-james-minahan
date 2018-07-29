@@ -1,0 +1,11 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/ernest-tipp/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Chinese interpreter in Melbourne. Translated for James Minahan during High Court appeal.";
+   <http://schema.org/familyName> "Tipp";
+   <http://schema.org/givenName> "Ernest";
+   <http://schema.org/knows> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/ernest-tipp/index.html";
+   <http://schema.org/name> "Ernest Tipp" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

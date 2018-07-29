@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+    "name": "Melbourne",
+    "type": "City"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/australian-wharf/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/australian-wharf/index.html",
+  "name": "Australian Wharf",
+  "type": "CivicStructure"
+}

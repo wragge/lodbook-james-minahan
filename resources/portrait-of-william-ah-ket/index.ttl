@@ -1,0 +1,15 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-william-ah-ket/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Talma & Co"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-william-ah-ket/index.html";
+   <http://schema.org/name> "Portrait of William Ah Ket";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1902-11-29";
+   <http://schema.org/url> <https://trove.nla.gov.au/newspaper/article/196580331> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/> a <http://schema.org/Person>;
+   <http://schema.org/name> "William Ah Ket" .

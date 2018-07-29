@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-02-06",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/sydney-collector-of-customs-sends-a-telegram-to-the-department-of-external-affairs-for-advice/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/sydney-collector-of-customs-sends-a-telegram-to-the-department-of-external-affairs-for-advice/index.html",
+  "name": "Sydney Collector of Customs sends a telegram to the Department of External Affairs for advice",
+  "performer": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/",
+      "name": "J.T.T. Donohoe",
+      "type": "Person"
+    },
+    {
+      "name": "Collector Customs, Sydney"
+    }
+  ],
+  "startDate": "1908-02-06",
+  "type": "Event"
+}

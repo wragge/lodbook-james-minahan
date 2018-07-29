@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/> a <http://schema.org/Person>;
+   <http://schema.org/description> "James Minahan’s solicitor. From Croft and Rhoden Solicitors, Melbourne.";
+   <http://schema.org/familyName> "Croft";
+   <http://schema.org/givenName> "Ashton",
+     "Edgar",
+     "Fortescue";
+   <http://schema.org/knows> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/index.html";
+   <http://schema.org/name> "E.A. Fortescue Croft" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

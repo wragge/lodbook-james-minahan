@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908",
+  "hasPart": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/ah-sheung-immigration-restriction-act-minute-paper-by-robert-garran-secretary-attorney-general-s-department-28-november-1906/",
+    "name": "Ah Sheung - Immigration Restriction Act', Minute Paper by Robert Garran, Secretary, Attorney-General's Department, 28 November 1906",
+    "type": "CreativeWork"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-1498-ah-sheung/",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-correspondence-files-annual-single-number-series/",
+    "name": "A1, Correspondence files, annual single number series",
+    "type": "https://bib.schema.org/Collection"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-1498-ah-sheung/index.html",
+  "mentions": {
+    "name": "Ah Sheung"
+  },
+  "name": "A1, 1908/1498, Ah Sheung",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1906",
+  "type": "CreativeWork",
+  "url": "http://recordsearch.naa.gov.au/scripts/AutoSearch.asp?O=I&Number=9003"
+}

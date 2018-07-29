@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/philip-whistler-street/",
+    "name": "Philip Whistler Street",
+    "type": "Person"
+  },
+  "creationDate": "1925",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/harold-cazneaux/",
+    "name": "Harold Cazneaux",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/",
+  "image": "nla.obj-140228034-1.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/index.html",
+  "name": "Sir Phillip Street, Chief Justice of New South Wales",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "type": "Photograph",
+  "url": "http://nla.gov.au/nla.obj-140228034"
+}

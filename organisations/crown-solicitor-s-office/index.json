@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "dissolutionDate": "1984-06-30",
+  "employee": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/charles-powers/",
+    "name": "Charles Powers",
+    "type": "Person"
+  },
+  "foundingDate": "1903-07-01",
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/",
+  "location": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+    "name": "Melbourne",
+    "type": "City"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/index.html",
+  "name": "Crown Solicitor's Office",
+  "type": "Organization"
+}

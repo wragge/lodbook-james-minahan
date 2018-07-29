@@ -1,0 +1,9 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/fiji/> a <http://schema.org/Country>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-18";
+     <http://schema.org/longitude> "178"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/fiji/index.html";
+   <http://schema.org/name> "Fiji" .

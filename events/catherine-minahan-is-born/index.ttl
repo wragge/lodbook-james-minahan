@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/catherine-minahan-is-born/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1865-02-04"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/catherine-minahan-is-born/index.html";
+   <http://schema.org/name> "Catherine Minahan is born";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/>;
+   <http://schema.org/startDate> "1865-02-04"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Catherine Minahan" .

@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "name": "Harry Hoylilng"
+  },
+  "creationDate": "1916-09",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-harry-hoyling/",
+  "image": "awm-4121013.JPG",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-harry-hoyling/index.html",
+  "name": "Portrait of Harry Hoyling",
+  "provider": {
+    "name": "Australian War Memorial"
+  },
+  "type": "Photograph",
+  "url": "https://www.awm.gov.au/collection/C207028"
+}

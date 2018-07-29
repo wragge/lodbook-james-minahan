@@ -1,0 +1,9 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/immigration-restriction-acts-1901-1905/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Commonwealth of Australia"];
+   <http://schema.org/endDate> "1905"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/immigration-restriction-acts-1901-1905/index.html";
+   <http://schema.org/name> "Immigration Restriction Acts 1901-1905";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Australian Government Printer"];
+   <http://schema.org/startDate> "1901"^^<http://schema.org/Date>;
+   <http://schema.org/url> <http://www.austlii.edu.au/au/legis/cth/num_act/ira1901171901304/ira1901171901304.html> .

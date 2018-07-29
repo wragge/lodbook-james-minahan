@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "foundingDate": "1903-10-06",
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/judges-of-the-federal-high-count-1903/",
+    "image": "nla.obj-136594976-1.jpg",
+    "name": "Judges of the Federal High Count, 1903",
+    "type": "Photograph"
+  },
+  "location": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+    "name": "Melbourne",
+    "type": "City"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/index.html",
+  "member": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/edmund-barton/",
+      "name": "Edmund Barton",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/samuel-griffith/",
+      "name": "Samuel Griffith",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/richard-o-connor/",
+      "name": "Richard O'Connor",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/isaac-isaacs/",
+      "name": "Isaac Isaacs",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/henry-higgins/",
+      "name": "Henry Higgins",
+      "type": "Person"
+    }
+  ],
+  "name": "High Court of Australia",
+  "publishes": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/potter-v-minahan-1908-7-clr-277/",
+    "name": "Potter v. Minahan (1908) 7 CLR 277",
+    "type": "CreativeWork"
+  },
+  "subjectOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/judges-of-the-federal-high-count-1903/",
+    "name": "Judges of the Federal High Count, 1903",
+    "type": "Photograph"
+  },
+  "type": "Organization"
+}

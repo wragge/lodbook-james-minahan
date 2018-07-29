@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-02-06",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/captain-dawson-is-asked-to-show-cause-why-a-writ-of-habeas-corpus-should-not-be-issued-to-him-for-holding-james-minahan/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/captain-dawson-is-asked-to-show-cause-why-a-writ-of-habeas-corpus-should-not-be-issued-to-him-for-holding-james-minahan/index.html",
+  "name": "Captain Dawson is asked to show cause why a writ of habeas corpus should not be issued to him for holding James Minahan",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/",
+    "name": "Lancelot Dawson",
+    "type": "Person"
+  },
+  "startDate": "1908-02-06",
+  "type": "Event"
+}

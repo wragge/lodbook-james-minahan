@@ -1,0 +1,29 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/prohibited-immigrant/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Argus"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/prohibited-immigrant/index.html";
+   <http://schema.org/mentions> [ <http://schema.org/name> "Wiliam Ah Ket"],
+     <https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/>,
+     <https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/willie-lee-hook/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/>;
+   <http://schema.org/name> "Prohibited Immigrant";
+   <http://schema.org/position> "p. 4";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1907-12-17";
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article10142694> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Croft and Rhoden Solicitors" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Department of External Affairs" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/> a <http://schema.org/Person>;
+   <http://schema.org/name> "E.A. Fortescue Croft" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/willie-lee-hook/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Willie Lee Hook" .

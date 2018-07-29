@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/",
+    "name": "Department of External Affairs",
+    "type": "Organization"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/department-of-external-affairs-1904/",
+  "image": "nla.obj-174649152.JPG",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/department-of-external-affairs-1904/index.html",
+  "name": "Department of External Affairs, 1904",
+  "position": "p. 16",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1904-05-12",
+  "publisher": {
+    "name": "Punch (Melbourne)"
+  },
+  "type": "Photograph",
+  "url": "https://trove.nla.gov.au/newspaper/article/174649152"
+}

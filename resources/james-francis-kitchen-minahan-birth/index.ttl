@@ -1,0 +1,22 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/james-francis-kitchen-minahan-birth/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1876";
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/james-francis-kitchen-minahan-birth/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/name> "James Francis Kitchen Minahan (bIrth)";
+   <http://schema.org/position> "1876/21528" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Cheong Ming" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/> a <https://bib.schema.org/Collection>;
+   <http://schema.org/name> "Victorian Registry of Births, Deaths and Marriages" .

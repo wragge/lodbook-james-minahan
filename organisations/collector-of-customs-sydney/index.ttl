@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-sydney/> a <http://schema.org/Organization>;
+   <http://schema.org/dissolutionDate> "2009"^^<http://schema.org/Date>;
+   <http://schema.org/foundingDate> "1827-04-09"^^<http://schema.org/Date>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/sydney/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-sydney/index.html";
+   <http://schema.org/name> "Collector of Customs, Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney/> a <http://schema.org/City>;
+   <http://schema.org/name> "Sydney" .

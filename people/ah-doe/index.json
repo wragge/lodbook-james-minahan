@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "description": "Uncle of James Minahan. Owner of Sun Nam Hie & Co., Little Bourke Street, Melbourne. Gave evidence at Court of Petty Sessions hearing in Melbourne.",
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/ah-doe/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/ah-doe/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "name": "Ah Doe",
+  "relatedTo": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+    "name": "James Minahan",
+    "type": "Person"
+  },
+  "type": "Person"
+}

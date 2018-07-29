@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "hasPart": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/passenger-list-for-the-taiyuan-sydney-23-january-1908/",
+    "name": "Passenger List for the Taiyuan, Sydney, 23 January 1908",
+    "type": "CreativeWork"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/new-south-wales-australia-unassisted-immigrant-passenger-lists-1826-1922-online-database/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/new-south-wales-australia-unassisted-immigrant-passenger-lists-1826-1922-online-database/index.html",
+  "name": "New South Wales, Australia, Unassisted Immigrant Passenger Lists, 1826-1922 [online database]",
+  "provider": {
+    "name": "Ancestry.com (Provo, UT: Ancestry.com Operations, Inc., 2007"
+  },
+  "type": "https://bib.schema.org/Collection"
+}

@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/> a <http://schema.org/Organization>;
+   <http://schema.org/employee> <https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/index.html";
+   <http://schema.org/name> "Croft and Rhoden Solicitors" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/> a <http://schema.org/Person>;
+   <http://schema.org/name> "E.A. Fortescue Croft" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .

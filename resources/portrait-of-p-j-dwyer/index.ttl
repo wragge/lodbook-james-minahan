@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-p-j-dwyer/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/p-j-dwyer/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-p-j-dwyer/index.html";
+   <http://schema.org/name> "Portrait of P.J. Dwyer";
+   <http://schema.org/position> "p. 7";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1907-07-11";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Table Talk (Melbourne)"];
+   <http://schema.org/url> <https://trove.nla.gov.au/newspaper/article/145851479> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/p-j-dwyer/> a <http://schema.org/Person>;
+   <http://schema.org/name> "P.J. Dwyer" .

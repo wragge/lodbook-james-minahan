@@ -1,0 +1,6 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/high-court-hands-down-decision-in-potter-v-minahan/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-10-08"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/high-court-hands-down-decision-in-potter-v-minahan/index.html";
+   <http://schema.org/name> "High Court hands down decision in Potter v. Minahan";
+   <http://schema.org/startDate> "1908-10-08"^^<http://schema.org/Date> .

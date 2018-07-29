@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "name": "Samuel Griffth"
+  },
+  "creationDate": "1903",
+  "creator": {
+    "name": "Wiley, Brisbane"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-samuel-griffith/",
+  "image": "slq-108944.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-samuel-griffith/index.html",
+  "name": "Portrait of Sir Samuel Griffith",
+  "provider": {
+    "name": "State Library of Queensland"
+  },
+  "type": "Photograph",
+  "url": "https://hdl.handle.net/10462/deriv/129889"
+}

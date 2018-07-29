@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1913-10-25",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/chinese-or-australian/",
+  "image": "nla.news-article222611116.2.pdf",
+  "isPartOf": {
+    "name": "Weekly Times (Melbourne)"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/chinese-or-australian/index.html",
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/",
+      "name": "E.A. Fortescue Croft",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+      "name": "Melbourne",
+      "type": "City"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/",
+      "name": "Croft and Rhoden Solicitors",
+      "type": "Organization"
+    }
+  ],
+  "name": "Chinese or Australian?",
+  "position": "p. 33",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "type": "CreativeWork",
+  "url": "http://nla.gov.au/nla.news-article222611116"
+}

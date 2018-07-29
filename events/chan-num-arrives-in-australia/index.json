@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1857",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/chan-num-arrives-in-australia/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/chan-num-arrives-in-australia/index.html",
+  "name": "Chan Num arrives in Australia",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/chan-num/",
+    "name": "Chan Num",
+    "type": "Person"
+  },
+  "startDate": "1857",
+  "type": "Event"
+}

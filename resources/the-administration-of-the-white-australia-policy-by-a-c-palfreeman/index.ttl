@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/the-administration-of-the-white-australia-policy-by-a-c-palfreeman/> a <http://schema.org/Book>;
+   <http://schema.org/creator> [ <http://schema.org/name> "A.C. Palfreeman"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/the-administration-of-the-white-australia-policy-by-a-c-palfreeman/index.html";
+   <http://schema.org/name> "The Administration of the White Australia Policy by A.C. Palfreeman";
+   <http://schema.org/publicationDate> "1967";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Melbourne University Press"] .

@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney-harbour/",
+    "name": "Sydney Harbour",
+    "type": "Place"
+  },
+  "endDate": "1900",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/view-of-sydney-harbour-from-dawes-point/",
+  "image": "slv-a14678.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/view-of-sydney-harbour-from-dawes-point/index.html",
+  "name": "View of Sydney Harbour from Dawes Point",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/",
+    "name": "State Library of Victoria",
+    "type": "Organization"
+  },
+  "startDate": "1900",
+  "type": "Photograph",
+  "url": "http://www.slv.vic.gov.au/pictoria/gid/slv-pic-aab70395"
+}

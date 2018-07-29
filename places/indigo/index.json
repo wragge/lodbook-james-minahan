@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/victoria/",
+    "name": "Victoria",
+    "type": "State"
+  },
+  "geo": {
+    "latitude": "-36.088194",
+    "longitude": "146.567917",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/indigo/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/indigo/index.html",
+  "name": "Indigo",
+  "sameAs": "http://www.geonames.org/2162747/indigo.html",
+  "type": "City"
+}

@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/ah-ket-william-1876-1936/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creator> [ <http://schema.org/name> "John Lack"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Australian Dictionary of Biography"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/ah-ket-william-1876-1936/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/>;
+   <http://schema.org/name> "Ah Ket, William (1876–1936)";
+   <http://schema.org/publicationDate> "1979";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Australian National University"];
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/ah-ket-william-4979/text8267> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/> a <http://schema.org/Person>;
+   <http://schema.org/name> "William Ah Ket" .

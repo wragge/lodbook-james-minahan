@@ -1,0 +1,18 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/> a <http://schema.org/Organization>;
+   <http://schema.org/dissolutionDate> "1916-11-14"^^<http://schema.org/Date>;
+   <http://schema.org/foundingDate> "1901-01-01"^^<http://schema.org/Date>;
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/department-of-external-affairs-1904/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/index.html";
+   <http://schema.org/name> "Department of External Affairs" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/department-of-external-affairs-1904/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Department of External Affairs, 1904" .

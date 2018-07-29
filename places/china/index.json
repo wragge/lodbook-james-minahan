@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containsPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/kwungtung/",
+    "name": "Kwungtung",
+    "type": "State"
+  },
+  "geo": {
+    "latitude": "35",
+    "longitude": "105",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/china/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/china/index.html",
+  "name": "China",
+  "type": "Country"
+}

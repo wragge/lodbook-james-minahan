@@ -1,0 +1,21 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/one-month-s-grace/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/willie-lee-hook/>;
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Argus"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/one-month-s-grace/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/willie-lee-hook/>;
+   <http://schema.org/name> "One Month's Grace";
+   <http://schema.org/position> "p. 19";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1907-07-13";
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article10155422> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Department of External Affairs" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/willie-lee-hook/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Willie Lee Hook" .

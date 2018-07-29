@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/death-of-mr-w-t-coldham/> a <http://schema.org/NewsArticle>;
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Leader (Melbourne)"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/death-of-mr-w-t-coldham/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/>;
+   <http://schema.org/name> "Death of Mr. W.T. Coldham";
+   <http://schema.org/position> "p. 34";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1908-06-06";
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article198110745> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/> a <http://schema.org/Person>;
+   <http://schema.org/name> "W.T. Coldham" .

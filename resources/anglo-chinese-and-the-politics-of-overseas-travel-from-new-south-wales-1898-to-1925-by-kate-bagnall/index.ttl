@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/anglo-chinese-and-the-politics-of-overseas-travel-from-new-south-wales-1898-to-1925-by-kate-bagnall/> a <https://bib.schema.org/Chapter>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Kate Bagnall"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Chinese Australians: Politics, Engagement and Restistance edited by Sophie Couchman and Kate Bagnall"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/anglo-chinese-and-the-politics-of-overseas-travel-from-new-south-wales-1898-to-1925-by-kate-bagnall/index.html";
+   <http://schema.org/name> """Anglo-Chinese and the Politics of Overseas Travel from New South Wales,
+1898 to 1925 by Kate Bagnall""";
+   <http://schema.org/position> "pp. 212-18";
+   <http://schema.org/publicationDate> "2015";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Brill"] .

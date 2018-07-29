@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/sun-nam-hie-co/",
+    "name": "Sun Nam Hie & Co.",
+    "type": "Organization"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/sun-nam-hie-co-advertisement/",
+  "image": "nla-obj-168664884.JPG",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/sun-nam-hie-co-advertisement/index.html",
+  "name": "Sun Nam Hie & Co. advertisement",
+  "position": "p. 4",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1919-12-27",
+  "publisher": {
+    "name": "Chinese Times"
+  },
+  "type": "CreativeWork",
+  "url": "https://trove.nla.gov.au/newspaper/article/168664884"
+}

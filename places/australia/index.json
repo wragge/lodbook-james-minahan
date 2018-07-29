@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containsPlace": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/victoria/",
+      "name": "Victoria",
+      "type": "State"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/new-south-wales/",
+      "name": "New South Wales",
+      "type": "State"
+    }
+  ],
+  "geo": {
+    "latitude": "-25",
+    "longitude": "135",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/australia/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/australia/index.html",
+  "name": "Australia",
+  "type": "Country"
+}

@@ -1,0 +1,21 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/kwungtung/> a <http://schema.org/State>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/china/>;
+   <http://schema.org/containsPlace> <https://wragge.github.io/lodbook-james-minahan/places/see-yup/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/sunwui/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "23.5";
+     <http://schema.org/longitude> "113.25"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/kwungtung/index.html";
+   <http://schema.org/name> "Kwungtung" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/china/> a <http://schema.org/Country>;
+   <http://schema.org/name> "China" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/see-yup/> a <http://schema.org/Place>;
+   <http://schema.org/name> "See Yup" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sunwui/> a <http://schema.org/Country>;
+   <http://schema.org/name> "Sunwui" .

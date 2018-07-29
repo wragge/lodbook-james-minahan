@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "description": "French polisher of Little Collins Street, Melbourne. Gave evidence at Court of Petty Sessions hearing in Melbourne.",
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/dern-hoy/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/dern-hoy/index.html",
+  "name": "Dern Hoy",
+  "type": "Person"
+}

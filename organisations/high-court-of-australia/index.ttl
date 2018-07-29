@@ -1,0 +1,38 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/foundingDate> "1903-10-06"^^<http://schema.org/Date>;
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/judges-of-the-federal-high-count-1903/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/index.html";
+   <http://schema.org/member> <https://wragge.github.io/lodbook-james-minahan/people/samuel-griffith/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/isaac-isaacs/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/edmund-barton/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/richard-o-connor/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/henry-higgins/>;
+   <http://schema.org/name> "High Court of Australia";
+   <http://schema.org/publishes> <https://wragge.github.io/lodbook-james-minahan/resources/potter-v-minahan-1908-7-clr-277/>;
+   <http://schema.org/subjectOf> <https://wragge.github.io/lodbook-james-minahan/resources/judges-of-the-federal-high-count-1903/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/edmund-barton/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Edmund Barton" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/henry-higgins/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Henry Higgins" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/isaac-isaacs/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Isaac Isaacs" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/richard-o-connor/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Richard O'Connor" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/samuel-griffith/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Samuel Griffith" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/potter-v-minahan-1908-7-clr-277/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Potter v. Minahan (1908) 7 CLR 277" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/judges-of-the-federal-high-count-1903/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Judges of the Federal High Count, 1903" .

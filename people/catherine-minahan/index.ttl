@@ -1,0 +1,27 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Younger sister of Winifred Minahan and aunt of James Minahan. Worked for Chan Num at Beechworth.";
+   <http://schema.org/familyName> "Minahan";
+   <http://schema.org/givenName> "Catherine";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/index.html";
+   <http://schema.org/name> "Catherine Minahan";
+   <http://schema.org/parent> <https://wragge.github.io/lodbook-james-minahan/people/mary-manning/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/>;
+   <http://schema.org/relatedTo> <https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/sibling> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/mary-manning/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Mary Manning" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Richard Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Cheong Ming" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Minahan" .

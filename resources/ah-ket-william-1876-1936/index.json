@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creator": {
+    "name": "John Lack"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/ah-ket-william-1876-1936/",
+  "isPartOf": {
+    "name": "Australian Dictionary of Biography"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/ah-ket-william-1876-1936/index.html",
+  "mentions": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/",
+    "name": "William Ah Ket",
+    "type": "Person"
+  },
+  "name": "Ah Ket, William (1876–1936)",
+  "publicationDate": "1979",
+  "publisher": {
+    "name": "Australian National University"
+  },
+  "type": "CreativeWork",
+  "url": "http://adb.anu.edu.au/biography/ah-ket-william-4979/text8267"
+}

@@ -1,0 +1,27 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/mary-manning/> a <http://schema.org/Person>;
+   <http://schema.org/children> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/>;
+   <http://schema.org/description> "Maternal grandmother of James Minahan.";
+   <http://schema.org/familyName> "Manning";
+   <http://schema.org/givenName> "Mary";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/mary-manning/index.html";
+   <http://schema.org/name> "Mary Manning";
+   <http://schema.org/relatedTo> <https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Catherine Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Richard Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Cheong Ming" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Minahan" .

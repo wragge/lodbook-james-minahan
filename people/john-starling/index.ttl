@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/john-starling/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1883"^^<http://schema.org/Date>;
+   <http://schema.org/deathDate> "1966"^^<http://schema.org/Date>;
+   <http://schema.org/description> "Public servant with the Department of External Affairs. Took shorthand notes of magistrate’s decision at Court of Petty Sessions hearing in Melbourne.";
+   <http://schema.org/familyName> "Starling";
+   <http://schema.org/givenName> "Henry",
+     "John";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-john-starling/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/john-starling/index.html";
+   <http://schema.org/name> "John Starling";
+   <http://schema.org/sameAs> <http://adb.anu.edu.au/biography/starling-john-henry-8630>;
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/starling-john-henry-8630> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-john-starling/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of John Starling" .

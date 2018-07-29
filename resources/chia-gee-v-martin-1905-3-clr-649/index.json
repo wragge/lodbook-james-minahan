@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1905-10-20",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/chia-gee-v-martin-1905-3-clr-649/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/chia-gee-v-martin-1905-3-clr-649/index.html",
+  "name": "Chia Gee v. Martin (1905) 3 CLR 649",
+  "provider": {
+    "name": "Australasian Legal Information Institute"
+  },
+  "publisher": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "type": "CreativeWork",
+  "url": "http://www.austlii.edu.au/au/cases/cth/HCA/1905/70.html"
+}

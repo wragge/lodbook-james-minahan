@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-s-case-in-the-melbourne-city-court-continues/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-03-31"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-s-case-in-the-melbourne-city-court-continues/index.html";
+   <http://schema.org/name> "James Minahan's case in the Melbourne City Court continues";
+   <http://schema.org/performer> [ <http://schema.org/name> "James Minaham"];
+   <http://schema.org/startDate> "1908-03-31"^^<http://schema.org/Date> .

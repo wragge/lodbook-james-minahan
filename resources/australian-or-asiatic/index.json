@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/australian-or-asiatic/",
+  "image": "nla.news-article5131017.5.pdf",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/australian-or-asiatic/index.html",
+  "name": "Australian or Asiatic?",
+  "position": "p. 6",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1908-04-01",
+  "publisher": {
+    "name": "Advertiser (Adelaide)"
+  },
+  "type": "NewsArticle",
+  "url": "http://nla.gov.au/nla.news-article5131017"
+}

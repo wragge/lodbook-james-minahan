@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/starling-john-henry-1883-1966-by-david-i-smith/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creator> [ <http://schema.org/name> "David I. Smith"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Australian Dictionary of Biography"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/starling-john-henry-1883-1966-by-david-i-smith/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/john-starling/>;
+   <http://schema.org/name> "Starling, John Henry (1883-1966) by David I. Smith";
+   <http://schema.org/publicationDate> "1990";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Australian National University"];
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/starling-john-henry-8630/text15079> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/john-starling/> a <http://schema.org/Person>;
+   <http://schema.org/name> "John Starling" .

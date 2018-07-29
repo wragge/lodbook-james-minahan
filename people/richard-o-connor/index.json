@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1851",
+  "deathDate": "1912",
+  "description": "Justice of the High Court. Allowed High Court appeal to proceed. Ruled in Potter v. Minahan that James Minahan was not an immigrant under the Immigration Restriction Act.",
+  "familyName": "O'Connor",
+  "givenName": [
+    "Richard (Dick)",
+    "Edward"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/richard-o-connor/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-richard-o-connor/",
+    "image": "nla.obj-136690969-1.jpg",
+    "name": "Portrait of Richard O'Connor",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/richard-o-connor/index.html",
+  "name": "Richard O'Connor",
+  "sameAs": "http://adb.anu.edu.au/biography/oconnor-richard-edward-dick-1102",
+  "subjectOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/judges-of-the-federal-high-count-1903/",
+    "name": "Judges of the Federal High Count, 1903",
+    "type": "Photograph"
+  },
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/oconnor-richard-edward-dick-1102"
+}

@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "description": "Clerk with Commonwealth Crown Solicitor’s Office. Took notes of evidence at Court of Petty Sessions hearing in Melbourne.",
+  "familyName": "Davies",
+  "givenName": [
+    "John",
+    "Gardner"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/j-g-davies/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/j-g-davies/index.html",
+  "name": "J.G. Davies",
+  "type": "Person"
+}

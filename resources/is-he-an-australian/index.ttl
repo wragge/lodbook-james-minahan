@@ -1,0 +1,37 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/resources/is-he-an-australian/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "SS Taiyuan" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Water Police Court, Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/> a <http://schema.org/Person>;
+   <http://schema.org/name> "F.S. Boyce" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Lancelot Dawson" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/is-he-an-australian/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Evening News (Sydney)"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/is-he-an-australian/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/>;
+   <http://schema.org/name> "Is He an Australian?";
+   <http://schema.org/position> "p. 6 and 7";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1908-02-07";
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article114098110> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

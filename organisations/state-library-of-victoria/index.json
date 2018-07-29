@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/index.html",
+  "name": "State Library of Victoria",
+  "provides": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/chiltern-gold-mine/",
+    "name": "Chiltern Gold Mine",
+    "type": "Photograph"
+  },
+  "type": "Organization",
+  "url": "http://www.slv.vic.gov.au/"
+}

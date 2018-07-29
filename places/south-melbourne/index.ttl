@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/south-melbourne/> a <http://schema.org/Place>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-37.83333";
+     <http://schema.org/longitude> "144.96667"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/south-melbourne/index.html";
+   <http://schema.org/name> "South Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .

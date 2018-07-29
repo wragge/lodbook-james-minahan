@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/court-of-petty-sessions-melbourne/> a <http://schema.org/Organization>;
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/old-supreme-court/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/melbourne/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/court-of-petty-sessions-melbourne/index.html";
+   <http://schema.org/name> "Court of Petty Sessions, Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/melbourne/> a <http://schema.org/City>;
+   <http://schema.org/name> "Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/old-supreme-court/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Old Supreme Court" .

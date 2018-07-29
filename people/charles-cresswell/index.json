@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "description": "Police magistrate. Heard James Minahan’s case and gave decision in his favour in Court of Petty Sessions in Melbourne.",
+  "givenName": [
+    "Charles",
+    "Arthur",
+    "Costley"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/charles-cresswell/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/charles-cresswell/index.html",
+  "name": "Charles Cresswell",
+  "type": "Person"
+}

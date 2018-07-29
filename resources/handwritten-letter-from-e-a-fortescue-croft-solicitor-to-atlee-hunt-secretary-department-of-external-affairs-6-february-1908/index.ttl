@@ -1,0 +1,22 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/handwritten-letter-from-e-a-fortescue-croft-solicitor-to-atlee-hunt-secretary-department-of-external-affairs-6-february-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1908-02-06";
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/>;
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/handwritten-letter-from-e-a-fortescue-croft-solicitor-to-atlee-hunt-secretary-department-of-external-affairs-6-february-1908/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/>;
+   <http://schema.org/name> "Handwritten Letter from E.A. Fortescue Croft, Solicitor, to Atlee Hunt, Secretary, Department of External Affairs, 6 February 1908";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/>;
+   <http://schema.org/url> <http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Atlee Hunt" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/> a <http://schema.org/Person>;
+   <http://schema.org/name> "E.A. Fortescue Croft" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908" .

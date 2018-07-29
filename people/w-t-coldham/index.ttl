@@ -1,0 +1,24 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1860"^^<http://schema.org/Date>;
+   <http://schema.org/deathDate> "1908"^^<http://schema.org/Date>;
+   <http://schema.org/description> "Counsel for James Minahan during Court of Petty Sessions hearing in Melbourne.";
+   <http://schema.org/familyName> "Coldham";
+   <http://schema.org/givenName> "Timon",
+     "Walter";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-w-t-coldham/>;
+   <http://schema.org/knows> <https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/index.html";
+   <http://schema.org/name> "W.T. Coldham";
+   <http://schema.org/sameAs> <http://adb.anu.edu.au/biography/coldham-walter-timon-5720>;
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/coldham-walter-timon-5720> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/> a <http://schema.org/Person>;
+   <http://schema.org/name> "William Ah Ket" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-w-t-coldham/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of W.T. Coldham" .

@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "endDate": "1980-12-31",
+  "hasPart": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/",
+    "name": "A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen",
+    "type": "CreativeWork"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/a10074-full-court-case-records-victoria-and-from-1973-court-and-cause-case-records-annual-single-number-series/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/a10074-full-court-case-records-victoria-and-from-1973-court-and-cause-case-records-annual-single-number-series/index.html",
+  "name": "A10074, Full Court case records (Victoria) and from 1973, Court and Cause case records, annual single number series",
+  "position": "A10074",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1903-10-02",
+  "type": "https://bib.schema.org/Collection",
+  "url": "http://www.naa.gov.au/cgi-bin/Search?Number=A10074"
+}

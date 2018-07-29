@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/",
+    "name": "Lionel Potter",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lionel-potter/",
+  "image": "nla.obj-246761997.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lionel-potter/index.html",
+  "name": "Portrait of Lionel Potter",
+  "position": "p. 1",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1922-06-14",
+  "publisher": {
+    "name": "Herald (Melbourne)"
+  },
+  "type": "Photograph",
+  "url": "https://trove.nla.gov.au/newspaper/article/246761997"
+}

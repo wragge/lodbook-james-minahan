@@ -1,0 +1,14 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/atlee-hunt-replies-by-telegram-to-the-sydney-collector-of-customs-advising-that-james-minahan-should-be-arrested-as-a-prohibited-immigrant/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-02-06"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/atlee-hunt-replies-by-telegram-to-the-sydney-collector-of-customs-advising-that-james-minahan-should-be-arrested-as-a-prohibited-immigrant/index.html";
+   <http://schema.org/name> "Atlee Hunt replies by telegram to the Sydney Collector of Customs advising that James Minahan should be arrested as a prohibited immigrant";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/>,  [ <http://schema.org/name> "Collector Customs, Sydney"];
+   <http://schema.org/startDate> "1908-02-06"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Atlee Hunt" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/> a <http://schema.org/Person>;
+   <http://schema.org/name> "J.T.T. Donohoe" .

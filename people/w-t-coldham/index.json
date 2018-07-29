@@ -1,0 +1,51 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1860",
+  "deathDate": "1908",
+  "description": "Counsel for James Minahan during Court of Petty Sessions hearing in Melbourne.",
+  "familyName": "Coldham",
+  "givenName": [
+    "Walter",
+    "Timon"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-w-t-coldham/",
+    "image": "nla.obj-242029116.jpg",
+    "name": "Portrait of W.T. Coldham",
+    "type": "Photograph"
+  },
+  "knows": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/",
+      "name": "William Ah Ket",
+      "type": "Person"
+    }
+  ],
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/index.html",
+  "name": "W.T. Coldham",
+  "sameAs": "http://adb.anu.edu.au/biography/coldham-walter-timon-5720",
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/coldham-walter-timon-5720"
+}

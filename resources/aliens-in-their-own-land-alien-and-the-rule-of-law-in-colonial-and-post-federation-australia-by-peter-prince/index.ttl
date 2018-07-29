@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/aliens-in-their-own-land-alien-and-the-rule-of-law-in-colonial-and-post-federation-australia-by-peter-prince/> a <https://bib.schema.org/Thesis>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Peter Prince"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/aliens-in-their-own-land-alien-and-the-rule-of-law-in-colonial-and-post-federation-australia-by-peter-prince/index.html";
+   <http://schema.org/name> "Aliens in Their Own Land: 'Alien' and the Rule of Law in Colonial and Post-Federation Australia by Peter Prince";
+   <http://schema.org/provider> [ <http://schema.org/name> "Australian National University"];
+   <http://schema.org/publicationDate> "2015";
+   <http://schema.org/url> <https://openresearch-repository.anu.edu.au/handle/1885/101778> .

@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/> a <http://schema.org/Organization>;
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/view-of-water-police-court-sydney/>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/sydney/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/index.html";
+   <http://schema.org/name> "Water Police Court, Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney/> a <http://schema.org/City>;
+   <http://schema.org/name> "Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/view-of-water-police-court-sydney/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "View of Water Police Court, Sydney" .

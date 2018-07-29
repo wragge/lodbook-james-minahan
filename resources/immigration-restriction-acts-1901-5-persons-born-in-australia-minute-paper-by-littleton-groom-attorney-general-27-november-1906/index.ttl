@@ -1,0 +1,18 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/immigration-restriction-acts-1901-5-persons-born-in-australia-minute-paper-by-littleton-groom-attorney-general-27-november-1906/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1906-11-27";
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/>;
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/a1-1906-8578-immigration-restriction-acts-1901-1905-persons-born-in-australia/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/immigration-restriction-acts-1901-5-persons-born-in-australia-minute-paper-by-littleton-groom-attorney-general-27-november-1906/index.html";
+   <http://schema.org/mentions> [ <http://schema.org/name> "Attorney-General's Office"];
+   <http://schema.org/name> "Immigration Restriction Acts 1901-5 - Persons born in Australia', Minute Paper by Littleton Groom, Attorney-General, 27 November 1906";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Littleton Groom" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a1-1906-8578-immigration-restriction-acts-1901-1905-persons-born-in-australia/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia" .

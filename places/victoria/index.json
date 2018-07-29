@@ -1,0 +1,63 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/australia/",
+    "name": "Australia",
+    "type": "Country"
+  },
+  "containsPlace": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/chiltern/",
+      "name": "Chiltern",
+      "type": "City"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/indigo/",
+      "name": "Indigo",
+      "type": "City"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/beechworth/",
+      "name": "Beechworth",
+      "type": "City"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+      "name": "Melbourne",
+      "type": "City"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/mount-pleasant/",
+      "name": "Mount Pleasant",
+      "type": "City"
+    },
+    {
+      "name": "Cornishtown"
+    }
+  ],
+  "geo": {
+    "latitude": "-37",
+    "longitude": "145",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/victoria/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/victoria/index.html",
+  "name": "Victoria",
+  "type": "State"
+}

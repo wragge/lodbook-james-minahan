@@ -1,0 +1,34 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/resources/report-of-passengers-for-the-taiyuan-from-hong-kong-sydney-23-january-1908/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "SS Taiyuan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/hong-kong/> a <http://schema.org/Country>;
+   <http://schema.org/name> "Hong Kong" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney/> a <http://schema.org/City>;
+   <http://schema.org/name> "Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/report-of-passengers-for-the-taiyuan-from-hong-kong-sydney-23-january-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/>;
+   <http://schema.org/creationDate> "1908-01-23";
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/report-of-passengers-for-the-taiyuan-from-hong-kong-sydney-23-january-1908/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/places/sydney/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/hong-kong/>;
+   <http://schema.org/name> "Report of Passengers for the Taiyuan from Hong Kong, Sydney, 23 January 1908";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/>;
+   <http://schema.org/url> <http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131> .

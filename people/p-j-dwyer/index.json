@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "deathDate": "1917",
+  "description": "Police magistrate. James Minahan’s case initially came before him in Court of Petty Sessions in Melbourne.",
+  "familyName": "Dwyer",
+  "givenName": [
+    "Patrick",
+    "Joseph"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/p-j-dwyer/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-p-j-dwyer/",
+    "image": "nla.obj-145851479.jpg",
+    "name": "Portrait of P.J. Dwyer",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/p-j-dwyer/index.html",
+  "name": "P.J. Dwyer",
+  "type": "Person"
+}

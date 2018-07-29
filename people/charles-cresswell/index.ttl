@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/charles-cresswell/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Police magistrate. Heard James Minahan’s case and gave decision in his favour in Court of Petty Sessions in Melbourne.";
+   <http://schema.org/givenName> "Arthur",
+     "Costley",
+     "Charles";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/charles-cresswell/index.html";
+   <http://schema.org/name> "Charles Cresswell" .

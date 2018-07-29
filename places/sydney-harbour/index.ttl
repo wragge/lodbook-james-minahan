@@ -1,0 +1,18 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney-harbour/> a <http://schema.org/Place>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/sydney/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-33.86666667";
+     <http://schema.org/longitude> "151.25000000"
+   ];
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/view-of-sydney-harbour-from-dawes-point/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/sydney-harbour/index.html";
+   <http://schema.org/name> "Sydney Harbour";
+   <http://schema.org/subjectOf> <https://wragge.github.io/lodbook-james-minahan/resources/view-of-sydney-harbour-from-dawes-point/> .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney/> a <http://schema.org/City>;
+   <http://schema.org/name> "Sydney" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/view-of-sydney-harbour-from-dawes-point/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "View of Sydney Harbour from Dawes Point" .

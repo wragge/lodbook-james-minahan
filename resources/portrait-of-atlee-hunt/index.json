@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/",
+    "name": "Atlee Hunt",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-atlee-hunt/",
+  "image": "nla.obj-174649152-Hunt.JPG",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-atlee-hunt/index.html",
+  "name": "Portrait of Atlee Hunt",
+  "position": "p. 25",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1904-11-12",
+  "publisher": {
+    "name": "Weekly Times (Melbourne)"
+  },
+  "type": "Photograph",
+  "url": "https://trove.nla.gov.au/newspaper/article/174649152"
+}

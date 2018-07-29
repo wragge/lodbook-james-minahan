@@ -1,0 +1,53 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney/",
+    "name": "Sydney",
+    "type": "City"
+  },
+  "geo": {
+    "latitude": "-33.879722",
+    "longitude": "151.218611",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/darlinghurst-gaol/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/",
+    "image": "nla.obj-141808770-1.jpg",
+    "name": "Empty thoroughfare at Darlinghurst Gaol",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/darlinghurst-gaol/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "name": "Darlinghurst Gaol",
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Darlinghurst_Gaol",
+    "http://dictionaryofsydney.org/place/darlinghurst_gaol"
+  ],
+  "subjectOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/",
+    "name": "Empty thoroughfare at Darlinghurst Gaol",
+    "type": "Photograph"
+  },
+  "type": "CivicStructure"
+}

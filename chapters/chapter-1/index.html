@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LODBook</title>
+      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      
+      <link href="/lodbook-james-minahan/css/animate.min.css" rel="stylesheet">
+      
+      <link rel="stylesheet" href="/lodbook-james-minahan/css/main.css">
+      
+      <style type="text/css">
+      
+            .people { background-color: #563331; border-color: #563331;}
+            .people.inverse { background-color: #ffffff; color: #563331;}
+      
+            .organisations { background-color: #711d1f; border-color: #711d1f;}
+            .organisations.inverse { background-color: #ffffff; color: #711d1f;}
+      
+            .places { background-color: #4f7671; border-color: #4f7671;}
+            .places.inverse { background-color: #ffffff; color: #4f7671;}
+      
+            .events { background-color: #657957; border-color: #657957;}
+            .events.inverse { background-color: #ffffff; color: #657957;}
+      
+            .resources { background-color: #942628; border-color: #942628;}
+            .resources.inverse { background-color: #ffffff; color: #942628;}
+      
+      </style>
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      
+      <script src="/lodbook-james-minahan/js/text.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/isInViewport.min.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/lodash.min.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/handlebars.min-latest.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/moment.min.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/scripts.js"></script>
+      <script>
+        var collections = [{"name":"people","color":"#563331","icon":"fas fa-user-circle","template":"people","types":["Person"]},{"name":"organisations","color":"#711d1f","icon":"fas fa-building","template":"organisations","types":["Organization"]},{"name":"places","color":"#4f7671","icon":"fas fa-globe","template":"places","types":["Place","CivicStructure","City","State","Country","AdministrativeArea"]},{"name":"events","color":"#657957","icon":"fas fa-calendar-alt","template":"events","types":["Event"]},{"name":"resources","color":"#942628","icon":"fas fa-file-alt","template":"resources","types":["CreativeWork","ImageObject","Book","ArchivalSeries","Document","Photograph","ArchivalUnit","Article","NewsArticle","Chapter","Thesis"]}];
+      </script>
+    </head>
+
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="container">
+
+
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-6" href="/lodbook-james-minahan/">James Minahan’s Homecoming</a>
+                <a role="button" class="navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Chapters
+                        </a>
+                        
+                        
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/lodbook-james-minahan/chapters/chapter-1/">
+                                    Chapter 1
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Collections
+                        </a>
+                        <div class="navbar-dropdown">
+                        
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/events/">
+                                    events
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/organisations/">
+                                    organisations
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/people/">
+                                    people
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/places/">
+                                    places
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/resources/">
+                                    resources
+                                </a>
+                        
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Views
+                        </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/lodbook-james-minahan/views/wall/">
+                                    Wall
+                                </a>
+                                <a class="navbar-item" href="/lodbook-james-minahan/views/map/">
+                                    Map
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <section class="section main">
+            <div class="container">
+                <div class="columns">
+    <div class="column is-three-quarters">
+        <h2 class="subtitle is-4">Chapter 1</h2>
+        <h1 class="title is-1">An unexpected welcome</h1>
+    </div>
+</div>
+<div class="columns is-6 is-variable">
+    <div class="column is-half-widescreen is-three-fifths-desktop is-two-thirds-tablet">
+        <div id="text" class="content">
+            <p id="para-0">When the <em>Taiyuan</em> sailed into Sydney Harbour on Thursday, 23 January 1908, there were around 50 passengers on board.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> Thirty-nine of these were Chinese men – four bound for Sydney and six for Melbourne, with the remainder travelling on to New Zealand, Tahiti and Fiji. <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">James Minahan</a> was one of those bound for Melbourne, but his name, as such, did not appear on the passenger manifest. Instead, he was listed as ‘James Kitchen’, aged 31, storekeeper. His race was given as ‘Chinese’ and, under the column for nationality, it was noted that he had a birth certificate, ‘no. 23003’. Sydney Customs Inspector <a class="lod-link" data-name="J.T.T. Donohoe" data-collection="people" property="name" href="/lodbook-james-minahan/people/j-t-t-donohoe/">J.T.T. Donohoe</a> was on the wharf to meet the <em>Taiyuan</em> and, after inspecting the passengers’ papers, he decided to give <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> the Dictation Test. This was the passage he read:</p>
+
+<blockquote id="quote-0">
+  <p id="para-1">A large part of the cheapening of steel has been brought about by this one device for using cheap inferior fuels. In the iron trade it was discovered many years ago that it paid to produce more of this particular gas than could be used in the purely metallurgical operations.<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></p>
+</blockquote>
+
+<p id="para-2"><a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> was unable to complete the test, but as his ultimate destination was Melbourne not Sydney, he was allowed to continue on with his fellow Chinese passengers. He and the other five men were handprinted and transhipped to the <a class="lod-link" data-name="SS Wollowra" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/ss-wollowra/">SS <em>Wollowra</em></a>, and they sailed at 5.30 pm on Friday, 24 January, for the final stage of their journey to Melbourne.</p>
+
+<p id="para-3">As the men made their way south on the <em>Wollowra</em>, <a class="lod-link" data-name="J.T.T. Donohoe" data-collection="people" property="name" href="/lodbook-james-minahan/people/j-t-t-donohoe/">Donohoe</a> advised the Melbourne Collector of Customs and the Secretary of the <a class="lod-link" data-name="Department of External Affairs" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/department-of-external-affairs/">Department of External Affairs</a> of their coming, forwarding their handprints and documents, including <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a>’s birth certificate, to assist Melbourne Customs with the men’s identification. After the <em>Wollowra</em> arrived at the Australian Wharf in Melbourne on Sunday, 26 January 1908, the six men were briefly seen by Customs Officer <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/lodbook-james-minahan/people/hugh-mercer/">Hugh Mercer</a>. But, since it was a Sunday and <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/lodbook-james-minahan/people/hugh-mercer/">Mercer </a> had no Chinese interpreter with him, he decided to return the following day to formally examine them. <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/lodbook-james-minahan/people/hugh-mercer/">Mercer </a>returned on Monday and, with the help of government interpreter <a class="lod-link" data-name="Harry Hoyling" data-collection="people" property="name" href="/lodbook-james-minahan/people/harry-hoyling/">Harry Hoyling</a>, interviewed <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> in the saloon of the <em>Wollowra</em>. <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/lodbook-james-minahan/people/hugh-mercer/">Mercer </a>also spoke to ‘a reputable Chinaman’, tobacco dealer Chan Num, who had known <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> as a boy and had come to meet him at the wharf. Ching Kay of <a class="lod-link" data-name="Sun Nam Hie &amp; Co." data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/sun-nam-hie-co/">Sun Nam Hie</a> in Little Bourke Street, another <a class="lod-link" data-name="Shek Quey Lee" data-collection="places" property="name" href="/lodbook-james-minahan/places/shek-quey-lee/">Shek Quey Lee</a> native, also met the boat.</p>
+
+<p id="para-4">To execute his duties under the Immigration Restriction Act <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/lodbook-james-minahan/people/hugh-mercer/">Mercer </a>needed to establish whether the birth certificate <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> presented was really his own. He later noted that there was no indication on the certificate that it belonged to someone who was ‘Chinese’. The certificate was in the name ‘James Francis Kitchen’, no father’s name was given and the mother was ‘<a class="lod-link" data-name="Winifred Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/winifred-minahan/">Winifred Minahan</a>’. Ever alert to the possibilities of fraud, <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/lodbook-james-minahan/people/hugh-mercer/">Mercer </a>suspected that the certificate did not belong to this man who was Chinese in appearance and manner, and who understood not a word of the English spoken to him. After interviewing <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a>, <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/lodbook-james-minahan/people/hugh-mercer/">Mercer </a>was not convinced of his identity and so applied the Dictation Test. Through interpreter <a class="lod-link" data-name="Harry Hoyling" data-collection="people" property="name" href="/lodbook-james-minahan/people/harry-hoyling/">Harry Hoyling</a>, <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/lodbook-james-minahan/people/hugh-mercer/">Mercer </a>told <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> that he was going to read a passage of not less than fifty words in English and that he was required to write them in English. He gave <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> a pencil and paper and read a passage once slowly. It was the same passage <a class="lod-link" data-name="J.T.T. Donohoe" data-collection="people" property="name" href="/lodbook-james-minahan/people/j-t-t-donohoe/">Donohoe</a> had read in Sydney. When asked, <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> said that he could not write out the passage. <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/lodbook-james-minahan/people/hugh-mercer/">Mercer </a>informed him that he was a prohibited immigrant and that he could not land in Australia. Consequently, <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> was to be transferred back to the <em>Taiyuan</em> in Sydney and then returned to Hong Kong. He was not at this point formally charged under the Immigration Restriction Act.</p>
+
+<p id="para-5">The next day, Tuesday, <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> left Melbourne for Sydney on the <em>Wollowra</em>, and Melbourne Customs informed their Sydney colleagues of his rejection under the Immigration Restriction Act. When he arrived in Sydney two days later, <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> was escorted by Inspector <a class="lod-link" data-name="J.T.T. Donohoe" data-collection="people" property="name" href="/lodbook-james-minahan/people/j-t-t-donohoe/">Donohoe</a> back to the <em>Taiyuan</em>, which was due to sail for Hong Kong at the end of the following week. On Thursday, 6 February, however, two days before the scheduled departure, the <em>Taiyuan</em>’s master, Captain <a class="lod-link" data-name="Lancelot Dawson" data-collection="people" property="name" href="/lodbook-james-minahan/people/lancelot-dawson/">Lancelot Dawson</a>, was asked to show cause why a writ of <em>habeas corpus</em> should not be issued against him for holding <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> on board. <em>Habeas corpus</em> – asking a court to decide on the lawfulness of a person’s detention – was a tactic long used by Chinese Australians to secure the release of those held on board ship who were facing deportation as prohibited immigrants.<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> Only seven month earlier, for example, it had been used successfully in the case of a youth named Willie Lee Hook, whose situation was very similar to that of <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">James Minahan</a>.<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></p>
+
+<p id="para-6">The case against <a class="lod-link" data-name="Lancelot Dawson" data-collection="people" property="name" href="/lodbook-james-minahan/people/lancelot-dawson/">Captain Dawson </a> was heard by <a class="lod-link" data-name="Philip Whistler Street" data-collection="people" property="name" href="/lodbook-james-minahan/people/philip-whistler-street/">Justice Philip Street </a> of the Supreme Court in chambers on Friday, 7 February. Barrister <a class="lod-link" data-name="F.S. Boyce" data-collection="people" property="name" href="/lodbook-james-minahan/people/f-s-boyce/">F.S. Boyce</a> acted on <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a>’s behalf in the matter, under instruction from <a class="lod-link" data-name="Deane and Deane Solicitors" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/deane-and-deane-solicitors/">Deane and Deane Solicitors</a> as agents for <a class="lod-link" data-name="Croft and Rhoden Solicitors" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/">Croft and Rhoden Solicitors</a> of Melbourne.<sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup> Boyce argued that as a natural-born British subject <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> was entitled to enter the Commonwealth, and he presented affidavits from <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> and several Chinese residents of Victoria attesting to the facts of <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a>’s Victorian birth and subsequent travel to China with his father. <a class="lod-link" data-name="Lancelot Dawson" data-collection="people" property="name" href="/lodbook-james-minahan/people/lancelot-dawson/">Captain Dawson </a>argued that he was acting on the orders of a Commonwealth Customs officer, who had declared at that <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">James Minahan</a> was a prohibited immigrant, noting that under section 9 of the Immigration Restriction Act the master of a vessel was liable for a penalty of £100 if a prohibited immigrant landed from his vessel. On hearing the evidence, <a class="lod-link" data-name="Philip Whistler Street" data-collection="people" property="name" href="/lodbook-james-minahan/people/philip-whistler-street/">Justice Street</a> ruled in <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a>’s favour, concluding that neither <a class="lod-link" data-name="Lancelot Dawson" data-collection="people" property="name" href="/lodbook-james-minahan/people/lancelot-dawson/">Captain Dawson </a>nor the Commonwealth had demonstrated that <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> was a prohibited immigrant under the Act. <a class="lod-link" data-name="Philip Whistler Street" data-collection="people" property="name" href="/lodbook-james-minahan/people/philip-whistler-street/">Justice Street</a> therefore ordered <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a>’s release.</p>
+
+<p id="para-7"><a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> left the <em>Taiyuan</em> at around one o’clock that afternoon, but he was not free for long. Acting on instructions from the <a class="lod-link" data-name="Department of External Affairs" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/department-of-external-affairs/">Department of External Affairs</a>, Inspector <a class="lod-link" data-name="J.T.T. Donohoe" data-collection="people" property="name" href="/lodbook-james-minahan/people/j-t-t-donohoe/">Donohoe</a> had waited at Circular Quay and arrested <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> as he left the wharf. <a class="lod-link" data-name="J.T.T. Donohoe" data-collection="people" property="name" href="/lodbook-james-minahan/people/j-t-t-donohoe/">Donohoe</a> took him to the No. 4 Police Station at George Street North, where he was formally charged with being a ‘prohibited immigrant found within the Commonwealth in contravention of the Immigration Restriction Act, 1901–1905’.<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup> <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> was brought before the Water Police Court at two o’clock on Friday, 7 February, and was remanded in custody until the following Friday. He was held in <a class="lod-link" data-name="Darlinghurst Gaol" data-collection="places" property="name" href="/lodbook-james-minahan/places/darlinghurst-gaol/">Darlinghurst Gaol</a>.</p>
+
+<p id="para-8">On 6 February, when <a class="lod-link" data-name="Lancelot Dawson" data-collection="people" property="name" href="/lodbook-james-minahan/people/lancelot-dawson/">Captain Dawson </a>had been summonsed to appear before <a class="lod-link" data-name="Philip Whistler Street" data-collection="people" property="name" href="/lodbook-james-minahan/people/philip-whistler-street/">Justice Street</a>, the Collector of Customs in Sydney had sent an urgent telegram to the <a class="lod-link" data-name="Department of External Affairs" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/department-of-external-affairs/">Department of External Affairs</a> in Melbourne for advice on what action to take. The Secretary, <a class="lod-link" data-name="Atlee Hunt" data-collection="people" property="name" href="/lodbook-james-minahan/people/atlee-hunt/">Atlee Hunt</a>, had responded, also by telegram:</p>
+
+<blockquote id="quote-1">
+  <p id="para-9">Take no action in Kitchens case … so far as habeas proceedings are concerned presume he will be brought before Court and his discharge ordered … if that happens he should be arrested on leaving Court and charged with being prohibited immigrant &amp; on appearance before police court remand should be applied for to allow Crown solicitor to be instructed.<sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup></p>
+</blockquote>
+
+<p id="para-10">Hunt also received a personal letter from <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a>’s Melbourne solicitor, E.A. Fortescue Croft, sent from Sydney the same day.</p>
+
+<p id="para-11">When <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a> was rejected at Melbourne and returned to Sydney, Croft had rushed north to start legal proceedings on his behalf. Although there is no certain evidence in the archives, it is likely that it was <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a>’s uncles in Melbourne, <a class="lod-link" data-name="Ah Doe" data-collection="people" property="name" href="/lodbook-james-minahan/people/ah-doe/">Ah Doe</a> and <a class="lod-link" data-name="Ah Yuey" data-collection="people" property="name" href="/lodbook-james-minahan/people/ah-yuey/">Ah Yuey</a>, who organised and paid for this legal representation. Another possibility is that it was done through the auspices of the <a class="lod-link" data-name="Kong Chew Society" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/kong-chew-society/">Kong Chew Society</a> (岡州會館) or the <a class="lod-link" data-name="See Yup Society" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/see-yup-society/">See Yup Society</a> (四邑會館), welfare and mutual aid societies established in Melbourne in the 1850s for people from <a class="lod-link" data-name="Sunwui" data-collection="places" property="name" href="/lodbook-james-minahan/places/sunwui/">Sunwui</a> county and the <a class="lod-link" data-name="See Yup" data-collection="places" property="name" href="/lodbook-james-minahan/places/see-yup/">See Yup</a> or Four Counties district, of which <a class="lod-link" data-name="Sunwui" data-collection="places" property="name" href="/lodbook-james-minahan/places/sunwui/">Sunwui</a> was a part.<sup id="fnref:8"><a href="#fn:8" class="footnote">8</a></sup> Croft was a sensible choice of solicitor, as he already had experience in representing Chinese Australians in their legal struggles against the Commonwealth and continued to do so in following years.<sup id="fnref:9"><a href="#fn:9" class="footnote">9</a></sup></p>
+
+<p id="para-12">In his private letter to Hunt, Croft wrote that he had ‘not managed the High Court Habeas after all’ and so had ‘taken your middle course here by issuing an order nisi calling on the captain to shew cause why a writ of habeas corpus should not issue’. Croft had been advised by the Commonwealth’s counsel that this was ‘the Sydney practice’. He updated Hunt on the progress of the case and urged him to ‘take this private letter in the spirit it is sent’, noting ‘you see I always try to fight straight.’<sup id="fnref:10"><a href="#fn:10" class="footnote">10</a></sup></p>
+
+<p id="para-13">These private discussions between <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">Minahan</a>’s solicitor and those representing the Commonwealth were the beginning of a course of action, engineered behind the scenes, that eventually saw the case transferred from Sydney to Melbourne. The <a class="lod-link" data-name="Department of External Affairs" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/department-of-external-affairs/">Department of External Affairs</a> first passed the matter to the Crown Solicitor and, on request, Inspector <a class="lod-link" data-name="J.T.T. Donohoe" data-collection="people" property="name" href="/lodbook-james-minahan/people/j-t-t-donohoe/">Donohoe</a> sent his file to the Crown Solicitor’s Sydney office. Then moves were taken for Melbourne Customs Officer <a class="lod-link" data-name="Hugh Mercer" data-collection="people" property="name" href="/lodbook-james-minahan/people/hugh-mercer/">Hugh Mercer</a> and Chinese interpreter <a class="lod-link" data-name="Harry Hoyling" data-collection="people" property="name" href="/lodbook-james-minahan/people/harry-hoyling/">Harry Hoyling</a> to journey to Sydney for the hearing against <a class="lod-link" data-name="James Minahan" data-collection="people" property="name" href="/lodbook-james-minahan/people/james-minahan/">James Minahan</a> on Friday, 14 February. However, realising the difficulty and expense of defending his client in Sydney, where he had no friends or contacts, Croft wrote to <a class="lod-link" data-name="Atlee Hunt" data-collection="people" property="name" href="/lodbook-james-minahan/people/atlee-hunt/">Atlee Hunt</a> suggesting that the case be transferred to Melbourne. Hunt advised the Crown Solicitor on 11 February that ‘the Department has no particular wish to act either for or against Mr Croft’s desires and will accept your decision which will doubtless be in accord with the general balance of convenience’.<sup id="fnref:11"><a href="#fn:11" class="footnote">11</a></sup> Croft and the Crown Solicitor soon came to an agreement which suited all parties.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p id="para-14"><a class="lod-link" data-name="Report of Passengers for the Taiyuan from Hong Kong, Sydney, 23 January 1908" data-collection="resources" property="name" href="/lodbook-james-minahan/resources/report-of-passengers-for-the-taiyuan-from-hong-kong-sydney-23-january-1908/">Report of Passengers for the <em>Taiyuan</em> from Hong Kong, Sydney, 23 January 1908</a>, NAA: A1, 1908/12936; Passenger List for the <em>Taiyuan</em>, Sydney, 23 January 1908, <em>New South Wales, Australia, Unassisted Immigrant Passenger Lists, 1826–1922</em> [online database], Ancestry.com (Provo, UT: Ancestry.com Operations, Inc., 2007). <a href="#fnref:1" class="reversefootnote">↩︎</a></p>
+    </li>
+    <li id="fn:2">
+      <p id="para-15"><a class="lod-link" data-name="Copy of Dictation Test from 16 to 31 January 1908" data-collection="resources" property="name" href="/lodbook-james-minahan/resources/copy-of-dictation-test-from-16-to-31-january-1908/">Copy of Dictation Test from 16 to 31 January 1908</a>, NAA: A1, 1908/12936. <a href="#fnref:2" class="reversefootnote">↩︎</a></p>
+    </li>
+    <li id="fn:3">
+      <p id="para-16">On the history of Chinese legal challenges to racial exclusion in Australia see: Mark Finnane, ‘“Habeas Corpus Mongols” – Chinese Litigants and the Politics of Immigration in 1888’, <em>Australian Historical Studies</em> 45, no. 2 (2014), 165–83. <a href="#fnref:3" class="reversefootnote">↩︎</a></p>
+    </li>
+    <li id="fn:4">
+      <p id="para-17">‘Prohibited Immigrant’, <em>Argus</em>, 12 July 1907, 4, http://nla.gov.au/nla.news-article10142694; ‘One Month's Grace’, <em>Argus</em>, 13 July 1907, 19, http://nla.gov.au/nla.news-article10155422; ‘Habeas Proceedings re WILLIE LEE HOOK’, NAA: A5522, M47. <a href="#fnref:4" class="reversefootnote">↩︎</a></p>
+    </li>
+    <li id="fn:5">
+      <p id="para-18">‘<a class="lod-link" data-name="Is He an Australian?" data-collection="resources" property="name" href="/lodbook-james-minahan/resources/is-he-an-australian/">Is He an Australian</a>?’, <em>Evening News</em> (Sydney), 7 February 1908, 6 and 7, http://nla.gov.au/nla.news-article114098110. <a href="#fnref:5" class="reversefootnote">↩︎</a></p>
+    </li>
+    <li id="fn:6">
+      <p id="para-19">Statement by <a class="lod-link" data-name="J.T.T. Donohoe" data-collection="people" property="name" href="/lodbook-james-minahan/people/j-t-t-donohoe/">J.T.T. Donohoe</a>, 10 February 1908, NAA: A1, 1908/12936. <a href="#fnref:6" class="reversefootnote">↩︎</a></p>
+    </li>
+    <li id="fn:7">
+      <p id="para-20">Telegram from <a class="lod-link" data-name="Atlee Hunt" data-collection="people" property="name" href="/lodbook-james-minahan/people/atlee-hunt/">Atlee Hunt</a>, Secretary, <a class="lod-link" data-name="Department of External Affairs" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/department-of-external-affairs/">Department of External Affairs</a> to the Collector of Customs, Sydney, 6 February 1908, NAA: A1, 1908/12936. <a href="#fnref:7" class="reversefootnote">↩︎</a></p>
+    </li>
+    <li id="fn:8">
+      <p id="para-21">On the <a class="lod-link" data-name="Kong Chew Society" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/kong-chew-society/">Kong Chew Society</a> and <a class="lod-link" data-name="See Yup Society" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/see-yup-society/">See Yup Society</a> see: C.F. Yong, <em>The New Gold Mountain: The Chinese in Australia 1901–1921</em> (Richmond, SA: Raphael Arts, 1977), 189–93. <a href="#fnref:8" class="reversefootnote">↩︎</a></p>
+    </li>
+    <li id="fn:9">
+      <p id="para-22">Croft and Rhoden had represented Willie Lee Hook in a similar case in 1907: ‘Prohibited Immigrant’, <em>Argus</em>, 12 July 1907, 4, http://nla.gov.au/nla.news-article10142694. See also, for example: ‘The Chinese Exclusion Law’, <em>Age</em> (Melbourne), 29 September 1911, 9, http://nla.gov.au/nla.news-article196210126 (case of Lim Wee); ‘Chinese or Australian?’, <em>Weekly Times</em> (Melbourne), 25 October 1913, 33, http://nla.gov.au/nla.news-article222611116 (case of Suey Land). <a href="#fnref:9" class="reversefootnote">↩︎</a></p>
+    </li>
+    <li id="fn:10">
+      <p id="para-23">Handwritten Letter from E.A. Fortescue Croft, Solicitor, to <a class="lod-link" data-name="Atlee Hunt" data-collection="people" property="name" href="/lodbook-james-minahan/people/atlee-hunt/">Atlee Hunt</a>, Secretary, <a class="lod-link" data-name="Department of External Affairs" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/department-of-external-affairs/">Department of External Affairs</a>, 6 February 1908, NAA: A1, 1908/12936. <a href="#fnref:10" class="reversefootnote">↩︎</a></p>
+    </li>
+    <li id="fn:11">
+      <p id="para-24">Memorandum from <a class="lod-link" data-name="Atlee Hunt" data-collection="people" property="name" href="/lodbook-james-minahan/people/atlee-hunt/">Atlee Hunt</a>, Secretary, <a class="lod-link" data-name="Department of External Affairs" data-collection="organisations" property="name" href="/lodbook-james-minahan/organisations/department-of-external-affairs/">Department of External Affairs</a>, to Crown Solicitor, 11 February 1908, NAA: A1, 1908/12936. <a href="#fnref:11" class="reversefootnote">↩︎</a></p>
+    </li>
+  </ol>
+</div>
+
+        </div>
+    </div>
+    <div class="column is-one-quarter-fullhd is-one-quarter-widescreen is-one-third-desktop is-one-third-tablet is-hidden-mobile">
+        <div id="sidebar">
+            <div id="references">
+            </div>
+            <div id="thing-details">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var displayFields = {"people":[{"field":"birthDate","label":"Born","type":"date"}]};
+</script>
+<script id="details-template" type="text/x-handlebars-template">
+    
+    <div class="card" data-id="{{ id }}">
+      {{#if image}}
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img class="cover" src="/lodbook-james-minahan/images/resized/400/{{ image }}" alt="Placeholder image">
+            </figure>
+          </div>
+      {{/if}}
+      <div class="card-content">
+        <h4 class="title is-size-4">
+            {{name}}
+        </h4>
+        <p class="subtitle is-size-6">
+            {{#if description }}{{ description }}<br />{{/if}}
+            {{#each fields}}
+                {{this.label}}: {{this.content}}<br />
+            {{/each}}
+        </p>
+        <div class="content">
+            {{#if connections}}
+            <p class="list-head">
+                Related to:
+            </p>
+            <ul class="related">
+                {{#each connections}}
+                    {{# if this.count }}
+                    <li>{{this.count}} {{this.collection}}</li>
+                    {{/if}}
+                {{/each}}
+            </ul>
+            {{/if}}
+        </div>
+      </div>
+      <footer class="card-footer">
+          <p class="card-footer-item">
+              <a class="button {{this.collection}} has-text-white more-details is-uppercase" href="{{ url }}">More details</a>
+          </p>
+      </footer>
+    </div>
+    
+</script>
+
+            </div>
+        </section>
+        
+
+        <footer class="footer">
+    <div class="container">
+      <p class="title is-size-3">
+          John Minahan’s Homecoming
+      </p>
+      <p class="subtitle is-size-4">
+          By Kate Bagnall
+      </p>
+      <div class="columns">
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Contents</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/">Home</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/chapters/chapter-1/">Chapter 1: An unexpected welcome</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Collections</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/people/">People</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/organisations/">Organisations</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/places/">Places</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/events/">Events</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/resources/">Resources</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Views</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/views/wall/">Wall</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/views/map/">Map</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <p class="is-size-5">
+          This is a demonstration only, please do not cite. The LODBook system is currently under development, and the content included here is not complete.
+      </p>
+      <p class="is-size-5">
+          The full version of <i>James Minahan's Homecoming</i> will be published in September 2018.
+      </p>
+    </div>
+</footer>
+
+
+    <script id="page-data" type="application/ld+json">{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+  "mentions": [
+    {
+      "birthDate": "1876-10-04",
+      "familyName": "Minahan",
+      "givenName": [
+        "James",
+        "Francis",
+        "Kitchen"
+      ],
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/",
+        "image": "naa-10131-p78.jpg",
+        "name": "Imprint of the left hand of James Frances Kitchen, 28 January 1908",
+        "type": "ImageObject"
+      },
+      "knows": [
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/ah-chew/",
+          "name": "Ah Chew",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/chan-num/",
+          "name": "Chan Num",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/chin-kay/",
+          "name": "Chin Kay",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/chin-shing/",
+          "name": "Chin Shing",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/deung-garng/",
+          "name": "Deung Garng",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/",
+          "name": "E.A. Fortescue Croft",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/ernest-tipp/",
+          "name": "Ernest Tipp",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/",
+          "name": "W.T. Coldham",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/",
+          "name": "William Ah Ket",
+          "type": "Person"
+        }
+      ],
+      "name": "James Minahan",
+      "parent": [
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/",
+          "name": "Cheong Ming",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+          "name": "Winifred Minahan",
+          "type": "Person"
+        }
+      ],
+      "relatedTo": [
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/ah-doe/",
+          "name": "Ah Doe",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/ah-yuey/",
+          "name": "Ah Yuey",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/",
+          "name": "Catherine Minahan",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/mary-manning/",
+          "name": "Mary Manning",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/",
+          "name": "Richard Minahan",
+          "type": "Person"
+        }
+      ],
+      "sibling": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/",
+        "name": "Winifred Cheong Ming",
+        "type": "Person"
+      },
+      "subjectOf": [
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/",
+          "name": "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908",
+          "type": "CreativeWork"
+        },
+        {
+          "name": "PROHIBITED IMMIGRANT -- James Francis Kitchen"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/",
+          "name": "A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen",
+          "type": "CreativeWork"
+        }
+      ],
+      "type": "Person"
+    },
+    {
+      "created": {
+        "name": "PROHIBITED IMMIGRANT -- James Francis Kitchen"
+      },
+      "description": "Detective inspector with the Department of Trade and Customs in Sydney. Inspected James Minahan on his arrival in Sydney and applied the Dictation Test.",
+      "familyName": "Donohoe",
+      "givenName": [
+        "John",
+        "Thomas",
+        "Tamplin"
+      ],
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/caricature-portrait-of-j-t-t-donohoe/",
+        "image": "nla.obj-168742060.jpg",
+        "name": "Caricature portrait of J.T.T. Donohoe",
+        "type": "CreativeWork"
+      },
+      "name": "J.T.T. Donohoe",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/ss-wollowra/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-wollowra/",
+        "image": "anms0047-056.JPG",
+        "name": "Photograph of SS Wollowra",
+        "type": "Photograph"
+      },
+      "name": "SS Wollowra",
+      "type": "Organization"
+    },
+    {
+      "dissolutionDate": "1916-11-14",
+      "foundingDate": "1901-01-01",
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/department-of-external-affairs-1904/",
+        "image": "nla.obj-174649152.JPG",
+        "name": "Department of External Affairs, 1904",
+        "type": "Photograph"
+      },
+      "location": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+        "name": "Melbourne",
+        "type": "City"
+      },
+      "name": "Department of External Affairs",
+      "type": "Organization"
+    },
+    {
+      "description": "Officer with Department of Trade and Customs in Melbourne. Inspected James Minahan on his arrival in Melbourne and applied the Dictation Test.",
+      "familyName": "Mercer",
+      "givenName": [
+        "Hugh",
+        "James"
+      ],
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/hugh-mercer/",
+      "name": "Hugh Mercer",
+      "type": "Person"
+    },
+    {
+      "description": "Chinese interpreter in Melbourne. Worked for the Commonwealth.",
+      "familyName": "Hoying",
+      "givenName": [
+        "Harry",
+        "Edward"
+      ],
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/harry-hoyling/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-harry-hoyling/",
+        "image": "awm-4121013.JPG",
+        "name": "Portrait of Harry Hoyling",
+        "type": "Photograph"
+      },
+      "name": "Harry Hoyling",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/sun-nam-hie-co/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/sun-nam-hie-co-advertisement/",
+        "image": "nla-obj-168664884.JPG",
+        "name": "Sun Nam Hie & Co. advertisement",
+        "type": "CreativeWork"
+      },
+      "location": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/",
+        "name": "Little Bourke Street",
+        "type": "Place"
+      },
+      "name": "Sun Nam Hie & Co.",
+      "type": "Organization"
+    },
+    {
+      "containedInPlace": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/sunwui/",
+        "name": "Sunwui",
+        "type": "Country"
+      },
+      "geo": {
+        "latitude": "22.44887",
+        "longitude": "112.93606",
+        "type": "GeoCoordinates"
+      },
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/",
+      "name": "Shek Quey Lee",
+      "type": "City"
+    },
+    {
+      "attended": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-born/",
+        "name": "James Minahan is born",
+        "type": "Event"
+      },
+      "birthDate": "1858-02-01",
+      "children": [
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/",
+          "name": "Winifred Cheong Ming",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+          "name": "James Minahan",
+          "type": "Person"
+        }
+      ],
+      "description": "Mother of James Minahan.",
+      "familyName": "Minahan",
+      "givenName": "Winifred",
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+      "name": "Winifred Minahan",
+      "parent": [
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/mary-manning/",
+          "name": "Mary Manning",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/",
+          "name": "Richard Minahan",
+          "type": "Person"
+        }
+      ],
+      "performedIn": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-born/",
+        "name": "James Minahan is born",
+        "type": "Event"
+      },
+      "sibling": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/",
+        "name": "Catherine Minahan",
+        "type": "Person"
+      },
+      "spouse": [
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/arai-arai/",
+          "name": "Arai Arai",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/",
+          "name": "Cheong Ming",
+          "type": "Person"
+        }
+      ],
+      "type": "Person"
+    },
+    {
+      "description": "Captain of the SS Taiyuan.",
+      "familyName": "Dawson",
+      "givenName": "Lancelot",
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lancelot-dawson/",
+        "image": "nla.news-article126751846.jpg",
+        "name": "Portrait of Lancelot Dawson",
+        "type": "Photograph"
+      },
+      "name": "Lancelot Dawson",
+      "type": "Person"
+    },
+    {
+      "birthDate": "1863",
+      "deathDate": "1938",
+      "description": "Justice of the New South Wales Supreme Court. Ordered James Minahan's release from the SS Taiyuan in Sydney under Habeas Corpus.",
+      "familyName": "Street",
+      "givenName": [
+        "Philip",
+        "Whistler"
+      ],
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/philip-whistler-street/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/",
+        "image": "nla.obj-140228034-1.jpg",
+        "name": "Sir Phillip Street, Chief Justice of New South Wales",
+        "type": "Photograph"
+      },
+      "name": "Philip Whistler Street",
+      "sameAs": "http://adb.anu.edu.au/biography/street-sir-philip-whistler-8696",
+      "subjectOf": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/",
+        "name": "Sir Phillip Street, Chief Justice of New South Wales",
+        "type": "Photograph"
+      },
+      "type": "Person",
+      "url": "http://adb.anu.edu.au/biography/street-sir-philip-whistler-8696"
+    },
+    {
+      "birthDate": "1872",
+      "deathDate": "1940",
+      "familyName": "Boyce",
+      "givenName": [
+        "Francis",
+        "Stewart"
+      ],
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-f-s-boyce/",
+        "image": "nla.obj-239637027.jpg",
+        "name": "Portrait of F.S. Boyce",
+        "type": "Photograph"
+      },
+      "name": "F.S. Boyce",
+      "sameAs": "http://adb.anu.edu.au/biography/boyce-francis-stewart-5320",
+      "type": "Person",
+      "url": "http://adb.anu.edu.au/biography/boyce-francis-stewart-5320"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/deane-and-deane-solicitors/",
+      "location": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney/",
+        "name": "Sydney",
+        "type": "City"
+      },
+      "name": "Deane and Deane Solicitors",
+      "type": "Organization"
+    },
+    {
+      "employee": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/",
+        "name": "E.A. Fortescue Croft",
+        "type": "Person"
+      },
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/",
+      "location": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+        "name": "Melbourne",
+        "type": "City"
+      },
+      "name": "Croft and Rhoden Solicitors",
+      "type": "Organization"
+    },
+    {
+      "containedInPlace": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney/",
+        "name": "Sydney",
+        "type": "City"
+      },
+      "geo": {
+        "latitude": "-33.879722",
+        "longitude": "151.218611",
+        "type": "GeoCoordinates"
+      },
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/darlinghurst-gaol/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/",
+        "image": "nla.obj-141808770-1.jpg",
+        "name": "Empty thoroughfare at Darlinghurst Gaol",
+        "type": "Photograph"
+      },
+      "mentionedBy": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/",
+        "name": "Empty thoroughfare at Darlinghurst Gaol",
+        "type": "Photograph"
+      },
+      "name": "Darlinghurst Gaol",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Darlinghurst_Gaol",
+        "http://dictionaryofsydney.org/place/darlinghurst_gaol"
+      ],
+      "subjectOf": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/",
+        "name": "Empty thoroughfare at Darlinghurst Gaol",
+        "type": "Photograph"
+      },
+      "type": "CivicStructure"
+    },
+    {
+      "birthDate": "1864",
+      "deathDate": "1935",
+      "description": "Secretary of the Department of External Affairs.",
+      "familyName": "Hunt",
+      "givenName": [
+        "Atlee",
+        "Arthur"
+      ],
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/",
+      "image": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-atlee-hunt/",
+        "image": "nla.obj-174649152-Hunt.JPG",
+        "name": "Portrait of Atlee Hunt",
+        "type": "Photograph"
+      },
+      "name": "Atlee Hunt",
+      "sameAs": "http://adb.anu.edu.au/biography/hunt-atlee-arthur-6766",
+      "type": "Person",
+      "url": "http://adb.anu.edu.au/biography/hunt-atlee-arthur-6766"
+    },
+    {
+      "description": "Uncle of James Minahan. Owner of Sun Nam Hie & Co., Little Bourke Street, Melbourne. Gave evidence at Court of Petty Sessions hearing in Melbourne.",
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/ah-doe/",
+      "name": "Ah Doe",
+      "relatedTo": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+        "name": "James Minahan",
+        "type": "Person"
+      },
+      "type": "Person"
+    },
+    {
+      "description": "Uncle of James Minahan. Owner Sun Nam Hie & Co., Little Bourke Street, Melbourne.",
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/ah-yuey/",
+      "name": "Ah Yuey",
+      "relatedTo": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+        "name": "James Minahan",
+        "type": "Person"
+      },
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/kong-chew-society/",
+      "location": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/",
+        "name": "Little Bourke Street",
+        "type": "Place"
+      },
+      "name": "Kong Chew Society",
+      "type": "Organization"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/see-yup-society/",
+      "location": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/little-bourke-street/",
+        "name": "Little Bourke Street",
+        "type": "Place"
+      },
+      "name": "See Yup Society",
+      "type": "Organization"
+    },
+    {
+      "containedInPlace": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/kwungtung/",
+        "name": "Kwungtung",
+        "type": "State"
+      },
+      "containsPlace": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/sunwui/",
+        "name": "Sunwui",
+        "type": "Country"
+      },
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/see-yup/",
+      "name": "See Yup",
+      "type": "Place"
+    },
+    {
+      "containedInPlace": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/places/kwungtung/",
+        "name": "Kwungtung",
+        "type": "State"
+      },
+      "containsPlace": [
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/",
+          "name": "Shek Quey Lee",
+          "type": "City"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/places/kongmoon/",
+          "name": "Kongmoon",
+          "type": "City"
+        }
+      ],
+      "geo": {
+        "latitude": "22.456",
+        "longitude": "113.0482",
+        "type": "GeoCoordinates"
+      },
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/sunwui/",
+      "name": "Sunwui",
+      "type": "Country"
+    },
+    {
+      "about": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/",
+        "name": "SS Taiyuan",
+        "type": "Organization"
+      },
+      "creationDate": "1908-01-23",
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/report-of-passengers-for-the-taiyuan-from-hong-kong-sydney-23-january-1908/",
+      "image": "naa-10131-p86.jpg",
+      "isPartOf": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/",
+        "name": "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908",
+        "type": "CreativeWork"
+      },
+      "mentions": [
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/places/hong-kong/",
+          "name": "Hong Kong",
+          "type": "Country"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney/",
+          "name": "Sydney",
+          "type": "City"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+          "name": "James Minahan",
+          "type": "Person"
+        }
+      ],
+      "name": "Report of Passengers for the Taiyuan from Hong Kong, Sydney, 23 January 1908",
+      "provider": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+        "name": "National Archives of Australia",
+        "type": "Organization"
+      },
+      "type": "CreativeWork",
+      "url": "http://www.naa.gov.au/cgi-bin/Search?O=I&Number=10131"
+    },
+    {
+      "creationDate": "1908-01",
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/copy-of-dictation-test-from-16-to-31-january-1908/",
+      "image": "naa-10131-p89.jpg",
+      "isPartOf": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/",
+        "name": "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908",
+        "type": "CreativeWork"
+      },
+      "name": "Copy of Dictation Test from 16 to 31 January 1908",
+      "provider": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+        "name": "National Archives of Australia",
+        "type": "Organization"
+      },
+      "type": "CreativeWork"
+    },
+    {
+      "about": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+        "name": "James Minahan",
+        "type": "Person"
+      },
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/is-he-an-australian/",
+      "image": "nla.news-article114098110.4.pdf",
+      "isPartOf": {
+        "name": "Evening News (Sydney)"
+      },
+      "mentions": [
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+          "name": "James Minahan",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/",
+          "name": "F.S. Boyce",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/",
+          "name": "Lancelot Dawson",
+          "type": "Person"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/",
+          "name": "SS Taiyuan",
+          "type": "Organization"
+        },
+        {
+          "id": "https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/",
+          "name": "Water Police Court, Sydney",
+          "type": "Organization"
+        }
+      ],
+      "name": "Is He an Australian?",
+      "position": "p. 6 and 7",
+      "provider": {
+        "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+        "name": "National Library of Australia",
+        "type": "Organization"
+      },
+      "publicationDate": "1908-02-07",
+      "type": "CreativeWork",
+      "url": "http://nla.gov.au/nla.news-article114098110"
+    }
+  ],
+  "type": "WebPage"
+}</script>
+</body>
+</html>

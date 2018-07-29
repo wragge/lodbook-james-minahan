@@ -1,0 +1,17 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/index.html";
+   <http://schema.org/name> "National Archives of Australia";
+   <http://schema.org/provides> <https://wragge.github.io/lodbook-james-minahan/resources/a10074-full-court-case-records-victoria-and-from-1973-court-and-cause-case-records-annual-single-number-series/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/a1-correspondence-files-annual-single-number-series/>,
+     <https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/>;
+   <http://schema.org/url> <http://www.naa.gov.au> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a1-correspondence-files-annual-single-number-series/> a <https://bib.schema.org/Collection>;
+   <http://schema.org/name> "A1, Correspondence files, annual single number series" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a10074-full-court-case-records-victoria-and-from-1973-court-and-cause-case-records-annual-single-number-series/> a <https://bib.schema.org/Collection>;
+   <http://schema.org/name> "A10074, Full Court case records (Victoria) and from 1973, Court and Cause case records, annual single number series" .

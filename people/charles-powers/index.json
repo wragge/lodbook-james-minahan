@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1853",
+  "deathDate": "1939",
+  "description": "Crown Solicitor. Managed the Commonwealth's legal case against James Minahan.",
+  "familyName": "Power",
+  "givenName": "Charles",
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/charles-powers/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/charles-powers/index.html",
+  "name": "Charles Powers",
+  "sameAs": "http://adb.anu.edu.au/biography/powers-sir-charles-8092",
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/powers-sir-charles-8092"
+}

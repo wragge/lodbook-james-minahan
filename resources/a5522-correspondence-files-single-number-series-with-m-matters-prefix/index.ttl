@@ -1,0 +1,19 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a5522-correspondence-files-single-number-series-with-m-matters-prefix/> a <https://bib.schema.org/Collection>;
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/>;
+   <http://schema.org/endDate> "1918-12-31"^^<http://schema.org/Date>;
+   <http://schema.org/hasPart> <https://wragge.github.io/lodbook-james-minahan/resources/a5522-m47-habeas-proceedings-re-willie-lee-hook/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/a5522-correspondence-files-single-number-series-with-m-matters-prefix/index.html";
+   <http://schema.org/name> "A5522, Correspondence files, single number series with 'M' (matters) prefix";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/>;
+   <http://schema.org/startDate> "1903-01-01"^^<http://schema.org/Date>;
+   <http://schema.org/url> <http://www.naa.gov.au/cgi-bin/Search?Number=A5522> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Crown Solicitor's Office" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a5522-m47-habeas-proceedings-re-willie-lee-hook/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A5522, M47, Habeas Proceedings re WILLIE LEE HOOK" .

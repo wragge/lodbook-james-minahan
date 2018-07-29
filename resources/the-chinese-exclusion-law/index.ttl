@@ -1,0 +1,20 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/the-chinese-exclusion-law/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1911-09-29";
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Age (Melbourne)"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/the-chinese-exclusion-law/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/china/>;
+   <http://schema.org/name> "The Chinese Exclusion Law";
+   <http://schema.org/position> "p. 9";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article196210126> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/croft-and-rhoden-solicitors/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Croft and Rhoden Solicitors" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/china/> a <http://schema.org/Country>;
+   <http://schema.org/name> "China" .

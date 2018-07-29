@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/died-at-his-post/> a <http://schema.org/NewsArticle>;
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Geelong Advertiser"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/died-at-his-post/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/h-w-bryant/>;
+   <http://schema.org/name> "Died at His Post";
+   <http://schema.org/position> "p. 1";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1924-10-08";
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article2115594931924> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/h-w-bryant/> a <http://schema.org/Person>;
+   <http://schema.org/name> "H.W. Bryant" .

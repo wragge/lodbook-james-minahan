@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-attends-the-shek-quey-lee-village-school/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1883"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-attends-the-shek-quey-lee-village-school/index.html";
+   <http://schema.org/name> "James Minahan attends the Shek Quey Lee village school";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/startDate> "1883"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

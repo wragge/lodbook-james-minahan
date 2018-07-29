@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/hugh-mercer/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/hugh-mercer/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Officer with Department of Trade and Customs in Melbourne. Inspected James Minahan on his arrival in Melbourne and applied the Dictation Test.";
+   <http://schema.org/familyName> "Mercer";
+   <http://schema.org/givenName> "James",
+     "Hugh";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/hugh-mercer/index.html";
+   <http://schema.org/name> "Hugh Mercer" .

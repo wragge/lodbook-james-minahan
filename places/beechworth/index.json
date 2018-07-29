@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/victoria/",
+    "name": "Victoria",
+    "type": "State"
+  },
+  "geo": {
+    "latitude": "-36.359444",
+    "longitude": "146.686944",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/beechworth/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/beechworth/index.html",
+  "name": "Beechworth",
+  "sameAs": [
+    "http://www.geonames.org/2176429/beechworth.html",
+    "https://en.wikipedia.org/wiki/Beechworth"
+  ],
+  "type": "City"
+}

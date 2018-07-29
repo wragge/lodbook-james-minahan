@@ -1,0 +1,11 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/charles-powers/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1853"^^<http://schema.org/Date>;
+   <http://schema.org/deathDate> "1939"^^<http://schema.org/Date>;
+   <http://schema.org/description> "Crown Solicitor. Managed the Commonwealth's legal case against James Minahan.";
+   <http://schema.org/familyName> "Power";
+   <http://schema.org/givenName> "Charles";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/charles-powers/index.html";
+   <http://schema.org/name> "Charles Powers";
+   <http://schema.org/sameAs> <http://adb.anu.edu.au/biography/powers-sir-charles-8092>;
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/powers-sir-charles-8092> .

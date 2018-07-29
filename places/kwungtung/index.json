@@ -1,0 +1,45 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/china/",
+    "name": "China",
+    "type": "Country"
+  },
+  "containsPlace": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/sunwui/",
+      "name": "Sunwui",
+      "type": "Country"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/see-yup/",
+      "name": "See Yup",
+      "type": "Place"
+    }
+  ],
+  "geo": {
+    "latitude": "23.5",
+    "longitude": "113.25",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/kwungtung/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/kwungtung/index.html",
+  "name": "Kwungtung",
+  "type": "State"
+}

@@ -1,0 +1,51 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1908-04-08",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/charles-powers/",
+    "name": "Charles Powers",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/letter-from-charles-power-crown-solicitor-to-robert-garran-secretary-of-the-attorney-general-s-department-8-april-1908/",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/",
+    "name": "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908",
+    "type": "CreativeWork"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/letter-from-charles-power-crown-solicitor-to-robert-garran-secretary-of-the-attorney-general-s-department-8-april-1908/index.html",
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/robert-garran/",
+      "name": "Robert Garran",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/",
+      "name": "Crown Solicitor's Office",
+      "type": "Organization"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/attorney-general-s-department/",
+      "name": "Attorney-General's Department",
+      "type": "Organization"
+    }
+  ],
+  "name": "Letter from Charles Power, Crown Solicitor, to Robert Garran, Secretary of the Attorney-General's Department, 8 April 1908",
+  "type": "CreativeWork"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1881",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/winifred-cheong-meng-birth/",
+  "image": "1626276695_WinifredCheongMeng_birth.pdf",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/",
+    "name": "Victorian Registry of Births, Deaths and Marriages",
+    "type": "https://bib.schema.org/Collection"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/winifred-cheong-meng-birth/index.html",
+  "mentions": [
+    {
+      "name": "Winifred Cheong Meng"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/",
+      "name": "Winifred Minahan",
+      "type": "Person"
+    }
+  ],
+  "name": "Winifred Cheong Meng (birth)",
+  "position": "1881/15146",
+  "type": "CreativeWork"
+}

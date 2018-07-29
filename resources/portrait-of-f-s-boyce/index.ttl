@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-f-s-boyce/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-f-s-boyce/index.html";
+   <http://schema.org/name> "Portrait of F.S. Boyce";
+   <http://schema.org/position> "p. 9";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1919-07-23";
+   <http://schema.org/publisher> [ <http://schema.org/name> "The Daily Telegraph (Sydney)"];
+   <http://schema.org/url> <https://trove.nla.gov.au/newspaper/article/239637027> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/f-s-boyce/> a <http://schema.org/Person>;
+   <http://schema.org/name> "F.S. Boyce" .

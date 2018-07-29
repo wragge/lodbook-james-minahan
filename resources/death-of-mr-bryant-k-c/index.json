@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/death-of-mr-bryant-k-c/",
+  "isPartOf": {
+    "name": "Argus (Melbourne)"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/death-of-mr-bryant-k-c/index.html",
+  "mentions": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/h-w-bryant/",
+    "name": "H.W. Bryant",
+    "type": "Person"
+  },
+  "name": "Death of Mr. Bryant, K.C.",
+  "position": "p. 32",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1924-10-25",
+  "type": "NewsArticle",
+  "url": "http://nla.gov.au/nla.news-article2056772"
+}

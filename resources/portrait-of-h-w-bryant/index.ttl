@@ -1,0 +1,17 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-h-w-bryant/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/h-w-bryant/>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Lafayette"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-h-w-bryant/index.html";
+   <http://schema.org/name> "Portrait of H.W. Bryant";
+   <http://schema.org/position> "p. 1";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1924-10-24";
+   <http://schema.org/publisher> [ <http://schema.org/name> "The Herald (Melbourne)"];
+   <http://schema.org/url> <http://nla.gov.au/nla.news-article244846635> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/h-w-bryant/> a <http://schema.org/Person>;
+   <http://schema.org/name> "H.W. Bryant" .

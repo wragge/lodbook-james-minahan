@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-02-14",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/solicitor-croft-requests-and-is-granted-a-two-week-adjournment-from-the-melbourne-city-court/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/solicitor-croft-requests-and-is-granted-a-two-week-adjournment-from-the-melbourne-city-court/index.html",
+  "name": "Solicitor Croft requests and is granted a two-week adjournment from the Melbourne City Court",
+  "performer": {
+    "name": "A.E. Fortescue Croft"
+  },
+  "startDate": "1908-02-14",
+  "type": "Event"
+}

@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-02-28",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-s-case-in-the-melbourne-city-court-is-part-heard-and-adjourned-for-three-weeks-until-20-march-1908/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-s-case-in-the-melbourne-city-court-is-part-heard-and-adjourned-for-three-weeks-until-20-march-1908/index.html",
+  "name": "James Minahan's case in the Melbourne City Court is part heard and adjourned for three weeks until 20 March 1908",
+  "performer": {
+    "name": "James Minaham"
+  },
+  "startDate": "1908-02-28",
+  "type": "Event"
+}

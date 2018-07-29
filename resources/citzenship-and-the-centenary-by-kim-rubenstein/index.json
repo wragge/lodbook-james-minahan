@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creator": {
+    "name": "Kim Rubenstein"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/citzenship-and-the-centenary-by-kim-rubenstein/",
+  "isPartOf": {
+    "name": "Melbourne University Law Review"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/citzenship-and-the-centenary-by-kim-rubenstein/index.html",
+  "name": "Citzenship and the Centenary by Kim Rubenstein",
+  "position": "vol. 24",
+  "publicationDate": "2000-12",
+  "type": "Article"
+}

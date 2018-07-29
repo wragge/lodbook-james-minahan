@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/quong-hing-yeong/> a <http://schema.org/Organization>;
+   <http://schema.org/location> <https://wragge.github.io/lodbook-james-minahan/places/hong-kong/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/organisations/quong-hing-yeong/index.html";
+   <http://schema.org/name> "Quong Hing Yeong" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/hong-kong/> a <http://schema.org/Country>;
+   <http://schema.org/name> "Hong Kong" .

@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/index.html",
+  "name": "National Archives of Australia",
+  "provides": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/",
+      "name": "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-correspondence-files-annual-single-number-series/",
+      "name": "A1, Correspondence files, annual single number series",
+      "type": "https://bib.schema.org/Collection"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/a10074-full-court-case-records-victoria-and-from-1973-court-and-cause-case-records-annual-single-number-series/",
+      "name": "A10074, Full Court case records (Victoria) and from 1973, Court and Cause case records, annual single number series",
+      "type": "https://bib.schema.org/Collection"
+    }
+  ],
+  "type": "Organization",
+  "url": "http://www.naa.gov.au"
+}

@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "dissolutionDate": "1985-07-01",
+  "foundingDate": "1845-01-01",
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-melbourne/",
+  "location": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/melbourne/",
+    "name": "Melbourne",
+    "type": "City"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/collector-of-customs-melbourne/index.html",
+  "name": "Collector of Customs, Melbourne",
+  "type": "Organization"
+}

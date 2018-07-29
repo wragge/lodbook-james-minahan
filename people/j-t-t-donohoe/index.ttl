@@ -1,0 +1,22 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/caricature-portrait-of-j-t-t-donohoe/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "Caricature portrait of J.T.T. Donohoe" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Detective inspector with the Department of Trade and Customs in Sydney. Inspected James Minahan on his arrival in Sydney and applied the Dictation Test.";
+   <http://schema.org/familyName> "Donohoe";
+   <http://schema.org/givenName> "Tamplin",
+     "Thomas",
+     "John";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/caricature-portrait-of-j-t-t-donohoe/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/index.html";
+   <http://schema.org/name> "J.T.T. Donohoe" .
+
+ [
+     <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/>;
+     <http://schema.org/name> "PROHIBITED IMMIGRANT -- James Francis Kitchen"
+ ] .

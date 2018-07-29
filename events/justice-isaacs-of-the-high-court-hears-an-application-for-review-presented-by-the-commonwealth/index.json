@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-04-29",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/justice-isaacs-of-the-high-court-hears-an-application-for-review-presented-by-the-commonwealth/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/justice-isaacs-of-the-high-court-hears-an-application-for-review-presented-by-the-commonwealth/index.html",
+  "name": "Justice Isaacs of the High Court hears an application for review presented by the Commonwealth",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/isaac-isaacs/",
+    "name": "Isaac Isaacs",
+    "type": "Person"
+  },
+  "startDate": "1908-04-29",
+  "type": "Event"
+}

@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/frank-gavan-duffy/",
+    "name": "Frank Gavan Duffy",
+    "type": "Person"
+  },
+  "endDate": "1910",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-frank-gavan-duffy/",
+  "image": "nla.obj-136742428-1.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-frank-gavan-duffy/index.html",
+  "name": "Portrait of Sir Frank Gavan Duffy",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1900",
+  "type": "Photograph",
+  "url": "https://catalogue.nla.gov.au/Record/160085"
+}

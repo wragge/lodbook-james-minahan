@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-remanded-in-custody-in-darlinghurst-gaol/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-02-07"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-remanded-in-custody-in-darlinghurst-gaol/index.html";
+   <http://schema.org/name> "James Minahan is remanded in custody in Darlinghurst Gaol";
+   <http://schema.org/performer> [ <http://schema.org/name> "James Minaham"];
+   <http://schema.org/startDate> "1908-02-07"^^<http://schema.org/Date> .

@@ -1,0 +1,14 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-edmund-barton/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/edmund-barton/>;
+   <http://schema.org/creationDate> "1902";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-edmund-barton/index.html";
+   <http://schema.org/name> "Portrait of Edmund Barton";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/url> <https://catalogue.nla.gov.au/Record/1097475> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/edmund-barton/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Edmund Barton" .

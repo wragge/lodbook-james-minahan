@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-taiyuan/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/photograph-of-ss-taiyuan/index.html";
+   <http://schema.org/name> "Photograph of SS Taiyuan";
+   <http://schema.org/provider> [ <http://schema.org/name> "State Library of New South Wales"];
+   <http://schema.org/url> <http://archival.sl.nsw.gov.au/Details/archive/110329896> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "SS Taiyuan" .

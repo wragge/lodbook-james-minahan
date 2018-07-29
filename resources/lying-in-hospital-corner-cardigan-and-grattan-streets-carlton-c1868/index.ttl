@@ -1,0 +1,17 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/lying-in-hospital-corner-cardigan-and-grattan-streets-carlton-c1868/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/organisations/lying-in-hospital-melbourne/>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Charles Nettleton"];
+   <http://schema.org/endDate> "1868"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/lying-in-hospital-corner-cardigan-and-grattan-streets-carlton-c1868/index.html";
+   <http://schema.org/name> "Lying-in Hospital, corner Cardigan and Grattan Streets, Carlton, c1868";
+   <http://schema.org/position> "H869";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/>;
+   <http://schema.org/startDate> "1868"^^<http://schema.org/Date>;
+   <http://schema.org/url> <http://search.slv.vic.gov.au/MAIN:Everything:SLV_VOYAGER1683885> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/lying-in-hospital-melbourne/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Lying-in Hospital, Melbourne" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "State Library of Victoria" .

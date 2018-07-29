@@ -1,0 +1,8 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/non-immigrants-non-aliens-and-people-of-the-commonwealth-australian-constitutional-citizenship-revisited-by-sangeetha-pillai/> a <http://schema.org/Article>;
+   <http://schema.org/creator> [ <http://schema.org/name> "Sangeetha Pillai"];
+   <http://schema.org/isPartOf> [ <http://schema.org/name> "Monash Law Review"];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/non-immigrants-non-aliens-and-people-of-the-commonwealth-australian-constitutional-citizenship-revisited-by-sangeetha-pillai/index.html";
+   <http://schema.org/name> "Non-Immigrants, Non-Aliens and People of the Commonwealth: Australian Constitutional Citizenship Revisited by Sangeetha Pillai";
+   <http://schema.org/position> "vol. 39, no. 2, pp. 568-609";
+   <http://schema.org/publicationDate> "2013" .

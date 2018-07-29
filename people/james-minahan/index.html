@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LODBook</title>
+      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      
+      <link rel="stylesheet" href="/lodbook-james-minahan/css/main.css">
+      
+      <style type="text/css">
+      
+            .people { background-color: #563331; border-color: #563331;}
+            .people.inverse { background-color: #ffffff; color: #563331;}
+      
+            .organisations { background-color: #711d1f; border-color: #711d1f;}
+            .organisations.inverse { background-color: #ffffff; color: #711d1f;}
+      
+            .places { background-color: #4f7671; border-color: #4f7671;}
+            .places.inverse { background-color: #ffffff; color: #4f7671;}
+      
+            .events { background-color: #657957; border-color: #657957;}
+            .events.inverse { background-color: #ffffff; color: #657957;}
+      
+            .resources { background-color: #942628; border-color: #942628;}
+            .resources.inverse { background-color: #ffffff; color: #942628;}
+      
+      </style>
+      
+      <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+      
+      <script src="/lodbook-james-minahan/js/scripts.js"></script>
+      <script>
+        var collections = [{"name":"people","color":"#563331","icon":"fas fa-user-circle","template":"people","types":["Person"]},{"name":"organisations","color":"#711d1f","icon":"fas fa-building","template":"organisations","types":["Organization"]},{"name":"places","color":"#4f7671","icon":"fas fa-globe","template":"places","types":["Place","CivicStructure","City","State","Country","AdministrativeArea"]},{"name":"events","color":"#657957","icon":"fas fa-calendar-alt","template":"events","types":["Event"]},{"name":"resources","color":"#942628","icon":"fas fa-file-alt","template":"resources","types":["CreativeWork","ImageObject","Book","ArchivalSeries","Document","Photograph","ArchivalUnit","Article","NewsArticle","Chapter","Thesis"]}];
+      </script>
+    </head>
+
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="container">
+
+
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-6" href="/lodbook-james-minahan/">James Minahan&rsquo;s Homecoming</a>
+                <a role="button" class="navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Chapters
+                        </a>
+                        
+                        
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/lodbook-james-minahan/chapters/chapter-1/">
+                                    Chapter 1
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Collections
+                        </a>
+                        <div class="navbar-dropdown">
+                        
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/events/">
+                                    events
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/organisations/">
+                                    organisations
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/people/">
+                                    people
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/places/">
+                                    places
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/resources/">
+                                    resources
+                                </a>
+                        
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Views
+                        </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/lodbook-james-minahan/views/wall/">
+                                    Wall
+                                </a>
+                                <a class="navbar-item" href="/lodbook-james-minahan/views/map/">
+                                    Map
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <section class="section main">
+            <div class="container">
+                
+<h2 class="title is-size-2">James Minahan</h2>
+
+<div class="columns reverse-row-order">
+    <div class="column is-half">
+        
+
+    
+    
+        <figure class="image box">
+            
+
+    <img src="/lodbook-james-minahan/images/resized/800/naa-10131-p78.jpg">
+
+
+            
+                <figcaption>
+                    <p>
+                        <a href="/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908">Imprint of the left hand of James Frances Kitchen, 28 January 1908</a> <a title="Enlarge" class="is-pulled-right" href="/lodbook-james-minahan/images/naa-10131-p78.jpg"><span class="icon"><i class="fas fa-search-plus"></span></i></a>
+                    </p>
+                </figcaption>
+            
+        </figure>
+    
+
+
+    </div>
+    <div class="column is-half">
+        <p class="is-size-4"></p>
+        
+            <h4 class="title lod-list-title">Born</h4>
+                <ul class="lod-list">
+                    <li>
+                         4 October 1876
+                    </li>
+                </ul>
+        
+        
+        <h4 class='title lod-list-title'>Family name</h4>
+<ul class='lod-list'>
+<li>Minahan</li>
+</ul>
+
+        <h4 class='title lod-list-title'>Given names</h4>
+<ul class='lod-list'>
+<li>James</li>
+<li>Francis</li>
+<li>Kitchen</li>
+</ul>
+
+        
+        <h4 class='title lod-list-title'>Parents</h4>
+<ul class='lod-list'>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/">Cheong Ming</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/">Winifred Minahan</a></li>
+</ul>
+
+        
+        <h4 class='title lod-list-title'>Siblings</h4>
+<ul class='lod-list'>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/">Winifred Cheong Ming</a></li>
+</ul>
+
+        <h4 class='title lod-list-title'>Related to</h4>
+<ul class='lod-list'>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/ah-doe/">Ah Doe</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/ah-yuey/">Ah Yuey</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/">Catherine Minahan</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/mary-manning/">Mary Manning</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/">Richard Minahan</a></li>
+</ul>
+
+        <h4 class='title lod-list-title'>Knows</h4>
+<ul class='lod-list'>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/ah-chew/">Ah Chew</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/chan-num/">Chan Num</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/chin-kay/">Chin Kay</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/chin-shing/">Chin Shing</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/deung-garng/">Deung Garng</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/">E.A. Fortescue Croft</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/ernest-tipp/">Ernest Tipp</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/">W.T. Coldham</a></li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/">William Ah Ket</a></li>
+</ul>
+
+        <h4 class='title lod-list-title'>Subject of</h4>
+<ul class='lod-list'>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/">A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908</a></li>
+<li>PROHIBITED IMMIGRANT -- James Francis Kitchen</li>
+<li><a href="https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/">A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen</a></li>
+</ul>
+
+        
+        
+        
+        
+        
+        
+    <h4 class="title lod-list-title">Mentioned in</h3>
+    
+    
+        <h4 class="title mentions-chapter">Chapter 1: An unexpected welcome</h4>
+        
+        
+            <p class="mentions-para"><a href="https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/#para-0">Paragraph 0</a></p>
+            <ul class="mentions-list">
+                
+                    <li>
+                        &hellip;New Zealand, Tahiti and Fiji. James Minahan was one of those bound &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;Zealand, Tahiti and Fiji. James Minahan was one of those bound &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;papers, he decided to give Minahan the Dictation Test. This was &hellip;
+                    </li>
+                
+            </ul>
+        
+            <p class="mentions-para"><a href="https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/#para-2">Paragraph 2</a></p>
+            <ul class="mentions-list">
+                
+                    <li>
+                        &hellip;Minahan was unable to complete the &hellip;
+                    </li>
+                
+            </ul>
+        
+            <p class="mentions-para"><a href="https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/#para-3">Paragraph 3</a></p>
+            <ul class="mentions-list">
+                
+                    <li>
+                        &hellip;their handprints and documents, including Minahan’s birth certificate, to assist &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;government interpreter Harry Hoyling, interviewed Minahan in the saloon of the &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;Chan Num, who had known Minahan as a boy and had &hellip;
+                    </li>
+                
+            </ul>
+        
+            <p class="mentions-para"><a href="https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/#para-4">Paragraph 4</a></p>
+            <ul class="mentions-list">
+                
+                    <li>
+                        &hellip;establish whether the birth certificate Minahan presented was really his own. &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;and the mother was ‘Winifred Minahan’. Ever alert to the possibilities &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;spoken to him. After interviewing Minahan, Mercer was not convinced of &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;interpreter Harry Hoyling, Mercer told Minahan that he was going to &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;them in English. He gave Minahan a pencil and paper and &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;read in Sydney. When asked, Minahan said that he could not &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;not land in Australia. Consequently, Minahan was to be transferred back &hellip;
+                    </li>
+                
+            </ul>
+        
+            <p class="mentions-para"><a href="https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/#para-5">Paragraph 5</a></p>
+            <ul class="mentions-list">
+                
+                    <li>
+                        &hellip;The next day, Tuesday, Minahan left Melbourne for Sydney on &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;in Sydney two days later, Minahan was escorted by Inspector Donohoe &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;issued against him for holding Minahan on board. Habeas corpus &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;similar to that of James Minahan.4&hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;very similar to that of James Minahan.4&hellip;
+                    </li>
+                
+            </ul>
+        
+            <p class="mentions-para"><a href="https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/#para-6">Paragraph 6</a></p>
+            <ul class="mentions-list">
+                
+                    <li>
+                        &hellip;F.S. Boyce acted on Minahan’s behalf in the matter, &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;born British subject Minahan was entitled to enter the &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;and he presented affidavits from Minahan and several Chinese residents of &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;attesting to the facts of Minahan’s Victorian birth and subsequent &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;had declared at that James Minahan was a prohibited immigrant, noting &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;evidence, Justice Street ruled in Minahan’s favour, concluding that neither &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;the Commonwealth had demonstrated that Minahan was a prohibited immigrant under &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;Act. Justice Street therefore ordered Minahan’s release.&hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;who had declared at that James Minahan was a prohibited immigrant, noting &hellip;
+                    </li>
+                
+            </ul>
+        
+            <p class="mentions-para"><a href="https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/#para-7">Paragraph 7</a></p>
+            <ul class="mentions-list">
+                
+                    <li>
+                        &hellip;Minahan left the Taiyuan at around &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;at Circular Quay and arrested Minahan as he left the wharf. &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;1905’.6 Minahan was brought before the Water &hellip;
+                    </li>
+                
+            </ul>
+        
+            <p class="mentions-para"><a href="https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/#para-10">Paragraph 10</a></p>
+            <ul class="mentions-list">
+                
+                    <li>
+                        &hellip;received a personal letter from Minahan’s Melbourne solicitor, E.A. &hellip;
+                    </li>
+                
+            </ul>
+        
+            <p class="mentions-para"><a href="https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/#para-11">Paragraph 11</a></p>
+            <ul class="mentions-list">
+                
+                    <li>
+                        &hellip;When Minahan was rejected at Melbourne and &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;is likely that it was Minahan’s uncles in Melbourne, Ah &hellip;
+                    </li>
+                
+            </ul>
+        
+            <p class="mentions-para"><a href="https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/#para-13">Paragraph 13</a></p>
+            <ul class="mentions-list">
+                
+                    <li>
+                        &hellip;These private discussions between Minahan’s solicitor and those representing &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;for the hearing against James Minahan on Friday, 14 February. However, &hellip;
+                    </li>
+                
+                    <li>
+                        &hellip;Sydney for the hearing against James Minahan on Friday, 14 February. However, &hellip;
+                    </li>
+                
+            </ul>
+        
+    
+
+
+    </div>
+</div>
+
+            </div>
+        </section>
+        
+        <nav class="navbar is-hidden-touch" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item is-expanded" href="/lodbook-james-minahan/people/james-minahan/index.html">HTML</a>
+                        <a class="navbar-item is-expanded" href="/lodbook-james-minahan/people/james-minahan/index.json">JSON-LD</a>
+                        <a class="navbar-item is-expanded" href="/lodbook-james-minahan/people/james-minahan/index.ttl">Turtle</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+        <footer class="footer">
+    <div class="container">
+      <p class="title is-size-3">
+          John Minahan&rsquo;s Homecoming
+      </p>
+      <p class="subtitle is-size-4">
+          By Kate Bagnall
+      </p>
+      <div class="columns">
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Contents</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/">Home</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/chapters/chapter-1/">Chapter 1: An unexpected welcome</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Collections</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/people/">People</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/organisations/">Organisations</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/places/">Places</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/events/">Events</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/resources/">Resources</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Views</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/views/wall/">Wall</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/views/map/">Map</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <p class="is-size-5">
+          This is a demonstration only, please do not cite. The LODBook system is currently under development, and the content included here is not complete.
+      </p>
+      <p class="is-size-5">
+          The full version of <i>James Minahan's Homecoming</i> will be published in September 2018.
+      </p>
+    </div>
+</footer>
+
+<script type="application/ld+json">{"@context":["http://schema.org/",{"mentionedBy":{"@reverse":"http://schema.org/mentions"},"performedIn":{"@reverse":"http://schema.org/performer"},"attended":{"@reverse":"http://schema.org/attendee"},"created":{"@reverse":"http://schema.org/creator"}}],"birthDate":"1876-10-04","familyName":"Minahan","givenName":["James","Francis","Kitchen"],"id":"https://wragge.github.io/lodbook-james-minahan/people/james-minahan/","image":{"id":"https://wragge.github.io/lodbook-james-minahan/resources/imprint-of-the-left-hand-of-james-frances-kitchen-28-january-1908/","image":"naa-10131-p78.jpg","name":"Imprint of the left hand of James Frances Kitchen, 28 January 1908","type":"ImageObject"},"knows":[{"id":"https://wragge.github.io/lodbook-james-minahan/people/ah-chew/","name":"Ah Chew","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/chan-num/","name":"Chan Num","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/chin-kay/","name":"Chin Kay","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/chin-shing/","name":"Chin Shing","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/deung-garng/","name":"Deung Garng","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/e-a-fortescue-croft/","name":"E.A. Fortescue Croft","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/ernest-tipp/","name":"Ernest Tipp","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/","name":"W.T. Coldham","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/","name":"William Ah Ket","type":"Person"}],"mainEntityofPage":"https://wragge.github.io/lodbook-james-minahan/people/james-minahan/index.html","name":"James Minahan","parent":[{"id":"https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/","name":"Cheong Ming","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/","name":"Winifred Minahan","type":"Person"}],"relatedTo":[{"id":"https://wragge.github.io/lodbook-james-minahan/people/ah-doe/","name":"Ah Doe","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/ah-yuey/","name":"Ah Yuey","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/","name":"Catherine Minahan","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/mary-manning/","name":"Mary Manning","type":"Person"},{"id":"https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/","name":"Richard Minahan","type":"Person"}],"sibling":{"id":"https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/","name":"Winifred Cheong Ming","type":"Person"},"subjectOf":[{"id":"https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/","name":"A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908","type":"CreativeWork"},{"name":"PROHIBITED IMMIGRANT -- James Francis Kitchen"},{"id":"https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/","name":"A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen","type":"CreativeWork"}],"type":"Person","mentionedBy":[{"id":"https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/","name":"An unexpected welcome","type":"WebPage"}]}</script>
+
+
+    </body>
+</html>

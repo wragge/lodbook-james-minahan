@@ -1,0 +1,17 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/australia/> a <http://schema.org/Country>;
+   <http://schema.org/containsPlace> <https://wragge.github.io/lodbook-james-minahan/places/new-south-wales/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/victoria/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-25";
+     <http://schema.org/longitude> "135"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/australia/index.html";
+   <http://schema.org/name> "Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/new-south-wales/> a <http://schema.org/State>;
+   <http://schema.org/name> "New South Wales" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/victoria/> a <http://schema.org/State>;
+   <http://schema.org/name> "Victoria" .

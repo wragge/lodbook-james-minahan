@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1881-09-25",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/winifred-cheong-ming-dies/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/winifred-cheong-ming-dies/index.html",
+  "name": "Winifred Cheong Ming dies",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/",
+    "name": "Winifred Cheong Ming",
+    "type": "Person"
+  },
+  "startDate": "1881-09-25",
+  "type": "Event"
+}

@@ -1,0 +1,48 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1876",
+  "deathDate": "1936",
+  "description": "First Chinese barrister in Australia. Counsel for James Minahan during High Court appeal.",
+  "familyName": "Ah Ket",
+  "givenName": "William",
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-william-ah-ket/",
+    "image": "nla.news-article196580331.jpg",
+    "name": "Portrait of William Ah Ket",
+    "type": "Photograph"
+  },
+  "knows": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/w-t-coldham/",
+      "name": "W.T. Coldham",
+      "type": "Person"
+    }
+  ],
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/william-ah-ket/index.html",
+  "name": "William Ah Ket",
+  "sameAs": "http://adb.anu.edu.au/biography/ah-ket-william-4979",
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/ah-ket-william-4979"
+}

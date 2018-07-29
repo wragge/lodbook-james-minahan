@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/donohoe-v-wong-sau-1925-36-clr-404/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1925-04-17";
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/donohoe-v-wong-sau-1925-36-clr-404/index.html";
+   <http://schema.org/name> "Donohoe v. Wong Sau (1925) 36 CLR 404";
+   <http://schema.org/provider> [ <http://schema.org/name> "Australasian Legal Information Institute"];
+   <http://schema.org/publisher> <https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/>;
+   <http://schema.org/url> <http://www7.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1925/6.html?context=1;query=donohoe;mask_path=au/cases/cth/HCA> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "High Court of Australia" .

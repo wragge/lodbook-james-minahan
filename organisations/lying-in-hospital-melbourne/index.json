@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/lying-in-hospital-melbourne/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/lying-in-hospital-corner-cardigan-and-grattan-streets-carlton-c1868/",
+    "image": "slv-H869.jpeg",
+    "name": "Lying-in Hospital, corner Cardigan and Grattan Streets, Carlton, c1868",
+    "type": "Photograph"
+  },
+  "location": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/carlton/",
+    "name": "Carlton",
+    "type": "Place"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/lying-in-hospital-melbourne/index.html",
+  "name": "Lying-in Hospital, Melbourne",
+  "type": "Organization"
+}

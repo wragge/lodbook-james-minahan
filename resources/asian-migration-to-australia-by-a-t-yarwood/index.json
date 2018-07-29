@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creator": {
+    "name": "A.T. Yarwood"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/asian-migration-to-australia-by-a-t-yarwood/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/asian-migration-to-australia-by-a-t-yarwood/index.html",
+  "name": "Asian Migration to Australia by A.T. Yarwood",
+  "publicationDate": "1964",
+  "publisher": {
+    "name": "Melbourne University Press"
+  },
+  "type": "Book"
+}

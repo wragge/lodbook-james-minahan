@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "birthDate": "1883",
+  "deathDate": "1966",
+  "description": "Public servant with the Department of External Affairs. Took shorthand notes of magistrate’s decision at Court of Petty Sessions hearing in Melbourne.",
+  "familyName": "Starling",
+  "givenName": [
+    "John",
+    "Henry"
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/people/john-starling/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-john-starling/",
+    "image": "nla.obj-38521029.jpg",
+    "name": "Portrait of John Starling",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/people/john-starling/index.html",
+  "name": "John Starling",
+  "sameAs": "http://adb.anu.edu.au/biography/starling-john-henry-8630",
+  "type": "Person",
+  "url": "http://adb.anu.edu.au/biography/starling-john-henry-8630"
+}

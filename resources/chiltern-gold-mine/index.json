@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/chiltern/",
+    "name": "Chiltern",
+    "type": "City"
+  },
+  "creationDate": "1900",
+  "creator": {
+    "name": "James Stirling"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/chiltern-gold-mine/",
+  "image": "slv-H84.458-119.jpeg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/chiltern-gold-mine/index.html",
+  "mentions": {
+    "name": "Chilton"
+  },
+  "name": "Chiltern Gold Mine",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-victoria/",
+    "name": "State Library of Victoria",
+    "type": "Organization"
+  },
+  "type": "Photograph",
+  "url": "http://handle.slv.vic.gov.au/10381/68536"
+}

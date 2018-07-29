@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-nsw/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/state-library-of-nsw/index.html",
+  "name": "State Library of NSW",
+  "provides": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/police-station-george-st-north-sydney/",
+    "name": "Police station, George St North, Sydney",
+    "type": "Photograph"
+  },
+  "type": "Organization",
+  "url": "http://www.sl.nsw.gov.au/"
+}

@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/index.html",
+  "name": "National Library of Australia",
+  "provides": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/empty-thoroughfare-at-darlinghurst-gaol/",
+      "name": "Empty thoroughfare at Darlinghurst Gaol",
+      "type": "Photograph"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/",
+      "name": "Sir Phillip Street, Chief Justice of New South Wales",
+      "type": "Photograph"
+    }
+  ],
+  "type": "Organization",
+  "url": "http://www.nla.gov.au"
+}

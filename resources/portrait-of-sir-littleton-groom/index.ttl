@@ -1,0 +1,13 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-littleton-groom/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-sir-littleton-groom/index.html";
+   <http://schema.org/name> "Portrait of Sir Littleton Groom";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/url> <http://nla.gov.au/nla.obj-136704491> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/littleton-groom/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Littleton Groom" .

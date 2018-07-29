@@ -1,0 +1,50 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/kwungtung/",
+    "name": "Kwungtung",
+    "type": "State"
+  },
+  "containsPlace": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/",
+      "name": "Shek Quey Lee",
+      "type": "City"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/places/kongmoon/",
+      "name": "Kongmoon",
+      "type": "City"
+    }
+  ],
+  "geo": {
+    "latitude": "22.456",
+    "longitude": "113.0482",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/sunwui/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/sunwui/index.html",
+  "mentionedBy": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/",
+    "name": "An unexpected welcome",
+    "type": "WebPage"
+  },
+  "name": "Sunwui",
+  "type": "Country"
+}

@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lancelot-dawson/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-lancelot-dawson/index.html";
+   <http://schema.org/name> "Portrait of Lancelot Dawson";
+   <http://schema.org/position> "p.16";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1908-04-12";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Sunday Times (Sydney)"];
+   <http://schema.org/url> <https://trove.nla.gov.au/newspaper/article/126751846> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/lancelot-dawson/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Lancelot Dawson" .

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LODBook</title>
+      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      
+      <link href="/lodbook-james-minahan/css/leaflet.css" rel="stylesheet">
+      
+      <link rel="stylesheet" href="/lodbook-james-minahan/css/main.css">
+      
+      <style type="text/css">
+      
+            .people { background-color: #563331; border-color: #563331;}
+            .people.inverse { background-color: #ffffff; color: #563331;}
+      
+            .organisations { background-color: #711d1f; border-color: #711d1f;}
+            .organisations.inverse { background-color: #ffffff; color: #711d1f;}
+      
+            .places { background-color: #4f7671; border-color: #4f7671;}
+            .places.inverse { background-color: #ffffff; color: #4f7671;}
+      
+            .events { background-color: #657957; border-color: #657957;}
+            .events.inverse { background-color: #ffffff; color: #657957;}
+      
+            .resources { background-color: #942628; border-color: #942628;}
+            .resources.inverse { background-color: #ffffff; color: #942628;}
+      
+      </style>
+      
+      <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+      
+      <script src="/lodbook-james-minahan/js/map.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/leaflet.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/lodash.min.js"></script>
+      
+      <script src="/lodbook-james-minahan/js/scripts.js"></script>
+      <script>
+        var collections = [{"name":"people","color":"#563331","icon":"fas fa-user-circle","template":"people","types":["Person"]},{"name":"organisations","color":"#711d1f","icon":"fas fa-building","template":"organisations","types":["Organization"]},{"name":"places","color":"#4f7671","icon":"fas fa-globe","template":"places","types":["Place","CivicStructure","City","State","Country","AdministrativeArea"]},{"name":"events","color":"#657957","icon":"fas fa-calendar-alt","template":"events","types":["Event"]},{"name":"resources","color":"#942628","icon":"fas fa-file-alt","template":"resources","types":["CreativeWork","ImageObject","Book","ArchivalSeries","Document","Photograph","ArchivalUnit","Article","NewsArticle","Chapter","Thesis"]}];
+      </script>
+    </head>
+
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="container">
+
+
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-6" href="/lodbook-james-minahan/">James Minahan&rsquo;s Homecoming</a>
+                <a role="button" class="navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Chapters
+                        </a>
+                        
+                        
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/lodbook-james-minahan/chapters/chapter-1/">
+                                    Chapter 1
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Collections
+                        </a>
+                        <div class="navbar-dropdown">
+                        
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/events/">
+                                    events
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/organisations/">
+                                    organisations
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/people/">
+                                    people
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/places/">
+                                    places
+                                </a>
+                        
+                                <a class="navbar-item is-capitalized" href="/lodbook-james-minahan/resources/">
+                                    resources
+                                </a>
+                        
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Views
+                        </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="/lodbook-james-minahan/views/wall/">
+                                    Wall
+                                </a>
+                                <a class="navbar-item" href="/lodbook-james-minahan/views/map/">
+                                    Map
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <section class="section main">
+            <div class="container">
+                <div id="map" class="large-map"></div>
+<script>
+
+
+
+var places = [{"name":"Sydney Harbour","type":"Place","image":{"name":"View of Sydney Harbour from Dawes Point"},"geo":{"latitude":"-33.86666667","longitude":"151.25000000","type":"GeoCoordinates"},"containedInPlace":[{"name":"Sydney"}],"subjectOf":[{"name":"View of Sydney Harbour from Dawes Point"}],"image_file":"slv-a14678.jpg"},{"name":"Little Bourke Street","type":"Place","image":{"name":"Eastern end of Little Bourke Street, 1908"},"geo":{"latitude":"-37.81184","longitude":"144.96770","type":"GeoCoordinates"},"containedInPlace":[{"name":"Melbourne"}],"subjectOf":[{"name":"Eastern end of Little Bourke Street, 1908"}],"image_file":"nla.news-article139201161.5.jpg"},{"name":"See Yup","type":"Place","containedInPlace":[{"name":"Kwungtung"}],"containsPlace":[{"name":"Sunwui"}]},{"name":"South Melbourne","type":"Place","geo":{"latitude":"-37.83333","longitude":"144.96667","type":"GeoCoordinates"},"containedInPlace":[{"name":"Melbourne"}]},{"name":"Emerald Hill","type":"Place","geo":{"latitude":"-32.64756","longitude":"134.94701","type":"GeoCoordinates"},"containedInPlace":[{"name":"Melbourne"}]},{"name":"Carlton","type":"Place","geo":{"latitude":"-37.8","longitude":"144.96667","type":"GeoCoordinates"},"containedInPlace":[{"name":"Melbourne"}]},{"name":"Darlinghurst Gaol","type":"CivicStructure","image":{"name":"Empty thoroughfare at Darlinghurst Gaol"},"geo":{"latitude":"-33.879722","longitude":"151.218611","type":"GeoCoordinates"},"containedInPlace":[{"name":"Sydney"}],"mentionedBy":[{"name":"Empty thoroughfare at Darlinghurst Gaol"}],"subjectOf":[{"name":"Empty thoroughfare at Darlinghurst Gaol"}],"sameAs":["https://en.wikipedia.org/wiki/Darlinghurst_Gaol","http://dictionaryofsydney.org/place/darlinghurst_gaol"],"image_file":"nla.obj-141808770-1.jpg"},{"name":"No. 4 Police Station","type":"CivicStructure","image":{"name":"Police station, George St North, Sydney"},"geo":{"latitude":"-33.8601878","longitude":"151.2062024","type":"GeoCoordinates"},"containedInPlace":[{"name":"Sydney"}],"address":[{"name":"127-129 George Street, The Rocks"}],"subjectOf":[{"name":"Police station, George St North, Sydney"}],"sameAs":["http://www.shfa.nsw.gov.au/sydney-About_us-Heritage_role-Heritage_and_Conservation_Register.htm&objectid=100"],"image_file":"slnsw-d1_05327h.jpg"},{"name":"Australian Wharf","type":"CivicStructure","containedInPlace":[{"name":"Melbourne"}]},{"name":"Circular Quay","type":"CivicStructure","image":{"name":"View of Circular Quay"},"geo":{"latitude":"-33.86117","longitude":"151.21091","type":"GeoCoordinates"},"containedInPlace":[{"name":"Sydney"}],"subjectOf":[{"name":"View of Circular Quay"}],"image_file":"slv-H82.43-69.jpeg"},{"name":"Chiltern","type":"City","image":{"name":"Chiltern Gold Mine"},"geo":{"latitude":"-36.15044","longitude":"146.60843","type":"GeoCoordinates"},"containedInPlace":[{"name":"Victoria"}],"mentionedBy":[{"name":"Chiltern Gold Mine"}],"sameAs":["http://www.geonames.org/2171619/chiltern.html","https://en.wikipedia.org/wiki/Chiltern,_Victoria"],"image_file":"slv-H84.458-119.jpeg"},{"name":"Indigo","type":"City","geo":{"latitude":"-36.088194","longitude":"146.567917","type":"GeoCoordinates"},"containedInPlace":[{"name":"Victoria"}],"sameAs":["http://www.geonames.org/2162747/indigo.html"]},{"name":"Beechworth","type":"City","geo":{"latitude":"-36.359444","longitude":"146.686944","type":"GeoCoordinates"},"containedInPlace":[{"name":"Victoria"}],"sameAs":["http://www.geonames.org/2176429/beechworth.html","https://en.wikipedia.org/wiki/Beechworth"]},{"name":"Sydney","type":"City","geo":{"latitude":"-33.86785","longitude":"151.20732","type":"GeoCoordinates"},"containedInPlace":[{"name":"New South Wales"}],"containsPlace":[{"name":"Sydney Harbour"},{"name":"No. 4 Police Station"},{"name":"Darlinghurst Gaol"},{"name":"Circular Quay"}]},{"name":"Melbourne","type":"City","geo":{"latitude":"-37.814","longitude":"144.96332","type":"GeoCoordinates"},"containedInPlace":[{"name":"Victoria"}],"containsPlace":[{"name":"South Melbourne"},{"name":"Emerald Hill"},{"name":"Little Bourke Street"},{"name":"Carlton"},{"name":"Australian Wharf"}]},{"name":"Shek Quey Lee","type":"City","geo":{"latitude":"22.44887","longitude":"112.93606","type":"GeoCoordinates"},"containedInPlace":[{"name":"Sunwui"}]},{"name":"Mount Pleasant","type":"City","geo":{"latitude":"-36.091293","longitude":"146.571417","type":"GeoCoordinates"},"containedInPlace":[{"name":"Victoria"}]},{"name":"Kongmoon","type":"City","geo":{"latitude":"22.58333","longitude":"113.08333","type":"GeoCoordinates"},"containedInPlace":[{"name":"Sunwui"}]},{"name":"Victoria","type":"State","geo":{"latitude":"-37","longitude":"145","type":"GeoCoordinates"},"containedInPlace":[{"name":"Australia"}],"containsPlace":[{"name":"Chiltern"},{"name":"Indigo"},{"name":"Beechworth"},{"name":"Melbourne"},{"name":"Mount Pleasant"},{"name":"Cornishtown"}]},{"name":"New South Wales","type":"State","geo":{"latitude":"-33","longitude":"146","type":"GeoCoordinates"},"containedInPlace":[{"name":"Australia"}],"containsPlace":[{"name":"Sydney Harbour"},{"name":"Sydney"},{"name":"No. 4 Police Station"}]},{"name":"Kwungtung","type":"State","geo":{"latitude":"23.5","longitude":"113.25","type":"GeoCoordinates"},"containedInPlace":[{"name":"China"}],"containsPlace":[{"name":"Sunwui"},{"name":"See Yup"}]},{"name":"Australia","type":"Country","geo":{"latitude":"-25","longitude":"135","type":"GeoCoordinates"},"containsPlace":[{"name":"Victoria"},{"name":"New South Wales"}]},{"name":"New Zealand","type":"Country","geo":{"latitude":"-42","longitude":"174","type":"GeoCoordinates"}},{"name":"Tahiti","type":"Country","geo":{"latitude":"-17.6486","longitude":"-149.42951","type":"GeoCoordinates"}},{"name":"Fiji","type":"Country","geo":{"latitude":"-18","longitude":"178","type":"GeoCoordinates"}},{"name":"China","type":"Country","geo":{"latitude":"35","longitude":"105","type":"GeoCoordinates"},"containsPlace":[{"name":"Kwungtung"}]},{"name":"Hong Kong","type":"Country","geo":{"latitude":"22.25","longitude":"114.16667","type":"GeoCoordinates"}},{"name":"Sunwui","type":"AdministrativeArea","geo":{"latitude":"22.456","longitude":"113.0482","type":"GeoCoordinates"},"containedInPlace":[{"name":"Kwungtung"}],"containsPlace":[{"name":"Shek Quey Lee"},{"name":"Kongmoon"}]}];
+</script>
+
+            </div>
+        </section>
+        
+
+        <footer class="footer">
+    <div class="container">
+      <p class="title is-size-3">
+          John Minahan&rsquo;s Homecoming
+      </p>
+      <p class="subtitle is-size-4">
+          By Kate Bagnall
+      </p>
+      <div class="columns">
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Contents</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/">Home</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/chapters/chapter-1/">Chapter 1: An unexpected welcome</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Collections</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/people/">People</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/organisations/">Organisations</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/places/">Places</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/events/">Events</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/resources/">Resources</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="column is-4">
+              <p class="has-text-weight-bold">Views</p>
+              <ul>
+                  <li>
+                      <a href="/lodbook-james-minahan/views/wall/">Wall</a>
+                  </li>
+                  <li>
+                      <a href="/lodbook-james-minahan/views/map/">Map</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <p class="is-size-5">
+          This is a demonstration only, please do not cite. The LODBook system is currently under development, and the content included here is not complete.
+      </p>
+      <p class="is-size-5">
+          The full version of <i>James Minahan's Homecoming</i> will be published in September 2018.
+      </p>
+    </div>
+</footer>
+
+
+    </body>
+</html>

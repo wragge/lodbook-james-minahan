@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/sir-phillip-street-chief-justice-of-new-south-wales/> a <http://schema.org/Photograph>;
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/people/harold-cazneaux/>;
+   <http://schema.org/name> "Sir Phillip Street, Chief Justice of New South Wales" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/harold-cazneaux/> a <http://schema.org/Person>;
+   <http://schema.org/familyName> "Cazneaux";
+   <http://schema.org/givenName> "Harold";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/harold-cazneaux/index.html";
+   <http://schema.org/name> "Harold Cazneaux" .

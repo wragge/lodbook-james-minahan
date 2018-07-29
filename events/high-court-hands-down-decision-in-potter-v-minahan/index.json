@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-10-08",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/high-court-hands-down-decision-in-potter-v-minahan/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/high-court-hands-down-decision-in-potter-v-minahan/index.html",
+  "name": "High Court hands down decision in Potter v. Minahan",
+  "startDate": "1908-10-08",
+  "type": "Event"
+}

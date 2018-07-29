@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-john-starling/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/people/john-starling/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-john-starling/index.html";
+   <http://schema.org/name> "Portrait of John Starling";
+   <http://schema.org/position> "p. 7";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1930-10-23";
+   <http://schema.org/publisher> [ <http://schema.org/name> "The Western Mail (Perth)"];
+   <http://schema.org/url> <https://trove.nla.gov.au/newspaper/article/38521029> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/john-starling/> a <http://schema.org/Person>;
+   <http://schema.org/name> "John Starling" .

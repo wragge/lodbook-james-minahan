@@ -1,0 +1,17 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/> a <http://schema.org/City>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/sunwui/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "22.44887";
+     <http://schema.org/longitude> "112.93606"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/shek-quey-lee/index.html";
+   <http://schema.org/name> "Shek Quey Lee" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sunwui/> a <http://schema.org/Country>;
+   <http://schema.org/name> "Sunwui" .

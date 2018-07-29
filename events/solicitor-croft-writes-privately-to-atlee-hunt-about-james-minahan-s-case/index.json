@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-02-06",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/solicitor-croft-writes-privately-to-atlee-hunt-about-james-minahan-s-case/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/solicitor-croft-writes-privately-to-atlee-hunt-about-james-minahan-s-case/index.html",
+  "name": "Solicitor Croft writes privately to Atlee Hunt about James Minahan's case",
+  "performer": {
+    "name": "A.E. Fortescue Croft"
+  },
+  "startDate": "1908-02-06",
+  "type": "Event"
+}

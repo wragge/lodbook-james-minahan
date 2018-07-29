@@ -1,0 +1,6 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/customs-department-issues-a-circular-advising-officers-note-the-high-court-s-findings-in-potter-v-minahan-regarding-the-dictation-test/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1909-04-08"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/customs-department-issues-a-circular-advising-officers-note-the-high-court-s-findings-in-potter-v-minahan-regarding-the-dictation-test/index.html";
+   <http://schema.org/name> "Customs Department issues a circular advising officers note the High Court's findings in Potter v. Minahan regarding the Dictation Test";
+   <http://schema.org/startDate> "1909-04-08"^^<http://schema.org/Date> .

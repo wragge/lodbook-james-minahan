@@ -1,0 +1,14 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/chin-shing-and-jessie-ah-coon-marry/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1893-05-24"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/chin-shing-and-jessie-ah-coon-marry/index.html";
+   <http://schema.org/name> "Chin Shing and Jessie Ah Coon marry";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/chin-shing/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/jessie-shing/>;
+   <http://schema.org/startDate> "1893-05-24"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/chin-shing/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Chin Shing" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/jessie-shing/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Jessie Shing" .

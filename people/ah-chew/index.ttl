@@ -1,0 +1,9 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/ah-chew/> a <http://schema.org/Person>;
+   <http://schema.org/description> "Cabinetmaker of Lygon Street, Melbourne. Went to same school as James Minahan in China. Gave evidence at Court of Petty Sessions hearing in Melbourne.";
+   <http://schema.org/knows> <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/ah-chew/index.html";
+   <http://schema.org/name> "Ah Chew" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .

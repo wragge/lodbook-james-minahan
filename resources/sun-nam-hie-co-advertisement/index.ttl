@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/sun-nam-hie-co-advertisement/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/organisations/sun-nam-hie-co/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/sun-nam-hie-co-advertisement/index.html";
+   <http://schema.org/name> "Sun Nam Hie & Co. advertisement";
+   <http://schema.org/position> "p. 4";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/>;
+   <http://schema.org/publicationDate> "1919-12-27";
+   <http://schema.org/publisher> [ <http://schema.org/name> "Chinese Times"];
+   <http://schema.org/url> <https://trove.nla.gov.au/newspaper/article/168664884> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Library of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/sun-nam-hie-co/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Sun Nam Hie & Co." .

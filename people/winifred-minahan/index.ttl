@@ -1,0 +1,45 @@
+
+<https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/> a <http://schema.org/WebPage>;
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/>;
+   <http://schema.org/name> "An unexpected welcome" .
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-is-born/> a <http://schema.org/Event>;
+   <http://schema.org/attendee> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/>;
+   <http://schema.org/name> "James Minahan is born";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/arai-arai/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Arai Arai" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Catherine Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Cheong Ming" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/james-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "James Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/mary-manning/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Mary Manning" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Richard Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Cheong Ming" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1858-02-01"^^<http://schema.org/Date>;
+   <http://schema.org/children> <https://wragge.github.io/lodbook-james-minahan/people/winifred-cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/james-minahan/>;
+   <http://schema.org/description> "Mother of James Minahan.";
+   <http://schema.org/familyName> "Minahan";
+   <http://schema.org/givenName> "Winifred";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/index.html";
+   <http://schema.org/name> "Winifred Minahan";
+   <http://schema.org/parent> <https://wragge.github.io/lodbook-james-minahan/people/mary-manning/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/>;
+   <http://schema.org/sibling> <https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/>;
+   <http://schema.org/spouse> <https://wragge.github.io/lodbook-james-minahan/people/cheong-ming/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/arai-arai/> .

@@ -1,0 +1,45 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+    "name": "James Minahan",
+    "type": "Person"
+  },
+  "creationDate": "1908-02-10",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/",
+    "name": "J.T.T. Donohoe",
+    "type": "Person"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/statement-by-j-t-t-donohoe-10-february-1908/",
+  "image": "naa-10131-p85.jpg",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/",
+    "name": "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908",
+    "type": "CreativeWork"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/statement-by-j-t-t-donohoe-10-february-1908/index.html",
+  "name": "Statement by J.T.T. Donohoe, 10 February 1908",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "type": "CreativeWork"
+}

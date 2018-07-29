@@ -1,0 +1,12 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/singh-v-commonwealth-of-australia-2004-222-clr-322/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "2004-09-09";
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/singh-v-commonwealth-of-australia-2004-222-clr-322/index.html";
+   <http://schema.org/name> "Singh v. Commonwealth of Australia (2004) 222 CLR 322";
+   <http://schema.org/provider> [ <http://schema.org/name> "Australasian Legal Information Institute"];
+   <http://schema.org/publisher> <https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/>;
+   <http://schema.org/url> <http://www.austlii.edu.au/au/cases/cth/HCA/2004/43.html> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "High Court of Australia" .

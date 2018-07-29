@@ -1,0 +1,18 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/richard-monaghan-and-mary-mangan-marriage/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1865";
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/richard-monaghan-and-mary-mangan-marriage/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/people/mary-manning/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/>;
+   <http://schema.org/name> "Richard Monaghan and Mary Mangan (marriage)";
+   <http://schema.org/position> "1965/9864" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/mary-manning/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Mary Manning" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/richard-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Richard Minahan" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/victorian-registry-of-births-deaths-and-marriages/> a <https://bib.schema.org/Collection>;
+   <http://schema.org/name> "Victorian Registry of Births, Deaths and Marriages" .

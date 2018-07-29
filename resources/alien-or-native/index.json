@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/alien-or-native/",
+  "image": "nla.news-article5124640.3.pdf",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/alien-or-native/index.html",
+  "name": "Alien or Native?",
+  "position": "p. 11",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1908-02-08",
+  "publisher": {
+    "name": "Advertiser (Adelaide)"
+  },
+  "type": "NewsArticle",
+  "url": "http://nla.gov.au/nla.news-article5124640"
+}

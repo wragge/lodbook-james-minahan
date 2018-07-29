@@ -1,0 +1,21 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/application-of-immigration-restriction-act-1901-1905-to-australian-born-chinese-minute-paper-by-atlee-hunt-secretary-department-of-external-affairs-6-october-1906/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/creationDate> "1906-10-06";
+   <http://schema.org/creator> <https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/>;
+   <http://schema.org/isPartOf> <https://wragge.github.io/lodbook-james-minahan/resources/a1-1906-8578-immigration-restriction-acts-1901-1905-persons-born-in-australia/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/application-of-immigration-restriction-act-1901-1905-to-australian-born-chinese-minute-paper-by-atlee-hunt-secretary-department-of-external-affairs-6-october-1906/index.html";
+   <http://schema.org/mentions> <https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/>;
+   <http://schema.org/name> "Application of Immigration Restriction Act 1901-1905 to Australian-born Chinese', Minute Paper by Atlee Hunt, Secretary, Department of External Affairs, 6 October 1906";
+   <http://schema.org/provider> <https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/department-of-external-affairs/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "Department of External Affairs" .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "National Archives of Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/atlee-hunt/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Atlee Hunt" .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/a1-1906-8578-immigration-restriction-acts-1901-1905-persons-born-in-australia/> a <http://schema.org/CreativeWork>;
+   <http://schema.org/name> "A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia" .

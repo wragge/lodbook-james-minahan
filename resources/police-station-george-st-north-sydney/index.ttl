@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/resources/police-station-george-st-north-sydney/> a <http://schema.org/Photograph>;
+   <http://schema.org/about> <https://wragge.github.io/lodbook-james-minahan/places/no-4-police-station/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/resources/police-station-george-st-north-sydney/index.html";
+   <http://schema.org/name> "Police station, George St North, Sydney";
+   <http://schema.org/provider> [ <http://schema.org/name> "State Library of New South Wales"];
+   <http://schema.org/url> <http://archival.sl.nsw.gov.au/Details/archive/110100330> .
+
+<https://wragge.github.io/lodbook-james-minahan/places/no-4-police-station/> a <http://schema.org/CivicStructure>;
+   <http://schema.org/name> "No. 4 Police Station" .

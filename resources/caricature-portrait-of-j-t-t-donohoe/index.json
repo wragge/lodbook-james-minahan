@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/j-t-t-donohoe/",
+    "name": "J.T.T. Donohoe",
+    "type": "Person"
+  },
+  "creator": {
+    "name": "Donald MacDonald (aka Pas)"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/caricature-portrait-of-j-t-t-donohoe/",
+  "image": "nla.obj-168742060.jpg",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/caricature-portrait-of-j-t-t-donohoe/index.html",
+  "name": "Caricature portrait of J.T.T. Donohoe",
+  "position": "p. 4",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-library-of-australia/",
+    "name": "National Library of Australia",
+    "type": "Organization"
+  },
+  "publicationDate": "1912-08-11",
+  "publisher": {
+    "name": "Truth (Sydney)"
+  },
+  "type": "CreativeWork",
+  "url": "https://trove.nla.gov.au/newspaper/article/168742060"
+}

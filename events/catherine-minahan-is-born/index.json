@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1865-02-04",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/catherine-minahan-is-born/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/catherine-minahan-is-born/index.html",
+  "name": "Catherine Minahan is born",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/people/catherine-minahan/",
+    "name": "Catherine Minahan",
+    "type": "Person"
+  },
+  "startDate": "1865-02-04",
+  "type": "Event"
+}

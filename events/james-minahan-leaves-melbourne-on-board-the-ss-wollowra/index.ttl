@@ -1,0 +1,11 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-leaves-melbourne-on-board-the-ss-wollowra/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-01-28"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-leaves-melbourne-on-board-the-ss-wollowra/index.html";
+   <http://schema.org/name> "James Minahan leaves Melbourne on board the SS Wollowra";
+   <http://schema.org/performer> [ <http://schema.org/name> "James Minaham"],
+     <https://wragge.github.io/lodbook-james-minahan/organisations/ss-wollowra/>;
+   <http://schema.org/startDate> "1908-01-28"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/organisations/ss-wollowra/> a <http://schema.org/Organization>;
+   <http://schema.org/name> "SS Wollowra" .

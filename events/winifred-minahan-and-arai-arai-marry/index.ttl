@@ -1,0 +1,14 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/winifred-minahan-and-arai-arai-marry/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1886-10-20"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/winifred-minahan-and-arai-arai-marry/index.html";
+   <http://schema.org/name> "Winifred Minahan and Arai Arai marry";
+   <http://schema.org/performer> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/>,
+     <https://wragge.github.io/lodbook-james-minahan/people/arai-arai/>;
+   <http://schema.org/startDate> "1886-10-20"^^<http://schema.org/Date> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/arai-arai/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Arai Arai" .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Minahan" .

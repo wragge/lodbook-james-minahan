@@ -1,0 +1,10 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/arai-arai/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1856"^^<http://schema.org/Date>;
+   <http://schema.org/description> "Japanese husband of Winifred Minahan.";
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/arai-arai/index.html";
+   <http://schema.org/name> "Arai Arai";
+   <http://schema.org/spouse> <https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> .
+
+<https://wragge.github.io/lodbook-james-minahan/people/winifred-minahan/> a <http://schema.org/Person>;
+   <http://schema.org/name> "Winifred Minahan" .

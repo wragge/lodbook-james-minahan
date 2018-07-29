@@ -1,0 +1,25 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/new-south-wales/> a <http://schema.org/State>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/australia/>;
+   <http://schema.org/containsPlace> <https://wragge.github.io/lodbook-james-minahan/places/no-4-police-station/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/sydney/>,
+     <https://wragge.github.io/lodbook-james-minahan/places/sydney-harbour/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-33";
+     <http://schema.org/longitude> "146"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/new-south-wales/index.html";
+   <http://schema.org/name> "New South Wales" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/australia/> a <http://schema.org/Country>;
+   <http://schema.org/name> "Australia" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/no-4-police-station/> a <http://schema.org/CivicStructure>;
+   <http://schema.org/name> "No. 4 Police Station" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney-harbour/> a <http://schema.org/Place>;
+   <http://schema.org/name> "Sydney Harbour" .
+
+<https://wragge.github.io/lodbook-james-minahan/places/sydney/> a <http://schema.org/City>;
+   <http://schema.org/name> "Sydney" .

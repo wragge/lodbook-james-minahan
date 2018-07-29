@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/view-of-water-police-court-sydney/",
+    "image": "slnsw-a116235h.jpg",
+    "name": "View of Water Police Court, Sydney",
+    "type": "Photograph"
+  },
+  "location": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney/",
+    "name": "Sydney",
+    "type": "City"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/organisations/water-police-court-sydney/index.html",
+  "name": "Water Police Court, Sydney",
+  "type": "Organization"
+}

@@ -1,0 +1,15 @@
+
+<https://wragge.github.io/lodbook-james-minahan/places/beechworth/> a <http://schema.org/City>;
+   <http://schema.org/containedInPlace> <https://wragge.github.io/lodbook-james-minahan/places/victoria/>;
+   <http://schema.org/geo> [
+     a <http://schema.org/GeoCoordinates>;
+     <http://schema.org/latitude> "-36.359444";
+     <http://schema.org/longitude> "146.686944"
+   ];
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/places/beechworth/index.html";
+   <http://schema.org/name> "Beechworth";
+   <http://schema.org/sameAs> <http://www.geonames.org/2176429/beechworth.html>,
+     <https://en.wikipedia.org/wiki/Beechworth> .
+
+<https://wragge.github.io/lodbook-james-minahan/places/victoria/> a <http://schema.org/State>;
+   <http://schema.org/name> "Victoria" .

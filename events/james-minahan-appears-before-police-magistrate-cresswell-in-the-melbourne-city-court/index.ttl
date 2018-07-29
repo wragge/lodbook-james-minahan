@@ -1,0 +1,7 @@
+
+<https://wragge.github.io/lodbook-james-minahan/events/james-minahan-appears-before-police-magistrate-cresswell-in-the-melbourne-city-court/> a <http://schema.org/Event>;
+   <http://schema.org/endDate> "1908-02-28"^^<http://schema.org/Date>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/events/james-minahan-appears-before-police-magistrate-cresswell-in-the-melbourne-city-court/index.html";
+   <http://schema.org/name> "James Minahan appears before Police Magistrate Cresswell in the Melbourne City Court";
+   <http://schema.org/performer> [ <http://schema.org/name> "James Minaham"];
+   <http://schema.org/startDate> "1908-02-28"^^<http://schema.org/Date> .

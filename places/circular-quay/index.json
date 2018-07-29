@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "containedInPlace": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/places/sydney/",
+    "name": "Sydney",
+    "type": "City"
+  },
+  "geo": {
+    "latitude": "-33.86117",
+    "longitude": "151.21091",
+    "type": "GeoCoordinates"
+  },
+  "id": "https://wragge.github.io/lodbook-james-minahan/places/circular-quay/",
+  "image": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/view-of-circular-quay/",
+    "image": "slv-H82.43-69.jpeg",
+    "name": "View of Circular Quay",
+    "type": "Photograph"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/places/circular-quay/index.html",
+  "name": "Circular Quay",
+  "subjectOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/view-of-circular-quay/",
+    "name": "View of Circular Quay",
+    "type": "Photograph"
+  },
+  "type": "CivicStructure"
+}

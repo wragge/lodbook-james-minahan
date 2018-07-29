@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "hasPart": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-12936-kitchen-prohibited-immigrant-1908/",
+      "name": "A1, 1908/12936, 'Kitchen'. Prohibited immigrant, 1908",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1908-1498-ah-sheung/",
+      "name": "A1, 1908/1498, Ah Sheung",
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-1906-8578-immigration-restriction-acts-1901-1905-persons-born-in-australia/",
+      "name": "A1, 1906/8578, Immigration Restriction Acts 1901-1905. Persons born in Australia",
+      "type": "CreativeWork"
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/a1-correspondence-files-annual-single-number-series/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/a1-correspondence-files-annual-single-number-series/index.html",
+  "name": "A1, Correspondence files, annual single number series",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "type": "https://bib.schema.org/Collection",
+  "url": "http://www.naa.gov.au/cgi-bin/Search?Number=A1"
+}

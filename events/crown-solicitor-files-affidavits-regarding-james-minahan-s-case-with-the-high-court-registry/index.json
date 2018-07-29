@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "endDate": "1908-04-28",
+  "id": "https://wragge.github.io/lodbook-james-minahan/events/crown-solicitor-files-affidavits-regarding-james-minahan-s-case-with-the-high-court-registry/",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/events/crown-solicitor-files-affidavits-regarding-james-minahan-s-case-with-the-high-court-registry/index.html",
+  "name": "Crown Solicitor files affidavits regarding James Minahan's case with the High Court registry",
+  "performer": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/crown-solicitor-s-office/",
+    "name": "Crown Solicitor's Office",
+    "type": "Organization"
+  },
+  "startDate": "1908-04-28",
+  "type": "Event"
+}

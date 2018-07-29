@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "creationDate": "1908-02-14",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/information-for-an-offence-in-the-court-of-petty-sessions-melbourne-14-february-1908/",
+  "isPartOf": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/resources/a10074-1908-31-potter-lionel-frank-versus-minahan-james-francis-kitchen/",
+    "name": "A10074, 1908/31, POTTER Lionel Frank versus MINAHAN James Francis Kitchen",
+    "type": "CreativeWork"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/information-for-an-offence-in-the-court-of-petty-sessions-melbourne-14-february-1908/index.html",
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/court-of-petty-sessions-melbourne/",
+      "name": "Court of Petty Sessions, Melbourne",
+      "type": "Organization"
+    }
+  ],
+  "name": "Information for an Offence in the Court of Petty Sessions, Melbourne, 14 February 1908",
+  "provider": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/national-archives-of-australia/",
+    "name": "National Archives of Australia",
+    "type": "Organization"
+  },
+  "type": "CreativeWork"
+}

@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/vessels-advertised-as-landing/",
+  "image": "ChinaMail-31Dec1907p8Taiyuan.tiff",
+  "isPartOf": {
+    "name": "China Mail (Hong Kong)"
+  },
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/vessels-advertised-as-landing/index.html",
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/organisations/ss-taiyuan/",
+      "name": "SS Taiyuan",
+      "type": "Organization"
+    }
+  ],
+  "name": "Vessels Advertised as Landing",
+  "position": "p. 8",
+  "provider": {
+    "name": "Hong Kong Public Libraries"
+  },
+  "publicationDate": "1907-12-31",
+  "type": "NewsArticle"
+}

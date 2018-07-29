@@ -1,0 +1,65 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "mentionedBy": {
+        "@reverse": "http://schema.org/mentions"
+      },
+      "performedIn": {
+        "@reverse": "http://schema.org/performer"
+      },
+      "attended": {
+        "@reverse": "http://schema.org/attendee"
+      },
+      "created": {
+        "@reverse": "http://schema.org/creator"
+      }
+    }
+  ],
+  "about": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/",
+      "name": "Lionel Potter",
+      "type": "Person"
+    }
+  ],
+  "creationDate": "1908-10-08",
+  "creator": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "endDate": "1908-10-08",
+  "id": "https://wragge.github.io/lodbook-james-minahan/resources/potter-v-minahan-1908-7-clr-277/",
+  "image": "austlii-HCA63-Potter-Minahan.JPG",
+  "mainEntityofPage": "https://wragge.github.io/lodbook-james-minahan/resources/potter-v-minahan-1908-7-clr-277/index.html",
+  "mentions": [
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/james-minahan/",
+      "name": "James Minahan",
+      "type": "Person"
+    },
+    {
+      "id": "https://wragge.github.io/lodbook-james-minahan/people/lionel-potter/",
+      "name": "Lionel Potter",
+      "type": "Person"
+    }
+  ],
+  "name": "Potter v. Minahan (1908) 7 CLR 277",
+  "provider": {
+    "name": "Australasian Legal Information Institute"
+  },
+  "publisher": {
+    "id": "https://wragge.github.io/lodbook-james-minahan/organisations/high-court-of-australia/",
+    "name": "High Court of Australia",
+    "type": "Organization"
+  },
+  "startDate": "1908-10-08",
+  "type": "CreativeWork",
+  "url": "http://www.austlii.edu.au/au/cases/cth/HCA/1908/63.html"
+}

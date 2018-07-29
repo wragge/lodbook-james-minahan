@@ -1,0 +1,16 @@
+
+<https://wragge.github.io/lodbook-james-minahan/people/isaac-isaacs/> a <http://schema.org/Person>;
+   <http://schema.org/birthDate> "1855"^^<http://schema.org/Date>;
+   <http://schema.org/deathDate> "1948"^^<http://schema.org/Date>;
+   <http://schema.org/description> "Justice of the High Court. Allowed High Court appeal to proceed. Ruled in Potter v. Minahan that James Minahan was an immigrant under the Immigration Restriction Act.";
+   <http://schema.org/familyName> "Isaacs";
+   <http://schema.org/givenName> "Alfred",
+     "Isaac";
+   <http://schema.org/image> <https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-isaac-isaacs/>;
+   <http://schema.org/mainEntityofPage> "https://wragge.github.io/lodbook-james-minahan/people/isaac-isaacs/index.html";
+   <http://schema.org/name> "Isaac Isaacs";
+   <http://schema.org/sameAs> <http://adb.anu.edu.au/biography/isaacs-sir-isaac-alfred-6805>;
+   <http://schema.org/url> <http://adb.anu.edu.au/biography/isaacs-sir-isaac-alfred-6805> .
+
+<https://wragge.github.io/lodbook-james-minahan/resources/portrait-of-isaac-isaacs/> a <http://schema.org/Photograph>;
+   <http://schema.org/name> "Portrait of Isaac Isaacs" .
