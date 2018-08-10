@@ -1,5 +1,7 @@
 # LODBook 3
 
+View the [current demo](https://wragge.github.io/lodbook-james-minahan/chapters/chapter-1/).
+
 Continuing experiments in developing online historical narratives that embed rich structured data. See my [research notebook](https://timsherratt.org/research-notebook/lodbooks/) for past attempts.
 
 This version of LODBook consists of two major components:
